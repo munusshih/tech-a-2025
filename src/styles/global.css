@@ -7,6 +7,64 @@
 @import "./marquee.css";
 @import "./github.css";
 
+/* Color inversion based on system preference */
+@media (prefers-color-scheme: light) {
+
+    html,
+    #p5-background {
+        filter: invert(1) hue-rotate(180deg) saturate(2.5);
+    }
+
+    /* Preserve images and videos in their original form */
+    img,
+    video,
+    svg,
+    iframe,
+    canvas,
+    object,
+    embed {
+        filter: invert(1) hue-rotate(180deg);
+    }
+
+    /* Preserve specific components that should maintain their appearance */
+    .preserve-colors {
+        filter: invert(1) hue-rotate(180deg);
+    }
+
+    /* Adjust specific elements that might need fine-tuning */
+    .student-avatar {
+        filter: invert(1) hue-rotate(180deg);
+    }
+
+    /* Emoji and text symbols should remain unchanged */
+    [data-emoji],
+    .emoji {
+        filter: invert(1) hue-rotate(180deg);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    /* Default dark mode - no inversion needed */
+    body {
+        filter: none;
+    }
+}
+
+/* Manual override classes for specific control */
+.force-light-mode {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.force-dark-mode {
+    filter: none;
+}
+
+/* Smooth transition when system preference changes */
+body {
+    transition: filter 0.3s ease;
+}
+
 :root {
     --title-font: "Boldonse", system-ui;
     --body-font: "Source Serif 4", serif;
@@ -231,4 +289,9 @@ body>* {
 
 html {
     cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32'><text x='0' y='24' font-size='24' font-family=\"Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji\">✏️</text></svg>") 2 28, auto;
+}
+
+::selection {
+    background: #fff;
+    color: #fff;
 }
