@@ -1,0 +1,35 @@
+---
+import {
+  SITE_AUTHOR,
+  SECTION_ID,
+  SEMESTER,
+  MEETING_TIMES,
+  SCHOOL_NAME,
+  DEPARTMENT_NAME,
+  LOCATION,
+  EMAIL,
+} from "@/consts";
+---
+
+<div class="course-info">
+  <section class="course-header">
+    <h2>{SCHOOL_NAME}</h2>
+    <p>{DEPARTMENT_NAME}</p>
+  </section>
+
+  <section class="course-details">
+    <h2>Course Details</h2>
+    <ul>
+      <li>{SECTION_ID}</li>
+      <li>{SEMESTER}</li>
+      <li>{MEETING_TIMES}</li>
+      <li>{LOCATION}</li>
+    </ul>
+  </section>
+
+  <section class="instructor-info">
+    <h2>Instructor</h2>
+    <h3>{SITE_AUTHOR}</h3>
+    <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+  </section>
+</div>
