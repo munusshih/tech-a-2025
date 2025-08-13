@@ -5,9 +5,7 @@
 <div id="p5-background"></div>
 <script is:client>
   /* eslint-disable no-undef */
-  // p5.js creates global functions like createCanvas, draw, etc.
 
-  //   p5.disableFriendlyErrors = true;
   /* ====== CONFIG & COLORS ====== */
   let COLORS = {
     backgroundTop: [5, 0, 20],
@@ -513,6 +511,7 @@
   }
 
   /* ====== SKETCH ====== */
+
   let bodies = [],
     dragged = null,
     dragOffset = { x: 0, y: 0 };

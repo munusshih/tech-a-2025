@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // Clean GSAP page load animations
 import gsap from 'gsap';
 
