@@ -1,0 +1,11 @@
+.course-info * {
+    @apply p-0 leading-tight;
+}
+
+.course-info {
+    @apply border grid md:grid-cols-3;
+}
+
+.course-info section {
+    @apply p-[var(--padding)];
+}

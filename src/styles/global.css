@@ -1,22 +1,192 @@
 @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import "tailwindcss";
+@import "./course-info.css";
+@import "./nav.css";
+@import "./accordion.css";
+@import "./week-content.css";
+
 
 :root {
     --title-font: "Boldonse", system-ui;
     --body-font: "Source Serif 4", serif;
+    --margin: 1rem;
+    --padding: 1rem;
+    --border-dotted: 1px solid #222;
 }
 
-h1 {
-    font-family: var(--title-font);
-    line-height: 1.25;
+@media screen and (max-width: 640px) {
+    :root {
+        --margin: 0.75rem;
+        --padding: 0.75rem;
+    }
 }
 
+/* Barba.js transitions */
+[data-barba="container"] {
+    position: relative;
+    will-change: transform, opacity;
+}
+
+.is-loading {
+    cursor: wait;
+}
+
+.is-loading * {
+    pointer-events: none;
+}
+
+/* Optional loading indicator */
+.is-loading::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #efefef, transparent);
+    animation: loading 1s ease-in-out infinite;
+    z-index: 9999;
+}
+
+@keyframes loading {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000;
+    color: #efefef;
+}
+
+h1,
+h2,
 h3,
 h4,
 h5,
 h6,
 p,
 ul,
-ol {
-    font-family: var(--body-font);
+ol,
+li,
+table {
+    font-size: 1rem;
+    line-height: 1.25;
+    font-family: "Boldonse", system-ui;
+}
+
+h1,
+.heading-1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 4vw, 4vw);
+    line-height: 1.35;
+    @apply text-balance mb-8;
+}
+
+.smaller-h1 {
+    font-size: clamp(1.25rem, 3vw, 3vw);
+    line-height: 1.25;
+}
+
+h2.heading-1::before,
+h2.heading-3::before,
+h2.heading-4::before {
+    content: none;
+}
+
+h2,
+.heading-2 {
+    font-size: clamp(1.2rem, 1.5vw, 1.5vw);
     line-height: 1.5;
+    @apply mb-4;
+}
+
+h3,
+.heading-3 {
+    font-weight: 700;
+    font-size: clamp(1rem, 1.25vw, 1.25vw);
+    line-height: 1.25;
+}
+
+h4,
+.heading-4 {
+    font-weight: 700;
+    font-size: clamp(1rem, 1.25vw, 1.25vw);
+    line-height: 1.25;
+    font-family: "Source Serif 4", serif;
+}
+
+p,
+.body-text {
+    font-size: clamp(16px, 1vw, 18px);
+    line-height: 1.5;
+    font-family: "Source Serif 4", serif;
+    @apply max-w-prose text-pretty;
+}
+
+ul li {
+    font-size: clamp(16px, 1vw, 18px);
+    font-family: "Source Serif 4", serif;
+    @apply max-w-prose text-pretty;
+}
+
+details {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a[href^="http"]::after {
+    content: " ↗";
+}
+
+a:hover {
+    @apply opacity-70;
+}
+
+body {
+    @apply max-w-[1000px] mx-auto;
+}
+
+
+header,
+main {
+    @apply p-[var(--margin)];
+}
+
+header {
+    @apply flex flex-col gap-4;
+}
+
+footer {
+    font-family: var(--body-font);
+    @apply p-[var(--padding)];
+}
+
+.weekly-schedule ul li {
+    @apply mb-4;
+}
+
+body {
+    position: relative;
+    opacity: 0;
+}
+
+/* Make sure content is above background */
+body>* {
+    position: relative;
+    z-index: 1;
 }

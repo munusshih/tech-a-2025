@@ -1,7 +1,6 @@
 ---
 import {
   SITE_AUTHOR,
-  SECTION_ID,
   SEMESTER,
   MEETING_TIMES,
   SCHOOL_NAME,
@@ -13,23 +12,39 @@ import {
 
 <div class="course-info">
   <section class="course-header">
-    <h2>{SCHOOL_NAME}</h2>
+    <h2 class="heading-3">{SCHOOL_NAME}</h2>
     <p>{DEPARTMENT_NAME}</p>
+    <p>{SEMESTER}</p>
   </section>
 
   <section class="course-details">
-    <h2>Course Details</h2>
+    <h2 class="heading-3">Course Details</h2>
     <ul>
-      <li>{SECTION_ID}</li>
-      <li>{SEMESTER}</li>
       <li>{MEETING_TIMES}</li>
       <li>{LOCATION}</li>
     </ul>
   </section>
 
   <section class="instructor-info">
-    <h2>Instructor</h2>
-    <h3>{SITE_AUTHOR}</h3>
-    <a href={`mailto:${EMAIL}`}>{EMAIL}</a>
+    <h2 class="heading-3">Instructor</h2>
+    <p>{SITE_AUTHOR}</p>
+    <p><a href={`mailto:${EMAIL}`}>{EMAIL}</a></p>
   </section>
 </div>
+
+<section class="quick-links">
+  <h2>
+    <a
+      href="https://docs.google.com/document/d/1V9nxK6PoB8wluhPxLffbCVMmlGgQ1-Wh-_jDgGlq9pY/edit?usp=sharing"
+      >Syllabus</a
+    >
+  </h2>
+  <h2>
+    <a
+      href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ3hNfeyV1rkVw-8eeygKPAr3zw6m_Byqlsu1X-gh2eADZnjIlh5GDxDZosqFcRDZHCRIlxmIVRX"
+      >Office Hours</a
+    >
+  </h2>
+  <h2><a href="https://beta.p5js.org/">p5.js</a></h2>
+  <h2><a href="https://editor.p5js.org/">p5.js Editor</a></h2>
+</section>

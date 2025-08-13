@@ -1,0 +1,36 @@
+#week-content h3 {
+    @apply mt-8 mb-4;
+}
+
+#week-content a {
+    @apply underline underline-offset-2;
+}
+
+#week-content .weekly-schedule {
+    @apply mt-8;
+}
+
+#week-content .weekly-schedule a {
+    @apply no-underline;
+}
+
+#week-content .weekly-schedule h1 {
+    font-weight: 700;
+    font-size: clamp(1rem, 1.25vw, 1.25vw);
+    line-height: 1.25;
+}
+
+#week-content .weekly-schedule h2 {
+    font-size: clamp(16px, 1vw, 18px);
+    line-height: 1.5;
+    font-family: "Source Serif 4", serif;
+    @apply max-w-prose text-pretty mb-0;
+}
+
+#week-content .weekly-schedule h2::before {
+    content: none;
+}
+
+#week-content .weekly-schedule .description {
+    @apply hidden;
+}

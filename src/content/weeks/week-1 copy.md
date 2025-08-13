@@ -1,7 +1,7 @@
 ---
 title: "Hello Class!"
 description: "This week serves as an introduction to the course and its objectives."
-week: 1
+week: 2
 ---
 
 ### Lecture

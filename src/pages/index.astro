@@ -2,32 +2,34 @@
 import BaseHead from "@/components/BaseHead.astro";
 import Footer from "@/components/Footer.astro";
 import Nav from "@/components/Nav.astro";
-import QuickLinks from "@/components/QuickLinks.astro";
 import CourseInfo from "@/components/CourseInfo.astro";
-import { SITE_DESCRIPTION, SITE_TITLE } from "@/consts";
+import P5Background from "@/components/P5Background.astro";
+import { SITE_DESCRIPTION, SITE_TITLE, SECTION_ID } from "@/consts";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead
+      title={`${SITE_TITLE}: ${SECTION_ID}`}
+      description={SITE_DESCRIPTION}
+    />
   </head>
   <body>
+    <P5Background />
+
     <header>
-      <h1>{SITE_TITLE}</h1>
-      <p>{SITE_DESCRIPTION}</p>
+      <div>
+        <h1>{`${SITE_TITLE} (${SECTION_ID})`}</h1>
+      </div>
+      <CourseInfo />
     </header>
 
     <main>
-      <CourseInfo />
-      <QuickLinks />
-
       <nav class="weekly-schedule">
-        <h2>Weekly Schedule</h2>
         <Nav />
       </nav>
     </main>
-
     <Footer />
   </body>
 </html>

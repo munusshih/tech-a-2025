@@ -7,22 +7,33 @@ const posts = (await getCollection("weeks"))
   .sort((a, b) => a.data.week - b.data.week);
 ---
 
-<nav>
-  {
-    posts.length > 0 ? (
-      <ul>
-        {posts.map((post) => (
-          <li>
-            <a href={`/${post.id}/`}>
-              <h4 class="title">
+{
+  posts.length > 0 ? (
+    <ul>
+      {posts.map((post) => (
+        <div key={post.id}>
+          {(() => {
+            switch (post.data.week) {
+              case 1:
+                return <h1 class="smaller-h1">From Fixed to Variable</h1>;
+              case 6:
+                return <h1 class="smaller-h1">Weekly Schedule</h1>;
+              default:
+                return null;
+            }
+          })()}
+          <a href={`/${post.id}/`}>
+            <li>
+              <h2 class="title">
                 Week {post.data.week}: {post.data.title}
-              </h4>
-            </a>
-          </li>
-        ))}
-      </ul>
-    ) : (
-      <p>No weeks available yet. Check back soon!</p>
-    )
-  }
-</nav>
+              </h2>
+              <p class="description">{post.data.description}</p>
+            </li>
+          </a>
+        </div>
+      ))}
+    </ul>
+  ) : (
+    <p>No weeks available yet. Check back soon!</p>
+  )
+}
