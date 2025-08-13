@@ -5,6 +5,8 @@ import Nav from "@/components/Nav.astro";
 import CourseInfo from "@/components/CourseInfo.astro";
 import P5Background from "@/components/P5Background.astro";
 import { SITE_DESCRIPTION, SITE_TITLE, SECTION_ID } from "@/consts";
+import HallofFame from "@/components/HallofFame.astro";
+import Marquee from "@/components/Marquee.astro";
 ---
 
 <!doctype html>
@@ -25,12 +27,19 @@ import { SITE_DESCRIPTION, SITE_TITLE, SECTION_ID } from "@/consts";
       <CourseInfo />
     </header>
 
-    <main>
-      <nav class="weekly-schedule">
-        <Nav />
-      </nav>
+    <main class="cutoff">
+      <Nav />
     </main>
-    <Footer />
+
+    <div class="border-t">
+      <HallofFame />
+      <Footer />
+    </div>
     <script src="../scripts/page-animations.js"></script>
+    <Marquee
+      text="Welcome to Technology A! • Stay tuned for updates • Make sure to fill out the welcome survey! "
+      speed="slow"
+      direction="right"
+    />
   </body>
 </html>

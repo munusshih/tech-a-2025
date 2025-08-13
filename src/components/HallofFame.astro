@@ -1,0 +1,108 @@
+---
+// Student data with names and optional website links
+const studentsRaw = [
+  {
+    firstName: "Zhiling",
+    lastName: "Fang",
+    website: null, // Add website URL when available
+  },
+  {
+    firstName: "Yingwei",
+    lastName: "Liu",
+    website: null,
+  },
+  {
+    firstName: "Nancy",
+    lastName: "Scanlon",
+    website: null,
+  },
+  {
+    firstName: "Chaelin",
+    lastName: "Kim",
+    website: null,
+  },
+  {
+    firstName: "Richard",
+    lastName: "Fu",
+    website: null,
+  },
+  {
+    firstName: "Yiling",
+    lastName: "Yang",
+    website: null,
+  },
+  {
+    firstName: "Jihyun",
+    lastName: "Lee",
+    website: null,
+  },
+  {
+    firstName: "Kate",
+    lastName: "Chon",
+    website: null,
+  },
+  {
+    firstName: "Sarena",
+    lastName: "Yadav",
+    website: null,
+  },
+  {
+    firstName: "Amira",
+    lastName: "Chowyuk",
+    website: null,
+  },
+  {
+    firstName: "Elisabedi",
+    lastName: "Nikolaishvili",
+    website: null,
+  },
+  {
+    firstName: "Sreya",
+    lastName: "Mahsin",
+    website: null,
+  },
+];
+
+// Sort students alphabetically by first name
+const students = studentsRaw.sort((a, b) =>
+  a.firstName.localeCompare(b.firstName)
+);
+---
+
+<section class="hall-of-fame">
+  <h1 class="heading-1">Hall of Fame</h1>
+  <div class="students-grid">
+    {
+      students.map((student, index) => (
+        <div class="student-card" key={index}>
+          <h3 class="student-name">
+            {student.website ? (
+              <a
+                href={student.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {student.firstName} {student.lastName}
+              </a>
+            ) : (
+              <span>
+                {student.firstName} {student.lastName}
+              </span>
+            )}
+          </h3>
+          {student.website && (
+            <div class="website-link">
+              <a
+                href={student.website}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Visit Website
+              </a>
+            </div>
+          )}
+        </div>
+      ))
+    }
+  </div>
+</section>

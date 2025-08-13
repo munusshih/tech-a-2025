@@ -4,11 +4,22 @@ import BaseHead from "@/components/BaseHead.astro";
 import Footer from "@/components/Footer.astro";
 import Nav from "@/components/Nav.astro";
 import P5Background from "@/components/P5Background.astro";
+import GitHubEdit from "@/components/GitHubEdit.astro";
 import { SITE_TITLE, SECTION_ID } from "@/consts";
+import { marked } from "marked";
 
 type Props = CollectionEntry<"weeks">["data"];
 
-const { title, description, week } = Astro.props;
+const { title, description, week, longDescription } = Astro.props;
+
+// Convert markdown to HTML using marked
+const longDescriptionHTML = longDescription
+  ? await marked(longDescription)
+  : null;
+
+// Construct the GitHub file path
+const currentPath = Astro.url.pathname.replace(/^\/|\/$/g, "");
+const githubFilePath = `src/content/weeks/${currentPath}.md`;
 ---
 
 <html lang="en">
@@ -18,21 +29,33 @@ const { title, description, week } = Astro.props;
   <body>
     <P5Background />
 
-    <header>
-      <a href="/">
-        <h1 class="heading-3 max-w-[15ch] !leading-normal">
-          {`${SITE_TITLE} (${SECTION_ID})`}
-        </h1>
-      </a>
-      <h2 class="heading-1">{`Week ${week}: ${title}`}</h2>
+    <header id="week-header">
+      <div>
+        <a href="/">
+          <h1 class="heading-3 max-w-[15ch] !leading-normal">
+            {`${SITE_TITLE} (${SECTION_ID})`}
+          </h1>
+        </a>
+        <h2 class="heading-1">{`Week ${week}: ${title}`}</h2>
+        {
+          longDescriptionHTML && (
+            <div class="long-description" set:html={longDescriptionHTML} />
+          )
+        }
+      </div>
+
+      <GitHubEdit filePath={githubFilePath} />
     </header>
 
     <main id="week-content">
       <slot />
+    </main>
+
+    <div>
       <nav class="weekly-schedule">
         <Nav />
       </nav>
-    </main>
-    <Footer />
+      <Footer />
+    </div>
   </body>
 </html>

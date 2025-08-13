@@ -10,6 +10,9 @@ const isIndex = currentSlug === "index";
 
 // Filter out the current page if not index
 const posts = allPosts.filter((post) => isIndex || post.id !== currentSlug);
+
+// Find the latest week number
+const latestWeek = Math.max(...allPosts.map((post) => post.data.week));
 ---
 
 {
@@ -32,6 +35,7 @@ const posts = allPosts.filter((post) => isIndex || post.id !== currentSlug);
             <li>
               <h2 class="title">
                 Week {post.data.week}: {post.data.title}
+                {post.data.week === latestWeek && " ✨"}
               </h2>
               <p class="description">{post.data.description}</p>
             </li>

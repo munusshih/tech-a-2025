@@ -9,6 +9,7 @@ const weeks = defineCollection({
     z.object({
       title: z.string(),
       description: z.string().optional(), // Optional description that can include markdown
+      longDescription: z.string().optional(), // Optional long description with markdown support
       week: z.number(), // Week number for ordering
       heroImage: image().optional(),
     }),

@@ -1,5 +1,11 @@
 #week-content h3 {
-    @apply mt-8 mb-4;
+    @apply not-first:mt-8;
+}
+
+#week-content h3::before {
+    content: '↳';
+    color: pink;
+    @apply pr-2;
 }
 
 #week-content a {
@@ -12,23 +18,6 @@
 
 #week-content .weekly-schedule a {
     @apply no-underline;
-}
-
-#week-content .weekly-schedule h1 {
-    font-weight: 700;
-    font-size: clamp(1rem, 1.25vw, 1.25vw);
-    line-height: 1.25;
-}
-
-#week-content .weekly-schedule .title {
-    font-weight: 700;
-    font-size: clamp(1rem, 1.25vw, 1.25vw);
-    line-height: 1.25;
-    @apply max-w-prose text-pretty mb-0;
-}
-
-#week-content .weekly-schedule h2::before {
-    content: none;
 }
 
 #week-content .weekly-schedule .description {
@@ -50,4 +39,23 @@
 #week-content .weekly-schedule div:not(:last-of-type) li::after {
     content: ", ";
     padding-right: .25em;
+}
+
+/* list style */
+
+.long-description ul {
+    @apply my-4;
+}
+
+.long-description ul li {
+    @apply list-decimal ml-7 pl-0;
+}
+
+.long-description strong {
+    font-style: normal;
+    text-decoration: yellowgreen wavy underline;
+}
+
+#week-header {
+    @apply flex flex-col justify-between
 }
