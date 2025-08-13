@@ -158,7 +158,7 @@ a:hover {
 }
 
 body {
-    @apply max-w-[1000px] mx-auto;
+    @apply max-w-[1000px];
 }
 
 

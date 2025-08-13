@@ -20,10 +20,10 @@
     line-height: 1.25;
 }
 
-#week-content .weekly-schedule h2 {
-    font-size: clamp(16px, 1vw, 18px);
-    line-height: 1.5;
-    font-family: "Source Serif 4", serif;
+#week-content .weekly-schedule .title {
+    font-weight: 700;
+    font-size: clamp(1rem, 1.25vw, 1.25vw);
+    line-height: 1.25;
     @apply max-w-prose text-pretty mb-0;
 }
 
@@ -33,4 +33,21 @@
 
 #week-content .weekly-schedule .description {
     @apply hidden;
+}
+
+#week-content .weekly-schedule .smaller-h1::after {
+    content: ": ";
+}
+
+#week-content .weekly-schedule ul div * {
+    @apply inline;
+}
+
+#week-content .weekly-schedule ul {
+    @apply flex flex-row flex-wrap !max-w-none w-full;
+}
+
+#week-content .weekly-schedule div:not(:last-of-type) li::after {
+    content: ", ";
+    padding-right: .25em;
 }

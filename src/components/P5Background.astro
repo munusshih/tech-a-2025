@@ -532,18 +532,7 @@
   }
 
   function draw() {
-    // Background gradient
-    for (let i = 0; i <= height; i++) {
-      const inter = map(i, 0, height, 0, 1);
-      const c = lerpColor(
-        color(...COLORS.backgroundTop),
-        color(...COLORS.backgroundBottom),
-        inter
-      );
-      stroke(c);
-      line(0, i, width, i);
-    }
-
+    clear();
     // Background stars
     for (let i = 0; i < CONFIG.counts.backgroundStars; i++) {
       let x = noise(0, 0) * width;
@@ -588,7 +577,6 @@
         }
       }
     }
-    background(0, 0, 0, 80);
   }
 
   /* ====== INTERACTIONS ====== */
@@ -635,9 +623,10 @@
   #p5-background {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     z-index: -9999;
-    width: 100%;
+    background: #000;
+    width: 80%;
     height: 100%;
     pointer-events: none;
   }

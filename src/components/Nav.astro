@@ -1,10 +1,15 @@
 ---
 import { getCollection } from "astro:content";
 
-// Get all posts from the weeks collection, filter out files starting with _, sorted by week number
-const posts = (await getCollection("weeks"))
+const allPosts = (await getCollection("weeks"))
   .filter((post) => !post.id.startsWith("_"))
   .sort((a, b) => a.data.week - b.data.week);
+
+const currentSlug = Astro.url.pathname.replace(/^\/|\/$/g, "") || "index";
+const isIndex = currentSlug === "index";
+
+// Filter out the current page if not index
+const posts = allPosts.filter((post) => isIndex || post.id !== currentSlug);
 ---
 
 {
@@ -12,16 +17,17 @@ const posts = (await getCollection("weeks"))
     <ul>
       {posts.map((post) => (
         <div key={post.id}>
-          {(() => {
-            switch (post.data.week) {
-              case 1:
-                return <h1 class="smaller-h1">From Fixed to Variable</h1>;
-              case 6:
-                return <h1 class="smaller-h1">Weekly Schedule</h1>;
-              default:
-                return null;
-            }
-          })()}
+          {isIndex &&
+            (() => {
+              switch (post.data.week) {
+                case 1:
+                  return <h1 class="smaller-h1">From Fixed to Variable</h1>;
+                case 6:
+                  return <h1 class="smaller-h1">Weekly Schedule</h1>;
+                default:
+                  return null;
+              }
+            })()}
           <a href={`/${post.id}/`}>
             <li>
               <h2 class="title">
@@ -34,6 +40,6 @@ const posts = (await getCollection("weeks"))
       ))}
     </ul>
   ) : (
-    <p>No weeks available yet. Check back soon!</p>
+    <p>No other weeks available yet. Check back soon!</p>
   )
 }

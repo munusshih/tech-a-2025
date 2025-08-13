@@ -1,5 +1,5 @@
 nav {
-    @apply py-8 border-y;
+    @apply p-4 border bg-black;
 }
 
 nav li {

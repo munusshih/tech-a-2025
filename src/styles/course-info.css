@@ -3,7 +3,7 @@
 }
 
 .course-info {
-    @apply border grid md:grid-cols-3;
+    @apply border grid md:grid-cols-3 bg-black;
 }
 
 .course-info section {
