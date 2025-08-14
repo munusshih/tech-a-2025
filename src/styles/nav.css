@@ -1,5 +1,5 @@
 nav {
-    @apply p-4 border-b bg-black;
+    @apply p-4 border-y;
 }
 
 nav li {

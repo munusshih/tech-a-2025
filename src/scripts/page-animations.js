@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 
   // 4. Animate footer
-  gsap.fromTo("footer",
+  gsap.fromTo("#third-column > *",
     {
       opacity: 0,
       y: 20

@@ -22,7 +22,8 @@ import Marquee from "@/components/Marquee.astro";
 
     <header>
       <div>
-        <h1>{`${SITE_TITLE} (${SECTION_ID})`}</h1>
+        <h1>{`${SITE_TITLE}`}<br />{`(${SECTION_ID})`}</h1>
+        <p>{SITE_DESCRIPTION}</p>
       </div>
       <CourseInfo />
     </header>
@@ -31,7 +32,7 @@ import Marquee from "@/components/Marquee.astro";
       <Nav />
     </main>
 
-    <div class="border-t">
+    <div id="third-column" class="border-t">
       <HallofFame />
       <Footer />
     </div>

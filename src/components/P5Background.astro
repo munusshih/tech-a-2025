@@ -40,6 +40,8 @@
     ],
   };
 
+  const maxSize = 30;
+
   let CONFIG = {
     SPEED_MULTIPLIER: {
       ringRotation: 0.5,
@@ -49,14 +51,14 @@
       backgroundStars: 1.0,
     },
     counts: {
-      initialBodies: 6,
+      initialBodies: Math.floor(Math.random() * 10) + 5,
       backgroundStars: 60,
-      ringStars: 5,
+      ringStars: Math.floor(Math.random() * 10) + 5,
     },
     physics: {
       G: 0.006,
       EPS: 40,
-      DAMPING: 0.2,
+      DAMPING: 0.95,
       WALL_BOUNCE: 0.9,
       COLLISION_E: 0.2,
       MAX_ACCEL: 0.6,
@@ -97,6 +99,17 @@
         });
       } else if (typeof colors[key] === "object" && colors[key] !== null) {
         randomizeColorsInPlace(colors[key], factor);
+      }
+    }
+  }
+
+  function tooManyStars(bodies) {
+    if (bodies.length > maxSize) {
+      let excess = bodies.length - maxSize;
+      for (let i = 0; i < excess; i++) {
+        if (!bodies[i].disappearing) {
+          bodies[i].disappearing = true;
+        }
       }
     }
   }
@@ -551,6 +564,9 @@
       ellipse(x, y, 1, 1);
     }
 
+    // Too Many
+    tooManyStars(bodies);
+
     // Physics
     for (const b of bodies) b.applyGravity(bodies);
     resolveCollisions(bodies);
@@ -626,6 +642,7 @@
     right: 0;
     opacity: 0.5;
     z-index: -9999;
+    transition: none;
     width: 100%;
     height: 100%;
     pointer-events: none;

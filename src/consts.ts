@@ -1,8 +1,8 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = "Gradute Studio: Technology A";
-export const SITE_DESCRIPTION = "Students will critically analyze and explore the tools, skills, and production methods of current and emerging technologies in design media, with an emphasis on effective and appropriate creative visualization, analysis, and utilization. They will investigate technology trends within a historical context to better understand and extrapolate emerging technology systems. This is a two-semester studio course: 720A is the first semester, and 720B is the second.";
+export const SITE_TITLE = "Gradute Studio: Technology A [Class Notebook]";
+export const SITE_DESCRIPTION = "This site is our class notebook, a place to document and share what we learn.";
 
 // School Information
 export const SCHOOL_NAME = "Pratt Institute";
