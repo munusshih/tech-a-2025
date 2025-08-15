@@ -24,7 +24,11 @@ const githubFilePath = `src/content/weeks/${currentPath}.md`;
 
 <html lang="en">
   <head>
-    <BaseHead title={`Week ${week}: ${title}`} description={description} />
+    <BaseHead
+      title={`Week ${week}: ${title}`}
+      description={description}
+      image={`opengraph.jpg`}
+    />
   </head>
   <body>
     <P5Background />
