@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { marked } from "marked";
 
 const allPosts = (await getCollection("weeks"))
   .filter((post) => !post.id.startsWith("_"))
@@ -8,17 +9,29 @@ const allPosts = (await getCollection("weeks"))
 const currentSlug = Astro.url.pathname.replace(/^\/|\/$/g, "") || "index";
 const isIndex = currentSlug === "index";
 
-// Filter out the current page if not index
+// Filter out the current page if not index, but keep week 0
 const posts = allPosts.filter((post) => isIndex || post.id !== currentSlug);
 
-// Find the latest week number
-const latestWeek = Math.max(...allPosts.map((post) => post.data.week));
+// Find the latest week number (excluding week 0)
+const latestWeek = Math.max(
+  ...allPosts.filter((post) => post.data.week > 0).map((post) => post.data.week)
+);
+
+// Process descriptions as markdown
+const processedPosts = await Promise.all(
+  posts.map(async (post) => ({
+    ...post,
+    processedDescription: post.data.description
+      ? await marked(post.data.description, { breaks: true })
+      : null,
+  }))
+);
 ---
 
 {
-  posts.length > 0 ? (
+  processedPosts.length > 0 ? (
     <ul>
-      {posts.map((post) => (
+      {processedPosts.map((post) => (
         <div key={post.id}>
           {isIndex &&
             (() => {
@@ -31,15 +44,28 @@ const latestWeek = Math.max(...allPosts.map((post) => post.data.week));
                   return null;
               }
             })()}
-          <a href={`/${post.id}/`}>
-            <li>
+          {post.data.week === 0 ? (
+            <li class="week-zero">
               <h2 class="title">
                 Week {post.data.week}: {post.data.title}
-                {post.data.week === latestWeek && " ✨"}
               </h2>
-              <p class="description">{post.data.description}</p>
+              {post.processedDescription && (
+                <p class="description" set:html={post.processedDescription} />
+              )}
             </li>
-          </a>
+          ) : (
+            <a href={`/${post.id}/`}>
+              <li>
+                <h2 class="title">
+                  Week {post.data.week}: {post.data.title}
+                  {post.data.week === latestWeek && " ✨"}
+                </h2>
+                {post.processedDescription && (
+                  <p class="description" set:html={post.processedDescription} />
+                )}
+              </li>
+            </a>
+          )}
         </div>
       ))}
     </ul>
