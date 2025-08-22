@@ -1,9 +1,9 @@
-#week-content h3 {
+#week-content h2 {
     @apply not-first:mt-8;
 }
 
-#week-content h3::before {
-    content: '↳';
+#week-content h2::before {
+    content: '#';
     color: pink;
     @apply pr-2;
 }
@@ -22,6 +22,10 @@
 
 #week-content .weekly-schedule .description {
     @apply hidden;
+}
+
+.smaller-h1 {
+    @apply mt-8;
 }
 
 #week-content .weekly-schedule .smaller-h1::after {
@@ -58,4 +62,13 @@
 
 #week-header {
     @apply flex flex-col justify-between
+}
+
+#week-content ul li {
+  @apply ml-0 list-none relative pl-5;
+}
+
+#week-content ul li::before {
+  content: "*";
+  @apply absolute left-0;
 }

@@ -31,6 +31,7 @@ const processedPosts = await Promise.all(
 {
   processedPosts.length > 0 ? (
     <ul>
+      <h1 class="heading-1">{isIndex ? "Weekly Schedule" : "Other Weeks"}</h1>
       {processedPosts.map((post) => (
         <div key={post.id}>
           {isIndex &&
