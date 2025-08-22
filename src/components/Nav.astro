@@ -9,8 +9,12 @@ const allPosts = (await getCollection("weeks"))
 const currentSlug = Astro.url.pathname.replace(/^\/|\/$/g, "") || "index";
 const isIndex = currentSlug === "index";
 
-// Filter out the current page if not index, but keep week 0
-const posts = allPosts.filter((post) => isIndex || post.id !== currentSlug);
+// Filter out the current page if not index
+// On index: show all weeks including week 0
+// On other pages: show other weeks but exclude week 0
+const posts = isIndex
+  ? allPosts.filter((post) => post.id !== currentSlug)
+  : allPosts.filter((post) => post.id !== currentSlug && post.data.week > 0);
 
 // Find the latest week number (excluding week 0)
 const latestWeek = Math.max(

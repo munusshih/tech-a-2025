@@ -1,5 +1,6 @@
 #week-content h2 {
-    @apply not-first:mt-8;
+    border-style: dotted;
+    @apply not-first:mt-8 not-first:border-t border-dashed not-first:pt-5;
 }
 
 #week-content h2::before {
@@ -65,10 +66,10 @@
 }
 
 #week-content ul li {
-  @apply ml-0 list-none relative pl-5;
+    @apply ml-0 list-none relative pl-5;
 }
 
 #week-content ul li::before {
-  content: "*";
-  @apply absolute left-0;
+    content: "*";
+    @apply absolute left-0;
 }

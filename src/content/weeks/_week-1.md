@@ -3,14 +3,12 @@ title: "Hello Class!"
 description: "This week, we’ll get introduced to the course and take a look at what we’ll be aiming to achieve."
 longDescription: |
   This week, we’ll get introduced to the course and take a look at what we’ll be aiming to achieve.
+
+  - [Course Overview](https://example.com)
+  - [What is Code?](https://example.com)
+  - [Environment Setup](https://example.com)
 week: 1
 ---
-
-## Lecture
-
-- [Course Overview](https://example.com)
-- [What is Code?](https://example.com)
-- [Environment Setup](https://example.com)
 
 ## Workshop 1
 
