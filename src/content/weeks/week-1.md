@@ -28,6 +28,10 @@ week: 1
 
 - Laser Cutting (by Matt Martin & Moein Shashaei)
 
+## Examples
+
+- [p5 SVG](https://editor.p5js.org/munusshih/sketches/Vd_gqg5fz)
+
 ## Readings
 
 This is not a must, but a beautiful writing from Andrew Blauvelt traces graphic design's transformation through three key phases: the pre-digital craft era, the digital disruption of the 1980s-90s, and the current "postproduction" era.
