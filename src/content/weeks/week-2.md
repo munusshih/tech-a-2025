@@ -9,7 +9,7 @@ longDescription: |
   - [**Code vs Software**](https://www.figma.com/proto/KLUBksrrJcfSoVpNOEvQ0i/-Tech-A--Week-2?page-id=0%3A1&node-id=1-109&viewport=264%2C5777%2C0.19&t=IFNCGWh2SMzU27to-1&scaling=contain&content-scaling=fixed)
   - [**Recap & Variable**](https://www.figma.com/proto/KLUBksrrJcfSoVpNOEvQ0i/-Tech-A--Week-2?page-id=0%3A1&node-id=6005-52&viewport=264%2C5777%2C0.19&t=IFNCGWh2SMzU27to-1&scaling=contain&content-scaling=fixed)
   - [**Flexible Design System**](https://www.figma.com/proto/KLUBksrrJcfSoVpNOEvQ0i/-Tech-A--Week-2?page-id=0%3A1&node-id=4102-394&viewport=264%2C5777%2C0.19&t=IFNCGWh2SMzU27to-1&scaling=contain&content-scaling=fixed)
-  - [Randomize!](https://www.figma.com/proto/KLUBksrrJcfSoVpNOEvQ0i/-Tech-A--Week-2?page-id=0%3A1&node-id=1-166&viewport=264%2C5777%2C0.19&t=IFNCGWh2SMzU27to-1&scaling=contain&content-scaling=fixed)
+  - [**Randomize!**](https://www.figma.com/proto/KLUBksrrJcfSoVpNOEvQ0i/-Tech-A--Week-2?page-id=0%3A1&node-id=1-166&viewport=264%2C5777%2C0.19&t=IFNCGWh2SMzU27to-1&scaling=contain&content-scaling=fixed)
 
   <br/>
 
