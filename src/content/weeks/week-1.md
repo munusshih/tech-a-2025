@@ -11,7 +11,7 @@ longDescription: |
   <br/>
 
   ## Assignment
-  **Due:** Next week (Sep 2, 2025)
+  **Due:** Sep 2, 2025
   <br/><br/>
   <a class="btn-primary" href="https://forms.gle/Fev6UZQf8z8rzyUg9">Submit Assignment</a>
   <br/><br/>
