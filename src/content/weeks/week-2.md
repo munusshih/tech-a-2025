@@ -20,9 +20,11 @@ longDescription: |
   <br/><br/>
   For this week, you will begin transforming the text you selected into a flexible design system. You should use variables to define aspects of your design such as size, spacing, or color, and bring in randomness so that each run of your sketch produces something slightly different.
   <br/><br/>
-  Add a simple GUI with at least two controls that let you adjust and explore your system in real time. By the end, you should produce at least five distinct variations of your text. Do they look similar enough to look like a family, but different enough to be distinct? These do not need to be polished or final; think of them as early experiments that show how your design can adapt and shift. Prototype!
-  <br/><br/>
-  We will have some time to do a quick 1-on-1 next week.
+  - Use at least two variables and a simple GUI that let you adjust and explore your system in real time. - Try to design with the idea of flexbility in mind, and give up on golden ratio.
+  - Incorporate randomness so your designs have some unexpected variations. 
+  - Think about if the variations look similar enough to look like a family, but different enough to be distinct?
+  <br/>
+  These do not need to be polished or final; think of them as early experiments that show how your design can adapt and shift. Prototype! We will have some time to do a quick 1-on-1 next week.
   <br/><br/>
 
 week: 2
@@ -56,6 +58,6 @@ We don't have required reading this week either. These are more like fun reading
 - [Random() Function - The Coding Train](https://www.youtube.com/watch?v=POn4cZ0jL-o)
 - [Creative Coding with Processing: Random Compositions](https://www.youtube.com/watch?v=rO29HBP_-dA)
   <br/><br/>
-  ^ This one is in Processing but I like Tim and it's worth just getting inspired.
+  ^ This one is in Processing but I like Tim and it's worth watching just getting inspired.
   <br/><br/>
 - [p5.js Design Tools Directory](https://timrodenbroeker.de/p5js-design-tools/)
