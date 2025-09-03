@@ -2,27 +2,27 @@
 title: "Hello Class!"
 description: "This week, we’ll get introduced to the course and take a look at what we’ll be aiming to achieve."
 longDescription: |
+
+  ![Week 1 Introduction](/public/weeks/cuneiform.png)
+  <br/><br/>
   This week, we’ll get introduced to the course and take a look at what we’ll be aiming to achieve.
 
   - [**Course Overview**](https://www.figma.com/proto/wFFmuF4OHr8qfBBBu1blRe/-Tech-A--Week-1?page-id=0%3A1&node-id=4102-394&p=f&viewport=1498%2C595%2C0.03&t=ZCAP0XkvaHiilUDv-1&scaling=scale-down-width&content-scaling=fixed)
   - [**On Technology**](https://www.figma.com/proto/wFFmuF4OHr8qfBBBu1blRe/-Tech-A--Week-1?page-id=0%3A1&node-id=4051-349&p=f&viewport=1498%2C595%2C0.03&t=ZCAP0XkvaHiilUDv-1&scaling=scale-down-width&content-scaling=fixed)
   - [**Setup & Draw**](https://www.figma.com/proto/wFFmuF4OHr8qfBBBu1blRe/-Tech-A--Week-1?page-id=0%3A1&node-id=1-166&p=f&viewport=1498%2C595%2C0.03&t=ZCAP0XkvaHiilUDv-1&scaling=scale-down-width&content-scaling=fixed)
 
-  <br/>
-
-  ## Assignment
-  **Due:** Sep 2, 2025
-  <br/><br/>
-  <a class="btn-primary" href="https://forms.gle/Fev6UZQf8z8rzyUg9">Submit Assignment</a>
-  <br/><br/>
-  Choose a short piece of text in your preferred language. It can be a poem, a quote, an excerpt from your diary, or any other form of writing. The text should be personal, poetic, or culturally meaningful to you, serving as a manifesto or statement that reflects your values and beliefs.
-  <br/><br/>
-  Collect visual and material inspirations (typography, print experiments, manifestos), and try to recreate them in [**p5.js Editor**](https://editor.p5js.org/)! When in doubt, look them up in the [**p5 reference**](https://beta.p5js.org/reference/) or ask for help in [**google chat**](https://chat.google.com/room/AAQATTfE9mA?cls=7).
-  <br/><br/>
-  Document what's working and what's not working and submit these findings along with the assignment.
-
 week: 1
 ---
+
+## Assignment
+
+**Due:** Sep 2, 2025
+<br/><br/>
+Choose a short piece of text in your preferred language. It can be a poem, a quote, an excerpt from your diary, or any other form of writing. The text should be personal, poetic, or culturally meaningful to you, serving as a manifesto or statement that reflects your values and beliefs.
+<br/><br/>
+Collect visual and material inspirations (typography, print experiments, manifestos), and try to recreate them in [**p5.js Editor**](https://editor.p5js.org/)! When in doubt, look them up in the [**p5 reference**](https://beta.p5js.org/reference/) or ask for help in [**google chat**](https://chat.google.com/room/AAQATTfE9mA?cls=7).
+<br/><br/>
+Document what's working and what's not working and submit these findings along with the assignment.
 
 ## Workshop 1
 

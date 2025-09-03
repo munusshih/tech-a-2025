@@ -3,6 +3,9 @@ title: "Variable, Random, System"
 description: "This week, we’ll start exploring how code can turn text into a living system of variation and play."
 longDescription: |
   We’ll use variables, randomness, and simple GUI controls to begin transforming your chosen text into a flexible design system. 
+  <br/><br/>
+  ![Week 1 Introduction](/public/weeks/chairs.png)
+  <br/><br/>
   Instead of creating one fixed layout, you’ll experiment with ways for your manifesto to shift, adapt, and generate multiple possibilities. 
   These early explorations will serve as the foundation for the physical forms we’ll create later in the semester.
 
@@ -13,22 +16,24 @@ longDescription: |
 
   <br/>
 
-  ## Assignment
-  **Due:** Sep 9, 2025
-  <br/><br/>
-  <a class="btn-primary" href="https://forms.gle/Fev6UZQf8z8rzyUg9">Submit Assignment</a>
-  <br/><br/>
-  For this week, you will begin transforming the text you selected into a flexible design system. You should use variables to define aspects of your design such as size, spacing, or color, and bring in randomness so that each run of your sketch produces something slightly different.
-  <br/><br/>
-  - Use at least two variables and a simple GUI that let you adjust and explore your system in real time. - Try to design with the idea of flexbility in mind, and give up on golden ratio.
-  - Incorporate randomness so your designs have some unexpected variations. 
-  - Think about if the variations look similar enough to look like a family, but different enough to be distinct?
+week: 2
+---
+
+## Assignment
+
+**Due:** Sep 9, 2025
+<br/><br/>
+<a class="btn-primary" href="https://forms.gle/Fev6UZQf8z8rzyUg9">Submit Assignment</a>
+<br/><br/>
+For this week, you will begin transforming the text you selected into a flexible design system. You should use variables to define aspects of your design such as size, spacing, or color, and bring in randomness so that each run of your sketch produces something slightly different.
+<br/><br/>
+
+- Use at least two variables and a simple GUI that let you adjust and explore your system in real time. - Try to design with the idea of flexbility in mind, and give up on golden ratio.
+- Incorporate randomness so your designs have some unexpected variations.
+- Think about if the variations look similar enough to look like a family, but different enough to be distinct?
   <br/>
   These do not need to be polished or final; think of them as early experiments that show how your design can adapt and shift. Prototype! We will have some time to do a quick 1-on-1 next week.
   <br/><br/>
-
-week: 2
----
 
 ## Coding Challenge
 
@@ -61,3 +66,6 @@ We don't have required reading this week either. These are more like fun reading
   ^ This one is in Processing but I like Tim and it's worth watching just getting inspired.
   <br/><br/>
 - [p5.js Design Tools Directory](https://timrodenbroeker.de/p5js-design-tools/)
+- [p5.js Web Editor: Uploading Media Files - The Coding Train](https://www.youtube.com/watch?v=rO6M5hj0V-o&t=135s)
+- [P5.JS - Adding Fonts Part I](https://www.youtube.com/watch?v=6lq6JFbOMh4)
+- [Adding fonts to P5.JS using Google Fonts!](https://www.youtube.com/watch?v=wfX8Z0D2aDw)

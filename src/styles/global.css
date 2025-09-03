@@ -6,6 +6,8 @@
 @import "./week-content.css";
 @import "./marquee.css";
 @import "./github.css";
+@import "./tutorials.css";
+@import "./student-response.css";
 
 /* Color inversion based on system preference */
 @media (prefers-color-scheme: light) {

@@ -1,0 +1,87 @@
+---
+import { studentsByEmail } from "@/data/students";
+
+interface Props {
+  week: number;
+}
+
+const { week } = Astro.props;
+
+// Use the shared student mapping
+const studentMapping = studentsByEmail;
+
+// Fetch student responses directly from Google Sheet at build time
+let studentResponses = [];
+try {
+  const sheetId = "1Fcmcr1V_bsJZlHB8Z6TNhHzUvFxrArY_3jz0vamWpvA";
+  const sheetName = "1"; // First sheet
+  const url = `https://opensheet.elk.sh/${sheetId}/${sheetName}`;
+
+  const response = await fetch(url);
+  if (response.ok) {
+    const data = await response.json();
+    studentResponses = data || [];
+    console.log(
+      `Fetched ${studentResponses.length} responses from Google Sheet at build time`
+    );
+  } else {
+    console.warn("Failed to fetch student responses from Google Sheet");
+  }
+} catch (error) {
+  console.warn("Error fetching student responses:", error);
+}
+
+// Filter responses for this specific week
+const weekResponses = studentResponses.filter((response) => {
+  const assignment = response["Which assignment is this for?"];
+  if (!assignment) return false;
+
+  // Match patterns like "Week 1", "week 1", "Assignment 1", etc.
+  const weekMatch = assignment
+    .toLowerCase()
+    .match(/(?:week|assignment)\s*(\d+)/);
+  return weekMatch && parseInt(weekMatch[1]) === week;
+});
+
+// Map responses to include student names
+const responsesWithNames = weekResponses
+  .map((response) => {
+    const email = response["Email Address"];
+    const student = studentMapping[email];
+    const responseText =
+      response[
+        "What did you learn this week or what questions do you have? (this part will go on the site)"
+      ];
+
+    return {
+      email,
+      studentName: student
+        ? `${student.firstName} ${student.lastName}`
+        : "Unknown Student",
+      response: responseText,
+      assignment: response["Which assignment is this for?"],
+    };
+  })
+  .filter((item) => item.response && item.response.trim())
+  .sort((a, b) => a.studentName.localeCompare(b.studentName));
+---
+
+{
+  responsesWithNames.length > 0 ? (
+    <section class="student-responses p-4">
+      <h2 class="!mb-4">Class Notebook</h2>
+      <div class="responses-grid">
+        {responsesWithNames.map((response, index) => (
+          <div class="response-card" key={index}>
+            <h3 class="student-name">{response.studentName}</h3>
+            <blockquote class="response-text">{response.response}</blockquote>
+          </div>
+        ))}
+      </div>
+    </section>
+  ) : (
+    <div class="no-responses p-4">
+      <p>No student responses available for this week yet.</p>
+    </div>
+  )
+}

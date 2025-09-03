@@ -10,9 +10,27 @@ const weeks = defineCollection({
       title: z.string(),
       description: z.string().optional(), // Optional description that can include markdown
       longDescription: z.string().optional(), // Optional long description with markdown support
+      lecture: z.string().optional(), // Optional lecture content in markdown format
       week: z.number(), // Week number for ordering
       heroImage: image().optional(),
     }),
 });
 
-export const collections = { weeks };
+const tutorials = defineCollection({
+  // Load Markdown and MDX files in the `src/content/tutorials/` directory.
+  loader: glob({ base: "./src/content/tutorials", pattern: "**/*.{md,mdx}" }),
+  // Type-check frontmatter using a schema
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      description: z.string().optional(), // Optional description
+      difficulty: z.enum(["beginner", "intermediate", "advanced"]).optional(), // Difficulty level
+      duration: z.string().optional(), // Estimated duration (e.g., "30 minutes")
+      tags: z.array(z.string()).optional(), // Tags for categorization
+      publishDate: z.date().optional(), // Publication date
+      heroImage: image().optional(),
+      order: z.number().optional(), // Optional ordering for tutorials
+    }),
+});
+
+export const collections = { weeks, tutorials };

@@ -1,5 +1,5 @@
 nav {
-    @apply p-4 border-y;
+    @apply py-4 border-y;
 }
 
 nav li {

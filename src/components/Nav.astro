@@ -37,7 +37,7 @@ const processedPosts = await Promise.all(
     <ul>
       <h1 class="heading-1">{isIndex ? "Weekly Schedule" : "Other Weeks"}</h1>
       {processedPosts.map((post) => (
-        <div key={post.id}>
+        <>
           {isIndex &&
             (() => {
               switch (post.data.week) {
@@ -49,29 +49,34 @@ const processedPosts = await Promise.all(
                   return null;
               }
             })()}
-          {post.data.week === 0 ? (
-            <li class="week-zero">
-              <h2 class="title">
-                Week {post.data.week}: {post.data.title}
-              </h2>
-              {post.processedDescription && (
-                <p class="description" set:html={post.processedDescription} />
-              )}
-            </li>
-          ) : (
-            <a href={`/${post.id}/`}>
-              <li>
+          <div class={isIndex ? "weekly-section" : ""} key={post.id}>
+            {post.data.week === 0 ? (
+              <li class="week-zero">
                 <h2 class="title">
                   Week {post.data.week}: {post.data.title}
-                  {post.data.week === latestWeek && " ✨"}
                 </h2>
                 {post.processedDescription && (
                   <p class="description" set:html={post.processedDescription} />
                 )}
               </li>
-            </a>
-          )}
-        </div>
+            ) : (
+              <a href={`/${post.id}/`}>
+                <li>
+                  <h2 class="title">
+                    Week {post.data.week}: {post.data.title}
+                    {post.data.week === latestWeek && " ✨"}
+                  </h2>
+                  {post.processedDescription && (
+                    <p
+                      class="description"
+                      set:html={post.processedDescription}
+                    />
+                  )}
+                </li>
+              </a>
+            )}
+          </div>
+        </>
       ))}
     </ul>
   ) : (
