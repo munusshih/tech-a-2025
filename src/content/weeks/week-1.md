@@ -3,7 +3,7 @@ title: "Hello Class!"
 description: "This week, we’ll get introduced to the course and take a look at what we’ll be aiming to achieve."
 longDescription: |
 
-  ![Week 1 Introduction](/public/weeks/cuneiform.png)
+  ![Week 1 Introduction](/weeks/cuneiform.png)
   <br/><br/>
   This week, we’ll get introduced to the course and take a look at what we’ll be aiming to achieve.
 
