@@ -39,7 +39,7 @@ This week, you will add rules and conditionals to your design system so that it 
 - [004 - If Statements](https://editor.p5js.org/munusshih/sketches/bK-VxhYDn)
 - [005 - Switch](https://editor.p5js.org/munusshih/sketches/qD80U-ha0)
 - [006 - Conditional + Random](https://editor.p5js.org/munusshih/sketches/Cs-To8i4s)
-- [007 - Grouping](https://editor.p5js.org/munusshih/sketches/ZNF9_87jr)
+- [007 - Grouping](https://editor.p5js.org/munusshih/sketches/JbyYiDamE)
 - [008 - Transform](https://editor.p5js.org/munusshih/sketches/Nujwo1z6q)
 - [Misc - Gradient](https://editor.p5js.org/munusshih/sketches/CVhCDxs4L)
 - [Misc - Transparency](https://editor.p5js.org/munusshih/sketches/hJ46nqF2-)
