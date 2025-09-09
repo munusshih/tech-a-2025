@@ -4,7 +4,7 @@ description: "This week, we’ll start exploring how code can turn text into a l
 longDescription: |
   We’ll use variables, randomness, and simple GUI controls to begin transforming your chosen text into a flexible design system. 
   <br/><br/>
-  ![Week 1 Introduction](/weeks/chairs.png)
+  ![Week 2 Introduction](/weeks/chairs.png)
   <br/><br/>
   Instead of creating one fixed layout, you’ll experiment with ways for your manifesto to shift, adapt, and generate multiple possibilities. 
   These early explorations will serve as the foundation for the physical forms we’ll create later in the semester.

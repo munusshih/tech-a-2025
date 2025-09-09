@@ -25,7 +25,7 @@
     canvas,
     object,
     embed {
-        filter: invert(1) hue-rotate(180deg);
+        filter: invert(1) hue-rotate(180deg) saturate(1);
     }
 
     /* Preserve specific components that should maintain their appearance */
