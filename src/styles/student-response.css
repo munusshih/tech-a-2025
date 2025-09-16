@@ -6,9 +6,10 @@
 
   .responses-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: 1fr;
       gap: 1.5rem;
   }
+
 
   .response-card {
       transition: all 0.2s ease;
