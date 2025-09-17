@@ -78,6 +78,29 @@
     text-decoration: yellowgreen wavy underline;
 }
 
+.feedback-label {
+    text-decoration: skyblue wavy underline;
+    color: skyblue;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.feedback-text {
+    color: skyblue;
+    @apply mt-4;
+}
+
+.feedback-text code {
+    background: skyblue;
+    padding: 0.1em 0.3em;
+    border-radius: 0.3em;
+    opacity: 1;
+}
+
+.feedback-text a {
+    @apply underline underline-offset-2;
+}
+
 #week-header {
     @apply flex flex-col justify-between;
     background: #000;

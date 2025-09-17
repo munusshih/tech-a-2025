@@ -1,5 +1,6 @@
 ---
 import { studentsByEmail } from "@/data/students";
+import { marked } from "marked";
 
 interface Props {
   week: number;
@@ -43,7 +44,7 @@ const weekResponses = studentResponses.filter((response) => {
   return weekMatch && parseInt(weekMatch[1]) === week;
 });
 
-// Map responses to include student names
+// Map responses to include student names and feedback
 const responsesWithNames = weekResponses
   .map((response) => {
     const email = response["Email Address"];
@@ -52,6 +53,7 @@ const responsesWithNames = weekResponses
       response[
         "What did you learn this week or what questions do you have? (this part will go on the site)"
       ];
+    const teacherFeedback = response["Teacher Feedback"]; // Add teacher feedback
 
     return {
       email,
@@ -59,6 +61,7 @@ const responsesWithNames = weekResponses
         ? `${student.firstName} ${student.lastName}`
         : "Unknown Student",
       response: responseText,
+      feedback: teacherFeedback,
       assignment: response["Which assignment is this for?"],
     };
   })
@@ -75,6 +78,15 @@ const responsesWithNames = weekResponses
           <div class="response-card" key={index}>
             <h3 class="student-name">{response.studentName}</h3>
             <blockquote class="response-text">{response.response}</blockquote>
+            {response.feedback && response.feedback.trim() && (
+              <div class="teacher-feedback mt-4 ml-4 ">
+                <h4 class="feedback-label font-bold">↳ Munus:</h4>
+                <div
+                  class="feedback-text"
+                  set:html={marked(response.feedback)}
+                />
+              </div>
+            )}
           </div>
         ))}
       </div>
