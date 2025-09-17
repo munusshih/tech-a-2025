@@ -1,0 +1,155 @@
+---
+import { studentsWithId } from "@/config";
+import BaseHead from "@/components/BaseHead.astro";
+import Footer from "@/components/Footer.astro";
+import AssignmentCard from "@/components/AssignmentCard.astro";
+import HallofFame from "@/components/HallofFame.astro";
+import { SITE_TITLE } from "@/config";
+
+export async function getStaticPaths() {
+  // Create paths for each student using their auto-generated studentId
+  return studentsWithId.map((student) => ({
+    params: { student: student.studentId },
+    props: { student, studentId: student.studentId },
+  }));
+}
+
+const { student, studentId } = Astro.props;
+
+// Load all student data and filter for this student
+let studentEntries = [];
+try {
+  const studentData = await import("../../data/student-data.json");
+  const allEntries = studentData.default || [];
+
+  // Filter entries for this specific student
+  studentEntries = allEntries.filter((entry) => entry.studentId === studentId);
+} catch {
+  console.log(`No student data found for ${studentId}`);
+}
+
+// Sort entries by timestamp
+studentEntries.sort((a, b) => {
+  if (a.timestamp && b.timestamp) {
+    return new Date(b.timestamp) - new Date(a.timestamp);
+  }
+  return a.assignmentTitle.localeCompare(b.assignmentTitle);
+});
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title={`${student.firstName} ${student.lastName} - ${SITE_TITLE}`}
+      description={`View ${student.firstName} ${student.lastName}'s creative coding assignments and projects.`}
+    />
+  </head>
+  <body>
+    <main class="col-span-3 !p-0" id="student-page">
+      {
+        studentEntries.length > 0 ? (
+          <div class="assignments-grid grid lg:grid-cols-3 min-h-screen">
+            <div class="flex flex-col border-r ">
+              <a href="/" class="px-[var(--margin)] border-b">
+                <h2>Back to homepage</h2>
+              </a>
+              <div class="p-[var(--margin)]">
+                <h1>
+                  {student.firstName}
+                  {student.lastName}
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum.
+                </p>
+                <ul class="student-links">
+                  <li>Link 1</li>
+                  <li>Link 2</li>
+                  <li>Link 3</li>
+                </ul>
+
+                <HallofFame excludeStudent={studentId} />
+              </div>
+            </div>
+            <div class="flex flex-col gap-2 border-r p-[var(--margin)]">
+              {studentEntries
+                .filter((_, i) => i % 2 === 0)
+                .map((entry) => (
+                  <AssignmentCard entry={entry} variant={3} />
+                ))}
+            </div>
+            <div class="flex flex-col gap-2 border-r p-[var(--margin)]">
+              {studentEntries
+                .filter((_, i) => i % 2 === 1)
+                .map((entry) => (
+                  <AssignmentCard entry={entry} variant={3} />
+                ))}
+              <Footer />
+            </div>
+          </div>
+        ) : (
+          <div class="no-assignments text-center py-12">
+            <p class="text-xl opacity-70">No submissions yet.</p>
+          </div>
+        )
+      }
+    </main>
+    <script src="../../scripts/page-animations.js"></script>
+  </body>
+</html>
+
+<style>
+  .assignment-card {
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .assignment-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+
+  .prose p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+
+  .processed-files {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .file-item {
+    transition: transform 0.2s ease;
+  }
+
+  .file-item:hover {
+    transform: translateY(-1px);
+  }
+
+  .file-preview img {
+    border-radius: 0.5rem;
+    background: white/5;
+  }
+
+  @media (max-width: 768px) {
+    .assignment-card {
+      padding: 1rem;
+    }
+
+    .processed-files {
+      grid-template-columns: 1fr;
+    }
+
+    .file-actions {
+      justify-content: center;
+    }
+  }
+</style>

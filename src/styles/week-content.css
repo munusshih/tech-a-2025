@@ -1,5 +1,6 @@
 /* Content sections automatically wrapped by H2 headings */
-.content-section {
+.content-section,
+.assignment-card {
     @apply mb-4 p-4 border border-dotted border-gray-600 rounded-lg;
     background: rgba(255, 255, 255, 0.02);
     transition: background-color 0.2s ease;
@@ -20,7 +21,8 @@
     @apply not-first:mt-8 not-first:border-t border-dashed not-first:pt-5;
 }
 
-#week-content h2::before {
+#week-content h2::before,
+h2.assignment-title::before {
     content: '#';
     color: pink;
     @apply pr-2;
@@ -65,11 +67,14 @@
 
 /* list style */
 
-.long-description ul {
+.long-description ul,
+.student-links {
     @apply my-4;
 }
 
-.long-description ul li {
+
+.long-description ul li,
+.student-links {
     @apply list-decimal ml-7 pl-0;
 }
 

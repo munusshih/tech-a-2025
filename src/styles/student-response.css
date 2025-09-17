@@ -24,7 +24,8 @@
       border-color: var(--color-accent);
   }
 
-  .student-name {
+  .student-name,
+  .underline-wavy {
       margin-bottom: 0.75rem;
       color: var(--color-accent);
       font-weight: 600;

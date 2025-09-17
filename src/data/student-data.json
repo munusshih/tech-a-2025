@@ -1,0 +1,1032 @@
+[
+  {
+    "timestamp": "8/28/2025 20:23:15",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "Choose a short text. I chose 3 words that are meaningful to me. When I was playing around with custom shapes, I thought it was interesting but did not fit my words. So I repeated a shape that became more abstract. ",
+    "credit": "P5.js reference page!! More specifically the textWidth() code. As well as beginShape() and endShape() code. Very simple design with quote. Didn't include pictures or anything. ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-1--welcome--1.png, /student-files/nancy-scanlon-week-1--welcome--2.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/full/uiebammlM",
+    "certification": "",
+    "weeklyResponse": "That when you are writing code, I see the stacking of code like layers. If you want per-say a shape on top (or foreground) of another shape(more back). You'll have to but the bottom shape first with the fill or stroke, then the top shape with their designated fill or stroke.  This helped when I was doing repeated shapes. ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1T-JIqdMYQvzJx8H-q88SWgkrG57mo0FO",
+        "fileId": "1T-JIqdMYQvzJx8H-q88SWgkrG57mo0FO",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1T-JIqdMYQvzJx8H-q88SWgkrG57mo0FO&sz=w800",
+        "embed": "https://drive.google.com/file/d/1T-JIqdMYQvzJx8H-q88SWgkrG57mo0FO/preview",
+        "local": "/student-files/nancy-scanlon-week-1--welcome--1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=18Oyn8XJdBytnj2ohtiN3z3bMezGqnSD9jpEP663fExs",
+        "fileId": "18Oyn8XJdBytnj2ohtiN3z3bMezGqnSD9jpEP663fExs",
+        "thumbnail": "https://drive.google.com/thumbnail?id=18Oyn8XJdBytnj2ohtiN3z3bMezGqnSD9jpEP663fExs&sz=w800",
+        "embed": "https://drive.google.com/file/d/18Oyn8XJdBytnj2ohtiN3z3bMezGqnSD9jpEP663fExs/preview",
+        "local": "/student-files/nancy-scanlon-week-1--welcome--2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "8/30/2025 19:47:17",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "This project uses the verse: “The grass is bearing its seeds, the wind is shaking its leaves, and we stand here in silence, and it is already beautiful.”\nI believe that in this fast-paced internet age, people have not experienced “not speaking, just standing and feeling” for a long time. Without the noise of words, in nature there is no need for much speech, and we can feel each other’s existence, as well as the beauty of blending with nature.\nFor me, I especially enjoy being alone in quiet places surrounded by plants. It brings deep relaxation to both my body and mind, and helps me release the exhaustion of daily life.",
+    "credit": "Youtube: The Coding Train; ChatGPT",
+    "uploadedFiles": "/student-files/yiling-yang-week-1--welcome--1.jpg, /student-files/yiling-yang-week-1--welcome--2.jpg",
+    "linkToWork": "https://editor.p5js.org/YilingYang/sketches/xxtsFMQz8",
+    "certification": "",
+    "weeklyResponse": "This week, I learned how to use p5.js to create visual effects with text, and I also realized that even simple code can express poetic ideas.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1-k9WCEvxPx5yE1QV2qucMbthWNru03Mi",
+        "fileId": "1-k9WCEvxPx5yE1QV2qucMbthWNru03Mi",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1-k9WCEvxPx5yE1QV2qucMbthWNru03Mi&sz=w800",
+        "embed": "https://drive.google.com/file/d/1-k9WCEvxPx5yE1QV2qucMbthWNru03Mi/preview",
+        "local": "/student-files/yiling-yang-week-1--welcome--1.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1b1rTuBmU9DYzXqfAfxLxVT71sZQPEwFm",
+        "fileId": "1b1rTuBmU9DYzXqfAfxLxVT71sZQPEwFm",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1b1rTuBmU9DYzXqfAfxLxVT71sZQPEwFm&sz=w800",
+        "embed": "https://drive.google.com/file/d/1b1rTuBmU9DYzXqfAfxLxVT71sZQPEwFm/preview",
+        "local": "/student-files/yiling-yang-week-1--welcome--2.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "8/31/2025 21:34:22",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "Choose a short piece of text in your preferred language. It can be a poem, a quote, an excerpt from your diary, or any other form of writing. The text should be personal, poetic, or culturally meaningful to you, serving as a manifesto or statement that reflects your values and beliefs.\n\nCollect visual and material inspirations (typography, print experiments, manifestos), and try to recreate them in p5.js Editor! ",
+    "credit": "I used Claude and chatgpt",
+    "uploadedFiles": "/student-files/kate-chon-week-1--welcome--1.png",
+    "linkToWork": "https://editor.p5js.org/kchon2/sketches/pFEKNP67T",
+    "certification": "",
+    "weeklyResponse": "I learned a bit not much since we didn't have enough time",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=11cEB9X85UYlI-FHNHKvXLaBl7p5H1GnB",
+        "fileId": "11cEB9X85UYlI-FHNHKvXLaBl7p5H1GnB",
+        "thumbnail": "https://drive.google.com/thumbnail?id=11cEB9X85UYlI-FHNHKvXLaBl7p5H1GnB&sz=w800",
+        "embed": "https://drive.google.com/file/d/11cEB9X85UYlI-FHNHKvXLaBl7p5H1GnB/preview",
+        "local": "/student-files/kate-chon-week-1--welcome--1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/1/2025 1:06:22",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "I chose a short poem from Starry Birds, my favorite poetry collection. I want to show it as random wave-like melodies that we can draw ourselves, which matches the meaning of the text.",
+    "credit": "references from P5.js website, claude AI,Chat GPT.",
+    "uploadedFiles": "/student-files/flora-fang-week-1--welcome--1.png, /student-files/flora-fang-week-1--welcome--2.png, /student-files/flora-fang-week-1--welcome--3.png, /student-files/flora-fang-week-1--welcome--4.png, /student-files/flora-fang-week-1--welcome--5.pdf",
+    "linkToWork": "https://editor.p5js.org/zfang32/full/ndzHTmNMB",
+    "certification": "",
+    "weeklyResponse": "I applied the knowledge I learned in class better and, with the help of references and ai agents, also learned some new skills. However, the final result is still a bit different from what I originally wanted, since some of the techniques were quite difficult to understand.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1sC6rvySJtcuCO86CnUnwfSshFp2qW75K",
+        "fileId": "1sC6rvySJtcuCO86CnUnwfSshFp2qW75K",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1sC6rvySJtcuCO86CnUnwfSshFp2qW75K&sz=w800",
+        "embed": "https://drive.google.com/file/d/1sC6rvySJtcuCO86CnUnwfSshFp2qW75K/preview",
+        "local": "/student-files/flora-fang-week-1--welcome--1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1WHmXeHiIsB40OuiarX2XNX_Q9FPy03b7",
+        "fileId": "1WHmXeHiIsB40OuiarX2XNX_Q9FPy03b7",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WHmXeHiIsB40OuiarX2XNX_Q9FPy03b7&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WHmXeHiIsB40OuiarX2XNX_Q9FPy03b7/preview",
+        "local": "/student-files/flora-fang-week-1--welcome--2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1YBS_xXK9qQEtTy-yXkTlORz5lp16Tt7_",
+        "fileId": "1YBS_xXK9qQEtTy-yXkTlORz5lp16Tt7_",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1YBS_xXK9qQEtTy-yXkTlORz5lp16Tt7_&sz=w800",
+        "embed": "https://drive.google.com/file/d/1YBS_xXK9qQEtTy-yXkTlORz5lp16Tt7_/preview",
+        "local": "/student-files/flora-fang-week-1--welcome--3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1hQO1zjqAykvap8tjO6YlcJeEMwNvnCwR",
+        "fileId": "1hQO1zjqAykvap8tjO6YlcJeEMwNvnCwR",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1hQO1zjqAykvap8tjO6YlcJeEMwNvnCwR&sz=w800",
+        "embed": "https://drive.google.com/file/d/1hQO1zjqAykvap8tjO6YlcJeEMwNvnCwR/preview",
+        "local": "/student-files/flora-fang-week-1--welcome--4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=198szVsNWVsrF3ONlHQhaUXXpauOFcxCn",
+        "fileId": "198szVsNWVsrF3ONlHQhaUXXpauOFcxCn",
+        "thumbnail": "https://drive.google.com/thumbnail?id=198szVsNWVsrF3ONlHQhaUXXpauOFcxCn&sz=w800",
+        "embed": "https://drive.google.com/file/d/198szVsNWVsrF3ONlHQhaUXXpauOFcxCn/preview",
+        "local": "/student-files/flora-fang-week-1--welcome--5.pdf"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/1/2025 16:37:21",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "As a Catholic, I chose the verse that speaks to me most—Proverbs 16:33. When I reflect on it, I realize that whatever outcome unfolds is not ultimately determined by my own will. For that reason, whatever result I receive, I should accept it with composure and not be carried away by elation or cast down by disappointment. This is why the verse has moved me so deeply.",
+    "credit": "I used Chat GPT for coding, and also used Google to study and verify my quote.",
+    "uploadedFiles": "/student-files/lina-lee-week-1--welcome--1.png",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/ixSIz9MKE",
+    "certification": "",
+    "weeklyResponse": "I really struggled a lot because of coding. It was quite stressful because so many errors occurred with my code. I tried to manage this just by myself, but I can't, so I eventually got some help from Ghat GPT and get rid of the specific design.",
+    "teacherFeedback": "And that is okay! :) We all struggle learning something new. You are encouraged to use chatGPT or any AI agent in this class, as long as you credit it and follow our [Open Source Policy.](https://tech-a.designfuture.space/#open-source-policies)",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1kbloaZi1VNa-2Fdopgeo0cbPlGprYwLQ",
+        "fileId": "1kbloaZi1VNa-2Fdopgeo0cbPlGprYwLQ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1kbloaZi1VNa-2Fdopgeo0cbPlGprYwLQ&sz=w800",
+        "embed": "https://drive.google.com/file/d/1kbloaZi1VNa-2Fdopgeo0cbPlGprYwLQ/preview",
+        "local": "/student-files/lina-lee-week-1--welcome--1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/2/2025 2:15:14",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "I tried to recreate the signature \"I Love New York\" logo, designed by Milton Glaser in 1976.\nI used the same typeface and drew the red heart by adjusting others' code. By focusing on making the logo look alike, including the spacing and proportion of the text, I learned to adjust basic argument and get myself more familiar with the rule and coding environment.",
+    "credit": "Adjust the heart shape code from: https://editor.p5js.org/monicamonin/sketches/hWHc3EuFh \n\nRead bezierVertex() Reference:\nhttps://p5js.org/reference/p5/bezierVertex/",
+    "uploadedFiles": "/student-files/bella-tsai-week-1--welcome--1.svg",
+    "linkToWork": "https://editor.p5js.org/ytsai13/sketches/tDs4KFtVH",
+    "certification": "",
+    "weeklyResponse": "1. Type Style SEMIBOLD does not exist. \n2. There's no color called gradient, and I found that it's quite complicated to make a gradient shape, so in the end, I didn't.\n3. Is there any way that I can move objects together instead of adjusting their X, Y manually?",
+    "teacherFeedback": "It does exist! They just need to all be imported, and you need to specify them using [fontWeight](https://beta.p5js.org/reference/p5/textweight/).",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1LB3uPGLfhMbtNjodKocNvJ_LkE46LQjk",
+        "fileId": "1LB3uPGLfhMbtNjodKocNvJ_LkE46LQjk",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1LB3uPGLfhMbtNjodKocNvJ_LkE46LQjk&sz=w800",
+        "embed": "https://drive.google.com/file/d/1LB3uPGLfhMbtNjodKocNvJ_LkE46LQjk/preview",
+        "local": "/student-files/bella-tsai-week-1--welcome--1.svg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/2/2025 5:53:33",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "The thought process behind the Week 1 assignment, including the initial sources of inspiration and material collection, the hands-on process, and the later reflections",
+    "credit": "Ghalia https://editor.p5js.org/Ghalia/sketches/0w48Z27JTf, Elegy by Miguel Rothschild, Mé by Haruka Kojin, Kenji Minamigawa, and Hirofumi Masui, Storm clouds above sea by Westend61 / Johner RF/ Johner Images, Wait For It - Hamilton, Eminem - Mockingbird [Official Music Video]",
+    "uploadedFiles": "/student-files/zoe-liu-week-1--welcome--1.zip",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/2fIjCWdoL",
+    "certification": "",
+    "weeklyResponse": "While working on the assignment, I learned to use several functions in p5.js, such as map() and random(). I realized that the sequence of code execution is a critical aspect of programming, and it’s something I need to spend more time practicing. I also discovered that some functions are restricted to either 2D or 3D contexts, and I hope to explore ways to integrate them so they can work together more effectively.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1YtR04DJI2xyIzu4u81HIAosV7vHU10C8",
+        "fileId": "1YtR04DJI2xyIzu4u81HIAosV7vHU10C8",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1YtR04DJI2xyIzu4u81HIAosV7vHU10C8&sz=w800",
+        "embed": "https://drive.google.com/file/d/1YtR04DJI2xyIzu4u81HIAosV7vHU10C8/preview",
+        "local": "/student-files/zoe-liu-week-1--welcome--1.zip"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/2/2025 12:10:38",
+    "studentEmail": "smahsin@pratt.edu",
+    "studentId": "sreya-mahsin",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "I chose the poem i carry your heart with me(i carry it in by E.E Cummings. I first read it in middle school and I was very moved by it as it broke many structural and grammatical rules–I did not know the English language could be deconstructed and still carry so much emotion, perhaps even more. The poem feels even more relevant now than it did in the past after losing loved ones and understanding grief.",
+    "credit": "Tutorials: https://youtu.be/yPWkPOfnGsw?feature=shared\nReference for poster: https://d2w9rnfcy7mm78.cloudfront.net/5156925/original_f0faef6f61ffbf2d55bd5657600a09f5.png?1570042182?bc=0",
+    "uploadedFiles": "/student-files/sreya-mahsin-week-1--welcome--1.png",
+    "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
+    "certification": "",
+    "weeklyResponse": "The possibilities with p5.js is endless! I was looking at other's works and realized that a lot of motion design that I've tried to do was probably done on p5js and not After Effect. I did run into a few technical problems which I'm sure can be solved but I'm excited to explore.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1wVBhWLtO0JXR6N59nRx-VLxSLStT46aG",
+        "fileId": "1wVBhWLtO0JXR6N59nRx-VLxSLStT46aG",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1wVBhWLtO0JXR6N59nRx-VLxSLStT46aG&sz=w800",
+        "embed": "https://drive.google.com/file/d/1wVBhWLtO0JXR6N59nRx-VLxSLStT46aG/preview",
+        "local": "/student-files/sreya-mahsin-week-1--welcome--1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/2/2025 14:30:59",
+    "studentEmail": "syadav4@pratt.edu",
+    "studentId": "sarena-yadav",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "Cosmic Trust is about believing in the universe..not in a blind, passive way, but as an active, guiding energy that intersects with our efforts. I began my journey as a strict atheist, rooted entirely in science and logic. I still deeply respect science, yet over time, a part of me has shifted toward the spiritual. I’ve realized there exists a subtle energy in the universe, a force that shapes and influences life in ways we may not fully understand. It’s not about expecting miracles without effort; manifestation works, but only when paired with consistent action and intention. Challenges don’t disappear, they are the universe’s way of shaping us, building resilience, and nudging us toward our goals.\nThe universe is both beautiful and powerful. Celestial events, like eclipses, illustrate this dynamic energy. The patterns these movements form in the sky are symbolic of life itself: moments of darkness give way to light, and temporary interruptions can lead to new perspectives. Observing these patterns reminds us that life is a rhythm of challenges and revelations, and the unseen forces guiding us are as natural and inevitable as the movement of the planets.\nIn Cosmic Trust, these celestial patterns are translated into visual forms. The orbit of the moon around the sun, the shadows of eclipses, and the subtle waves of energy patterns all symbolize the universe’s influence on our personal journey. The shapes, rotations, and flows in my project are minimalistic but intentional, representing the invisible energy at work in our lives. They serve as a reminder that even small actions, when aligned with intention and trust, contribute to larger outcomes.\nThis project is an exploration of the harmony between action and faith, reason and wonder. By observing cosmic patterns, we recognize that life is interconnected, and growth often comes from surrendering to forces greater than ourselves while still working toward our goals. The visual patterns (ellipses, orbits, and rotations) reflect not only the science of celestial mechanics but also the spiritual idea that energy flows through all things, guiding, shaping, and supporting our journey.\nThe Cosmic Trust project, implemented through p5.js, visualizes this philosophy. Using code, I simulate celestial patterns and movements, such as eclipses, orbital rotations, and abstract energy flows. Users can interact with these elements, witnessing how forces intersect, influence, and create outcomes. The result is a meditative, immersive experience that encourages reflection on one’s personal journey, resilience, and the unseen energies at play.",
+    "credit": "chatGPT and The Coding Train Tutorial",
+    "uploadedFiles": "/student-files/sarena-yadav-week-1--welcome--1.png, /student-files/sarena-yadav-week-1--welcome--2.png",
+    "linkToWork": "https://editor.p5js.org/syadav4/sketches/jLz8gtkgJ",
+    "certification": "",
+    "weeklyResponse": "I always found coding a little scary, but now that I’ve started, I’m actually loving it and can’t wait to try more and learn more. One of the first things I understood is how functions work. For example, the setup() function runs once at the very beginning  it’s where we set up the canvas, styles, and any initial values. After that, the draw() function keeps running in a loop, unless we stop it using noLoop().\nI’m also learning new functions step by step and experimenting with them, which has been really exciting. One thing I struggled with was uploading an image. I realized that it needs to be placed in the “assets” folder, but for some reason, I couldn’t get it to work. That’s something I still want to figure out.\nAnother question I had while exploring loops and patterns was about saving images. If I want to save a specific frame (and not every single one in the loop), I learned that I can use functions like saveCanvas() or saveFrames(), but apply them conditionally,  for example, only when a certain frame number is reached.",
+    "teacherFeedback": "This is out of this week's scope, but you should be able ot use [if-else (see week 3)](https://tech-a.munusshih.com/week-3/) to save a specific frame. Like `if(frameCount===3)` per say.",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1hotkLCkJhpvNnRY584hV5OGF44UBH8xW",
+        "fileId": "1hotkLCkJhpvNnRY584hV5OGF44UBH8xW",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1hotkLCkJhpvNnRY584hV5OGF44UBH8xW&sz=w800",
+        "embed": "https://drive.google.com/file/d/1hotkLCkJhpvNnRY584hV5OGF44UBH8xW/preview",
+        "local": "/student-files/sarena-yadav-week-1--welcome--1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1dcpx1tD6vUcj_vm8cNtWlK0dgAiXTP7L",
+        "fileId": "1dcpx1tD6vUcj_vm8cNtWlK0dgAiXTP7L",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1dcpx1tD6vUcj_vm8cNtWlK0dgAiXTP7L&sz=w800",
+        "embed": "https://drive.google.com/file/d/1dcpx1tD6vUcj_vm8cNtWlK0dgAiXTP7L/preview",
+        "local": "/student-files/sarena-yadav-week-1--welcome--2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/2/2025 16:35:52",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "This project inspired by Chinese history,Farewell My Concubine (1993),  is a tragic gay love drama set amid war, political upheaval, and the shifting tides of 20th-century Beijing. The story of Cheng Dieyi and Duan Xiaolou blends opera, love, betrayal, and survival.\nThe phrase “人，得自個兒，成全自個兒” (“One can only rely on oneself to be complete”) is deeply relevant. Dieyi devotes his life to Xiaolou, but in the end, he cannot depend on love, loyalty, or society for fulfillment. The tragedy shows that only by facing oneself—identity, pain, and truth—can one find dignity, even in despair.",
+    "credit": "tutorials, ChatGPT, help from classmates ",
+    "uploadedFiles": "/student-files/binjia-li-week-1--welcome--1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/staUOqTyV",
+    "certification": "",
+    "weeklyResponse": "the coding is so new for me, everything new and takes more time to figure it out and im so glad we can use different sources to learn and ask for help! ",
+    "teacherFeedback": "the coding is so new for me, everything new and takes more time to figure it out and im so glad we can use different sources to learn and ask for help! ",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1SCI9FSeS6f7Ier5T6B_51fSMB5GRkCxW",
+        "fileId": "1SCI9FSeS6f7Ier5T6B_51fSMB5GRkCxW",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1SCI9FSeS6f7Ier5T6B_51fSMB5GRkCxW&sz=w800",
+        "embed": "https://drive.google.com/file/d/1SCI9FSeS6f7Ier5T6B_51fSMB5GRkCxW/preview",
+        "local": "/student-files/binjia-li-week-1--welcome--1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/2/2025 22:57:57",
+    "studentEmail": "jfux34@pratt.edu",
+    "studentId": "richard-fu",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "I feel the climb moving to New York right now. ",
+    "credit": "I looked up tutorials for the gradient and the text rotation for the last line. Sources follow:\n\nhttps://www.youtube.com/watch?v=-MUOweQ6wac\n\nhttps://editor.p5js.org/aferriss/sketches/HyBagyadG\n",
+    "uploadedFiles": "/student-files/richard-fu-week-1--welcome--1.svg",
+    "linkToWork": "https://editor.p5js.org/ririff/sketches/KQOF24knK",
+    "certification": "",
+    "weeklyResponse": "Learned to apply the coding logics of p5JS, attempted various references and resources \n\nQuestion being, how to tell which part is in-built p5js languages ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1m_ACZoX7jffeuZbdJTUDw0LuhPPiyjcu",
+        "fileId": "1m_ACZoX7jffeuZbdJTUDw0LuhPPiyjcu",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1m_ACZoX7jffeuZbdJTUDw0LuhPPiyjcu&sz=w800",
+        "embed": "https://drive.google.com/file/d/1m_ACZoX7jffeuZbdJTUDw0LuhPPiyjcu/preview",
+        "local": "/student-files/richard-fu-week-1--welcome--1.svg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/4/2025 1:30:47",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "Continuing on with my quote of passion fuels purpose. I kept sort of the same layout when adding the GUI and variables. It is not completely the same but it's okay because it would've changed with the moving variables. First when I was working on this project I changed the shape of the circle to a square. And then I restricted the square to go to top left to bottom right. Having a fixed points. I did the same thing with another smaller square. Each of the squares you can change the size and the color. One last thing that I added was a constraint. There is a circle 'constraint' in the bigger square. Even when the square is the smallest it can be. Leading me to my randomization idea. In the constraint, the circle, every time the code is run/ restarted the size will be randomized 5-10. I wanted it to run once so I out in within set up instead of draw which loops. ",
+    "credit": "ChatGPT: When I was unsure how to so the top left to bottom right scale I used this tool to help me. As well as check my work for mistakes in GUI.  and P5.JS references: especially for the constraint. ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-2--variable--random--system-1.png, /student-files/nancy-scanlon-week-2--variable--random--system-2.png, /student-files/nancy-scanlon-week-2--variable--random--system-3.png, /student-files/nancy-scanlon-week-2--variable--random--system-4.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/full/uiebammlM",
+    "certification": "",
+    "weeklyResponse": "I learned that you need to re-arrange the code if you repeat for example a color picker in GUI. You cannot re-write it again because the variable is already taken. A thing that I learned was the fixed scale. For example I wanted my square to only go so far instead of out, I used a set number so the square wouldn't go out of line. ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1hYPDPAkdc11uJ86TWOhw9Arani4sGmU5",
+        "fileId": "1hYPDPAkdc11uJ86TWOhw9Arani4sGmU5",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1hYPDPAkdc11uJ86TWOhw9Arani4sGmU5&sz=w800",
+        "embed": "https://drive.google.com/file/d/1hYPDPAkdc11uJ86TWOhw9Arani4sGmU5/preview",
+        "local": "/student-files/nancy-scanlon-week-2--variable--random--system-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1PqJygC3MqOHppmLWYOJaw9NHtOvPSq6w",
+        "fileId": "1PqJygC3MqOHppmLWYOJaw9NHtOvPSq6w",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1PqJygC3MqOHppmLWYOJaw9NHtOvPSq6w&sz=w800",
+        "embed": "https://drive.google.com/file/d/1PqJygC3MqOHppmLWYOJaw9NHtOvPSq6w/preview",
+        "local": "/student-files/nancy-scanlon-week-2--variable--random--system-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1c9bzp1FlPvlH08nC5GEjW8brnQQybMyH",
+        "fileId": "1c9bzp1FlPvlH08nC5GEjW8brnQQybMyH",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1c9bzp1FlPvlH08nC5GEjW8brnQQybMyH&sz=w800",
+        "embed": "https://drive.google.com/file/d/1c9bzp1FlPvlH08nC5GEjW8brnQQybMyH/preview",
+        "local": "/student-files/nancy-scanlon-week-2--variable--random--system-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1dW8MS9CH7jkjRWUvUcsBnrr3X1j84YvY",
+        "fileId": "1dW8MS9CH7jkjRWUvUcsBnrr3X1j84YvY",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1dW8MS9CH7jkjRWUvUcsBnrr3X1j84YvY&sz=w800",
+        "embed": "https://drive.google.com/file/d/1dW8MS9CH7jkjRWUvUcsBnrr3X1j84YvY/preview",
+        "local": "/student-files/nancy-scanlon-week-2--variable--random--system-4.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/6/2025 11:55:53",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "As I used the dice image, I want to make a variable point with the dice. So, I made a code that I can change the quote in other languages when I hit the dice button.",
+    "credit": "Chat GPT",
+    "uploadedFiles": "/student-files/lina-lee-week-2--variable--random--system-1.png",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/S_C2fHwV1",
+    "certification": "",
+    "weeklyResponse": "GUI code makes my design more flexible.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1VjiGk-feNENr1g1Lzm1YodchfYO0ujb4",
+        "fileId": "1VjiGk-feNENr1g1Lzm1YodchfYO0ujb4",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1VjiGk-feNENr1g1Lzm1YodchfYO0ujb4&sz=w800",
+        "embed": "https://drive.google.com/file/d/1VjiGk-feNENr1g1Lzm1YodchfYO0ujb4/preview",
+        "local": "/student-files/lina-lee-week-2--variable--random--system-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/8/2025 0:47:00",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "This project is based on the previous one,but i added variations and GUI that was required,which makes the text more interesting.I uploaded a sky background and three triangles that can be resized by the GUI, and their positions will change randomly each time.",
+    "credit": "I asked ChatGPT for help,and also went through the references page.",
+    "uploadedFiles": "/student-files/flora-fang-week-2--variable--random--system-1.jpg, /student-files/flora-fang-week-2--variable--random--system-2.jpg, /student-files/flora-fang-week-2--variable--random--system-3.jpg, /student-files/flora-fang-week-2--variable--random--system-4.jpg, /student-files/flora-fang-week-2--variable--random--system-5.jpg",
+    "linkToWork": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
+    "certification": "",
+    "weeklyResponse": "I learned how the variations and GUI work, though it’s a bit hard without an AI agent.\nI also found that design gets really interactive and interesting if you add variables—this kind of random change is really hard to make in regular design software.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1qkRUny4zZuK76g5-BnCKPCIzbSJ_HoV6",
+        "fileId": "1qkRUny4zZuK76g5-BnCKPCIzbSJ_HoV6",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1qkRUny4zZuK76g5-BnCKPCIzbSJ_HoV6&sz=w800",
+        "embed": "https://drive.google.com/file/d/1qkRUny4zZuK76g5-BnCKPCIzbSJ_HoV6/preview",
+        "local": "/student-files/flora-fang-week-2--variable--random--system-1.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1EBjbtObvMIf131qTiT4DcJE0y5_OwB3W",
+        "fileId": "1EBjbtObvMIf131qTiT4DcJE0y5_OwB3W",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1EBjbtObvMIf131qTiT4DcJE0y5_OwB3W&sz=w800",
+        "embed": "https://drive.google.com/file/d/1EBjbtObvMIf131qTiT4DcJE0y5_OwB3W/preview",
+        "local": "/student-files/flora-fang-week-2--variable--random--system-2.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1FzOlTsj-BEBLq_yXTzTK-tkVpSmZ0ufQ",
+        "fileId": "1FzOlTsj-BEBLq_yXTzTK-tkVpSmZ0ufQ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1FzOlTsj-BEBLq_yXTzTK-tkVpSmZ0ufQ&sz=w800",
+        "embed": "https://drive.google.com/file/d/1FzOlTsj-BEBLq_yXTzTK-tkVpSmZ0ufQ/preview",
+        "local": "/student-files/flora-fang-week-2--variable--random--system-3.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1g_C5cjjM7uhbqR58ZS8WyXy-2O94DmcZ",
+        "fileId": "1g_C5cjjM7uhbqR58ZS8WyXy-2O94DmcZ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1g_C5cjjM7uhbqR58ZS8WyXy-2O94DmcZ&sz=w800",
+        "embed": "https://drive.google.com/file/d/1g_C5cjjM7uhbqR58ZS8WyXy-2O94DmcZ/preview",
+        "local": "/student-files/flora-fang-week-2--variable--random--system-4.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1G0qLrkZx1hD8eSKC9SXPJZ7h-f7uTP1L",
+        "fileId": "1G0qLrkZx1hD8eSKC9SXPJZ7h-f7uTP1L",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1G0qLrkZx1hD8eSKC9SXPJZ7h-f7uTP1L&sz=w800",
+        "embed": "https://drive.google.com/file/d/1G0qLrkZx1hD8eSKC9SXPJZ7h-f7uTP1L/preview",
+        "local": "/student-files/flora-fang-week-2--variable--random--system-5.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/8/2025 13:15:54",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "I wanted to experiment with a different approach from my previous work. In the past, I focused on expressing text by breaking it down into points, but this time I explored the same sentence through the medium of lines in an entirely new way. Unlike points, which convey a concentrated and fixed impression, lines stretch fluidly, creating a sense of flow and rhythm. Through this, I sought to explore the possibility that the same message can deliver a completely different visual experience. By placing no restrictions on color or thickness, I aimed to express the infinite potential for expansion and the creative possibilities inherent in the qualities of lines.",
+    "credit": "tutorials, AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-2--variable--random--system-1.png, /student-files/lin-kim-week-2--variable--random--system-2.png, /student-files/lin-kim-week-2--variable--random--system-3.png",
+    "linkToWork": "https://editor.p5js.org/present1513/full/9P72CVbRB",
+    "certification": "",
+    "weeklyResponse": "One of the most challenging aspects of creating the code was finding the right balance between the desired visual effect and readability. In the process of shifting from points to lines, the text often became too distorted to read, or on the contrary, appeared overly simple when the transformation was too subtle. I also had to carefully address issues such as the overlap between sliders and text, as well as constraints related to canvas size and line spacing. In particular, adjusting randomness and noise was tricky, since even small changes in values could dramatically alter the overall impression, requiring extensive experimentation and trial and error.",
+    "teacherFeedback": "Exactly! And that is the \"iterative process\".",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1mN5-WmcAu5-DUJPQBF_Fyw7NQ9l6vtxD",
+        "fileId": "1mN5-WmcAu5-DUJPQBF_Fyw7NQ9l6vtxD",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1mN5-WmcAu5-DUJPQBF_Fyw7NQ9l6vtxD&sz=w800",
+        "embed": "https://drive.google.com/file/d/1mN5-WmcAu5-DUJPQBF_Fyw7NQ9l6vtxD/preview",
+        "local": "/student-files/lin-kim-week-2--variable--random--system-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=15dUAwn_N46z9ppGfeM6ljerGHpNO0_V2",
+        "fileId": "15dUAwn_N46z9ppGfeM6ljerGHpNO0_V2",
+        "thumbnail": "https://drive.google.com/thumbnail?id=15dUAwn_N46z9ppGfeM6ljerGHpNO0_V2&sz=w800",
+        "embed": "https://drive.google.com/file/d/15dUAwn_N46z9ppGfeM6ljerGHpNO0_V2/preview",
+        "local": "/student-files/lin-kim-week-2--variable--random--system-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=179XWFxeeo2nyhDSzJ6ragkUYefYohTIB",
+        "fileId": "179XWFxeeo2nyhDSzJ6ragkUYefYohTIB",
+        "thumbnail": "https://drive.google.com/thumbnail?id=179XWFxeeo2nyhDSzJ6ragkUYefYohTIB&sz=w800",
+        "embed": "https://drive.google.com/file/d/179XWFxeeo2nyhDSzJ6ragkUYefYohTIB/preview",
+        "local": "/student-files/lin-kim-week-2--variable--random--system-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/8/2025 19:24:06",
+    "studentEmail": "smahsin@pratt.edu",
+    "studentId": "sreya-mahsin",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "Added variables in GUI– the size + colors of the circles. Added random text color GUI.",
+    "credit": "My boyfriend + ChatGPT",
+    "uploadedFiles": "/student-files/sreya-mahsin-week-2--variable--random--system-1.png",
+    "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
+    "certification": "",
+    "weeklyResponse": "how to use the blendMode feature, how to add motion to shapes",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1ZYUNcUVhxU_Z6h1oVvtq7vsQzle91jL_",
+        "fileId": "1ZYUNcUVhxU_Z6h1oVvtq7vsQzle91jL_",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1ZYUNcUVhxU_Z6h1oVvtq7vsQzle91jL_&sz=w800",
+        "embed": "https://drive.google.com/file/d/1ZYUNcUVhxU_Z6h1oVvtq7vsQzle91jL_/preview",
+        "local": "/student-files/sreya-mahsin-week-2--variable--random--system-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/9/2025 17:19:46",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "I used Claude and ChatGPT to help me with the code. My goal was to create a brat-style effect for the phrase “Design is Brat,” using Charli XCX’s signature green color.",
+    "credit": "claude and chatgpt",
+    "uploadedFiles": "/student-files/kate-chon-week-2--variable--random--system-1.jpg",
+    "linkToWork": "https://editor.p5js.org/kchon2/sketches/YaCmnPpFS",
+    "certification": "",
+    "weeklyResponse": "I learned about using GUI and how to export my own font into the code. While working on this, I had some difficulties with getting the font to load properly and figuring out how to create randomness in the process. I asked AI for help, but it was still very confusing.",
+    "teacherFeedback": "Here is a good article on [how to load and select fonts](https://p5js.org/tutorials/loading-and-selecting-fonts/)!",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=16YW2u8aDwLU07o9Y6BBUPNJ5c2oSdyUZ",
+        "fileId": "16YW2u8aDwLU07o9Y6BBUPNJ5c2oSdyUZ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=16YW2u8aDwLU07o9Y6BBUPNJ5c2oSdyUZ&sz=w800",
+        "embed": "https://drive.google.com/file/d/16YW2u8aDwLU07o9Y6BBUPNJ5c2oSdyUZ/preview",
+        "local": "/student-files/kate-chon-week-2--variable--random--system-1.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/8/2025 23:56:08",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "Because this week’s content reflects random borders and text, I found a light and lively poem. The color of the text will continuously change randomly among the four preset colors: yellow, blue, orange, and purple. The border will also randomly choose from these four colors and a random width each time I click play. In the GUI controls, it is possible to switch between two fonts, modify the radius of the circle, and change the font size.",
+    "credit": "ChatGPT, Claude.ai",
+    "uploadedFiles": "/student-files/yiling-yang-week-2--variable--random--system-1.png, /student-files/yiling-yang-week-2--variable--random--system-2.jpg",
+    "linkToWork": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
+    "certification": "",
+    "weeklyResponse": "This week I learned how to use various auxiliary tools to make p5.js projects more quickly and efficiently, and also discovered the fun of making random content.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1l6ui7sHCf353L1ANmsBAxoAAKYwbyZsB",
+        "fileId": "1l6ui7sHCf353L1ANmsBAxoAAKYwbyZsB",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1l6ui7sHCf353L1ANmsBAxoAAKYwbyZsB&sz=w800",
+        "embed": "https://drive.google.com/file/d/1l6ui7sHCf353L1ANmsBAxoAAKYwbyZsB/preview",
+        "local": "/student-files/yiling-yang-week-2--variable--random--system-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1tfPlM7WSTgWTX8Nr-RfFztWxgxpj-Qbo",
+        "fileId": "1tfPlM7WSTgWTX8Nr-RfFztWxgxpj-Qbo",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1tfPlM7WSTgWTX8Nr-RfFztWxgxpj-Qbo&sz=w800",
+        "embed": "https://drive.google.com/file/d/1tfPlM7WSTgWTX8Nr-RfFztWxgxpj-Qbo/preview",
+        "local": "/student-files/yiling-yang-week-2--variable--random--system-2.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/9/2025 1:03:24",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "In this project, \"a cloud never dies\", I want to make a cloud appear with the text while changing its position and shape. And make the mouse itself become a little cloud to move around. \nI want to review all the new functions that were demonstrated in the week 2 course: load image, add variable, add GUI control, and use random to make my cloud appear in different places and shapes.",
+    "credit": "tutorials for getting more familiar with p5.js:\nhttps://www.youtube.com/watch?v=x1NxkEjfNtI&list=PL0beHPVMklwgMz4Z-mNp4_udo9mjBk7pn\n\nAI:\nasking for adding GUI controller opacity, text leading, and close control bar section\nasking how to group shapes together",
+    "uploadedFiles": "/student-files/bella-tsai-week-2--variable--random--system-1.jpg, /student-files/bella-tsai-week-2--variable--random--system-2.png, /student-files/bella-tsai-week-2--variable--random--system-3.png, /student-files/bella-tsai-week-2--variable--random--system-4.png",
+    "linkToWork": "https://editor.p5js.org/ytsai13/full/stDx5f5h2",
+    "certification": "",
+    "weeklyResponse": "I learned how to group elements together by using push/pop. I also learned how to break lines in a text and change the opacity of the shape. I didn’t use too complicated code that I don’t understand; I just took some time to review the basic functions and learned how to ask the AI questions. \nWant to know other ways to draw my cloud, since the way I used ellipses overlapping each other can't adjust the opacity of it.\nAnd how to keep creating my element instead of one per refreshing",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1lGfbm6Pj2UJix4dOzp9FTuwPT8IRSRfO",
+        "fileId": "1lGfbm6Pj2UJix4dOzp9FTuwPT8IRSRfO",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1lGfbm6Pj2UJix4dOzp9FTuwPT8IRSRfO&sz=w800",
+        "embed": "https://drive.google.com/file/d/1lGfbm6Pj2UJix4dOzp9FTuwPT8IRSRfO/preview",
+        "local": "/student-files/bella-tsai-week-2--variable--random--system-1.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=125DKmuuM35G2F4ZWkrJXgp-BRZvSZCyJ",
+        "fileId": "125DKmuuM35G2F4ZWkrJXgp-BRZvSZCyJ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=125DKmuuM35G2F4ZWkrJXgp-BRZvSZCyJ&sz=w800",
+        "embed": "https://drive.google.com/file/d/125DKmuuM35G2F4ZWkrJXgp-BRZvSZCyJ/preview",
+        "local": "/student-files/bella-tsai-week-2--variable--random--system-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1E4uZ8_vM-VSmJTp2yOuFUZ3htNWR6kPm",
+        "fileId": "1E4uZ8_vM-VSmJTp2yOuFUZ3htNWR6kPm",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1E4uZ8_vM-VSmJTp2yOuFUZ3htNWR6kPm&sz=w800",
+        "embed": "https://drive.google.com/file/d/1E4uZ8_vM-VSmJTp2yOuFUZ3htNWR6kPm/preview",
+        "local": "/student-files/bella-tsai-week-2--variable--random--system-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1dfE6Vnv-pV9EsFV8elh-zyoHrhwE1F9G",
+        "fileId": "1dfE6Vnv-pV9EsFV8elh-zyoHrhwE1F9G",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1dfE6Vnv-pV9EsFV8elh-zyoHrhwE1F9G&sz=w800",
+        "embed": "https://drive.google.com/file/d/1dfE6Vnv-pV9EsFV8elh-zyoHrhwE1F9G/preview",
+        "local": "/student-files/bella-tsai-week-2--variable--random--system-4.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/9/2025 1:47:28",
+    "studentEmail": "syadav4@pratt.edu",
+    "studentId": "sarena-yadav",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "The concept of manifestation has always fascinated me—the idea that our thoughts, intentions, and focus can influence reality. Manifestation is more than wishful thinking; it is a conscious process of directing energy toward specific outcomes, visualizing them clearly, and aligning one’s actions with those visions. This project is inspired by that principle, aiming to create a visual experience that embodies the power of intention and focus. The central phrase, “COSMIC TRUST,” represents faith in both the universe and oneself, serving as a reminder that alignment with one’s inner goals is a gradual but achievable process. The subsequent appearance of the words “THOUGHT” and the customizable text below encourages reflection, transforming the canvas into a space where abstract ideas such as belief, creativity, and visualization become tangible.\nMy vision for this project was to design an interactive, animated piece that combines digital media and engagement to encourage viewers to reflect on the power of their thoughts. I wanted the letters of “COSMIC TRUST” to start scattered across the canvas, symbolizing the chaos and randomness of unaligned thoughts, and gradually converge into a precise, harmonious formation to represent clarity and focus. The delayed emergence of the word “THOUGHT” mirrors the moment when a focused intention crystallizes into awareness, while the user-customizable text allows participants to insert their personal vision or mantra. This ensures that each interaction with the piece becomes unique and meaningful. The inclusion of a video background adds depth and movement, providing a cosmic and immersive atmosphere that resonates with the theme of trust and universal alignment.\nThe code structure was designed to bring this vision to life. Each letter is treated as an object with properties such as position, size, and target coordinates. Initially, the letters are randomly scattered, with varied sizes to convey disorder. The lerp() function is used to interpolate positions and sizes smoothly over time, creating an animation where letters gradually align into the intended formation. The progress variable controls this transition, while a timer ensures that the secondary text appears only after the main animation completes. By integrating a GUI powered by dat.GUI, I enabled real-time customization: users can adjust text color, reset the animation, control progress manually, input personalized text, and save the canvas as an image. This combination of animation and interactivity transforms the viewer from a passive observer into an active participant in the creation process.\nUltimately, this project serves as a visual metaphor for manifestation: scattered ideas and intentions, once focused and nurtured, align into coherent outcomes. The interplay of motion, interactivity, and cosmic visuals encourages viewers to pause, reflect, and connect with their inner thoughts. By translating abstract concepts like trust, intention, and personal vision into a digital, interactive experience, the project demonstrates the power of visualization while showcasing how coding and creative design can intersect to produce meaningful, immersive artwork.",
+    "credit": "Chat GPT, The Coding train",
+    "uploadedFiles": "/student-files/sarena-yadav-week-2--variable--random--system-1.png",
+    "linkToWork": "https://editor.p5js.org/syadav4/sketches/Q_aD65eXL",
+    "certification": "",
+    "weeklyResponse": "Previously, I had questions about how to add an image to the canvas and was initially a bit confused. After learning how to include images, I thought, why not try a video? I explored how to integrate a video background and experimented with a small animation as well. This allowed me to work with variables, transitions, and timing, making the project more dynamic and interactive. I enjoyed experimenting with different effects and seeing how motion and visuals could enhance the concept I wanted to convey.\nDuring the process, I also explored using dat.GUI to create a user interface for controlling parameters like text color, progress, and custom text. While I learned how to manage normal text within the canvas boundaries, I realized I still have questions about ensuring that GUI-controlled text stays within the canvas limits, especially when breaking it into multiple lines or adjusting dynamically based on user input. This has motivated me to explore further techniques for responsive text placement and alignment.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1rxaXUBm1TdK1VqStPwSeIWVpVADRpUCM",
+        "fileId": "1rxaXUBm1TdK1VqStPwSeIWVpVADRpUCM",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1rxaXUBm1TdK1VqStPwSeIWVpVADRpUCM&sz=w800",
+        "embed": "https://drive.google.com/file/d/1rxaXUBm1TdK1VqStPwSeIWVpVADRpUCM/preview",
+        "local": "/student-files/sarena-yadav-week-2--variable--random--system-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/9/2025 2:13:57",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "For this project, I chose to create a night sky filled with twinkling stars, which incorporates the diary I previously submitted. I see the night sky as representing my current mood most of the time, but the stars which shining in different sizes and brightness are symbolize my expectations for the future. The GUI also helps me express this idea, since in fact I can adjust the GUI (like my mindset) to make the stars shine brighter and appear larger",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/zoe-liu-week-2--variable--random--system-1.png",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/MdQ1oPvgk",
+    "certification": "",
+    "weeklyResponse": "I learned how to use the GUI to make a slider, and I also figured out how to use push() to save random numbers into an array. I practiced using random() with set ranges too, so I could control things like size or brightness better. I think the GUI works well as a customizeble setting even though it operates within the limits defined by the author, it still allows different users to interact with the project in their own way and express different ideas.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1ROsx6T6PmrUGCEXfO_JyD3mudxIF2UdV",
+        "fileId": "1ROsx6T6PmrUGCEXfO_JyD3mudxIF2UdV",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1ROsx6T6PmrUGCEXfO_JyD3mudxIF2UdV&sz=w800",
+        "embed": "https://drive.google.com/file/d/1ROsx6T6PmrUGCEXfO_JyD3mudxIF2UdV/preview",
+        "local": "/student-files/zoe-liu-week-2--variable--random--system-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/9/2025 16:04:44",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "From this assignment, I learned how to use p5.js to animate particles so they scatter and then form a circle. I practiced using arrays, smooth movement with lerp(), and adding rainbow-colored text. I also learned to use a GUI to change text, colors, and save the sketch as a PNG. This showed me that coding can be creative and a way to express ideas.",
+    "credit": "ChatGPT,classmates., the coding train, references of p5.js",
+    "uploadedFiles": "/student-files/binjia-li-week-2--variable--random--system-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/k6zF31YVv",
+    "certification": "",
+    "weeklyResponse": "I learned how to make particles move into a circle and add rainbow text with a GUI. My question is how to make the circle loop, breaking apart and coming back again.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=11B6-Z8MXRqVQTNMrI69gYwLMgwtWlCEu",
+        "fileId": "11B6-Z8MXRqVQTNMrI69gYwLMgwtWlCEu",
+        "thumbnail": "https://drive.google.com/thumbnail?id=11B6-Z8MXRqVQTNMrI69gYwLMgwtWlCEu&sz=w800",
+        "embed": "https://drive.google.com/file/d/11B6-Z8MXRqVQTNMrI69gYwLMgwtWlCEu/preview",
+        "local": "/student-files/binjia-li-week-2--variable--random--system-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/9/2025 18:51:52",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 1: Welcome!",
+    "projectDescription": "This project visualizes text using a particle system in p5.js. The text is first rendered off-screen on a stencil graphics buffer, and particles are generated only within the regions of the text. Each particle has a home position corresponding to the text shape and can move freely in response to mouse interaction.\n\nWhen the user moves the mouse near the particles, they are repelled, creating a dynamic “dispersing and returning” effect. Particles gradually return to their original positions, producing a fluid and interactive visualization of the text.\n\nThe project uses a custom font loaded via a URL and demonstrates the combination of typography, particle systems, and interactive graphics in p5.js.",
+    "credit": " tutorials, AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-1--welcome--1.png, /student-files/lin-kim-week-1--welcome--2.png",
+    "linkToWork": "https://editor.p5js.org/present1513/full/lmFLTUIJw",
+    "certification": "",
+    "weeklyResponse": "This week, I learned how to use p5.js to create interactive particle systems and how to map particles to specific shapes, such as text. I also explored how to use off-screen graphics (createGraphics) as a stencil to generate particles only in the text area. Additionally, I practiced implementing forces that make particles respond to the mouse and return to their original positions, which gave me a better understanding of vectors and motion in animations.\n\nQuestions I have:\nI am curious about how to optimize the performance when using a large number of particles, like in this project, and how to make the particle motion smoother while keeping it interactive. I also wonder if there are ways to make the particle system more responsive to different shapes or dynamic text.",
+    "teacherFeedback": "Yes! We will talk about optimization in later weeks when we get to interactive system in class. But [this is a great article to start](https://p5js.org/tutorials/how-to-optimize-your-sketches/).",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1MvF_LmCgersEV3f6cYbzulRjEhi8FEnR",
+        "fileId": "1MvF_LmCgersEV3f6cYbzulRjEhi8FEnR",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1MvF_LmCgersEV3f6cYbzulRjEhi8FEnR&sz=w800",
+        "embed": "https://drive.google.com/file/d/1MvF_LmCgersEV3f6cYbzulRjEhi8FEnR/preview",
+        "local": "/student-files/lin-kim-week-1--welcome--1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1WeTiOrG1tiPkt9qOtHwWuLi5bKil_LBq",
+        "fileId": "1WeTiOrG1tiPkt9qOtHwWuLi5bKil_LBq",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WeTiOrG1tiPkt9qOtHwWuLi5bKil_LBq&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WeTiOrG1tiPkt9qOtHwWuLi5bKil_LBq/preview",
+        "local": "/student-files/lin-kim-week-1--welcome--2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/9/2025 19:15:45",
+    "studentEmail": "jfux34@pratt.edu",
+    "studentId": "richard-fu",
+    "assignmentTitle": "Week 2: Variable, Random, System",
+    "projectDescription": "For the last line I added scale and degree changes for GUI",
+    "credit": "Chatgpt",
+    "uploadedFiles": "/student-files/richard-fu-week-2--variable--random--system-1.png",
+    "linkToWork": "https://editor.p5js.org/ririff/sketches/u-ORs4psj",
+    "certification": "",
+    "weeklyResponse": "GUIGUI",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1MjDkWW5XX-AtzTfvm8A4v14ye0oqVoSX",
+        "fileId": "1MjDkWW5XX-AtzTfvm8A4v14ye0oqVoSX",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1MjDkWW5XX-AtzTfvm8A4v14ye0oqVoSX&sz=w800",
+        "embed": "https://drive.google.com/file/d/1MjDkWW5XX-AtzTfvm8A4v14ye0oqVoSX/preview",
+        "local": "/student-files/richard-fu-week-2--variable--random--system-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/10/2025 22:45:56",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "For this weeks assignment, I re converted to my original theme. And added a different aspect GUI and randomization. In addition to my GUI and randomization-- I added my constable. My constable (if-else) code goes along the lines of if my canvas size is 200x600 the color palette changes to monotone,, else it will be the default colors I have in code. My GUI is regarding the different weight of stroke. My minimum is 2 and my maximum is 5. Then my two other GUI's are regarding the X and Y axis of my canvas size. My randomization is regarding the canvas size curated once when it runs. My min is 200 and my max is 600. ",
+    "credit": "I used chatGPT to help me with my code ideas and how to execute them. Especially for the monotone palette for my if-else constants. Also I used chatGPT to help me change my design to respond to canvas size being changed. So it automatically makes sure the design looks the same on each different looking canvas size. ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-3--rules-and-conditionals-1.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/full/8aRycZJBo",
+    "certification": "",
+    "weeklyResponse": "That you can do almost anything with code. Especially with adding true / false (if-- else) variables. Instead of the computer just reading the code with displaying shapes or text. Constant code adds a dimension to process what the output is going to be. We've been seeing what goes into the code(input), comes out of the code displayed(input). But with the added true/false variables,, we don't get the same design on how we entered it coding. Because the output is depending on to be equal to, less than or equal, more than or equal to be deemed the IF and everything else is categorized in ELSE. ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1HXsOAeu1ZIJwpoBE1Z1hy7lVGVMzjfDl",
+        "fileId": "1HXsOAeu1ZIJwpoBE1Z1hy7lVGVMzjfDl",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1HXsOAeu1ZIJwpoBE1Z1hy7lVGVMzjfDl&sz=w800",
+        "embed": "https://drive.google.com/file/d/1HXsOAeu1ZIJwpoBE1Z1hy7lVGVMzjfDl/preview",
+        "local": "/student-files/nancy-scanlon-week-3--rules-and-conditionals-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/14/2025 0:07:21",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "This system arranges particles along the shapes of the input text and creates a cosmic visual effect by allowing them to scatter when the mouse moves nearby and return to their original positions. Particle attributes such as size, color palette, interaction distance, and force can be adjusted in real-time using GUI sliders, enabling users to explore dynamic visual variations while maintaining overall design consistency.",
+    "credit": "AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-3--rules-and-conditionals-1.png, /student-files/lin-kim-week-3--rules-and-conditionals-2.png, /student-files/lin-kim-week-3--rules-and-conditionals-3.png, /student-files/lin-kim-week-3--rules-and-conditionals-4.png",
+    "linkToWork": "https://editor.p5js.org/present1513/full/axQCyPaBi",
+    "certification": "",
+    "weeklyResponse": "Through this project, I learned that the interaction distance greatly affects particle movement and the overall visual impression. By adjusting the force based on the distance between the mouse and particles, nearby particles scatter strongly while distant ones return slowly to their original positions, creating a natural motion. If the interaction distance is too short, particles barely move, limiting visual dynamics; if too long, the entire system scatters excessively, creating a chaotic effect. Therefore, setting an appropriate distance range is key to maintaining both particle freedom and visual stability.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1dhjaCtWmatKZSJw3b8Z0lWgatHbU9z_V",
+        "fileId": "1dhjaCtWmatKZSJw3b8Z0lWgatHbU9z_V",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1dhjaCtWmatKZSJw3b8Z0lWgatHbU9z_V&sz=w800",
+        "embed": "https://drive.google.com/file/d/1dhjaCtWmatKZSJw3b8Z0lWgatHbU9z_V/preview",
+        "local": "/student-files/lin-kim-week-3--rules-and-conditionals-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1cPTKqiOvOjdskJnZNjnwC9Mum0Hfso8V",
+        "fileId": "1cPTKqiOvOjdskJnZNjnwC9Mum0Hfso8V",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1cPTKqiOvOjdskJnZNjnwC9Mum0Hfso8V&sz=w800",
+        "embed": "https://drive.google.com/file/d/1cPTKqiOvOjdskJnZNjnwC9Mum0Hfso8V/preview",
+        "local": "/student-files/lin-kim-week-3--rules-and-conditionals-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=18z8bf15EPaEnVEirbAHJUl8uEvWeaQ1a",
+        "fileId": "18z8bf15EPaEnVEirbAHJUl8uEvWeaQ1a",
+        "thumbnail": "https://drive.google.com/thumbnail?id=18z8bf15EPaEnVEirbAHJUl8uEvWeaQ1a&sz=w800",
+        "embed": "https://drive.google.com/file/d/18z8bf15EPaEnVEirbAHJUl8uEvWeaQ1a/preview",
+        "local": "/student-files/lin-kim-week-3--rules-and-conditionals-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1CuaUZLf43lQNGZZS08l2SRtftTkquWnM",
+        "fileId": "1CuaUZLf43lQNGZZS08l2SRtftTkquWnM",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1CuaUZLf43lQNGZZS08l2SRtftTkquWnM&sz=w800",
+        "embed": "https://drive.google.com/file/d/1CuaUZLf43lQNGZZS08l2SRtftTkquWnM/preview",
+        "local": "/student-files/lin-kim-week-3--rules-and-conditionals-4.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/15/2025 3:23:11",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "There are several dices on the plate, and when I hit the dices, the quotes change in 4 different languages. For example, when I hit the Dice 1, the Korean comes up and Dice 2, English comes up. My quote is about the dice and choice, so I plan the code in this way.",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/lina-lee-week-3--rules-and-conditionals-1.png",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/YIDQycuew6",
+    "certification": "",
+    "weeklyResponse": "Although understanding the concepts of if and else if was somewhat challenging, I was relieved when the code worked well after reviewing the professor's lecture again with AI assistance. This time, I also experimented with applying new fonts. Going forward, I think I need to consider how to develop this code to make it more visually beautiful.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=18fDxa_F1UqlIBx3PgW4MYRt1JF-IoN8n",
+        "fileId": "18fDxa_F1UqlIBx3PgW4MYRt1JF-IoN8n",
+        "thumbnail": "https://drive.google.com/thumbnail?id=18fDxa_F1UqlIBx3PgW4MYRt1JF-IoN8n&sz=w800",
+        "embed": "https://drive.google.com/file/d/18fDxa_F1UqlIBx3PgW4MYRt1JF-IoN8n/preview",
+        "local": "/student-files/lina-lee-week-3--rules-and-conditionals-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/15/2025 16:54:24",
+    "studentEmail": "syadav4@pratt.edu",
+    "studentId": "sarena-yadav",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "For this project, I wanted to create a dynamic and visually engaging composition that incorporated several techniques and ideas I had learned in the last class. The main focus was on combining textures, shapes, typography, and interactivity to produce a piece that is both aesthetic and conceptually tied to my theme.The canvas starts with a gradient background that transitions from grey to black, giving a subtle depth and cosmic feel to the composition. Over this, I added a base circular shape, filled with a light grey color, which serves as an anchor for the other elements. On top of this, I applied a texture image using the dodge blend mode, which highlights the lighter parts of the image while maintaining the overall color harmony. This combination of gradient, base shape, and texture creates a layered effect that gives the canvas more visual interest and dimensionality.A key element in this work is the letters forming \"COSMIC TRUST,\" which I split and randomly positioned across the canvas with semi-transparent fills, allowing overlaps that create subtle interactions and a balanced chaos. One random letter receives a shear transformation each run, adding uniqueness and emphasizing cosmic randomness. I incorporated a dat.GUI interface to toggle between random and aligned letters and added buttons to save the canvas as PNG or SVG. This project let me combine gradients, textures, text manipulation, and vector graphics. Experimenting with shear and interactivity made the piece visually dynamic and conceptually aligned, reflecting what I’ve learned in class.\n",
+    "credit": "Chat GPT, The Coding Train, References/Examples on the Website",
+    "uploadedFiles": "/student-files/sarena-yadav-week-3--rules-and-conditionals-1.pdf",
+    "linkToWork": "https://editor.p5js.org/syadav4/sketches/Zmx4g3MVo",
+    "certification": "",
+    "weeklyResponse": "I experimented with randomly placing letters, adding a shear effect to a single letter, and dynamically changing canvas sizes, which made my composition more engaging. One challenge I faced was exporting the canvas as an SVG. Since SVG is vector-based, it doesn’t support images or blend modes like DODGE, which confused me at first. I’m still figuring out how to represent textured elements or gradients in SVG while keeping the interactivity intact.",
+    "teacherFeedback": "Yah, [it is a feature](https://github.com/zenozeng/p5.js-svg/issues/129) that is yet to be added for p5.svg!",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1HtqH0M9Yz1SczAYHwA9mUtWiMILtm-W-",
+        "fileId": "1HtqH0M9Yz1SczAYHwA9mUtWiMILtm-W-",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1HtqH0M9Yz1SczAYHwA9mUtWiMILtm-W-&sz=w800",
+        "embed": "https://drive.google.com/file/d/1HtqH0M9Yz1SczAYHwA9mUtWiMILtm-W-/preview",
+        "local": "/student-files/sarena-yadav-week-3--rules-and-conditionals-1.pdf"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/15/2025 23:30:33",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "For this week, I built on my previous work by making the text adaptable to different canvas sizes and adding a GUI for positioning, which allows me to control the size of the triangles. I also added rules with if-else statements to make sure the text and shapes don’t have the same color as the background.",
+    "credit": "Professor Shih helped me with the wave animation and the for loop() part. And i also asked ChatGPT and Claude AI for help.",
+    "uploadedFiles": "/student-files/flora-fang-week-3--rules-and-conditionals-1.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-2.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-3.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-4.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-5.jpg",
+    "linkToWork": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
+    "certification": "",
+    "weeklyResponse": "This week we learned how to add rules and constraints to our code, so that even when changes occur, the code still works more logically. This is something that design software cannot achieve. With just one piece of code, we can build a design system that allows the output to adapt to different dimensions.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1fN_FocTRA4eiQOdbJQedkPHR6wYjS86R",
+        "fileId": "1fN_FocTRA4eiQOdbJQedkPHR6wYjS86R",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1fN_FocTRA4eiQOdbJQedkPHR6wYjS86R&sz=w800",
+        "embed": "https://drive.google.com/file/d/1fN_FocTRA4eiQOdbJQedkPHR6wYjS86R/preview",
+        "local": "/student-files/flora-fang-week-3--rules-and-conditionals-1.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1oeEoUTRguTutM5WYPw66_YFXwjBb8FbF",
+        "fileId": "1oeEoUTRguTutM5WYPw66_YFXwjBb8FbF",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1oeEoUTRguTutM5WYPw66_YFXwjBb8FbF&sz=w800",
+        "embed": "https://drive.google.com/file/d/1oeEoUTRguTutM5WYPw66_YFXwjBb8FbF/preview",
+        "local": "/student-files/flora-fang-week-3--rules-and-conditionals-2.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1Kcj4kCgNTiYkUFXxJ2_lggihL2NReOCy",
+        "fileId": "1Kcj4kCgNTiYkUFXxJ2_lggihL2NReOCy",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Kcj4kCgNTiYkUFXxJ2_lggihL2NReOCy&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Kcj4kCgNTiYkUFXxJ2_lggihL2NReOCy/preview",
+        "local": "/student-files/flora-fang-week-3--rules-and-conditionals-3.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1OQ5l_fPvjnPTN9pgB_E8_MQ2pdWuv07K",
+        "fileId": "1OQ5l_fPvjnPTN9pgB_E8_MQ2pdWuv07K",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1OQ5l_fPvjnPTN9pgB_E8_MQ2pdWuv07K&sz=w800",
+        "embed": "https://drive.google.com/file/d/1OQ5l_fPvjnPTN9pgB_E8_MQ2pdWuv07K/preview",
+        "local": "/student-files/flora-fang-week-3--rules-and-conditionals-4.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1-YpQMauvyKIyzJdw8wARF8sBKG7vsgKh",
+        "fileId": "1-YpQMauvyKIyzJdw8wARF8sBKG7vsgKh",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1-YpQMauvyKIyzJdw8wARF8sBKG7vsgKh&sz=w800",
+        "embed": "https://drive.google.com/file/d/1-YpQMauvyKIyzJdw8wARF8sBKG7vsgKh/preview",
+        "local": "/student-files/flora-fang-week-3--rules-and-conditionals-5.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/16/2025 0:07:20",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "This project builds an interactive particle simulation. Circles move independently and shift between four states: matte, stain, glossy, and plasma. Each state depends on velocity, energy, and position within the canvas. Rules control collisions, energy flow, and color changes. Parameter controls, debug modes, and state analysis let you test outcomes. The modular design adapts to studies in particle, physics, social systems, and AI. The project works as both a learning tool for conditional programming and a platform for exploring emergent systems. ",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/kate-chon-week-3--rules-and-conditionals-1.jpg",
+    "linkToWork": "https://https://editor.p5js.org/kchon2/sketches/RankCGsM6",
+    "certification": "",
+    "weeklyResponse": "This week I learned how conditional shape behavior in interactive systems. Small changes in if and else logic lead to clear differences in outcomes. I also worked with arrays to manage and organize multiple elements at once. Modular design showed me how a system stays flexible for different uses. One question I have is how to keep rules simple while still producing complex results.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1I58r6-t47Xe17w8Y9BpBlgUhb00xHCeh",
+        "fileId": "1I58r6-t47Xe17w8Y9BpBlgUhb00xHCeh",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1I58r6-t47Xe17w8Y9BpBlgUhb00xHCeh&sz=w800",
+        "embed": "https://drive.google.com/file/d/1I58r6-t47Xe17w8Y9BpBlgUhb00xHCeh/preview",
+        "local": "/student-files/kate-chon-week-3--rules-and-conditionals-1.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/16/2025 0:55:21",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "Added some random factors for cross stars' size",
+    "credit": "Chatgpt",
+    "uploadedFiles": "/student-files/zoe-liu-week-3--rules-and-conditionals-1.png",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi",
+    "certification": "",
+    "weeklyResponse": "Using random() to give objects different sizes makes the overall composition more engaging and less rigid. It also prevents the layout from looking stiff when we try to spread objects across the entire screen but fail to place them in a sufficiently varied way. At the same time, conditions can help us filter the information we need in order to achieve the desired effect.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1kOgnReQPj1eB2QVJOQ3g0Poim87nleVW",
+        "fileId": "1kOgnReQPj1eB2QVJOQ3g0Poim87nleVW",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1kOgnReQPj1eB2QVJOQ3g0Poim87nleVW&sz=w800",
+        "embed": "https://drive.google.com/file/d/1kOgnReQPj1eB2QVJOQ3g0Poim87nleVW/preview",
+        "local": "/student-files/zoe-liu-week-3--rules-and-conditionals-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/16/2025 11:16:45",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "This design, compared to the last one, first adjusted the frequency of the text’s random color changes to slow speed according to what we learned in class. This makes the color changes no longer flash too quickly and affect the visual experience. In addition, the original color scheme was changed. The original scheme used complementary colors that were a bit too eye-catching, so it was modified to a comfortable yellow-green-brown palette. Also, to enrich the background, two if-else conditions were used to control the random size of the borders and the floating of their positions, making the picture more dynamic. Finally, a bit of small decoration was added to the background, including a dot-matrix background and floating random-color rectangles. The image in the center of the picture was replaced with another one according to the new color scheme.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/yiling-yang-week-3--rules-and-conditionals-1.png, /student-files/yiling-yang-week-3--rules-and-conditionals-2.jpg",
+    "linkToWork": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
+    "certification": "",
+    "weeklyResponse": "This week I learned how to modify the changing speed of random colors in my design and mainly learned how to use if else. I used it to control the breathing effect of the border and the position setting. I found that using it reasonably can make the picture more logical and more interesting.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1RZckuhFTSIgh6BkVziw1RQZeYmG5LT7s",
+        "fileId": "1RZckuhFTSIgh6BkVziw1RQZeYmG5LT7s",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1RZckuhFTSIgh6BkVziw1RQZeYmG5LT7s&sz=w800",
+        "embed": "https://drive.google.com/file/d/1RZckuhFTSIgh6BkVziw1RQZeYmG5LT7s/preview",
+        "local": "/student-files/yiling-yang-week-3--rules-and-conditionals-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1P9LDgdDEPYZh76vvWwNDpzXOZhHblOp8",
+        "fileId": "1P9LDgdDEPYZh76vvWwNDpzXOZhHblOp8",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1P9LDgdDEPYZh76vvWwNDpzXOZhHblOp8&sz=w800",
+        "embed": "https://drive.google.com/file/d/1P9LDgdDEPYZh76vvWwNDpzXOZhHblOp8/preview",
+        "local": "/student-files/yiling-yang-week-3--rules-and-conditionals-2.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/16/2025 15:48:02",
+    "studentEmail": "smahsin@pratt.edu",
+    "studentId": "sreya-mahsin",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "Added GUI for canvas width and height and added conditionals so that if the height or width is below a certain value the display will be different.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/sreya-mahsin-week-3--rules-and-conditionals-1.png",
+    "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
+    "certification": "",
+    "weeklyResponse": "I learnt how to use conditionals and the random feature together to create a systems that work as one part of a greater whole. I am still figuring out how to play more with typography and creating a coherent visual system.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1eT8Y_4UDIv61ERU_fbi5befaY0uaR51m",
+        "fileId": "1eT8Y_4UDIv61ERU_fbi5befaY0uaR51m",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1eT8Y_4UDIv61ERU_fbi5befaY0uaR51m&sz=w800",
+        "embed": "https://drive.google.com/file/d/1eT8Y_4UDIv61ERU_fbi5befaY0uaR51m/preview",
+        "local": "/student-files/sreya-mahsin-week-3--rules-and-conditionals-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/16/2025 16:01:09",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "The composition stages a dialogue between imperfection and wholeness. Warm, broken arcs trace an orbit that never completes—echoes of external standards, deadlines, and roles. Inside, a full circle assembles from discrete particles; its integrity isn’t given, it’s accumulated. The contrast frames the quote, “One can only rely on oneself to be complete.” The rainbow gradient marks the many states we pass through—joy, doubt, growth—before coherence emerges. The work claims that completeness is not the world closing around us but the self aligning within.",
+    "credit": "Collaborators, tutorials and AI",
+    "uploadedFiles": "/student-files/binjia-li-week-3--rules-and-conditionals-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/Cl7-5RIYd",
+    "certification": "",
+    "weeklyResponse": "This week I shifted from variation to a rule based system. I defined limits for color, scale, and proportion, used arrays and if else conditionals, and let the system decide. Interaction distance shaped particle force. Imperfect outer arcs contrast a complete inner circle. Completeness emerges internally, guiding material and fabrication.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1HDtJ8u4-sP9VQgC6yN4_4My6FEQilw4n",
+        "fileId": "1HDtJ8u4-sP9VQgC6yN4_4My6FEQilw4n",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1HDtJ8u4-sP9VQgC6yN4_4My6FEQilw4n&sz=w800",
+        "embed": "https://drive.google.com/file/d/1HDtJ8u4-sP9VQgC6yN4_4My6FEQilw4n/preview",
+        "local": "/student-files/binjia-li-week-3--rules-and-conditionals-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/16/2025 17:04:59",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 3: Rules and Conditionals",
+    "projectDescription": "I want to create a series of clouds applied to various dimensions. I adjusted the cloud code from ChatGPT to make it prettier, but it doesn't make a huge difference in different dimensions. I tried to use tiny particles to make a cloud to reach the effect of Chladni Patterns, but it didn't quite work out. I used a gradient and added texture to create the background, and let the text appear randomly on the canvas within the order of the sentence.",
+    "credit": "- Chat GPT: help create the basic of the cloud, keep text on the canvas(still don't know how it manage to do)\n- Librabry:  blendMode, noise\n- Tutorials: \nHow to Graph Perlin Noise with p5.\njshttps://www.youtube.com/watch?v=y7sgcFhk6ZM&t=213s\n\nNoise vs Random in p5.js\nhttps://www.youtube.com/watch?v=YcdldZ1E9gU\n\nParticle Systems with Inheritance - The Nature of Code\nhttps://www.youtube.com/watch?v=44RSr49m6LU",
+    "uploadedFiles": "/student-files/bella-tsai-week-3--rules-and-conditionals-1.png, /student-files/bella-tsai-week-3--rules-and-conditionals-2.png, /student-files/bella-tsai-week-3--rules-and-conditionals-3.png, /student-files/bella-tsai-week-3--rules-and-conditionals-4.png, /student-files/bella-tsai-week-3--rules-and-conditionals-5.png",
+    "linkToWork": "https://editor.p5js.org/ytsai13/sketches/IPjqR5FCf",
+    "certification": "",
+    "weeklyResponse": "I learned how to use gradient, blending mode and a little about the particle system",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1oXlat3bVW24wmvy1n8f3jVFJRFeCAaqz",
+        "fileId": "1oXlat3bVW24wmvy1n8f3jVFJRFeCAaqz",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1oXlat3bVW24wmvy1n8f3jVFJRFeCAaqz&sz=w800",
+        "embed": "https://drive.google.com/file/d/1oXlat3bVW24wmvy1n8f3jVFJRFeCAaqz/preview",
+        "local": "/student-files/bella-tsai-week-3--rules-and-conditionals-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1KCI8fcPOkfzqyLGblbZExpwqaVQM0Wiv",
+        "fileId": "1KCI8fcPOkfzqyLGblbZExpwqaVQM0Wiv",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1KCI8fcPOkfzqyLGblbZExpwqaVQM0Wiv&sz=w800",
+        "embed": "https://drive.google.com/file/d/1KCI8fcPOkfzqyLGblbZExpwqaVQM0Wiv/preview",
+        "local": "/student-files/bella-tsai-week-3--rules-and-conditionals-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1TFyw8RSYR8qYNK61ZYjoYNO1iQ2s2zuh",
+        "fileId": "1TFyw8RSYR8qYNK61ZYjoYNO1iQ2s2zuh",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1TFyw8RSYR8qYNK61ZYjoYNO1iQ2s2zuh&sz=w800",
+        "embed": "https://drive.google.com/file/d/1TFyw8RSYR8qYNK61ZYjoYNO1iQ2s2zuh/preview",
+        "local": "/student-files/bella-tsai-week-3--rules-and-conditionals-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1-2gI321fMJuUw7DGMfGaxtdta4Zk9OCP",
+        "fileId": "1-2gI321fMJuUw7DGMfGaxtdta4Zk9OCP",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1-2gI321fMJuUw7DGMfGaxtdta4Zk9OCP&sz=w800",
+        "embed": "https://drive.google.com/file/d/1-2gI321fMJuUw7DGMfGaxtdta4Zk9OCP/preview",
+        "local": "/student-files/bella-tsai-week-3--rules-and-conditionals-4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1XxyUwwqRKcOJTSLht_4nv6l_GmyyLyHU",
+        "fileId": "1XxyUwwqRKcOJTSLht_4nv6l_GmyyLyHU",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1XxyUwwqRKcOJTSLht_4nv6l_GmyyLyHU&sz=w800",
+        "embed": "https://drive.google.com/file/d/1XxyUwwqRKcOJTSLht_4nv6l_GmyyLyHU/preview",
+        "local": "/student-files/bella-tsai-week-3--rules-and-conditionals-5.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/17/2025 10:43:24",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 4: Loops & Custom Functions",
+    "projectDescription": "For this new version of my code, I made sure that the strokes of my shapes were only the bigger ones. So there are noStroke for the smaller shapes to make it look cleaner. Another thing I added was the color palette. For the color palette I wanted it to decrease when the canvas size got smaller. So I thought about to tie the color palette to the canvas size that is being randomized 5 ways. I'm not too sure if I did this right but I see the palette changing when I drag it on my gui.",
+    "credit": "I used chatGPT to help me with my code. I had some trouble on doing the decreasing color palette. As well as if I wanted to manually modify my shapes to make it look cleaner. ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-4--loops---custom-functions-1.png, /student-files/nancy-scanlon-week-4--loops---custom-functions-2.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/full/m6d93MMEI",
+    "certification": "",
+    "weeklyResponse": "If I wanted to do randomization for my canvas size but only could pick out of five options, would the probability of the computer running it create more duplicates rather than new canvas sizes? I wanted to approach it this way because I want my color palette to decrease when my canvas gets smaller. & darker colors when it gets bigger.  ",
+    "teacherFeedback": "You could certainly do `let canvasSizes = []`, and just have 5 options only, while keeping the conditionals for color palettes to still be more of a spectrum, like `background(width/100)` for example.",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=13x3ddIeKgj3MOHZCYu4P1d5W1w9RV0V7",
+        "fileId": "13x3ddIeKgj3MOHZCYu4P1d5W1w9RV0V7",
+        "thumbnail": "https://drive.google.com/thumbnail?id=13x3ddIeKgj3MOHZCYu4P1d5W1w9RV0V7&sz=w800",
+        "embed": "https://drive.google.com/file/d/13x3ddIeKgj3MOHZCYu4P1d5W1w9RV0V7/preview",
+        "local": "/student-files/nancy-scanlon-week-4--loops---custom-functions-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1Hw7aZjOOvTLwELqV7U8E8hj9aJf1ZEFZ",
+        "fileId": "1Hw7aZjOOvTLwELqV7U8E8hj9aJf1ZEFZ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Hw7aZjOOvTLwELqV7U8E8hj9aJf1ZEFZ&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Hw7aZjOOvTLwELqV7U8E8hj9aJf1ZEFZ/preview",
+        "local": "/student-files/nancy-scanlon-week-4--loops---custom-functions-2.png"
+      }
+    ]
+  }
+]

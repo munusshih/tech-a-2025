@@ -1,0 +1,408 @@
+#!/usr/bin/env node
+
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+import { generateStudentMapping } from "./student-mapping.js";
+import { Buffer } from "buffer";
+
+// Get __dirname equivalent for ES modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Configuration
+const SHEET_ID = "1Fcmcr1V_bsJZlHB8Z6TNhHzUvFxrArY_3jz0vamWpvA";
+const SHEET_NAME = "1"; // First sheet
+const API_URL = `https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`;
+
+// Output paths
+const OUTPUT_DIR = path.join(__dirname, "../src/data");
+const OUTPUT_FILE = path.join(OUTPUT_DIR, "student-data.json");
+const DOWNLOADS_DIR = path.join(__dirname, "../public/student-files");
+
+// Helper functions for Google Drive file processing
+function extractGoogleDriveFileId(url) {
+  // Extract file ID from various Google Drive URL formats
+  const patterns = [
+    /\/file\/d\/([a-zA-Z0-9-_]+)/,
+    /[?&]id=([a-zA-Z0-9-_]+)/,
+    /\/open\?id=([a-zA-Z0-9-_]+)/,
+  ];
+
+  for (const pattern of patterns) {
+    const match = url.match(pattern);
+    if (match) return match[1];
+  }
+  return null;
+}
+
+function getGoogleDriveDirectUrl(fileId) {
+  // Convert to direct download URL
+  return `https://drive.google.com/uc?export=download&id=${fileId}`;
+}
+
+function getGoogleDriveThumbnailUrl(fileId) {
+  // Use Google Drive's thumbnail API which is more reliable for images
+  return `https://drive.google.com/thumbnail?id=${fileId}&sz=w800`;
+}
+
+function getGoogleDriveEmbedUrl(fileId) {
+  // Use Google Drive's embed URL for displaying files
+  return `https://drive.google.com/file/d/${fileId}/preview`;
+}
+
+function getAlternativeGoogleDriveUrls(fileId) {
+  // Return multiple URL formats to try
+  return [
+    `https://drive.google.com/uc?export=download&id=${fileId}`,
+    `https://drive.google.com/thumbnail?id=${fileId}&sz=w800`,
+    `https://drive.google.com/thumbnail?id=${fileId}&sz=w400`,
+    `https://lh3.googleusercontent.com/d/${fileId}=w800`,
+    `https://drive.google.com/file/d/${fileId}/view`,
+  ];
+}
+
+// Download file from URL with multiple fallback attempts and content-based file type detection
+async function downloadFile(fileId, filepath, fetchFn) {
+  const urls = getAlternativeGoogleDriveUrls(fileId);
+
+  for (const url of urls) {
+    try {
+      const response = await fetchFn(url);
+
+      if (!response.ok) {
+        continue; // Try next URL
+      }
+
+      // Handle both node-fetch and browser fetch APIs
+      let buffer;
+      if (response.arrayBuffer) {
+        // Node.js environment with node-fetch
+        const arrayBuffer = await response.arrayBuffer();
+        buffer = Buffer.from(arrayBuffer);
+      } else if (response.buffer) {
+        // Older node-fetch versions
+        buffer = await response.buffer();
+      } else {
+        continue; // Try next URL
+      }
+
+      // Check if we got actual file data (not an error page)
+      if (buffer.length > 1000) {
+        // Detect file type from content
+        const detectedExt = detectFileTypeFromBuffer(buffer);
+        if (detectedExt) {
+          // Update filepath with correct extension
+          const basePath = filepath.replace(/\.[^.]+$/, "");
+          const correctFilepath = basePath + detectedExt;
+          fs.writeFileSync(correctFilepath, buffer);
+          return { success: true, actualPath: correctFilepath };
+        } else {
+          // Fallback to original filepath if we can't detect type
+          fs.writeFileSync(filepath, buffer);
+          return { success: true, actualPath: filepath };
+        }
+      }
+    } catch (error) {
+      // Continue to next URL
+      continue;
+    }
+  }
+
+  return { success: false, actualPath: null };
+}
+
+// Detect file type from buffer content (magic numbers/signatures)
+function detectFileTypeFromBuffer(buffer) {
+  // Check first few bytes for file signatures
+  const firstBytes = buffer.slice(0, 20);
+
+  // Image formats
+  if (firstBytes[0] === 0xff && firstBytes[1] === 0xd8) return ".jpg"; // JPEG
+  if (
+    firstBytes[0] === 0x89 &&
+    firstBytes[1] === 0x50 &&
+    firstBytes[2] === 0x4e &&
+    firstBytes[3] === 0x47
+  )
+    return ".png"; // PNG
+  if (
+    firstBytes[0] === 0x47 &&
+    firstBytes[1] === 0x49 &&
+    firstBytes[2] === 0x46
+  )
+    return ".gif"; // GIF
+  if (
+    firstBytes.slice(0, 4).toString() === "RIFF" &&
+    firstBytes.slice(8, 12).toString() === "WEBP"
+  )
+    return ".webp"; // WebP
+
+  // SVG (text-based, check for SVG tag)
+  const textStart = buffer.slice(0, 100).toString("utf8").toLowerCase();
+  if (
+    textStart.includes("<svg") ||
+    (textStart.includes("<?xml") && textStart.includes("svg"))
+  )
+    return ".svg";
+
+  // Video formats
+  if (firstBytes.slice(4, 8).toString() === "ftyp") {
+    const brand = firstBytes.slice(8, 12).toString();
+    if (brand.includes("mp4") || brand.includes("isom")) return ".mp4";
+    if (brand.includes("qt")) return ".mov";
+  }
+
+  // PDF
+  if (firstBytes.slice(0, 4).toString() === "%PDF") return ".pdf";
+
+  // ZIP/compressed files
+  if (firstBytes[0] === 0x50 && firstBytes[1] === 0x4b) return ".zip";
+
+  // Default to null if we can't detect
+  return null;
+}
+
+async function processStudentFiles(studentData, fetchFn) {
+  // Ensure downloads directory exists
+  if (!fs.existsSync(DOWNLOADS_DIR)) {
+    fs.mkdirSync(DOWNLOADS_DIR, { recursive: true });
+  }
+
+  let totalFiles = 0;
+  let downloadedFiles = 0;
+
+  for (const entry of studentData) {
+    if (!entry.uploadedFiles || !entry.uploadedFiles.trim()) continue;
+
+    // Split multiple URLs (comma-separated)
+    const urls = entry.uploadedFiles
+      .split(",")
+      .map((url) => url.trim())
+      .filter((url) => url);
+    const localFilePaths = [];
+    const processedUrls = [];
+
+    for (let i = 0; i < urls.length; i++) {
+      const url = urls[i];
+      const fileId = extractGoogleDriveFileId(url);
+
+      if (!fileId) {
+        // Keep original URL if we can't extract file ID
+        localFilePaths.push(url);
+        processedUrls.push(url);
+        continue;
+      }
+
+      totalFiles++;
+
+      // Create a filename: studentId-assignmentWeek-fileIndex.ext
+      const assignmentWeek = entry.assignmentTitle
+        .toLowerCase()
+        .replace(/[^a-z0-9]/g, "-");
+      const baseFilename = `${entry.studentId}-${assignmentWeek}-${i + 1}`;
+
+      // Check if any file with this base name already exists
+      const existingFiles = fs.existsSync(DOWNLOADS_DIR)
+        ? fs.readdirSync(DOWNLOADS_DIR)
+        : [];
+      const existingFile = existingFiles.find((file) =>
+        file.startsWith(baseFilename + "."),
+      );
+
+      let downloaded = false;
+
+      if (existingFile) {
+        // File already exists, use it
+        const localUrl = `/student-files/${existingFile}`;
+        localFilePaths.push(localUrl);
+        downloaded = true;
+      } else {
+        // Try to download with content-based file type detection
+        const tempFilepath = path.join(DOWNLOADS_DIR, baseFilename + ".tmp");
+
+        const downloadResult = await downloadFile(
+          fileId,
+          tempFilepath,
+          fetchFn,
+        );
+
+        if (downloadResult.success && downloadResult.actualPath) {
+          // Verify the file was downloaded and has content
+          if (
+            fs.existsSync(downloadResult.actualPath) &&
+            fs.statSync(downloadResult.actualPath).size > 0
+          ) {
+            // Get the actual filename from the path
+            const actualFilename = path.basename(downloadResult.actualPath);
+            const localUrl = `/student-files/${actualFilename}`;
+            localFilePaths.push(localUrl);
+            downloadedFiles++;
+            downloaded = true;
+
+            // Clean up temp file if it's different from actual path
+            if (
+              fs.existsSync(tempFilepath) &&
+              tempFilepath !== downloadResult.actualPath
+            ) {
+              fs.unlinkSync(tempFilepath);
+            }
+          } else {
+            // Clean up failed download
+            if (fs.existsSync(downloadResult.actualPath))
+              fs.unlinkSync(downloadResult.actualPath);
+            if (fs.existsSync(tempFilepath)) fs.unlinkSync(tempFilepath);
+          }
+        }
+      }
+
+      if (!downloaded) {
+        // Keep thumbnail URL as fallback
+        const thumbnailUrl = getGoogleDriveThumbnailUrl(fileId);
+        localFilePaths.push(thumbnailUrl);
+      }
+
+      // Also store processed URLs for flexibility
+      const embedUrl = getGoogleDriveEmbedUrl(fileId);
+      const thumbnailUrl = getGoogleDriveThumbnailUrl(fileId);
+      processedUrls.push({
+        original: url,
+        fileId: fileId,
+        thumbnail: thumbnailUrl,
+        embed: embedUrl,
+        local: downloaded ? localFilePaths[localFilePaths.length - 1] : null,
+      });
+    }
+
+    // Replace uploadedFiles with local file paths
+    if (localFilePaths.length > 0) {
+      entry.uploadedFiles = localFilePaths.join(", ");
+    }
+
+    // Also keep processed URLs for advanced display options
+    if (processedUrls.length > 0) {
+      entry.processedFiles = processedUrls;
+    }
+  }
+
+  return studentData;
+}
+
+async function fetchStudentData() {
+  try {
+    console.log("Fetching student data from Google Sheet...");
+
+    // Generate student mapping from the source of truth (config.ts)
+    const studentEmailToId = generateStudentMapping();
+    console.log(
+      `Generated mapping for ${Object.keys(studentEmailToId).length} students`,
+    );
+
+    // Use dynamic import for node-fetch in Node.js environment
+    let fetchFn;
+    if (typeof fetch === "undefined") {
+      const nodeFetch = await import("node-fetch");
+      fetchFn = nodeFetch.default;
+    } else {
+      fetchFn = fetch;
+    }
+
+    // Fetch data from OpenSheet
+    const response = await fetchFn(API_URL);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log(`Fetched ${data.length} rows from the sheet`);
+
+    // Process the data to include both assignments and responses
+    const studentData = data
+      .filter((row) => {
+        // Filter out rows without essential data
+        return (
+          row.Timestamp &&
+          row["Email Address"] &&
+          row["Which assignment is this for?"]
+        );
+      })
+      .map((row) => {
+        const email = row["Email Address"];
+        const studentId = studentEmailToId[email];
+
+        return {
+          timestamp: row.Timestamp,
+          studentEmail: email,
+          studentId: studentId, // Add studentId for portfolio pages
+          assignmentTitle: row["Which assignment is this for?"],
+          // Assignment submission data
+          projectDescription: row["Project Description (max 500 words)"] || "",
+          credit:
+            row[
+              "Credit (List out collaborators, tutorials, libraries, references, AI agents used)"
+            ] || "",
+          uploadedFiles: row["Upload Your Work"] || "",
+          linkToWork: row["Link to Online Work (p5 sketch link)"] || "",
+          certification:
+            row[
+              "I certify that this submission is my own work and adheres to the course's academic integrity and open"
+            ] || "",
+          // Weekly response data
+          weeklyResponse:
+            row[
+              "What did you learn this week or what questions do you have? (this part will go on the site)"
+            ] || "",
+          teacherFeedback: row["Teacher Feedback"] || "",
+        };
+      });
+
+    console.log(`Processed ${studentData.length} valid entries`);
+
+    // Process and download student files
+    const studentDataWithFiles = await processStudentFiles(
+      studentData,
+      fetchFn,
+    );
+
+    // Ensure output directory exists
+    if (!fs.existsSync(OUTPUT_DIR)) {
+      fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    }
+
+    // Save the data with updated file paths
+    fs.writeFileSync(
+      OUTPUT_FILE,
+      JSON.stringify(studentDataWithFiles, null, 2),
+    );
+    console.log(`Saved student data to ${OUTPUT_FILE}`);
+
+    // Group by student for summary
+    const groupedByStudent = studentDataWithFiles.reduce((acc, entry) => {
+      const email = entry.studentEmail;
+      if (!acc[email]) acc[email] = [];
+      acc[email].push(entry);
+      return acc;
+    }, {});
+
+    // Print summary
+    console.log("\n=== Summary ===");
+    console.log(`Total entries: ${studentDataWithFiles.length}`);
+    console.log("Entries by student:");
+    Object.entries(groupedByStudent).forEach(([studentEmail, entries]) => {
+      console.log(`  ${studentEmail}: ${entries.length} entries`);
+    });
+
+    console.log("✅ Student data fetched successfully!");
+  } catch (error) {
+    console.error("❌ Error fetching student data:", error);
+    process.exit(1);
+  }
+}
+
+// Main execution (ES module style)
+if (import.meta.url === `file://${process.argv[1]}`) {
+  fetchStudentData();
+}
+
+// Export the function for potential use as a module
+export { fetchStudentData };

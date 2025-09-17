@@ -1,5 +1,5 @@
 ---
-import { studentsByEmail } from "@/data/students";
+import { studentsByEmail } from "@/config";
 import { marked } from "marked";
 
 interface Props {
@@ -11,30 +11,19 @@ const { week } = Astro.props;
 // Use the shared student mapping
 const studentMapping = studentsByEmail;
 
-// Fetch student responses directly from Google Sheet at build time
-let studentResponses = [];
+// Load student data from the unified data file
+let studentData = [];
 try {
-  const sheetId = "1Fcmcr1V_bsJZlHB8Z6TNhHzUvFxrArY_3jz0vamWpvA";
-  const sheetName = "1"; // First sheet
-  const url = `https://opensheet.elk.sh/${sheetId}/${sheetName}`;
-
-  const response = await fetch(url);
-  if (response.ok) {
-    const data = await response.json();
-    studentResponses = data || [];
-    console.log(
-      `Fetched ${studentResponses.length} responses from Google Sheet at build time`
-    );
-  } else {
-    console.warn("Failed to fetch student responses from Google Sheet");
-  }
+  const dataModule = await import("../data/student-data.json");
+  studentData = dataModule.default || [];
+  console.log(`Loaded ${studentData.length} student entries from unified data`);
 } catch (error) {
-  console.warn("Error fetching student responses:", error);
+  console.warn("Error loading student data:", error);
 }
 
 // Filter responses for this specific week
-const weekResponses = studentResponses.filter((response) => {
-  const assignment = response["Which assignment is this for?"];
+const weekResponses = studentData.filter((entry) => {
+  const assignment = entry.assignmentTitle;
   if (!assignment) return false;
 
   // Match patterns like "Week 1", "week 1", "Assignment 1", etc.
@@ -44,28 +33,24 @@ const weekResponses = studentResponses.filter((response) => {
   return weekMatch && parseInt(weekMatch[1]) === week;
 });
 
-// Map responses to include student names and feedback
+// Map responses to include student names and only show entries with actual responses
 const responsesWithNames = weekResponses
-  .map((response) => {
-    const email = response["Email Address"];
+  .filter((entry) => entry.weeklyResponse && entry.weeklyResponse.trim()) // Only entries with responses
+  .map((entry) => {
+    const email = entry.studentEmail;
     const student = studentMapping[email];
-    const responseText =
-      response[
-        "What did you learn this week or what questions do you have? (this part will go on the site)"
-      ];
-    const teacherFeedback = response["Teacher Feedback"]; // Add teacher feedback
 
     return {
       email,
       studentName: student
         ? `${student.firstName} ${student.lastName}`
         : "Unknown Student",
-      response: responseText,
-      feedback: teacherFeedback,
-      assignment: response["Which assignment is this for?"],
+      studentId: student ? student.studentId : null,
+      response: entry.weeklyResponse,
+      feedback: entry.teacherFeedback,
+      assignment: entry.assignmentTitle,
     };
   })
-  .filter((item) => item.response && item.response.trim())
   .sort((a, b) => a.studentName.localeCompare(b.studentName));
 ---
 
@@ -76,7 +61,18 @@ const responsesWithNames = weekResponses
       <div class="responses-grid">
         {responsesWithNames.map((response, index) => (
           <div class="response-card" key={index}>
-            <h3 class="student-name">{response.studentName}</h3>
+            <h3 class="student-name">
+              {response.studentId ? (
+                <a
+                  href={`/students/${response.studentId}/`}
+                  rel="noopener noreferrer"
+                >
+                  {response.studentName}
+                </a>
+              ) : (
+                response.studentName
+              )}
+            </h3>
             <blockquote class="response-text">{response.response}</blockquote>
             {response.feedback && response.feedback.trim() && (
               <div class="teacher-feedback mt-4 ml-4 ">

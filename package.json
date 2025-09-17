@@ -4,11 +4,13 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "npm run fetch:all && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "format": "prettier --write .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fetch:data": "node scripts/fetch-student-data.js",
+    "fetch:all": "npm run fetch:data"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.3",
@@ -19,6 +21,7 @@
     "astro": "^5.12.9",
     "gsap": "^3.13.0",
     "marked": "^16.1.2",
+    "node-fetch": "^3.3.2",
     "p5": "^2.0.4",
     "sharp": "^0.34.2",
     "tailwindcss": "^4.1.11"
