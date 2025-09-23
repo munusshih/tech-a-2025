@@ -4,6 +4,7 @@ import BaseHead from "@/components/BaseHead.astro";
 import Footer from "@/components/Footer.astro";
 import AssignmentCard from "@/components/AssignmentCard.astro";
 import HallofFame from "@/components/HallofFame.astro";
+import StudentBio from "@/components/StudentBio.astro";
 import { SITE_TITLE } from "@/config";
 
 export async function getStaticPaths() {
@@ -60,21 +61,8 @@ studentEntries.sort((a, b) => {
                   {student.firstName}
                   {student.lastName}
                 </h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-                <ul class="student-links">
-                  <li>Link 1</li>
-                  <li>Link 2</li>
-                  <li>Link 3</li>
-                </ul>
+
+                <StudentBio studentId={studentId} className="mb-6" />
 
                 <HallofFame excludeStudent={studentId} />
               </div>

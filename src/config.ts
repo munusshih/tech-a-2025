@@ -28,9 +28,15 @@ export const EMAIL = "munus.shih@pratt.edu";
 // -----------------------------------------------------------------------------
 // Google Sheets Configuration
 // -----------------------------------------------------------------------------
+// Student assignment submissions
 export const GOOGLE_SHEET_ID = "1Fcmcr1V_bsJZlHB8Z6TNhHzUvFxrArY_3jz0vamWpvA";
 export const SHEET_NAME = "1";
 export const OPENSHEET_API_URL = `https://opensheet.elk.sh/${GOOGLE_SHEET_ID}/${SHEET_NAME}`;
+
+// Student bio submissions
+export const BIO_SHEET_ID = "1PnVpKtVDYWaauG9suOhi1ZvLcEnN9lBEE78GbXdC3WI";
+export const BIO_SHEET_NAME = "Form Responses 1";
+export const BIO_OPENSHEET_API_URL = `https://opensheet.elk.sh/${BIO_SHEET_ID}/${BIO_SHEET_NAME}`;
 
 // -----------------------------------------------------------------------------
 // Data Paths

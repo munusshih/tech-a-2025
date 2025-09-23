@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "fetch:data": "node scripts/fetch-student-data.js",
-    "fetch:all": "npm run fetch:data"
+    "fetch:bios": "node scripts/fetch-student-bios.js",
+    "fetch:all": "npm run fetch:data && npm run fetch:bios"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.3",

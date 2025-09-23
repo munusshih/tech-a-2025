@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
-import fs from "fs";
+import { promises as fs } from "fs";
+import { existsSync, mkdirSync, readdirSync, unlinkSync, writeFileSync } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { generateStudentMapping } from "./student-mapping.js";
@@ -10,10 +11,31 @@ import { Buffer } from "buffer";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Configuration
-const SHEET_ID = "1Fcmcr1V_bsJZlHB8Z6TNhHzUvFxrArY_3jz0vamWpvA";
-const SHEET_NAME = "1"; // First sheet
-const API_URL = `https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`;
+// Load configuration from config.ts
+async function loadConfig() {
+  try {
+    const configPath = path.resolve(__dirname, '../src/config.ts');
+    const configContent = await fs.readFile(configPath, 'utf-8');
+    
+    // Extract assignment sheet configuration from config.ts
+    const sheetIdMatch = configContent.match(/export const GOOGLE_SHEET_ID = "([^"]+)"/);
+    const sheetNameMatch = configContent.match(/export const SHEET_NAME = "([^"]+)"/);
+    
+    if (!sheetIdMatch || !sheetNameMatch) {
+      throw new Error('Could not find GOOGLE_SHEET_ID or SHEET_NAME in config.ts');
+    }
+    
+    const SHEET_ID = sheetIdMatch[1];
+    const SHEET_NAME = sheetNameMatch[1];
+    
+    return {
+      API_URL: `https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`
+    };
+  } catch (error) {
+    console.error('Error loading config:', error);
+    throw error;
+  }
+}
 
 // Output paths
 const OUTPUT_DIR = path.join(__dirname, "../src/data");
@@ -165,8 +187,8 @@ function detectFileTypeFromBuffer(buffer) {
 
 async function processStudentFiles(studentData, fetchFn) {
   // Ensure downloads directory exists
-  if (!fs.existsSync(DOWNLOADS_DIR)) {
-    fs.mkdirSync(DOWNLOADS_DIR, { recursive: true });
+  if (!existsSync(DOWNLOADS_DIR)) {
+    mkdirSync(DOWNLOADS_DIR, { recursive: true });
   }
 
   let totalFiles = 0;
@@ -203,8 +225,8 @@ async function processStudentFiles(studentData, fetchFn) {
       const baseFilename = `${entry.studentId}-${assignmentWeek}-${i + 1}`;
 
       // Check if any file with this base name already exists
-      const existingFiles = fs.existsSync(DOWNLOADS_DIR)
-        ? fs.readdirSync(DOWNLOADS_DIR)
+      const existingFiles = existsSync(DOWNLOADS_DIR)
+        ? readdirSync(DOWNLOADS_DIR)
         : [];
       const existingFile = existingFiles.find((file) =>
         file.startsWith(baseFilename + "."),
@@ -230,7 +252,7 @@ async function processStudentFiles(studentData, fetchFn) {
         if (downloadResult.success && downloadResult.actualPath) {
           // Verify the file was downloaded and has content
           if (
-            fs.existsSync(downloadResult.actualPath) &&
+            existsSync(downloadResult.actualPath) &&
             fs.statSync(downloadResult.actualPath).size > 0
           ) {
             // Get the actual filename from the path
@@ -242,16 +264,16 @@ async function processStudentFiles(studentData, fetchFn) {
 
             // Clean up temp file if it's different from actual path
             if (
-              fs.existsSync(tempFilepath) &&
+              existsSync(tempFilepath) &&
               tempFilepath !== downloadResult.actualPath
             ) {
               fs.unlinkSync(tempFilepath);
             }
           } else {
             // Clean up failed download
-            if (fs.existsSync(downloadResult.actualPath))
-              fs.unlinkSync(downloadResult.actualPath);
-            if (fs.existsSync(tempFilepath)) fs.unlinkSync(tempFilepath);
+            if (existsSync(downloadResult.actualPath))
+              unlinkSync(downloadResult.actualPath);
+            if (existsSync(tempFilepath)) unlinkSync(tempFilepath);
           }
         }
       }
@@ -290,7 +312,11 @@ async function processStudentFiles(studentData, fetchFn) {
 
 async function fetchStudentData() {
   try {
+    // Load configuration from config.ts
+    const config = await loadConfig();
+    
     console.log("Fetching student data from Google Sheet...");
+    console.log(`API URL: ${config.API_URL}`);
 
     // Generate student mapping from the source of truth (config.ts)
     const studentEmailToId = generateStudentMapping();
@@ -308,7 +334,7 @@ async function fetchStudentData() {
     }
 
     // Fetch data from OpenSheet
-    const response = await fetchFn(API_URL);
+    const response = await fetchFn(config.API_URL);
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -365,12 +391,12 @@ async function fetchStudentData() {
     );
 
     // Ensure output directory exists
-    if (!fs.existsSync(OUTPUT_DIR)) {
-      fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+    if (!existsSync(OUTPUT_DIR)) {
+      mkdirSync(OUTPUT_DIR, { recursive: true });
     }
 
     // Save the data with updated file paths
-    fs.writeFileSync(
+    writeFileSync(
       OUTPUT_FILE,
       JSON.stringify(studentDataWithFiles, null, 2),
     );
