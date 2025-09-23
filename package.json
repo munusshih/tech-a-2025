@@ -19,6 +19,7 @@
     "@astrojs/sitemap": "^3.4.2",
     "@barba/core": "^2.10.3",
     "@tailwindcss/vite": "^4.1.11",
+    "@vercel/analytics": "^1.5.0",
     "astro": "^5.12.9",
     "gsap": "^3.13.0",
     "marked": "^16.1.2",

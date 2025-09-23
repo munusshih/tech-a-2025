@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from "astro:content";
 import type { CollectionEntry } from "astro:content";
-import BaseHead from "@/components/BaseHead.astro";
+import Layout from "@/layouts/Layout.astro";
 import Footer from "@/components/Footer.astro";
 import P5Background from "@/components/P5Background.astro";
 import { SITE_TITLE, SECTION_ID } from "@/config";
@@ -26,64 +26,56 @@ const difficultyColors = {
 };
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead
-      title={tutorial.data.title}
-      description={tutorial.data.description || "Tutorial"}
-      image="/opengraph.jpg"
-    />
-  </head>
-  <body>
-    <P5Background />
+<Layout
+  title={tutorial.data.title}
+  description={tutorial.data.description || "Tutorial"}
+>
+  <P5Background />
 
-    <header>
-      <div>
-        <a href="/">
-          <h1 class="heading-3 !leading-normal">
-            {`${SITE_TITLE} (${SECTION_ID})`}
-          </h1>
-        </a>
-        <a href="/tutorials">← Back to Tutorials</a>
-        <h2 class="heading-1">{tutorial.data.title}</h2>
+  <header>
+    <div>
+      <a href="/">
+        <h1 class="heading-3 !leading-normal">
+          {`${SITE_TITLE} (${SECTION_ID})`}
+        </h1>
+      </a>
+      <a href="/tutorials">← Back to Tutorials</a>
+      <h2 class="heading-1">{tutorial.data.title}</h2>
 
-        <div class="tutorial-meta">
-          {
-            tutorial.data.difficulty && (
-              <span
-                class={`difficulty ${difficultyColors[tutorial.data.difficulty]}`}
-              >
-                {tutorial.data.difficulty}
-              </span>
-            )
-          }
-          {
-            tutorial.data.duration && (
-              <span class="duration">{tutorial.data.duration}</span>
-            )
-          }
-        </div>
-
+      <div class="tutorial-meta">
         {
-          tutorial.data.tags && tutorial.data.tags.length > 0 && (
-            <div class="tutorial-tags">
-              {tutorial.data.tags.map((tag) => (
-                <span class="tag">{tag}</span>
-              ))}
-            </div>
+          tutorial.data.difficulty && (
+            <span
+              class={`difficulty ${difficultyColors[tutorial.data.difficulty]}`}
+            >
+              {tutorial.data.difficulty}
+            </span>
+          )
+        }
+        {
+          tutorial.data.duration && (
+            <span class="duration">{tutorial.data.duration}</span>
           )
         }
       </div>
-      <Footer />
-    </header>
 
-    <main class="tutorial-content col-span-2">
-      <Content />
-    </main>
-    <script src="../../scripts/page-animations.js"></script>
-  </body>
-</html>
+      {
+        tutorial.data.tags && tutorial.data.tags.length > 0 && (
+          <div class="tutorial-tags">
+            {tutorial.data.tags.map((tag) => (
+              <span class="tag">{tag}</span>
+            ))}
+          </div>
+        )
+      }
+    </div>
+    <Footer />
+  </header>
+
+  <main class="tutorial-content col-span-2">
+    <Content />
+  </main>
+</Layout>
 
 <style>
   .tutorial-meta {

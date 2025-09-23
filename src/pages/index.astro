@@ -1,5 +1,5 @@
 ---
-import BaseHead from "@/components/BaseHead.astro";
+import Layout from "@/layouts/Layout.astro";
 import Footer from "@/components/Footer.astro";
 import Nav from "@/components/Nav.astro";
 import CourseInfo from "@/components/CourseInfo.astro";
@@ -9,39 +9,28 @@ import HallofFame from "@/components/HallofFame.astro";
 import Marquee from "@/components/Marquee.astro";
 ---
 
-<!doctype html>
-<html lang="en">
-  <head>
-    <BaseHead
-      title={`${SITE_TITLE}: ${SECTION_ID}`}
-      description={SITE_DESCRIPTION}
-      image="/opengraph.jpg"
-    />
-  </head>
-  <body>
-    <P5Background />
+<Layout title={`${SITE_TITLE}: ${SECTION_ID}`} description={SITE_DESCRIPTION}>
+  <P5Background />
 
-    <header>
-      <div>
-        <h1>{`${SITE_TITLE}`}<br />{`(${SECTION_ID})`}</h1>
-        <p>{SITE_DESCRIPTION}</p>
-      </div>
-      <CourseInfo />
-    </header>
-
-    <main class="cutoff">
-      <Nav />
-    </main>
-
-    <div id="third-column" class="border-t">
-      <HallofFame />
-      <Footer />
+  <header>
+    <div>
+      <h1>{`${SITE_TITLE}`}<br />{`(${SECTION_ID})`}</h1>
+      <p>{SITE_DESCRIPTION}</p>
     </div>
-    <script src="../scripts/page-animations.js"></script>
-    <Marquee
-      text="Welcome to Technology A! • Make sure to submit all the assignments of Module 1 • Don't forget to check out the tutorials and resources • "
-      speed="slow"
-      direction="right"
-    />
-  </body>
-</html>
+    <CourseInfo />
+  </header>
+
+  <main class="cutoff">
+    <Nav />
+  </main>
+
+  <div id="third-column" class="border-t">
+    <HallofFame />
+    <Footer />
+  </div>
+  <Marquee
+    text="Welcome to Technology A! • Make sure to submit all the assignments of Module 1 • Don't forget to check out the tutorials and resources • "
+    speed="slow"
+    direction="right"
+  />
+</Layout>
