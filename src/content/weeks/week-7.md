@@ -40,8 +40,8 @@ This week, you will continue working on your data sculpture project. Focus on re
 - What kind of physical form will best represent your data? How can you use materials and techniques to bring your data sculpture to life?
 - What are some insights or stories that your data sculpture conveys? How does the physical form enhance the understanding of the data?
 - Utilize the techniques we discussed in class, such as fetching data from APIs, handling missing data, finding min and max values or export as STL to map your data effectively.
-  <br/>
-  This is the continuing process of our project 2: data sculpture. We will continue to refine and develop this project over the next few weeks.
+  <br/><br/><br/>
+  This is the continuing process of our [project 2: data sculpture](https://tech-a.designfuture.space/#module-2:-data-as-material). We will continue to refine and develop this project over the next few weeks. The full description is [here](https://tech-a.designfuture.space/#module-2:-data-as-material).
   <br/><br/>
 
 ## Examples
@@ -67,4 +67,3 @@ Some readings that help you brainstorm and think about data sculpture and tangib
 - [Javascript map() method](https://www.youtube.com/watch?v=xNQH1NbZQ0E)
 - [WEBGL in p5.js](https://www.youtube.com/watch?v=nqiKWXUX-o8&list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_)
 - [saveStl()](https://p5js.org/reference/p5.Geometry/saveStl/)
-- []
