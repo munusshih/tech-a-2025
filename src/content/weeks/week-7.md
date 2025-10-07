@@ -25,6 +25,8 @@ week: 7
 ## Reminder
 
 We are not hosting class next week! Enjoy a little break!
+<br/><br/>
+Instead, you will receive a midterm survey to fill out. Please check your email for the survey link. You will also receive a temporal grading based on your participation and assignment submission so far. If you have any questions or concerns about your progress, please feel free to reach out to me.
 
 ## Assignment
 
@@ -58,8 +60,11 @@ Some readings that help you brainstorm and think about data sculpture and tangib
 
 ## Tutorials & Resources
 
+- [Making custom 3d shapes in p5.js](https://github.com/davepagurek/p5.csg?tab=readme-ov-file)
+- [How to load Model in p5.js](https://p5js.org/reference/p5/loadModel/)
 - [CSVJSON Converter](https://csvjson.com/)
 - [Learn Javascript Arrow Function](https://www.youtube.com/watch?v=fRRRkognpOs)
 - [Javascript map() method](https://www.youtube.com/watch?v=xNQH1NbZQ0E)
 - [WEBGL in p5.js](https://www.youtube.com/watch?v=nqiKWXUX-o8&list=PLRqwX-V7Uu6bPhi8sS1hHJ77n3zRO9FR_)
 - [saveStl()](https://p5js.org/reference/p5.Geometry/saveStl/)
+- []
