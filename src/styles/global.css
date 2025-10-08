@@ -266,7 +266,7 @@ footer,
 }
 
 #student-page .hall-of-fame {
-    @apply border-t border-b my-8 px-0;
+    @apply border-t my-8 px-0;
 }
 
 .weekly-schedule ul li {

@@ -117,11 +117,11 @@ async function downloadFile(fileId, filepath, fetchFn) {
           // Update filepath with correct extension
           const basePath = filepath.replace(/\.[^.]+$/, "");
           const correctFilepath = basePath + detectedExt;
-          fs.writeFileSync(correctFilepath, buffer);
+          await fs.writeFile(correctFilepath, buffer);
           return { success: true, actualPath: correctFilepath };
         } else {
           // Fallback to original filepath if we can't detect type
-          fs.writeFileSync(filepath, buffer);
+          await fs.writeFile(filepath, buffer);
           return { success: true, actualPath: filepath };
         }
       }
@@ -193,9 +193,16 @@ async function processStudentFiles(studentData, fetchFn) {
 
   let totalFiles = 0;
   let downloadedFiles = 0;
+  let skippedFiles = 0;
 
-  for (const entry of studentData) {
+  process.stdout.write(`\n🔍 Processing files for ${studentData.length} entries...\n`);
+
+  for (let entryIndex = 0; entryIndex < studentData.length; entryIndex++) {
+    const entry = studentData[entryIndex];
+    
     if (!entry.uploadedFiles || !entry.uploadedFiles.trim()) continue;
+
+    process.stdout.write(`\n📝 [${entryIndex + 1}/${studentData.length}] ${entry.studentId} - ${entry.assignmentTitle}\n`);
 
     // Split multiple URLs (comma-separated)
     const urls = entry.uploadedFiles
@@ -236,11 +243,14 @@ async function processStudentFiles(studentData, fetchFn) {
 
       if (existingFile) {
         // File already exists, use it
+        process.stdout.write(`   ✓ File ${i + 1}/${urls.length}: ${existingFile} (cached)\n`);
         const localUrl = `/student-files/${existingFile}`;
         localFilePaths.push(localUrl);
         downloaded = true;
+        skippedFiles++;
       } else {
         // Try to download with content-based file type detection
+        process.stdout.write(`   ⬇️  Downloading file ${i + 1}/${urls.length}...`);
         const tempFilepath = path.join(DOWNLOADS_DIR, baseFilename + ".tmp");
 
         const downloadResult = await downloadFile(
@@ -251,30 +261,40 @@ async function processStudentFiles(studentData, fetchFn) {
 
         if (downloadResult.success && downloadResult.actualPath) {
           // Verify the file was downloaded and has content
-          if (
-            existsSync(downloadResult.actualPath) &&
-            fs.statSync(downloadResult.actualPath).size > 0
-          ) {
-            // Get the actual filename from the path
-            const actualFilename = path.basename(downloadResult.actualPath);
-            const localUrl = `/student-files/${actualFilename}`;
-            localFilePaths.push(localUrl);
-            downloadedFiles++;
-            downloaded = true;
+          try {
+            const stats = await fs.stat(downloadResult.actualPath);
+            if (existsSync(downloadResult.actualPath) && stats.size > 0) {
+              // Get the actual filename from the path
+              const actualFilename = path.basename(downloadResult.actualPath);
+              process.stdout.write(` ✅ ${actualFilename}\n`);
+              const localUrl = `/student-files/${actualFilename}`;
+              localFilePaths.push(localUrl);
+              downloadedFiles++;
+              downloaded = true;
 
-            // Clean up temp file if it's different from actual path
-            if (
-              existsSync(tempFilepath) &&
-              tempFilepath !== downloadResult.actualPath
-            ) {
-              fs.unlinkSync(tempFilepath);
+              // Clean up temp file if it's different from actual path
+              if (
+                existsSync(tempFilepath) &&
+                tempFilepath !== downloadResult.actualPath
+              ) {
+                unlinkSync(tempFilepath);
+              }
+            } else {
+              process.stdout.write(` ❌ Failed (empty file)\n`);
+              // Clean up failed download
+              if (existsSync(downloadResult.actualPath))
+                unlinkSync(downloadResult.actualPath);
+              if (existsSync(tempFilepath)) unlinkSync(tempFilepath);
             }
-          } else {
+          } catch (error) {
+            process.stdout.write(` ❌ Failed (${error.message})\n`);
             // Clean up failed download
             if (existsSync(downloadResult.actualPath))
               unlinkSync(downloadResult.actualPath);
             if (existsSync(tempFilepath)) unlinkSync(tempFilepath);
           }
+        } else {
+          process.stdout.write(` ❌ Failed\n`);
         }
       }
 
@@ -282,6 +302,7 @@ async function processStudentFiles(studentData, fetchFn) {
         // Keep thumbnail URL as fallback
         const thumbnailUrl = getGoogleDriveThumbnailUrl(fileId);
         localFilePaths.push(thumbnailUrl);
+        process.stdout.write(`   ⚠️  Using fallback URL for file ${i + 1}/${urls.length}\n`);
       }
 
       // Also store processed URLs for flexibility
@@ -306,6 +327,12 @@ async function processStudentFiles(studentData, fetchFn) {
       entry.processedFiles = processedUrls;
     }
   }
+
+  process.stdout.write(`\n📊 File Processing Summary:\n`);
+  process.stdout.write(`   Total files found: ${totalFiles}\n`);
+  process.stdout.write(`   Downloaded: ${downloadedFiles}\n`);
+  process.stdout.write(`   Cached (skipped): ${skippedFiles}\n`);
+  process.stdout.write(`   Failed/Fallback: ${totalFiles - downloadedFiles - skippedFiles}\n\n`);
 
   return studentData;
 }

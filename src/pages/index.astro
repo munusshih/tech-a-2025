@@ -4,7 +4,12 @@ import Footer from "@/components/Footer.astro";
 import Nav from "@/components/Nav.astro";
 import CourseInfo from "@/components/CourseInfo.astro";
 import P5Background from "@/components/P5Background.astro";
-import { SITE_DESCRIPTION, SITE_TITLE, SECTION_ID } from "@/config";
+import {
+  SITE_DESCRIPTION,
+  SITE_TITLE,
+  SECTION_ID,
+  MARQUEE_TEXT,
+} from "@/config";
 import HallofFame from "@/components/HallofFame.astro";
 import Marquee from "@/components/Marquee.astro";
 ---
@@ -28,9 +33,5 @@ import Marquee from "@/components/Marquee.astro";
     <HallofFame />
     <Footer />
   </div>
-  <Marquee
-    text="Welcome to Technology A! • Make sure to submit all the assignments of Module 1 • Don't forget to check out the tutorials and resources • "
-    speed="slow"
-    direction="right"
-  />
+  <Marquee text={MARQUEE_TEXT} speed="slow" direction="right" />
 </Layout>

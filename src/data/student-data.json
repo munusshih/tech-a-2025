@@ -1036,7 +1036,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "This image is based on a quote from Proverbs in the Bible, which conveys that while humans may act, the ultimate outcome is not according to human will—encouraging us to do our best and leave the results to heaven. The work focuses on the element of \"dice\" from this verse, creating an interactive piece where clicking dice reveals the corresponding biblical passage.\nEach dice is assigned a specific language based on its number. To express that not everything goes according to human intention, dice showing 1-4 display passages in their designated languages, while dice showing 5-6 display passages in random languages.",
     "credit": "Claude",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1gfPs_Uawt_Hn7xjmrBM0QVTY80zOm_rQ&sz=w800, https://drive.google.com/thumbnail?id=17pVJPzji2yYqQVg1R0hG1NfixHD5stvx&sz=w800, https://drive.google.com/thumbnail?id=1Z5byhyFFthvbAHh4lUf-2c5SysIXuJf5&sz=w800, https://drive.google.com/thumbnail?id=1lPUJ3sruj7SJOYzX95oLmgROIu5RyjUG&sz=w800",
+    "uploadedFiles": "/student-files/lina-lee-week-4--loops---custom-functions-1.png, /student-files/lina-lee-week-4--loops---custom-functions-2.png, /student-files/lina-lee-week-4--loops---custom-functions-3.png, /student-files/lina-lee-week-4--loops---custom-functions-4.mov",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/PwgGvsfOA",
     "certification": "",
     "weeklyResponse": "Finally, I understand this p5.js process a little bit so this assignment was so fun!!! I got a courage and maybe I can do this better next time. ",
@@ -1047,28 +1047,28 @@
         "fileId": "1gfPs_Uawt_Hn7xjmrBM0QVTY80zOm_rQ",
         "thumbnail": "https://drive.google.com/thumbnail?id=1gfPs_Uawt_Hn7xjmrBM0QVTY80zOm_rQ&sz=w800",
         "embed": "https://drive.google.com/file/d/1gfPs_Uawt_Hn7xjmrBM0QVTY80zOm_rQ/preview",
-        "local": null
+        "local": "/student-files/lina-lee-week-4--loops---custom-functions-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=17pVJPzji2yYqQVg1R0hG1NfixHD5stvx",
         "fileId": "17pVJPzji2yYqQVg1R0hG1NfixHD5stvx",
         "thumbnail": "https://drive.google.com/thumbnail?id=17pVJPzji2yYqQVg1R0hG1NfixHD5stvx&sz=w800",
         "embed": "https://drive.google.com/file/d/17pVJPzji2yYqQVg1R0hG1NfixHD5stvx/preview",
-        "local": null
+        "local": "/student-files/lina-lee-week-4--loops---custom-functions-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=1Z5byhyFFthvbAHh4lUf-2c5SysIXuJf5",
         "fileId": "1Z5byhyFFthvbAHh4lUf-2c5SysIXuJf5",
         "thumbnail": "https://drive.google.com/thumbnail?id=1Z5byhyFFthvbAHh4lUf-2c5SysIXuJf5&sz=w800",
         "embed": "https://drive.google.com/file/d/1Z5byhyFFthvbAHh4lUf-2c5SysIXuJf5/preview",
-        "local": null
+        "local": "/student-files/lina-lee-week-4--loops---custom-functions-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=1lPUJ3sruj7SJOYzX95oLmgROIu5RyjUG",
         "fileId": "1lPUJ3sruj7SJOYzX95oLmgROIu5RyjUG",
         "thumbnail": "https://drive.google.com/thumbnail?id=1lPUJ3sruj7SJOYzX95oLmgROIu5RyjUG&sz=w800",
         "embed": "https://drive.google.com/file/d/1lPUJ3sruj7SJOYzX95oLmgROIu5RyjUG/preview",
-        "local": null
+        "local": "/student-files/lina-lee-week-4--loops---custom-functions-4.mov"
       }
     ]
   },
@@ -1079,7 +1079,7 @@
     "assignmentTitle": "Week 3: Rules and Conditionals",
     "projectDescription": "I changed my text towards the final project. \"Jalan, jalan\" means taking a walk in Indonesian. I took many walks this past summer. I want the curve variations to offer a simplified route of a small walk. ",
     "credit": "I checked out the bezierPoint() reference\n\nand I used claude for an interactive Bezier curve editor that gives me the control points as I played with the curves.\n\nI also used claude for a saving each frame function ",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1uHX0-jRxXWiuj9t4DD801M2a4-34j_fq&sz=w800, https://drive.google.com/thumbnail?id=1TA3bCYP0SCkQv-ynr_-MnfxYGdGR1EoJ&sz=w800, https://drive.google.com/thumbnail?id=1XHFYkRoougK90MOCpt7kDEAX2aUIPZCt&sz=w800, https://drive.google.com/thumbnail?id=1PWyCBkcirwmTSnoTTd7tCUK-qBgjTm6i&sz=w800, https://drive.google.com/thumbnail?id=1StG4M_95LCXHGfEx1B9fdMEr3tdZ_omL&sz=w800",
+    "uploadedFiles": "/student-files/richard-fu-week-3--rules-and-conditionals-1.png, /student-files/richard-fu-week-3--rules-and-conditionals-2.png, /student-files/richard-fu-week-3--rules-and-conditionals-3.png, /student-files/richard-fu-week-3--rules-and-conditionals-4.png, /student-files/richard-fu-week-3--rules-and-conditionals-5.png",
     "linkToWork": "https://editor.p5js.org/ririff/full/5ZIhtrGO2",
     "certification": "",
     "weeklyResponse": "Conditionals are fun!",
@@ -1090,35 +1090,35 @@
         "fileId": "1uHX0-jRxXWiuj9t4DD801M2a4-34j_fq",
         "thumbnail": "https://drive.google.com/thumbnail?id=1uHX0-jRxXWiuj9t4DD801M2a4-34j_fq&sz=w800",
         "embed": "https://drive.google.com/file/d/1uHX0-jRxXWiuj9t4DD801M2a4-34j_fq/preview",
-        "local": null
+        "local": "/student-files/richard-fu-week-3--rules-and-conditionals-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=1TA3bCYP0SCkQv-ynr_-MnfxYGdGR1EoJ",
         "fileId": "1TA3bCYP0SCkQv-ynr_-MnfxYGdGR1EoJ",
         "thumbnail": "https://drive.google.com/thumbnail?id=1TA3bCYP0SCkQv-ynr_-MnfxYGdGR1EoJ&sz=w800",
         "embed": "https://drive.google.com/file/d/1TA3bCYP0SCkQv-ynr_-MnfxYGdGR1EoJ/preview",
-        "local": null
+        "local": "/student-files/richard-fu-week-3--rules-and-conditionals-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=1XHFYkRoougK90MOCpt7kDEAX2aUIPZCt",
         "fileId": "1XHFYkRoougK90MOCpt7kDEAX2aUIPZCt",
         "thumbnail": "https://drive.google.com/thumbnail?id=1XHFYkRoougK90MOCpt7kDEAX2aUIPZCt&sz=w800",
         "embed": "https://drive.google.com/file/d/1XHFYkRoougK90MOCpt7kDEAX2aUIPZCt/preview",
-        "local": null
+        "local": "/student-files/richard-fu-week-3--rules-and-conditionals-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=1PWyCBkcirwmTSnoTTd7tCUK-qBgjTm6i",
         "fileId": "1PWyCBkcirwmTSnoTTd7tCUK-qBgjTm6i",
         "thumbnail": "https://drive.google.com/thumbnail?id=1PWyCBkcirwmTSnoTTd7tCUK-qBgjTm6i&sz=w800",
         "embed": "https://drive.google.com/file/d/1PWyCBkcirwmTSnoTTd7tCUK-qBgjTm6i/preview",
-        "local": null
+        "local": "/student-files/richard-fu-week-3--rules-and-conditionals-4.png"
       },
       {
         "original": "https://drive.google.com/open?id=1StG4M_95LCXHGfEx1B9fdMEr3tdZ_omL",
         "fileId": "1StG4M_95LCXHGfEx1B9fdMEr3tdZ_omL",
         "thumbnail": "https://drive.google.com/thumbnail?id=1StG4M_95LCXHGfEx1B9fdMEr3tdZ_omL&sz=w800",
         "embed": "https://drive.google.com/file/d/1StG4M_95LCXHGfEx1B9fdMEr3tdZ_omL/preview",
-        "local": null
+        "local": "/student-files/richard-fu-week-3--rules-and-conditionals-5.png"
       }
     ]
   },
@@ -1129,7 +1129,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "This week, I focused on polishing and refining my Flexible Manifesto. I tried to make my cloud visually more compelling and the cloud system more dynamic. I used conditionals to decide the number of clouds to show, and utilized the random function on the density, position, and cloud shape to make my variation as dynamic as possible while remaining certain constraints, like text separated into 4 lines, resulting in a recognizable family. ",
     "credit": "Munus one-on-one tutorial\n\np5.js libraries:\nblendMode()\nfilter()\ncreateGraphics()\n\ntutorial:\ncreateGraphics() - p5.js Tutorial\nhttps://www.youtube.com/watch?v=TaluaAD9MKA",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1hkX-3Z4JJWzbtHTlf9HngxK9mL7TMYiu&sz=w800, https://drive.google.com/thumbnail?id=1bJyPX2lfmLzZxjv0KmcOKIPNWoc6htgj&sz=w800, https://drive.google.com/thumbnail?id=1H0ir6vPBG0g7FVgFdRmIPvDgEZQt987P&sz=w800, https://drive.google.com/thumbnail?id=14m-Vi6PI-HGMe9VJsmZGLMqMh6tfOf6M&sz=w800, https://drive.google.com/thumbnail?id=1uhA0au_IYFLofth2vA--fwR6Co-gAJtk&sz=w800",
+    "uploadedFiles": "/student-files/bella-tsai-week-4--loops---custom-functions-1.png, /student-files/bella-tsai-week-4--loops---custom-functions-2.png, /student-files/bella-tsai-week-4--loops---custom-functions-3.png, /student-files/bella-tsai-week-4--loops---custom-functions-4.png, /student-files/bella-tsai-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/g8PNj8AmM",
     "certification": "",
     "weeklyResponse": "\nI learned to use  (1) conditional (2) loop (3)custom function (4) lerpColor to achieve the effect that I want. With the instructor's help and advice, during the development of the project, I can understand every line of my code and am able to adjust the parameters to reach the outcome.",
@@ -1140,35 +1140,35 @@
         "fileId": "1hkX-3Z4JJWzbtHTlf9HngxK9mL7TMYiu",
         "thumbnail": "https://drive.google.com/thumbnail?id=1hkX-3Z4JJWzbtHTlf9HngxK9mL7TMYiu&sz=w800",
         "embed": "https://drive.google.com/file/d/1hkX-3Z4JJWzbtHTlf9HngxK9mL7TMYiu/preview",
-        "local": null
+        "local": "/student-files/bella-tsai-week-4--loops---custom-functions-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=1bJyPX2lfmLzZxjv0KmcOKIPNWoc6htgj",
         "fileId": "1bJyPX2lfmLzZxjv0KmcOKIPNWoc6htgj",
         "thumbnail": "https://drive.google.com/thumbnail?id=1bJyPX2lfmLzZxjv0KmcOKIPNWoc6htgj&sz=w800",
         "embed": "https://drive.google.com/file/d/1bJyPX2lfmLzZxjv0KmcOKIPNWoc6htgj/preview",
-        "local": null
+        "local": "/student-files/bella-tsai-week-4--loops---custom-functions-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=1H0ir6vPBG0g7FVgFdRmIPvDgEZQt987P",
         "fileId": "1H0ir6vPBG0g7FVgFdRmIPvDgEZQt987P",
         "thumbnail": "https://drive.google.com/thumbnail?id=1H0ir6vPBG0g7FVgFdRmIPvDgEZQt987P&sz=w800",
         "embed": "https://drive.google.com/file/d/1H0ir6vPBG0g7FVgFdRmIPvDgEZQt987P/preview",
-        "local": null
+        "local": "/student-files/bella-tsai-week-4--loops---custom-functions-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=14m-Vi6PI-HGMe9VJsmZGLMqMh6tfOf6M",
         "fileId": "14m-Vi6PI-HGMe9VJsmZGLMqMh6tfOf6M",
         "thumbnail": "https://drive.google.com/thumbnail?id=14m-Vi6PI-HGMe9VJsmZGLMqMh6tfOf6M&sz=w800",
         "embed": "https://drive.google.com/file/d/14m-Vi6PI-HGMe9VJsmZGLMqMh6tfOf6M/preview",
-        "local": null
+        "local": "/student-files/bella-tsai-week-4--loops---custom-functions-4.png"
       },
       {
         "original": "https://drive.google.com/open?id=1uhA0au_IYFLofth2vA--fwR6Co-gAJtk",
         "fileId": "1uhA0au_IYFLofth2vA--fwR6Co-gAJtk",
         "thumbnail": "https://drive.google.com/thumbnail?id=1uhA0au_IYFLofth2vA--fwR6Co-gAJtk&sz=w800",
         "embed": "https://drive.google.com/file/d/1uhA0au_IYFLofth2vA--fwR6Co-gAJtk/preview",
-        "local": null
+        "local": "/student-files/bella-tsai-week-4--loops---custom-functions-5.png"
       }
     ]
   },
@@ -1179,7 +1179,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "This project made some modifications to the issues mentioned in class. The main content includes making each playback a different canvas size, changing the middle image into different shapes and sizes, and making the background randomly switch among several light colors, as well as adding the color range of the border and text in random colors. In this way, it solves the problem that after having various random contents it still looks like the same picture. After these modifications, it can generate at least 20 different appearances, and it also increases the interactivity of this project.",
     "credit": "Chat GPT",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1cwnStD6K5OpvnypmB3Mng18ZCNQ3xMBw&sz=w800, https://drive.google.com/thumbnail?id=1yeHf4Zz_R-MeVBk1NbYd3iN_PT69sXrb&sz=w800, https://drive.google.com/thumbnail?id=1PfTM3KHx56yOKFvJn5F-OxB78BaB_TVS&sz=w800, https://drive.google.com/thumbnail?id=1w7u3lYgL9pfuBMUhwkAVtrXUvVGwxX7p&sz=w800, https://drive.google.com/thumbnail?id=1MGIkItxau8Opsc7OFAxbZ-eehyE0_9fU&sz=w800",
+    "uploadedFiles": "/student-files/yiling-yang-week-4--loops---custom-functions-1.png, /student-files/yiling-yang-week-4--loops---custom-functions-2.png, /student-files/yiling-yang-week-4--loops---custom-functions-3.png, /student-files/yiling-yang-week-4--loops---custom-functions-4.png, /student-files/yiling-yang-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
     "certification": "",
     "weeklyResponse": "I learned that changes should not be limited to details, but should be more directly felt, and I made some final adjustments to my project based on the class content.",
@@ -1190,35 +1190,35 @@
         "fileId": "1cwnStD6K5OpvnypmB3Mng18ZCNQ3xMBw",
         "thumbnail": "https://drive.google.com/thumbnail?id=1cwnStD6K5OpvnypmB3Mng18ZCNQ3xMBw&sz=w800",
         "embed": "https://drive.google.com/file/d/1cwnStD6K5OpvnypmB3Mng18ZCNQ3xMBw/preview",
-        "local": null
+        "local": "/student-files/yiling-yang-week-4--loops---custom-functions-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=1yeHf4Zz_R-MeVBk1NbYd3iN_PT69sXrb",
         "fileId": "1yeHf4Zz_R-MeVBk1NbYd3iN_PT69sXrb",
         "thumbnail": "https://drive.google.com/thumbnail?id=1yeHf4Zz_R-MeVBk1NbYd3iN_PT69sXrb&sz=w800",
         "embed": "https://drive.google.com/file/d/1yeHf4Zz_R-MeVBk1NbYd3iN_PT69sXrb/preview",
-        "local": null
+        "local": "/student-files/yiling-yang-week-4--loops---custom-functions-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=1PfTM3KHx56yOKFvJn5F-OxB78BaB_TVS",
         "fileId": "1PfTM3KHx56yOKFvJn5F-OxB78BaB_TVS",
         "thumbnail": "https://drive.google.com/thumbnail?id=1PfTM3KHx56yOKFvJn5F-OxB78BaB_TVS&sz=w800",
         "embed": "https://drive.google.com/file/d/1PfTM3KHx56yOKFvJn5F-OxB78BaB_TVS/preview",
-        "local": null
+        "local": "/student-files/yiling-yang-week-4--loops---custom-functions-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=1w7u3lYgL9pfuBMUhwkAVtrXUvVGwxX7p",
         "fileId": "1w7u3lYgL9pfuBMUhwkAVtrXUvVGwxX7p",
         "thumbnail": "https://drive.google.com/thumbnail?id=1w7u3lYgL9pfuBMUhwkAVtrXUvVGwxX7p&sz=w800",
         "embed": "https://drive.google.com/file/d/1w7u3lYgL9pfuBMUhwkAVtrXUvVGwxX7p/preview",
-        "local": null
+        "local": "/student-files/yiling-yang-week-4--loops---custom-functions-4.png"
       },
       {
         "original": "https://drive.google.com/open?id=1MGIkItxau8Opsc7OFAxbZ-eehyE0_9fU",
         "fileId": "1MGIkItxau8Opsc7OFAxbZ-eehyE0_9fU",
         "thumbnail": "https://drive.google.com/thumbnail?id=1MGIkItxau8Opsc7OFAxbZ-eehyE0_9fU&sz=w800",
         "embed": "https://drive.google.com/file/d/1MGIkItxau8Opsc7OFAxbZ-eehyE0_9fU/preview",
-        "local": null
+        "local": "/student-files/yiling-yang-week-4--loops---custom-functions-5.png"
       }
     ]
   },
@@ -1229,7 +1229,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "This project explores Christmas through coding and print. Circles shift in size, color, and placement to suggest ornaments, lights, and play. Printed on transparent paper, each sheet overlaps to form layers that echo how childhood memories of Christmas build and change over time. The system repeats one idea in many ways, showing how variation and \nconsistency shape memory.",
     "credit": "chatgpt",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=18e12wt4ak8aKxoaKLKIGyGhpXeUXFDfu&sz=w800",
+    "uploadedFiles": "/student-files/kate-chon-week-4--loops---custom-functions-1.jpg",
     "linkToWork": "https://editor.p5js.org/kchon2/sketches/smpSKhcbS",
     "certification": "",
     "weeklyResponse": "What's the best way to decide whether to use for loop or an array with objects when working on an interactive system?",
@@ -1240,7 +1240,7 @@
         "fileId": "18e12wt4ak8aKxoaKLKIGyGhpXeUXFDfu",
         "thumbnail": "https://drive.google.com/thumbnail?id=18e12wt4ak8aKxoaKLKIGyGhpXeUXFDfu&sz=w800",
         "embed": "https://drive.google.com/file/d/18e12wt4ak8aKxoaKLKIGyGhpXeUXFDfu/preview",
-        "local": null
+        "local": "/student-files/kate-chon-week-4--loops---custom-functions-1.jpg"
       }
     ]
   },
@@ -1251,7 +1251,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "This design system is inspired by the shapes of clouds. Variation comes from changing the size and position of the triangles, and the wave of the text. By adjusting these, each version looks a little different, creating a unique feeling while keeping the cloud-like style.",
     "credit": "I asked ChatGPT for help, and Professor Shih helped me with the for loop part.",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1XG9iNoh5r75sPoYC9l_QxC7Dr_PSipav&sz=w800, https://drive.google.com/thumbnail?id=1e0JTzUUnRJfFXhSkjuGWOx2W--XXPfNW&sz=w800, https://drive.google.com/thumbnail?id=1-yfvo6g1u49cf0_GcR5O8PwF7tvsrytl&sz=w800, https://drive.google.com/thumbnail?id=1sdQqUuxrCqyHAnMr6SjmACrMPQW8bBZj&sz=w800, https://drive.google.com/thumbnail?id=1f66K7HErB8QbZJiuQiKswZtphApJAx9u&sz=w800",
+    "uploadedFiles": "/student-files/flora-fang-week-4--loops---custom-functions-1.png, /student-files/flora-fang-week-4--loops---custom-functions-2.png, /student-files/flora-fang-week-4--loops---custom-functions-3.png, /student-files/flora-fang-week-4--loops---custom-functions-4.png, /student-files/flora-fang-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
     "certification": "",
     "weeklyResponse": "This week we learned about the function of for loops, which made our code more interesting. I also used a GUI to add options for adjusting the canvas size and the wave’s length and width, which gave me better control. However, when I tried to save my image, even after setting the pixel density to 100, the file size was still only a few KB, which would look blurry if printed larger. I also tried saving as an SVG, but it didn’t seem to capture my whole image.",
@@ -1262,35 +1262,35 @@
         "fileId": "1XG9iNoh5r75sPoYC9l_QxC7Dr_PSipav",
         "thumbnail": "https://drive.google.com/thumbnail?id=1XG9iNoh5r75sPoYC9l_QxC7Dr_PSipav&sz=w800",
         "embed": "https://drive.google.com/file/d/1XG9iNoh5r75sPoYC9l_QxC7Dr_PSipav/preview",
-        "local": null
+        "local": "/student-files/flora-fang-week-4--loops---custom-functions-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=1e0JTzUUnRJfFXhSkjuGWOx2W--XXPfNW",
         "fileId": "1e0JTzUUnRJfFXhSkjuGWOx2W--XXPfNW",
         "thumbnail": "https://drive.google.com/thumbnail?id=1e0JTzUUnRJfFXhSkjuGWOx2W--XXPfNW&sz=w800",
         "embed": "https://drive.google.com/file/d/1e0JTzUUnRJfFXhSkjuGWOx2W--XXPfNW/preview",
-        "local": null
+        "local": "/student-files/flora-fang-week-4--loops---custom-functions-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=1-yfvo6g1u49cf0_GcR5O8PwF7tvsrytl",
         "fileId": "1-yfvo6g1u49cf0_GcR5O8PwF7tvsrytl",
         "thumbnail": "https://drive.google.com/thumbnail?id=1-yfvo6g1u49cf0_GcR5O8PwF7tvsrytl&sz=w800",
         "embed": "https://drive.google.com/file/d/1-yfvo6g1u49cf0_GcR5O8PwF7tvsrytl/preview",
-        "local": null
+        "local": "/student-files/flora-fang-week-4--loops---custom-functions-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=1sdQqUuxrCqyHAnMr6SjmACrMPQW8bBZj",
         "fileId": "1sdQqUuxrCqyHAnMr6SjmACrMPQW8bBZj",
         "thumbnail": "https://drive.google.com/thumbnail?id=1sdQqUuxrCqyHAnMr6SjmACrMPQW8bBZj&sz=w800",
         "embed": "https://drive.google.com/file/d/1sdQqUuxrCqyHAnMr6SjmACrMPQW8bBZj/preview",
-        "local": null
+        "local": "/student-files/flora-fang-week-4--loops---custom-functions-4.png"
       },
       {
         "original": "https://drive.google.com/open?id=1f66K7HErB8QbZJiuQiKswZtphApJAx9u",
         "fileId": "1f66K7HErB8QbZJiuQiKswZtphApJAx9u",
         "thumbnail": "https://drive.google.com/thumbnail?id=1f66K7HErB8QbZJiuQiKswZtphApJAx9u&sz=w800",
         "embed": "https://drive.google.com/file/d/1f66K7HErB8QbZJiuQiKswZtphApJAx9u/preview",
-        "local": null
+        "local": "/student-files/flora-fang-week-4--loops---custom-functions-5.png"
       }
     ]
   },
@@ -1301,7 +1301,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "Posters and p5js sketch for presentation",
     "credit": "chatgpt",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1LUEKouTvII8Rb6sgcdXCFEOLHRCHlmeu&sz=w800, https://drive.google.com/thumbnail?id=1MNYhGTjRTydJOtZ_mIgfZ44XusBN-qaF&sz=w800, https://drive.google.com/thumbnail?id=1PIb25JiZnm1il_41ai6eoHwDwWGgnDAy&sz=w800, https://drive.google.com/thumbnail?id=1a-Dr5Z-BGdKpjkueGTvf9ECUEvpnFwXQ&sz=w800, https://drive.google.com/thumbnail?id=1L05LIWfa_NHne4ipXsod90SWQD0ZZiQw&sz=w800",
+    "uploadedFiles": "/student-files/zoe-liu-week-4--loops---custom-functions-1.png, /student-files/zoe-liu-week-4--loops---custom-functions-2.png, /student-files/zoe-liu-week-4--loops---custom-functions-3.png, /student-files/zoe-liu-week-4--loops---custom-functions-4.png, /student-files/zoe-liu-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi",
     "certification": "",
     "weeklyResponse": "Adjusting the image scale to keep it high-definition was very helpful. I can set the canvas size directly, but scaling lets me fine-tune without re-saving. While I didn’t need loops this time, I see how they could help generate more stars in future work.",
@@ -1312,35 +1312,35 @@
         "fileId": "1LUEKouTvII8Rb6sgcdXCFEOLHRCHlmeu",
         "thumbnail": "https://drive.google.com/thumbnail?id=1LUEKouTvII8Rb6sgcdXCFEOLHRCHlmeu&sz=w800",
         "embed": "https://drive.google.com/file/d/1LUEKouTvII8Rb6sgcdXCFEOLHRCHlmeu/preview",
-        "local": null
+        "local": "/student-files/zoe-liu-week-4--loops---custom-functions-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=1MNYhGTjRTydJOtZ_mIgfZ44XusBN-qaF",
         "fileId": "1MNYhGTjRTydJOtZ_mIgfZ44XusBN-qaF",
         "thumbnail": "https://drive.google.com/thumbnail?id=1MNYhGTjRTydJOtZ_mIgfZ44XusBN-qaF&sz=w800",
         "embed": "https://drive.google.com/file/d/1MNYhGTjRTydJOtZ_mIgfZ44XusBN-qaF/preview",
-        "local": null
+        "local": "/student-files/zoe-liu-week-4--loops---custom-functions-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=1PIb25JiZnm1il_41ai6eoHwDwWGgnDAy",
         "fileId": "1PIb25JiZnm1il_41ai6eoHwDwWGgnDAy",
         "thumbnail": "https://drive.google.com/thumbnail?id=1PIb25JiZnm1il_41ai6eoHwDwWGgnDAy&sz=w800",
         "embed": "https://drive.google.com/file/d/1PIb25JiZnm1il_41ai6eoHwDwWGgnDAy/preview",
-        "local": null
+        "local": "/student-files/zoe-liu-week-4--loops---custom-functions-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=1a-Dr5Z-BGdKpjkueGTvf9ECUEvpnFwXQ",
         "fileId": "1a-Dr5Z-BGdKpjkueGTvf9ECUEvpnFwXQ",
         "thumbnail": "https://drive.google.com/thumbnail?id=1a-Dr5Z-BGdKpjkueGTvf9ECUEvpnFwXQ&sz=w800",
         "embed": "https://drive.google.com/file/d/1a-Dr5Z-BGdKpjkueGTvf9ECUEvpnFwXQ/preview",
-        "local": null
+        "local": "/student-files/zoe-liu-week-4--loops---custom-functions-4.png"
       },
       {
         "original": "https://drive.google.com/open?id=1L05LIWfa_NHne4ipXsod90SWQD0ZZiQw",
         "fileId": "1L05LIWfa_NHne4ipXsod90SWQD0ZZiQw",
         "thumbnail": "https://drive.google.com/thumbnail?id=1L05LIWfa_NHne4ipXsod90SWQD0ZZiQw&sz=w800",
         "embed": "https://drive.google.com/file/d/1L05LIWfa_NHne4ipXsod90SWQD0ZZiQw/preview",
-        "local": null
+        "local": "/student-files/zoe-liu-week-4--loops---custom-functions-5.png"
       }
     ]
   },
@@ -1351,7 +1351,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "By quoting the phrase 'Somewhere, something incredible is waiting to be known,' I sought to capture the vastness of the universe. The quote reflects the idea that through human curiosity and the spirit of exploration, we can uncover its hidden wonders.",
     "credit": "AI agents",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1ZgBpCHLlpd4kBSAh2O9kCB2JjaArLlUI&sz=w800, https://drive.google.com/thumbnail?id=16PWY0PKUj4E_TJL0et-utnVH-lSrJBCw&sz=w800, https://drive.google.com/thumbnail?id=1KPwUA-6-LTH2iDrJBquv2UAQElo90Cv6&sz=w800, https://drive.google.com/thumbnail?id=1SEUGEK9HCJwyieHMK0t7JRlPCfO5HlL6&sz=w800, https://drive.google.com/thumbnail?id=1mig937oY8Hjqm8HB6A0Ry13M4Yq-lbNp&sz=w800",
+    "uploadedFiles": "/student-files/lin-kim-week-4--loops---custom-functions-1.png, /student-files/lin-kim-week-4--loops---custom-functions-2.png, /student-files/lin-kim-week-4--loops---custom-functions-3.png, /student-files/lin-kim-week-4--loops---custom-functions-4.png, /student-files/lin-kim-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/present1513/full/axQCyPaBi",
     "certification": "",
     "weeklyResponse": "Yes",
@@ -1362,35 +1362,35 @@
         "fileId": "1ZgBpCHLlpd4kBSAh2O9kCB2JjaArLlUI",
         "thumbnail": "https://drive.google.com/thumbnail?id=1ZgBpCHLlpd4kBSAh2O9kCB2JjaArLlUI&sz=w800",
         "embed": "https://drive.google.com/file/d/1ZgBpCHLlpd4kBSAh2O9kCB2JjaArLlUI/preview",
-        "local": null
+        "local": "/student-files/lin-kim-week-4--loops---custom-functions-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=16PWY0PKUj4E_TJL0et-utnVH-lSrJBCw",
         "fileId": "16PWY0PKUj4E_TJL0et-utnVH-lSrJBCw",
         "thumbnail": "https://drive.google.com/thumbnail?id=16PWY0PKUj4E_TJL0et-utnVH-lSrJBCw&sz=w800",
         "embed": "https://drive.google.com/file/d/16PWY0PKUj4E_TJL0et-utnVH-lSrJBCw/preview",
-        "local": null
+        "local": "/student-files/lin-kim-week-4--loops---custom-functions-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=1KPwUA-6-LTH2iDrJBquv2UAQElo90Cv6",
         "fileId": "1KPwUA-6-LTH2iDrJBquv2UAQElo90Cv6",
         "thumbnail": "https://drive.google.com/thumbnail?id=1KPwUA-6-LTH2iDrJBquv2UAQElo90Cv6&sz=w800",
         "embed": "https://drive.google.com/file/d/1KPwUA-6-LTH2iDrJBquv2UAQElo90Cv6/preview",
-        "local": null
+        "local": "/student-files/lin-kim-week-4--loops---custom-functions-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=1SEUGEK9HCJwyieHMK0t7JRlPCfO5HlL6",
         "fileId": "1SEUGEK9HCJwyieHMK0t7JRlPCfO5HlL6",
         "thumbnail": "https://drive.google.com/thumbnail?id=1SEUGEK9HCJwyieHMK0t7JRlPCfO5HlL6&sz=w800",
         "embed": "https://drive.google.com/file/d/1SEUGEK9HCJwyieHMK0t7JRlPCfO5HlL6/preview",
-        "local": null
+        "local": "/student-files/lin-kim-week-4--loops---custom-functions-4.png"
       },
       {
         "original": "https://drive.google.com/open?id=1mig937oY8Hjqm8HB6A0Ry13M4Yq-lbNp",
         "fileId": "1mig937oY8Hjqm8HB6A0Ry13M4Yq-lbNp",
         "thumbnail": "https://drive.google.com/thumbnail?id=1mig937oY8Hjqm8HB6A0Ry13M4Yq-lbNp&sz=w800",
         "embed": "https://drive.google.com/file/d/1mig937oY8Hjqm8HB6A0Ry13M4Yq-lbNp/preview",
-        "local": null
+        "local": "/student-files/lin-kim-week-4--loops---custom-functions-5.png"
       }
     ]
   },
@@ -1401,7 +1401,7 @@
     "assignmentTitle": "Week 4: Loops & Custom Functions",
     "projectDescription": "My final sketch has a few separate functions:\n- if the canvas height > width, the screen will spam either \"i fear\" or \"i carry your heart(i carry it in my heart)\"\n- if the canvas width > height (wide), the screen will randomly show a stanza of the poem\n- if the canvas width > 650 + canvas height > 490, the full poem will be revealed.\n\nI also changed the colors to be either red, white or black. ",
     "credit": "ChatGPT",
-    "uploadedFiles": "https://drive.google.com/thumbnail?id=1WxO8hZ2rZTs7nv7Xs_KXAcIQaGqp5wHX&sz=w800, https://drive.google.com/thumbnail?id=17o4ZM1m95h5Y6_1PLIeXNVZUEdUxWkUw&sz=w800, https://drive.google.com/thumbnail?id=14m--o0UwLCAN1LpRld3yxx0hOkRG34Ab&sz=w800, https://drive.google.com/thumbnail?id=1Xi8a5FNvP6n4ul1hWf3JK1zx_jtko3gx&sz=w800",
+    "uploadedFiles": "/student-files/sreya-mahsin-week-4--loops---custom-functions-1.png, /student-files/sreya-mahsin-week-4--loops---custom-functions-2.png, /student-files/sreya-mahsin-week-4--loops---custom-functions-3.png, /student-files/sreya-mahsin-week-4--loops---custom-functions-4.png",
     "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
     "certification": "",
     "weeklyResponse": "I learned how to use custom functions and conditionals to bring more organization in my code but randomness/chaos in my design. I want to understand how to make my designs more responsive and automate the scaling and lines to fit the canvas properly without having to do the math. ",
@@ -1412,28 +1412,374 @@
         "fileId": "1WxO8hZ2rZTs7nv7Xs_KXAcIQaGqp5wHX",
         "thumbnail": "https://drive.google.com/thumbnail?id=1WxO8hZ2rZTs7nv7Xs_KXAcIQaGqp5wHX&sz=w800",
         "embed": "https://drive.google.com/file/d/1WxO8hZ2rZTs7nv7Xs_KXAcIQaGqp5wHX/preview",
-        "local": null
+        "local": "/student-files/sreya-mahsin-week-4--loops---custom-functions-1.png"
       },
       {
         "original": "https://drive.google.com/open?id=17o4ZM1m95h5Y6_1PLIeXNVZUEdUxWkUw",
         "fileId": "17o4ZM1m95h5Y6_1PLIeXNVZUEdUxWkUw",
         "thumbnail": "https://drive.google.com/thumbnail?id=17o4ZM1m95h5Y6_1PLIeXNVZUEdUxWkUw&sz=w800",
         "embed": "https://drive.google.com/file/d/17o4ZM1m95h5Y6_1PLIeXNVZUEdUxWkUw/preview",
-        "local": null
+        "local": "/student-files/sreya-mahsin-week-4--loops---custom-functions-2.png"
       },
       {
         "original": "https://drive.google.com/open?id=14m--o0UwLCAN1LpRld3yxx0hOkRG34Ab",
         "fileId": "14m--o0UwLCAN1LpRld3yxx0hOkRG34Ab",
         "thumbnail": "https://drive.google.com/thumbnail?id=14m--o0UwLCAN1LpRld3yxx0hOkRG34Ab&sz=w800",
         "embed": "https://drive.google.com/file/d/14m--o0UwLCAN1LpRld3yxx0hOkRG34Ab/preview",
-        "local": null
+        "local": "/student-files/sreya-mahsin-week-4--loops---custom-functions-3.png"
       },
       {
         "original": "https://drive.google.com/open?id=1Xi8a5FNvP6n4ul1hWf3JK1zx_jtko3gx",
         "fileId": "1Xi8a5FNvP6n4ul1hWf3JK1zx_jtko3gx",
         "thumbnail": "https://drive.google.com/thumbnail?id=1Xi8a5FNvP6n4ul1hWf3JK1zx_jtko3gx&sz=w800",
         "embed": "https://drive.google.com/file/d/1Xi8a5FNvP6n4ul1hWf3JK1zx_jtko3gx/preview",
-        "local": null
+        "local": "/student-files/sreya-mahsin-week-4--loops---custom-functions-4.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/23/2025 19:19:19",
+    "studentEmail": "jfux34@pratt.edu",
+    "studentId": "richard-fu",
+    "assignmentTitle": "Week 4: Loops & Custom Functions",
+    "projectDescription": "I want to emphasize on the dimension adaptability from an interactive avenue. The starting anchor point and the ending anchor point dictate the directionality of the text, while the changing points along the curve could mirror the haphazard nature of a walk we take. ",
+    "credit": "I used Claud for several functions: The rotation of the text relative to the anchor points of the curve drawn / the GUI that synthesizes the hand drawn curve into numerous belzier curve coordinates that maps into the newer canvases with proportional layouts ",
+    "uploadedFiles": "/student-files/richard-fu-week-4--loops---custom-functions-1.png, /student-files/richard-fu-week-4--loops---custom-functions-2.png, /student-files/richard-fu-week-4--loops---custom-functions-3.png, /student-files/richard-fu-week-4--loops---custom-functions-4.png, /student-files/richard-fu-week-4--loops---custom-functions-5.png",
+    "linkToWork": "https://editor.p5js.org/ririff/sketches/Q9itE9hDS",
+    "certification": "",
+    "weeklyResponse": "codes work ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1GSas061xauj-aigBRt78PSJh2iBmNY74",
+        "fileId": "1GSas061xauj-aigBRt78PSJh2iBmNY74",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1GSas061xauj-aigBRt78PSJh2iBmNY74&sz=w800",
+        "embed": "https://drive.google.com/file/d/1GSas061xauj-aigBRt78PSJh2iBmNY74/preview",
+        "local": "/student-files/richard-fu-week-4--loops---custom-functions-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1j9NtlmcvaDpmPZ5cVPR77R61tNVeflXt",
+        "fileId": "1j9NtlmcvaDpmPZ5cVPR77R61tNVeflXt",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1j9NtlmcvaDpmPZ5cVPR77R61tNVeflXt&sz=w800",
+        "embed": "https://drive.google.com/file/d/1j9NtlmcvaDpmPZ5cVPR77R61tNVeflXt/preview",
+        "local": "/student-files/richard-fu-week-4--loops---custom-functions-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1eh4LC9WZqN_flQZBlTMNCFiHQvLgmXMg",
+        "fileId": "1eh4LC9WZqN_flQZBlTMNCFiHQvLgmXMg",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1eh4LC9WZqN_flQZBlTMNCFiHQvLgmXMg&sz=w800",
+        "embed": "https://drive.google.com/file/d/1eh4LC9WZqN_flQZBlTMNCFiHQvLgmXMg/preview",
+        "local": "/student-files/richard-fu-week-4--loops---custom-functions-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1NXA4caGJAaDadUVHze4nSYvmrAXkzJuU",
+        "fileId": "1NXA4caGJAaDadUVHze4nSYvmrAXkzJuU",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1NXA4caGJAaDadUVHze4nSYvmrAXkzJuU&sz=w800",
+        "embed": "https://drive.google.com/file/d/1NXA4caGJAaDadUVHze4nSYvmrAXkzJuU/preview",
+        "local": "/student-files/richard-fu-week-4--loops---custom-functions-4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1D4nHy8O26nsnO0SlGMu4nHaYwv8gbaG0",
+        "fileId": "1D4nHy8O26nsnO0SlGMu4nHaYwv8gbaG0",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1D4nHy8O26nsnO0SlGMu4nHaYwv8gbaG0&sz=w800",
+        "embed": "https://drive.google.com/file/d/1D4nHy8O26nsnO0SlGMu4nHaYwv8gbaG0/preview",
+        "local": "/student-files/richard-fu-week-4--loops---custom-functions-5.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "9/30/2025 10:00:11",
+    "studentEmail": "syadav4@pratt.edu",
+    "studentId": "sarena-yadav",
+    "assignmentTitle": "Week 4: Loops & Custom Functions",
+    "projectDescription": "For this project, I wanted to create a dynamic and visually engaging composition that brought together techniques and ideas I learned in class, while also exploring my theme of cosmic alignment and trust. Using p5.js, I combined gradients, textures, typography, randomness, and interactivity to build a piece that feels both aesthetic and conceptually rich.\nThe canvas begins with a gradient background that shifts from grey to black, creating depth and giving a cosmic tone to the composition. At its center is a light grey circular base, acting as a stable anchor. On top of this, I layered a texture image using the dodge blend mode, which highlights lighter regions while maintaining harmony with the background. This combination of gradient, circle, and texture creates a layered, dimensional quality that draws the viewer in.\nTypography plays a central role through the phrase “COSMIC TRUST.” I split the phrase into individual letters and positioned them randomly across the canvas. Their semi-transparent fills allow overlaps to interact, producing subtle layers and moments of balance within the chaos. To enhance this randomness, the letter sizes now scale dynamically with the canvas dimensions: on taller canvases, the height determines their proportions, while on wider canvases, the width sets their size. This ensures proportionality across all formats and ties the typography to the changing environment of the canvas itself. Additionally, one random letter is transformed with a shear effect on every run. This slight distortion emphasizes uniqueness and unpredictability, symbolizing how the universe often introduces irregular yet meaningful variations.\nA significant addition is the interplay of two circles. While the light grey base circle remains fixed at the center, a semi-transparent black circle is randomly generated and repositioned each time. When it overlaps the white circle, crescent-like shapes emerge, resembling phases of the moon. This cyclical effect introduces a sense of cosmic rhythm, reinforcing the theme of alignment, change, and trust in unseen patterns. The stroked ellipse also adapts in size relative to the canvas, stretching or shrinking to match proportions, acting as another shifting but balanced element in the composition.\nInteractivity is provided through a dat.GUI interface, allowing toggling between random and ordered text placement and enabling the artwork to be saved as PNG or SVG. This makes the piece versatile and experimental, with each run producing new alignments and visual outcomes.\nOverall, this project explores the balance of order and randomness, cycles and change. Through layered textures, dynamically scaling letters, lunar overlaps, and proportional ellipses, it reflects how the universe aligns in both predictable and surprising ways.",
+    "credit": "Chat GPT, The Coding Train, References on the website and class slides",
+    "uploadedFiles": "/student-files/sarena-yadav-week-4--loops---custom-functions-1.png, /student-files/sarena-yadav-week-4--loops---custom-functions-2.png, /student-files/sarena-yadav-week-4--loops---custom-functions-3.png, /student-files/sarena-yadav-week-4--loops---custom-functions-4.png, /student-files/sarena-yadav-week-4--loops---custom-functions-5.png",
+    "linkToWork": "https://editor.p5js.org/syadav4/sketches/s2UNv5GPF",
+    "certification": "",
+    "weeklyResponse": "I never thought that randomness could actually make sense. As designers, we usually focus on alignment, order, and precision, but this project showed me something different. Letting go of control and allowing randomness to decide placement, size, and shapes was new for me—and surprisingly fun. Each run of the code created a completely unique outcome, almost like the artwork had its own life. The overlapping letters, the shifting circles, made me realize that randomness can be just as beautiful as carefully planned design. It gave my artwork unpredictability and uniqueness every time.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1F2cegX1cNTSvrrUpQhAMDnf7zrIfAkaf",
+        "fileId": "1F2cegX1cNTSvrrUpQhAMDnf7zrIfAkaf",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1F2cegX1cNTSvrrUpQhAMDnf7zrIfAkaf&sz=w800",
+        "embed": "https://drive.google.com/file/d/1F2cegX1cNTSvrrUpQhAMDnf7zrIfAkaf/preview",
+        "local": "/student-files/sarena-yadav-week-4--loops---custom-functions-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1_4J6QNTeLCiJJxOHALdSz3LNIx2Ht_mt",
+        "fileId": "1_4J6QNTeLCiJJxOHALdSz3LNIx2Ht_mt",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1_4J6QNTeLCiJJxOHALdSz3LNIx2Ht_mt&sz=w800",
+        "embed": "https://drive.google.com/file/d/1_4J6QNTeLCiJJxOHALdSz3LNIx2Ht_mt/preview",
+        "local": "/student-files/sarena-yadav-week-4--loops---custom-functions-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=11b3W0-zgz71iPDW0kcayv9paF3hAi9JI",
+        "fileId": "11b3W0-zgz71iPDW0kcayv9paF3hAi9JI",
+        "thumbnail": "https://drive.google.com/thumbnail?id=11b3W0-zgz71iPDW0kcayv9paF3hAi9JI&sz=w800",
+        "embed": "https://drive.google.com/file/d/11b3W0-zgz71iPDW0kcayv9paF3hAi9JI/preview",
+        "local": "/student-files/sarena-yadav-week-4--loops---custom-functions-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1que5a7l2IJNXojLEYuOt_e5-CJCOltrc",
+        "fileId": "1que5a7l2IJNXojLEYuOt_e5-CJCOltrc",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1que5a7l2IJNXojLEYuOt_e5-CJCOltrc&sz=w800",
+        "embed": "https://drive.google.com/file/d/1que5a7l2IJNXojLEYuOt_e5-CJCOltrc/preview",
+        "local": "/student-files/sarena-yadav-week-4--loops---custom-functions-4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1WRpzKPeVfjDfBNfAL98WzduuLO4WXf05",
+        "fileId": "1WRpzKPeVfjDfBNfAL98WzduuLO4WXf05",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WRpzKPeVfjDfBNfAL98WzduuLO4WXf05&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WRpzKPeVfjDfBNfAL98WzduuLO4WXf05/preview",
+        "local": "/student-files/sarena-yadav-week-4--loops---custom-functions-5.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/2/2025 12:29:50",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "For my data set I picked drinking fountains in NYC parks. I know how important having accessible drinking water is. I take it for granted while people throughout the country/ world that do not. \n\nWhile thinking about this problem of how water is inaccessible, I think acknowledging how many public water sources there are in NYC and even asking for more is a step in the right direction to set an example for other cities places to make sure it is available. ",
+    "credit": "Thanks to chatGPT. I was also looking at wikipedia commons for nyc maps to put behind the GEOJSON, but the images did not work loading. ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-6--data---mapping-data-1.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/full/9ISpqqR74",
+    "certification": "",
+    "weeklyResponse": "I needed more help with the preload for images on top of the JSON-- making sure it was aligned. ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1SHY05al31xTxknZCLXaZhW57GtgLNX9f",
+        "fileId": "1SHY05al31xTxknZCLXaZhW57GtgLNX9f",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1SHY05al31xTxknZCLXaZhW57GtgLNX9f&sz=w800",
+        "embed": "https://drive.google.com/file/d/1SHY05al31xTxknZCLXaZhW57GtgLNX9f/preview",
+        "local": "/student-files/nancy-scanlon-week-6--data---mapping-data-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/5/2025 13:02:41",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "Orchestral Instrumentation Chart / After selecting a musical piece, I analyzed the frequency and distribution of instruments used in its composition. When string instruments dominate, the piece tends to be more lyrical and emotional. When wind instruments are prominent, the piece carries more weight and gravitas. When percussion instruments are abundant, the piece is more rhythm-centered. I analyze compositions from this perspective. Since the atmosphere of a piece varies depending on which instruments are used, I aim to progressively develop appropriate graphs and visual representations that reflect these characteristics.\n\nVisual Approach:\nThe graphic visualizes the progression of notes on a musical staff as a graph.",
+    "credit": "IMSLP (Music Score Sites), Claude, Chat GPT",
+    "uploadedFiles": "/student-files/lina-lee-week-6--data---mapping-data-1.png, /student-files/lina-lee-week-6--data---mapping-data-2.mp4",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/mrI9eko5W",
+    "certification": "",
+    "weeklyResponse": "I was hoping for more variation in note distribution, but since the instrumentation is fairly balanced, the visual representation looks rather uniform. Perhaps we should try analyzing a different symphony or a chamber music piece.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1zDUYpMhYKsYs6WL5r_On_MbwPOmtqaqV",
+        "fileId": "1zDUYpMhYKsYs6WL5r_On_MbwPOmtqaqV",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1zDUYpMhYKsYs6WL5r_On_MbwPOmtqaqV&sz=w800",
+        "embed": "https://drive.google.com/file/d/1zDUYpMhYKsYs6WL5r_On_MbwPOmtqaqV/preview",
+        "local": "/student-files/lina-lee-week-6--data---mapping-data-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=13e3_XCcnb_WK4YT5Kt7HcbFLQtoV91ee",
+        "fileId": "13e3_XCcnb_WK4YT5Kt7HcbFLQtoV91ee",
+        "thumbnail": "https://drive.google.com/thumbnail?id=13e3_XCcnb_WK4YT5Kt7HcbFLQtoV91ee&sz=w800",
+        "embed": "https://drive.google.com/file/d/13e3_XCcnb_WK4YT5Kt7HcbFLQtoV91ee/preview",
+        "local": "/student-files/lina-lee-week-6--data---mapping-data-2.mp4"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/6/2025 1:29:03",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "Sound of Time is an interactive visualization that explores the evolution of classical music through data. It presents composers from the 17th to the early 20th century, expressing each through color, size, and motion.\n\nColors correspond to different musical eras such as Baroque, Classical, Romantic, and Modern. The size of each circle reflects the number of compositions, while its movement represents the passage of time. As the timeline flows from 1700 to 1920, composers gradually emerge on the screen. When hovering over a circle, the composer’s name, era, and year appear, and clicking plays a tone that reflects the musical mood of that period.\n\nSet against a deep black background, each composer glows like a star, and the subtle pulsation of the circles symbolizes the living rhythm of music. Through the combination of visual data and sound, Sound of Time transforms musical history into an immersive experience — a poetic journey through time and tone.",
+    "credit": "AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-6--data---mapping-data-1.png, /student-files/lin-kim-week-6--data---mapping-data-2.png, /student-files/lin-kim-week-6--data---mapping-data-3.png",
+    "linkToWork": "https://editor.p5js.org/present1513/full/KOmodZzHl",
+    "certification": "",
+    "weeklyResponse": "This week, I explored how data can be felt, not just seen, through the process of turning classical music data into an interactive visual experience. It was both a technical and creative challenge, finding balance between data accuracy and emotional expression.\n\nBy connecting Python-based data preprocessing with p5.js visualization, I learned how musical information such as era, frequency, and composition count could be transformed into movement, color, and sound. Through debugging and iterative testing, I realized that each visual parameter—position, size, hue, and motion—carries its own meaning.\n\nThe biggest insight was that emotional data visualization is more about interpretation than coding. I’m still curious about how to make 3D interactions smoother in p5.js and how to design visuals that respond more intuitively to user behavior.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1WQL5FoM8Wm8TvQLJ-qu3fycz4QJljnO5",
+        "fileId": "1WQL5FoM8Wm8TvQLJ-qu3fycz4QJljnO5",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WQL5FoM8Wm8TvQLJ-qu3fycz4QJljnO5&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WQL5FoM8Wm8TvQLJ-qu3fycz4QJljnO5/preview",
+        "local": "/student-files/lin-kim-week-6--data---mapping-data-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1mPshS5rS5Y1ksGC4myOo2HR2cbaWOO-r",
+        "fileId": "1mPshS5rS5Y1ksGC4myOo2HR2cbaWOO-r",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1mPshS5rS5Y1ksGC4myOo2HR2cbaWOO-r&sz=w800",
+        "embed": "https://drive.google.com/file/d/1mPshS5rS5Y1ksGC4myOo2HR2cbaWOO-r/preview",
+        "local": "/student-files/lin-kim-week-6--data---mapping-data-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1Y9ti1_Xter426CmKsU3UmrHxiGrhWmTb",
+        "fileId": "1Y9ti1_Xter426CmKsU3UmrHxiGrhWmTb",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Y9ti1_Xter426CmKsU3UmrHxiGrhWmTb&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Y9ti1_Xter426CmKsU3UmrHxiGrhWmTb/preview",
+        "local": "/student-files/lin-kim-week-6--data---mapping-data-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/6/2025 13:22:31",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "I’ve researched some data about graffiti, emoji usage, and bird distribution. Among them, I’m most interested in emojis and created a data visualization with the help of GPT.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/flora-fang-week-6--data---mapping-data-1.png, /student-files/flora-fang-week-6--data---mapping-data-2.png",
+    "linkToWork": "https://editor.p5js.org/zfang32/sketches/Lz-UV3lLa",
+    "certification": "",
+    "weeklyResponse": "I learned how to search for data and visualize it, which I found really interesting. When I tried creating my own visualization using P5, I wanted the most frequently used emojis to appear larger while the less common ones appeared smaller, to create a more intuitive visual effect. But I wasn’t quite sure how to do it now.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1tc4Emz2hHaq0BO1TKtvruwSDLtA6imeP",
+        "fileId": "1tc4Emz2hHaq0BO1TKtvruwSDLtA6imeP",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1tc4Emz2hHaq0BO1TKtvruwSDLtA6imeP&sz=w800",
+        "embed": "https://drive.google.com/file/d/1tc4Emz2hHaq0BO1TKtvruwSDLtA6imeP/preview",
+        "local": "/student-files/flora-fang-week-6--data---mapping-data-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1hvF4byXbF0rcDQnQZooIuhdE7YWltj2q",
+        "fileId": "1hvF4byXbF0rcDQnQZooIuhdE7YWltj2q",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1hvF4byXbF0rcDQnQZooIuhdE7YWltj2q&sz=w800",
+        "embed": "https://drive.google.com/file/d/1hvF4byXbF0rcDQnQZooIuhdE7YWltj2q/preview",
+        "local": "/student-files/flora-fang-week-6--data---mapping-data-2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/6/2025 15:23:48",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "Because my hometown, Guangdong, China, is often affected by typhoons, especially during these two months every year, I wanted to create a data project about typhoons. Some reference websites were collected, and a simple data visualization was made in p5. It presents ten of the largest typhoons in East Asia in recent years and their landing locations. By clicking, the information of each typhoon can be viewed, and with each play, the typhoons are distributed in different positions.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/yiling-yang-week-6--data---mapping-data-1.png, /student-files/yiling-yang-week-6--data---mapping-data-2.png, /student-files/yiling-yang-week-6--data---mapping-data-3.png, /student-files/yiling-yang-week-6--data---mapping-data-4.png, /student-files/yiling-yang-week-6--data---mapping-data-5.png",
+    "linkToWork": "https://editor.p5js.org/YilingYang/sketches/PYgBuT-tp",
+    "certification": "",
+    "weeklyResponse": "If I want to include typhoon trajectories instead of single points, how can I efficiently organize and draw a large amount of data in p5.js?",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1Iih4DS-PgiBdN_NLs5gzjVOMqEQ64HWw",
+        "fileId": "1Iih4DS-PgiBdN_NLs5gzjVOMqEQ64HWw",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Iih4DS-PgiBdN_NLs5gzjVOMqEQ64HWw&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Iih4DS-PgiBdN_NLs5gzjVOMqEQ64HWw/preview",
+        "local": "/student-files/yiling-yang-week-6--data---mapping-data-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1AIDYOiE0PHdqoHF492tQNu8pE6IK2fBQ",
+        "fileId": "1AIDYOiE0PHdqoHF492tQNu8pE6IK2fBQ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1AIDYOiE0PHdqoHF492tQNu8pE6IK2fBQ&sz=w800",
+        "embed": "https://drive.google.com/file/d/1AIDYOiE0PHdqoHF492tQNu8pE6IK2fBQ/preview",
+        "local": "/student-files/yiling-yang-week-6--data---mapping-data-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=10KzlUr9Z2tJyRULurMZlAskrJe0L_VoL",
+        "fileId": "10KzlUr9Z2tJyRULurMZlAskrJe0L_VoL",
+        "thumbnail": "https://drive.google.com/thumbnail?id=10KzlUr9Z2tJyRULurMZlAskrJe0L_VoL&sz=w800",
+        "embed": "https://drive.google.com/file/d/10KzlUr9Z2tJyRULurMZlAskrJe0L_VoL/preview",
+        "local": "/student-files/yiling-yang-week-6--data---mapping-data-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1uciwiSfhpuYsxA7ADJr_NnlXEKKGW1AK",
+        "fileId": "1uciwiSfhpuYsxA7ADJr_NnlXEKKGW1AK",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1uciwiSfhpuYsxA7ADJr_NnlXEKKGW1AK&sz=w800",
+        "embed": "https://drive.google.com/file/d/1uciwiSfhpuYsxA7ADJr_NnlXEKKGW1AK/preview",
+        "local": "/student-files/yiling-yang-week-6--data---mapping-data-4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1LrAVnptCqP-ihzFPfMWG08vHdTceZ1dr",
+        "fileId": "1LrAVnptCqP-ihzFPfMWG08vHdTceZ1dr",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1LrAVnptCqP-ihzFPfMWG08vHdTceZ1dr&sz=w800",
+        "embed": "https://drive.google.com/file/d/1LrAVnptCqP-ihzFPfMWG08vHdTceZ1dr/preview",
+        "local": "/student-files/yiling-yang-week-6--data---mapping-data-5.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/7/2025 3:54:46",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "A visualization for trees' location and their condition from data 1995 Street Tree Census",
+    "credit": "Chatgpt, https://data.cityofnewyork.us/Environment/1995-Street-Tree-Census/kyad-zm4j/about_data",
+    "uploadedFiles": "/student-files/zoe-liu-week-6--data---mapping-data-1.png",
+    "linkToWork": "https://editor.p5js.org/munusshih/sketches/W1OdpjKYC",
+    "certification": "",
+    "weeklyResponse": "ChatGPT 说：\n\nVisualization is a tricky process. You not only have to decide which columns to show, but also pick and filter the data so the picture looks balanced, instead of letting one weird data point push everything into a corner.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1DOTDKTrn5BeN-sHMScgIVMdfkJnz0Uv9",
+        "fileId": "1DOTDKTrn5BeN-sHMScgIVMdfkJnz0Uv9",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1DOTDKTrn5BeN-sHMScgIVMdfkJnz0Uv9&sz=w800",
+        "embed": "https://drive.google.com/file/d/1DOTDKTrn5BeN-sHMScgIVMdfkJnz0Uv9/preview",
+        "local": "/student-files/zoe-liu-week-6--data---mapping-data-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/7/2025 10:23:30",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "This project uses NYC complaint data from different boroughs. Each point represents a report made by resident about issues such as noise, traffic, or safety. I used color to separate the different types of complaints and shapes to distinguish categories. The goal is to show how these complaints vary by location. You see how data reflects daily urban life and the concerns that shape each community.",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/kate-chon-week-6--data---mapping-data-1.png, /student-files/kate-chon-week-6--data---mapping-data-2.png, /student-files/kate-chon-week-6--data---mapping-data-3.png",
+    "linkToWork": "https://editor.p5js.org/kchon2/sketches/2MPeDYN8s",
+    "certification": "",
+    "weeklyResponse": "I had trouble connecting the data link to my code. I tried saving the dataset on excel as a CSV, but maybe the file was too large, so on p5 it wouldn't load. I reduced the complaints to rows 1-1001 in Excel, but it still wouldn't load. My current code only shows around 100 complaints, some boroughs are missing. I need help figuring out how to properly link the dataset in my code or find another solution to handle the full data. ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1mYvmuvYigKfkA6r3yyeCQt92yPXFLFid",
+        "fileId": "1mYvmuvYigKfkA6r3yyeCQt92yPXFLFid",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1mYvmuvYigKfkA6r3yyeCQt92yPXFLFid&sz=w800",
+        "embed": "https://drive.google.com/file/d/1mYvmuvYigKfkA6r3yyeCQt92yPXFLFid/preview",
+        "local": "/student-files/kate-chon-week-6--data---mapping-data-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1VQeTjebzCQulhC1Y9A9Q2ki_1M7Vs1uw",
+        "fileId": "1VQeTjebzCQulhC1Y9A9Q2ki_1M7Vs1uw",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1VQeTjebzCQulhC1Y9A9Q2ki_1M7Vs1uw&sz=w800",
+        "embed": "https://drive.google.com/file/d/1VQeTjebzCQulhC1Y9A9Q2ki_1M7Vs1uw/preview",
+        "local": "/student-files/kate-chon-week-6--data---mapping-data-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1VTVFr0jMOoqzxaY7uIWc_z4A4-EPW5Zy",
+        "fileId": "1VTVFr0jMOoqzxaY7uIWc_z4A4-EPW5Zy",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1VTVFr0jMOoqzxaY7uIWc_z4A4-EPW5Zy&sz=w800",
+        "embed": "https://drive.google.com/file/d/1VTVFr0jMOoqzxaY7uIWc_z4A4-EPW5Zy/preview",
+        "local": "/student-files/kate-chon-week-6--data---mapping-data-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/7/2025 19:46:59",
+    "studentEmail": "jfux34@pratt.edu",
+    "studentId": "richard-fu",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "I used Directory of Basketball Courts of NY as my data set. The set includes location (x,y coordinates), addresses, and its accessibility. I intended to create a visualization of the map of such with infos stored.\n\n",
+    "credit": "I referenced the squirrel code shown in class, and Claude helped with the filtering code to eliminate data points incomplete, and it added fancy motions and light. ",
+    "uploadedFiles": "/student-files/richard-fu-week-6--data---mapping-data-1.png",
+    "linkToWork": "https://editor.p5js.org/ririff/full/GnMGCuKs2",
+    "certification": "",
+    "weeklyResponse": "Filtering out inaccessible data points is crucial",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1Q49i3FDXmpiKKkLpPDowV19kKNWNiob8",
+        "fileId": "1Q49i3FDXmpiKKkLpPDowV19kKNWNiob8",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Q49i3FDXmpiKKkLpPDowV19kKNWNiob8&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Q49i3FDXmpiKKkLpPDowV19kKNWNiob8/preview",
+        "local": "/student-files/richard-fu-week-6--data---mapping-data-1.png"
       }
     ]
   }

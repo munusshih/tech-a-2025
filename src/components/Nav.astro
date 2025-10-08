@@ -66,7 +66,7 @@ const processedPosts = await Promise.all(
                     Week {post.data.week}: {post.data.title}
                     {post.data.week === latestWeek && " ✨"}
                   </h2>
-                  {post.processedDescription && (
+                  {post.processedDescription && isIndex && (
                     <p
                       class="description"
                       set:html={post.processedDescription}
