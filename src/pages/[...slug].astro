@@ -4,8 +4,8 @@ import WeekPost from "@/layouts/WeekPost.astro";
 
 export async function getStaticPaths() {
   const posts = await getCollection("weeks");
-  // Filter out week 0 - these pages should not be accessible
-  const accessiblePosts = posts.filter((post) => post.data.week !== 0);
+  // Filter out week 0 and any posts with frontmatter `page: false` so they are not generated as pages
+  const accessiblePosts = posts.filter((post) => post.data.week !== 0 && post.data.page !== false);
   return accessiblePosts.map((post) => ({
     params: { slug: post.id },
     props: post,

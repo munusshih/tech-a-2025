@@ -60,8 +60,10 @@ const processedPosts = await Promise.all(
                 )}
               </li>
             ) : (
-              <a href={`/${post.id}/`}>
-                <li>
+              // If a page explicitly opts out via `page: false` in frontmatter,
+              // render the week as plain text (not a clickable link) in the nav.
+              post.data.page === false ? (
+                <li class="no-link">
                   <h2 class="title">
                     Week {post.data.week}: {post.data.title}
                     {post.data.week === latestWeek && " ✨"}
@@ -73,7 +75,22 @@ const processedPosts = await Promise.all(
                     />
                   )}
                 </li>
-              </a>
+              ) : (
+                <a href={`/${post.id}/`}>
+                  <li>
+                    <h2 class="title">
+                      Week {post.data.week}: {post.data.title}
+                      {post.data.week === latestWeek && " ✨"}
+                    </h2>
+                    {post.processedDescription && isIndex && (
+                      <p
+                        class="description"
+                        set:html={post.processedDescription}
+                      />
+                    )}
+                  </li>
+                </a>
+              )
             )}
           </div>
         </>
