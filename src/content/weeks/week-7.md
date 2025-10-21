@@ -6,7 +6,7 @@ longDescription: |
   This week we are diving deeper into data by exploring APIs and how to fetch data from external sources. We will also discuss the concept of data sculpture, where we translate data into physical forms.
 
   <br/><br/>
-  ![Dear Data by Giorgia Lupi and Stefanie Posavec](/weeks/Abacus1.png)
+  ![Abacus](/weeks/Abacus1.png)
   <br/><br/>
 
   - [**Recap & Troubleshooting**](https://www.figma.com/proto/DXNYy4bVRlqyk6wvhsZtgT/-Tech-A--Week-7?page-id=0%3A1&node-id=6005-52&viewport=259%2C4433%2C0.13&t=GwQXXCErMxK6RY5r-1&scaling=contain&content-scaling=fixed)
