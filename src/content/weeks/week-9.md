@@ -55,10 +55,10 @@ I found [this interesting article](https://www.instructables.com/Data-Crystals-3
 
 ## Examples
 
-- [016 - XYZ](https://editor.p5js.org/munusshih/sketches/Hqc375n07)
-- [017 - 3D Primitives](https://editor.p5js.org/munusshih/sketches/4vMJdVxbK)
-- [018 - Data Sculpture](https://editor.p5js.org/munusshih/sketches/u04wPjUV7)
-- [019 - STL Export](https://editor.p5js.org/munusshih/sketches/yiDcxYyKH)
+- [Misc - Using Opensheet API](https://editor.p5js.org/munusshih/sketches/YLVJxXJ9z)
+- [020 - OOP / Constructor](https://editor.p5js.org/munusshih/sketches/6rrEoPiQg)
+- [021 - OOP / Push](https://editor.p5js.org/munusshih/sketches/rkWVkWcc4)
+- [022 - OOP / Sculpture](https://editor.p5js.org/munusshih/sketches/DRykY8zYX)
 
 ## Tutorials & Resources
 
