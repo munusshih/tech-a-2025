@@ -33,7 +33,7 @@ week: 9
 
 ## Assignment
 
-**Due:** Oct 21, 2025
+**Due:** Oct 28, 2025
 <br/><br/>
 <a class="btn-primary" href="https://forms.gle/Fev6UZQf8z8rzyUg9">Submit Assignment</a>
 <br/><br/>
