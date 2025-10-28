@@ -114,5 +114,17 @@
       }
     ],
     "studentId": "bella-tsai"
+  },
+  {
+    "timestamp": "10/20/2025 23:30:47",
+    "studentEmail": "zfang32@pratt.edu",
+    "bio": "All is graphic ^",
+    "links": [
+      {
+        "name": "Portfolio - Flora (mutiple projects in one link)",
+        "url": "https://www.figma.com/design/U131eTiuuH92DmQSOn2Ga0/Portfolio---Flora?node-id=1-1039&t=FPOuqLHTVu06v9HA-1"
+      }
+    ],
+    "studentId": "flora-fang"
   }
 ]

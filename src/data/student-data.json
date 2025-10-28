@@ -1548,7 +1548,7 @@
     "linkToWork": "https://editor.p5js.org/nancyscan/full/9ISpqqR74",
     "certification": "",
     "weeklyResponse": "I needed more help with the preload for images on top of the JSON-- making sure it was aligned. ",
-    "teacherFeedback": "",
+    "teacherFeedback": "Do you know what kind of image ",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1SHY05al31xTxknZCLXaZhW57GtgLNX9f",
@@ -1635,7 +1635,7 @@
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/Lz-UV3lLa",
     "certification": "",
     "weeklyResponse": "I learned how to search for data and visualize it, which I found really interesting. When I tried creating my own visualization using P5, I wanted the most frequently used emojis to appear larger while the less common ones appeared smaller, to create a more intuitive visual effect. But I wasn’t quite sure how to do it now.",
-    "teacherFeedback": "",
+    "teacherFeedback": "We will learn next week how to use `.map()` in javascript to calculate our own attributes like frequency!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1tc4Emz2hHaq0BO1TKtvruwSDLtA6imeP",
@@ -1664,7 +1664,7 @@
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/PYgBuT-tp",
     "certification": "",
     "weeklyResponse": "If I want to include typhoon trajectories instead of single points, how can I efficiently organize and draw a large amount of data in p5.js?",
-    "teacherFeedback": "",
+    "teacherFeedback": "You use a `for loop()`!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1Iih4DS-PgiBdN_NLs5gzjVOMqEQ64HWw",
@@ -1736,7 +1736,7 @@
     "linkToWork": "https://editor.p5js.org/kchon2/sketches/2MPeDYN8s",
     "certification": "",
     "weeklyResponse": "I had trouble connecting the data link to my code. I tried saving the dataset on excel as a CSV, but maybe the file was too large, so on p5 it wouldn't load. I reduced the complaints to rows 1-1001 in Excel, but it still wouldn't load. My current code only shows around 100 complaints, some boroughs are missing. I need help figuring out how to properly link the dataset in my code or find another solution to handle the full data. ",
-    "teacherFeedback": "",
+    "teacherFeedback": "I'm not sure why but p5's function `loadTable()` for loading in csv is extremely slow. I recommend converting CSV to JSON and import it in that way instead!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1mYvmuvYigKfkA6r3yyeCQt92yPXFLFid",
@@ -1772,7 +1772,7 @@
     "linkToWork": "https://editor.p5js.org/ririff/full/GnMGCuKs2",
     "certification": "",
     "weeklyResponse": "Filtering out inaccessible data points is crucial",
-    "teacherFeedback": "",
+    "teacherFeedback": "I tend to think data visualization is 80% processing, and 20% visualization",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1Q49i3FDXmpiKKkLpPDowV19kKNWNiob8",
@@ -1780,6 +1780,679 @@
         "thumbnail": "https://drive.google.com/thumbnail?id=1Q49i3FDXmpiKKkLpPDowV19kKNWNiob8&sz=w800",
         "embed": "https://drive.google.com/file/d/1Q49i3FDXmpiKKkLpPDowV19kKNWNiob8/preview",
         "local": "/student-files/richard-fu-week-6--data---mapping-data-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/10/2025 22:39:08",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "I came to the conclusion that I want to use laser cut to make a terrain of nyc. For example the wood-cut terrain models. It would be essentially a map of nyc showcasing which areas have the highest density, middle density and lowest density. I have a specific idea of a heat map in my head to reflect a design in p5.js but it is challenging. I want a custom vector shape to represent an area of high density and so on. If I have the chance I will add lines growing inward to show that it has the highest density,, Lesser lines for the lower density. \n\nI found this good tutorial or p5.js file but it was html. It was because it is a Leaflet. So i'm wondering how I can change that into vector shapes. But I think I did okay to replicate what I work or closer to what I want to achieve. ",
+    "credit": "I want to credit the youtube channel Coding train by Daniel Shiffman. Especially this video : Coding Challenge 181: Weighted Voronoi Stippling. I was having trouble getting p5.js to not use shapes but color to reflect a heat map. So Voronoi came up. I dove more into it. The template https://editor.p5js.org/codingtrain/sketches/9ntWWLXqA helped me a lot. As well as https://editor.p5js.org/codingtrain/sketches/opmU_UQqg \n\nI also want to give credit to the coder that did this in p5.js. even though it was html it helped me see the vision I want to go towards. https://editor.p5js.org/Musa/sketches/myGTnBQJ0\n\nAlso I credit chatGPT for helping me combine my ideas with these references ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-7--data-sculpture-1.png, /student-files/nancy-scanlon-week-7--data-sculpture-2.png, /student-files/nancy-scanlon-week-7--data-sculpture-3.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/HbWgyBPMz                  or                https://editor.p5js.org/nancyscan/sketches/YqPgl6CVh",
+    "certification": "",
+    "weeklyResponse": "I learned that 3d modeling is challenging, but I am exciting to learn more code that can help me in the future weeks. ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1vB1y29GIJGMBBXYGP1av-kcLV6jlhXb1",
+        "fileId": "1vB1y29GIJGMBBXYGP1av-kcLV6jlhXb1",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1vB1y29GIJGMBBXYGP1av-kcLV6jlhXb1&sz=w800",
+        "embed": "https://drive.google.com/file/d/1vB1y29GIJGMBBXYGP1av-kcLV6jlhXb1/preview",
+        "local": "/student-files/nancy-scanlon-week-7--data-sculpture-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1_u9tVi9mqjwrdX9qUJDHydpZ6oWha6hi",
+        "fileId": "1_u9tVi9mqjwrdX9qUJDHydpZ6oWha6hi",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1_u9tVi9mqjwrdX9qUJDHydpZ6oWha6hi&sz=w800",
+        "embed": "https://drive.google.com/file/d/1_u9tVi9mqjwrdX9qUJDHydpZ6oWha6hi/preview",
+        "local": "/student-files/nancy-scanlon-week-7--data-sculpture-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1Phl--gEYAhpCg_q8WHdSQUAX6SmGJn2y",
+        "fileId": "1Phl--gEYAhpCg_q8WHdSQUAX6SmGJn2y",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Phl--gEYAhpCg_q8WHdSQUAX6SmGJn2y&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Phl--gEYAhpCg_q8WHdSQUAX6SmGJn2y/preview",
+        "local": "/student-files/nancy-scanlon-week-7--data-sculpture-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/13/2025 18:55:08",
+    "studentEmail": "syadav4@pratt.edu",
+    "studentId": "sarena-yadav",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "This interactive data visualization maps all the places I have visited in New York City, capturing details such as date, time, location name, mood, and whether I would recommend the place. Each visit is represented as a circle, with its horizontal position (x-axis) spread evenly across the canvas, and the vertical position (y-axis) mapped to the time of day, from early morning at the top to late night at the bottom. The color and size of each circle corresponds to my mood during the visit, giving visual weight to meaningful experiences. Clicking on a circle reveals a dynamic info panel with all details for that visit. The circles also feature subtle flickering, controllable via the dat.GUI interface, creating an effect reminiscent of city lights shimmering at night. Overall, the visualization combines temporal, spatial, and emotional dimensions to create a lively, personal map of my NYC experiences.",
+    "credit": "Chat GPT, Coding Train, Class Presentation and Refrences",
+    "uploadedFiles": "/student-files/sarena-yadav-week-6--data---mapping-data-1.png, /student-files/sarena-yadav-week-6--data---mapping-data-2.png, /student-files/sarena-yadav-week-6--data---mapping-data-3.png, /student-files/sarena-yadav-week-6--data---mapping-data-4.mov",
+    "linkToWork": "https://editor.p5js.org/syadav4/sketches/MJHBFUAeX",
+    "certification": "",
+    "weeklyResponse": "While working on this visualization, I realized the importance of choosing data that I could truly understand and relate to. Initially, I considered using an existing dataset, but it felt distant and abstract. By creating a dataset based on my own experiences—places I visited in NYC, the moods I felt, and my recommendations—I was able to engage more deeply with the data. At first, the project was challenging: mapping the x and y axes, deciding circle sizes, colors, and interactions, and ensuring everything displayed cohesively felt overwhelming. However, as the circles took shape and the interactive panels began to work, the visualization came alive, and it was incredibly exciting to see my personal experiences represented visually. I also learned the value of subtle interactions, like flickering circles, to make the visualization dynamic. Overall, this project taught me how to translate personal data into an engaging, meaningful visual story.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1ZhFoG4oJAzIvLwiWXDptlhsxfjaNYCxS",
+        "fileId": "1ZhFoG4oJAzIvLwiWXDptlhsxfjaNYCxS",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1ZhFoG4oJAzIvLwiWXDptlhsxfjaNYCxS&sz=w800",
+        "embed": "https://drive.google.com/file/d/1ZhFoG4oJAzIvLwiWXDptlhsxfjaNYCxS/preview",
+        "local": "/student-files/sarena-yadav-week-6--data---mapping-data-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1lMp6QpERJFrEtNpXsmMsafhKeYQTljVa",
+        "fileId": "1lMp6QpERJFrEtNpXsmMsafhKeYQTljVa",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1lMp6QpERJFrEtNpXsmMsafhKeYQTljVa&sz=w800",
+        "embed": "https://drive.google.com/file/d/1lMp6QpERJFrEtNpXsmMsafhKeYQTljVa/preview",
+        "local": "/student-files/sarena-yadav-week-6--data---mapping-data-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1d6LpnYxRUzenHZfU3Z7K-DbYyyksKTzM",
+        "fileId": "1d6LpnYxRUzenHZfU3Z7K-DbYyyksKTzM",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1d6LpnYxRUzenHZfU3Z7K-DbYyyksKTzM&sz=w800",
+        "embed": "https://drive.google.com/file/d/1d6LpnYxRUzenHZfU3Z7K-DbYyyksKTzM/preview",
+        "local": "/student-files/sarena-yadav-week-6--data---mapping-data-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1WvFAVRk_mhjID-M_C_72sXdHBRo8TGZx",
+        "fileId": "1WvFAVRk_mhjID-M_C_72sXdHBRo8TGZx",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WvFAVRk_mhjID-M_C_72sXdHBRo8TGZx&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WvFAVRk_mhjID-M_C_72sXdHBRo8TGZx/preview",
+        "local": "/student-files/sarena-yadav-week-6--data---mapping-data-4.mov"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/16/2025 16:33:45",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "I decided to work on the Urban Park Ranger Animal Condition Response from NYC open data, but I struggled to make every animal response into a point on the map, since there are no coordinate in the data, so I can only visulize the amout of number of top 10 speices.",
+    "credit": "ChatGPT help create the visualize bar",
+    "uploadedFiles": "/student-files/bella-tsai-week-6--data---mapping-data-1.png",
+    "linkToWork": "https://editor.p5js.org/ytsai13/sketches/yFM4x3OMg",
+    "certification": "",
+    "weeklyResponse": "It's really tricky to coordinate the map when the data does not include longitude and latitude coordinates. I tried to use an image as a background, GeoJSON, and Mappa.js. And there's still no systematic solution to make the data show on a map. \nData visualization is actually required so much coordinating work, THIS IS SO HARDDD.\n",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1SshZKfeWRFc9YTNZDPXETURjSS7rvdo1",
+        "fileId": "1SshZKfeWRFc9YTNZDPXETURjSS7rvdo1",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1SshZKfeWRFc9YTNZDPXETURjSS7rvdo1&sz=w800",
+        "embed": "https://drive.google.com/file/d/1SshZKfeWRFc9YTNZDPXETURjSS7rvdo1/preview",
+        "local": "/student-files/bella-tsai-week-6--data---mapping-data-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/19/2025 23:22:42",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "A 3D representation of the instrumental composition in Brahms' Symphony No. 3, scaled according to their proportions.",
+    "credit": "Claude and class tutorials",
+    "uploadedFiles": "/student-files/lina-lee-week-7--data-sculpture-1.mov",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/9Rwb44w2_",
+    "certification": "",
+    "weeklyResponse": "It doesn't work well with the exact instrumental shapes. Also, I need to put those shapes on the music scores to stick into my concept.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1dKk4xHA5_Kphglm15pe5hsCh5KYVCBjy",
+        "fileId": "1dKk4xHA5_Kphglm15pe5hsCh5KYVCBjy",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1dKk4xHA5_Kphglm15pe5hsCh5KYVCBjy&sz=w800",
+        "embed": "https://drive.google.com/file/d/1dKk4xHA5_Kphglm15pe5hsCh5KYVCBjy/preview",
+        "local": "/student-files/lina-lee-week-7--data-sculpture-1.mov"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/20/2025 23:27:32",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "This project is an interactive web artwork that visualizes UFO sighting data from 10 U.S. states as 3D sculptures inspired by crop circles and alien communication antennas. Crop circles are mysterious circular patterns believed to be traces of extraterrestrial contact, and using this motif, antenna structures with heights and complexity proportional to each state's sighting count were implemented with Three.js. California (12,024 sightings) stands tallest, and different forms represent sighting types (Light, Circle, Dish). Users can explore each antenna with mouse controls or compare all states side-by-side using the All button, experiencing data and alien phenomena through an artistic lens.",
+    "credit": "AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-7--data-sculpture-1.png, /student-files/lin-kim-week-7--data-sculpture-2.png, /student-files/lin-kim-week-7--data-sculpture-3.png, /student-files/lin-kim-week-7--data-sculpture-4.mov",
+    "linkToWork": "https://chaelinnnnn.github.io/ufo-sightings/ufo-sightings.html",
+    "certification": "",
+    "weeklyResponse": "I adjusted the vertical positions of the poles for all 10 states individually over 20 times (-2.5, -1.0, -0.7, etc.). The more challenging part was when I increased the pole length from 9.5 to 12 based on California's scale - I had to proportionally readjust all the other states' positions as well. It took time to understand the relationship between scale and position in 3D space.",
+    "teacherFeedback": "The project looks incredibly exciting visually! I’m curious about how the data can be easily read... maybe something to think about when designing a legend to help people understand it.",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=116Ixgf2nN-92dU_BRSHCHOZzX_daEcnO",
+        "fileId": "116Ixgf2nN-92dU_BRSHCHOZzX_daEcnO",
+        "thumbnail": "https://drive.google.com/thumbnail?id=116Ixgf2nN-92dU_BRSHCHOZzX_daEcnO&sz=w800",
+        "embed": "https://drive.google.com/file/d/116Ixgf2nN-92dU_BRSHCHOZzX_daEcnO/preview",
+        "local": "/student-files/lin-kim-week-7--data-sculpture-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1nsJe9tvJwX9JDlzvjAjNvjOalglwHC1F",
+        "fileId": "1nsJe9tvJwX9JDlzvjAjNvjOalglwHC1F",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1nsJe9tvJwX9JDlzvjAjNvjOalglwHC1F&sz=w800",
+        "embed": "https://drive.google.com/file/d/1nsJe9tvJwX9JDlzvjAjNvjOalglwHC1F/preview",
+        "local": "/student-files/lin-kim-week-7--data-sculpture-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1IGeWuoNdieTBIyAg2EFw__ooZL5VMHtk",
+        "fileId": "1IGeWuoNdieTBIyAg2EFw__ooZL5VMHtk",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1IGeWuoNdieTBIyAg2EFw__ooZL5VMHtk&sz=w800",
+        "embed": "https://drive.google.com/file/d/1IGeWuoNdieTBIyAg2EFw__ooZL5VMHtk/preview",
+        "local": "/student-files/lin-kim-week-7--data-sculpture-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1M2OhIwSCyZkGXcGhfgRBwnjy-FuKbKk0",
+        "fileId": "1M2OhIwSCyZkGXcGhfgRBwnjy-FuKbKk0",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1M2OhIwSCyZkGXcGhfgRBwnjy-FuKbKk0&sz=w800",
+        "embed": "https://drive.google.com/file/d/1M2OhIwSCyZkGXcGhfgRBwnjy-FuKbKk0/preview",
+        "local": "/student-files/lin-kim-week-7--data-sculpture-4.mov"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/21/2025 2:03:58",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "I plan to name this project “Graffiti City.” I found the graffiti I saw along the streets interesting, so I researched the distribution of graffiti across Manhattan and created a sculpture based on it.I Each small block stands for one piece of graffiti. I used the three primary colors at the bottom, and let the colors get stronger in places where there’s more graffiti.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/flora-fang-week-7--data-sculpture-1.png, /student-files/flora-fang-week-7--data-sculpture-2.png, /student-files/flora-fang-week-7--data-sculpture-3.png",
+    "linkToWork": "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu",
+    "certification": "",
+    "weeklyResponse": "I learned how to build a data sculpture this week, and I’m really excited to make my own. It’s a bit challenging since I’ve never used any 3D software before, but with the help of an AI agent, I made a draft of my sculpture and will keep improving it.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=14LZhkF6VWcM-5aDQauKkvfdNM41VZxr-",
+        "fileId": "14LZhkF6VWcM-5aDQauKkvfdNM41VZxr-",
+        "thumbnail": "https://drive.google.com/thumbnail?id=14LZhkF6VWcM-5aDQauKkvfdNM41VZxr-&sz=w800",
+        "embed": "https://drive.google.com/file/d/14LZhkF6VWcM-5aDQauKkvfdNM41VZxr-/preview",
+        "local": "/student-files/flora-fang-week-7--data-sculpture-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1UfU_J7hLVOAJ6yid4JdrE1_Fniw0bago",
+        "fileId": "1UfU_J7hLVOAJ6yid4JdrE1_Fniw0bago",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1UfU_J7hLVOAJ6yid4JdrE1_Fniw0bago&sz=w800",
+        "embed": "https://drive.google.com/file/d/1UfU_J7hLVOAJ6yid4JdrE1_Fniw0bago/preview",
+        "local": "/student-files/flora-fang-week-7--data-sculpture-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1U_4v7Q8k0_VIyCBe3xkKMrME00r-5Jmw",
+        "fileId": "1U_4v7Q8k0_VIyCBe3xkKMrME00r-5Jmw",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1U_4v7Q8k0_VIyCBe3xkKMrME00r-5Jmw&sz=w800",
+        "embed": "https://drive.google.com/file/d/1U_4v7Q8k0_VIyCBe3xkKMrME00r-5Jmw/preview",
+        "local": "/student-files/flora-fang-week-7--data-sculpture-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/21/2025 3:24:43",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "This is a piece of code that visually represents the condition of trees and their diameters. I categorized them based on their condition, while the shape and size of each tree represent its diameter.",
+    "credit": "Chatgpt",
+    "uploadedFiles": "/student-files/zoe-liu-week-7--data-sculpture-1.png",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/jXyqaEhOG",
+    "certification": "",
+    "weeklyResponse": "During the visualization process, we may have to give up certain elements for the sake of project implementation. However, at the same time, we should try our best to preserve every piece of data. I’m still thinking about how to achieve the most effective and intuitive result.",
+    "teacherFeedback": "Figuring out how to accurately translate data while selectively editing it to tell a clearer story is always the hardest part!",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=10j_QNFTSZD7iA87Hd--uf6Fd5GOqb1FP",
+        "fileId": "10j_QNFTSZD7iA87Hd--uf6Fd5GOqb1FP",
+        "thumbnail": "https://drive.google.com/thumbnail?id=10j_QNFTSZD7iA87Hd--uf6Fd5GOqb1FP&sz=w800",
+        "embed": "https://drive.google.com/file/d/10j_QNFTSZD7iA87Hd--uf6Fd5GOqb1FP/preview",
+        "local": "/student-files/zoe-liu-week-7--data-sculpture-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/21/2025 14:01:46",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "This project visualizes NYC complaints data across multiple boroughs. Each point represents a resident's report on issues such as noise, traffic, or safety. Color differentiates the type of complaints, while shapes identify each category. The visualization shows how concerns vary by location, revealing patterns in how communities experience their surroundings. It reflects how data can turn everyday reports into insight about urban life and public attention. ",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/kate-chon-week-7--data-sculpture-1.png",
+    "linkToWork": "https://editor.p5js.org/kchon2/full/mxEH6Cjzb",
+    "certification": "",
+    "weeklyResponse": "I learned about converting my file into JSON so I will be able to use my data. I'm wondering how can I make my project stronger whether that is in 3D form or in my code.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1cUE1cEZmViAMK27ehA2zgqINND_Vg-4Q",
+        "fileId": "1cUE1cEZmViAMK27ehA2zgqINND_Vg-4Q",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1cUE1cEZmViAMK27ehA2zgqINND_Vg-4Q&sz=w800",
+        "embed": "https://drive.google.com/file/d/1cUE1cEZmViAMK27ehA2zgqINND_Vg-4Q/preview",
+        "local": "/student-files/kate-chon-week-7--data-sculpture-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/21/2025 14:03:50",
+    "studentEmail": "syadav4@pratt.edu",
+    "studentId": "sarena-yadav",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "This project visualizes emotional moments over time using interactive circles mapped from a dataset of personal experiences. Each circle’s color, size, and position represent mood, recommendation status, and time. I enhanced the visualization with a dusk-to-night gradient and a semi-transparent NYC skyline, adding atmospheric depth. Circles have a subtle glow and optional flickering to simulate city lights. Users can filter by mood, scroll through time with a timeline slider, and hover over circles for detailed information. Faint connections link experiences from the same day or location, and animated transitions focus attention on selected circles, creating an engaging, interactive exploration of emotions.",
+    "credit": "Chat GPT, The Coding Train, Class Presentation",
+    "uploadedFiles": "/student-files/sarena-yadav-week-7--data-sculpture-1.png, /student-files/sarena-yadav-week-7--data-sculpture-2.png, /student-files/sarena-yadav-week-7--data-sculpture-3.png, /student-files/sarena-yadav-week-7--data-sculpture-4.mov",
+    "linkToWork": "https://editor.p5js.org/syadav4/sketches/fs33bpBHt",
+    "certification": "",
+    "weeklyResponse": "This week, I focused on enhancing my data visualization by adding interactive features, mood filters, timeline controls, and atmospheric elements like a gradient and a subtle NYC skyline. I’m still thinking of ideas for the physical presentation I want to experiment with lights, possibly using LEDs, but I’m unsure how to implement them since I don’t have much experience with electronics. I’m also considering using beads or threads to represent the data physically, which could create a tactile, visually engaging version of the visualization. It’s an exciting challenge to translate digital interactivity into a physical form.",
+    "teacherFeedback": "Using beads sounds like a very exciting idea! I can't wait to see what you'll make.",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1UXVddw4TCzFi0xhyOxpuOq32s5T4d-mj",
+        "fileId": "1UXVddw4TCzFi0xhyOxpuOq32s5T4d-mj",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1UXVddw4TCzFi0xhyOxpuOq32s5T4d-mj&sz=w800",
+        "embed": "https://drive.google.com/file/d/1UXVddw4TCzFi0xhyOxpuOq32s5T4d-mj/preview",
+        "local": "/student-files/sarena-yadav-week-7--data-sculpture-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1fodkzeKe5rGqt_VLkNekmfBoOy6UT-0n",
+        "fileId": "1fodkzeKe5rGqt_VLkNekmfBoOy6UT-0n",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1fodkzeKe5rGqt_VLkNekmfBoOy6UT-0n&sz=w800",
+        "embed": "https://drive.google.com/file/d/1fodkzeKe5rGqt_VLkNekmfBoOy6UT-0n/preview",
+        "local": "/student-files/sarena-yadav-week-7--data-sculpture-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1537o_ZPNw6ZUqGw05WDuTu2LBqCt-xv_",
+        "fileId": "1537o_ZPNw6ZUqGw05WDuTu2LBqCt-xv_",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1537o_ZPNw6ZUqGw05WDuTu2LBqCt-xv_&sz=w800",
+        "embed": "https://drive.google.com/file/d/1537o_ZPNw6ZUqGw05WDuTu2LBqCt-xv_/preview",
+        "local": "/student-files/sarena-yadav-week-7--data-sculpture-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=19MRxT59hCaeQ9Nt4hlYUCKJPJkgDS8uV",
+        "fileId": "19MRxT59hCaeQ9Nt4hlYUCKJPJkgDS8uV",
+        "thumbnail": "https://drive.google.com/thumbnail?id=19MRxT59hCaeQ9Nt4hlYUCKJPJkgDS8uV&sz=w800",
+        "embed": "https://drive.google.com/file/d/19MRxT59hCaeQ9Nt4hlYUCKJPJkgDS8uV/preview",
+        "local": "/student-files/sarena-yadav-week-7--data-sculpture-4.mov"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/21/2025 14:23:20",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "This week, I replaced my previous hurricane dataset with more recent data from the United States, as it was easier to find and organize. Then, I divided the data into four groups and created a separate model for each group. After that, I arranged them on the base according to time and storm intensity. However, there are still some technical issues, so this might not be the final result I want to present yet.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/yiling-yang-week-7--data-sculpture-1.png, /student-files/yiling-yang-week-7--data-sculpture-2.png, /student-files/yiling-yang-week-7--data-sculpture-3.png, /student-files/yiling-yang-week-7--data-sculpture-4.png, /student-files/yiling-yang-week-7--data-sculpture-5.png",
+    "linkToWork": "https://editor.p5js.org/YilingYang/sketches/2JHuLdGFc",
+    "certification": "",
+    "weeklyResponse": "This week, I learned how to import and create 3D models in p5.js.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1MAEtfpvrslBeGIjuDRR0ocRNqcOjd-mL",
+        "fileId": "1MAEtfpvrslBeGIjuDRR0ocRNqcOjd-mL",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1MAEtfpvrslBeGIjuDRR0ocRNqcOjd-mL&sz=w800",
+        "embed": "https://drive.google.com/file/d/1MAEtfpvrslBeGIjuDRR0ocRNqcOjd-mL/preview",
+        "local": "/student-files/yiling-yang-week-7--data-sculpture-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1zWB4BHB44oTq0hoGIspDIrlRxS_Cu0G6",
+        "fileId": "1zWB4BHB44oTq0hoGIspDIrlRxS_Cu0G6",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1zWB4BHB44oTq0hoGIspDIrlRxS_Cu0G6&sz=w800",
+        "embed": "https://drive.google.com/file/d/1zWB4BHB44oTq0hoGIspDIrlRxS_Cu0G6/preview",
+        "local": "/student-files/yiling-yang-week-7--data-sculpture-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1e_VWyynswsz9lemWeQtbjXSh4Xpj7mYQ",
+        "fileId": "1e_VWyynswsz9lemWeQtbjXSh4Xpj7mYQ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1e_VWyynswsz9lemWeQtbjXSh4Xpj7mYQ&sz=w800",
+        "embed": "https://drive.google.com/file/d/1e_VWyynswsz9lemWeQtbjXSh4Xpj7mYQ/preview",
+        "local": "/student-files/yiling-yang-week-7--data-sculpture-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=16FIVG1jSoRfvA7RGVRD1gwAwGzqE85Vj",
+        "fileId": "16FIVG1jSoRfvA7RGVRD1gwAwGzqE85Vj",
+        "thumbnail": "https://drive.google.com/thumbnail?id=16FIVG1jSoRfvA7RGVRD1gwAwGzqE85Vj&sz=w800",
+        "embed": "https://drive.google.com/file/d/16FIVG1jSoRfvA7RGVRD1gwAwGzqE85Vj/preview",
+        "local": "/student-files/yiling-yang-week-7--data-sculpture-4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=13VIK1XwXm9-XdFgYuNJP6tYKEcP5b6UE",
+        "fileId": "13VIK1XwXm9-XdFgYuNJP6tYKEcP5b6UE",
+        "thumbnail": "https://drive.google.com/thumbnail?id=13VIK1XwXm9-XdFgYuNJP6tYKEcP5b6UE&sz=w800",
+        "embed": "https://drive.google.com/file/d/13VIK1XwXm9-XdFgYuNJP6tYKEcP5b6UE/preview",
+        "local": "/student-files/yiling-yang-week-7--data-sculpture-5.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/21/2025 16:41:03",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "Discovering the allergic condition US children from 1999 til now",
+    "credit": "Office hour with professor, Munus and used ChatGPT to colleges some data and information.",
+    "uploadedFiles": "/student-files/binjia-li-week-6--data---mapping-data-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/Bxn23e1xN",
+    "certification": "",
+    "weeklyResponse": "How to visualize data ",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=11cSN3K9uEq21AeEO3NeB-X5uJzxK5hFT",
+        "fileId": "11cSN3K9uEq21AeEO3NeB-X5uJzxK5hFT",
+        "thumbnail": "https://drive.google.com/thumbnail?id=11cSN3K9uEq21AeEO3NeB-X5uJzxK5hFT&sz=w800",
+        "embed": "https://drive.google.com/file/d/11cSN3K9uEq21AeEO3NeB-X5uJzxK5hFT/preview",
+        "local": "/student-files/binjia-li-week-6--data---mapping-data-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/24/2025 19:35:20",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "So this week, I worked with the professor on how I can simplify my code into something I can adjust easily as well as understand. My initial goal was to show the highest density of water fountains in Manhattan parks but did not know what type of density to correlate it with. We then chose the radius of a fountain to show the density. If I randomly pick a fountain in Manhattan it can show the other nearest fountain. In this weeks assignment I divided my layers into the high. medium. and low density files.",
+    "credit": "Chat GPT to help me null the other colors when singling out the density type. As well as professor Munus's 1 on 1 call. ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-8--object-oriented-1.png, /student-files/nancy-scanlon-week-8--object-oriented-2.png, /student-files/nancy-scanlon-week-8--object-oriented-3.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/BPKVNwQWd, https://editor.p5js.org/nancyscan/sketches/vSLAMrbp5, https://editor.p5js.org/nancyscan/sketches/V711vSydZ ",
+    "certification": "",
+    "weeklyResponse": "I learned more about how I can use class as well as grabbing certain information from arrays. Especially in my JSON!!",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1G6YjykyleRKiJfjnmxLnHW3vrJElcFMH",
+        "fileId": "1G6YjykyleRKiJfjnmxLnHW3vrJElcFMH",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1G6YjykyleRKiJfjnmxLnHW3vrJElcFMH&sz=w800",
+        "embed": "https://drive.google.com/file/d/1G6YjykyleRKiJfjnmxLnHW3vrJElcFMH/preview",
+        "local": "/student-files/nancy-scanlon-week-8--object-oriented-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=19KJ_XhLTqo5bUJp4AnmnPjwQJTfxBvJp",
+        "fileId": "19KJ_XhLTqo5bUJp4AnmnPjwQJTfxBvJp",
+        "thumbnail": "https://drive.google.com/thumbnail?id=19KJ_XhLTqo5bUJp4AnmnPjwQJTfxBvJp&sz=w800",
+        "embed": "https://drive.google.com/file/d/19KJ_XhLTqo5bUJp4AnmnPjwQJTfxBvJp/preview",
+        "local": "/student-files/nancy-scanlon-week-8--object-oriented-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1Vo8FxyUTUAQcdpiEdJD28Cd-5I2mQzKo",
+        "fileId": "1Vo8FxyUTUAQcdpiEdJD28Cd-5I2mQzKo",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Vo8FxyUTUAQcdpiEdJD28Cd-5I2mQzKo&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Vo8FxyUTUAQcdpiEdJD28Cd-5I2mQzKo/preview",
+        "local": "/student-files/nancy-scanlon-week-8--object-oriented-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/24/2025 20:38:28",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "I made images according to the data from classical musics which contains the weather narratives such as Tchaikovsky's The Seasons, Haydn's Oratorio of the Seasons etc. And then, I collected the data of the musics atmosphere (minor, major). I tried to portrait those atmosphere in some abstract images. ",
+    "credit": "Chat GPT, Claude",
+    "uploadedFiles": "/student-files/lina-lee-week-8--object-oriented-1.png",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/GP29rQlj5",
+    "certification": "",
+    "weeklyResponse": "It was quite hard to make my narrative in cohesive way.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1oiZxDXHMAzTdJSMQ03OpdotSX285zJjR",
+        "fileId": "1oiZxDXHMAzTdJSMQ03OpdotSX285zJjR",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1oiZxDXHMAzTdJSMQ03OpdotSX285zJjR&sz=w800",
+        "embed": "https://drive.google.com/file/d/1oiZxDXHMAzTdJSMQ03OpdotSX285zJjR/preview",
+        "local": "/student-files/lina-lee-week-8--object-oriented-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/27/2025 22:07:29",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 7: Data Sculpture",
+    "projectDescription": "I want to use the \"Urban Park Ranger Animal Condition Response\" New York public dataset to show that New York is not only a city for people—its residents also include many familiar and unfamiliar animals coexisting with us. These requests for animal assistance, relocation, and rescue completed by the Urban Park Rangers reveal a part of the world of New York City's animal residents. Through this project, I hope to help people discover another side of this city.",
+    "credit": "1. Instructor Munus\n\n2. ChatGPT",
+    "uploadedFiles": "/student-files/bella-tsai-week-7--data-sculpture-1.png",
+    "linkToWork": "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4",
+    "certification": "",
+    "weeklyResponse": "At the beginning of this project, I struggled a lot with how to use the data—it was very unfamiliar to me, and I found it difficult to look at the data itself and directly imagine the final visualization. With the Instructor's help, I learned how to filter through large amounts of data to simplify and extract the parts I needed. Through this process of simplification, I gradually built up my vision for the visual presentation.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1bWZyaPpNtwHmejaKy7TXzOOdAPmvculE",
+        "fileId": "1bWZyaPpNtwHmejaKy7TXzOOdAPmvculE",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1bWZyaPpNtwHmejaKy7TXzOOdAPmvculE&sz=w800",
+        "embed": "https://drive.google.com/file/d/1bWZyaPpNtwHmejaKy7TXzOOdAPmvculE/preview",
+        "local": "/student-files/bella-tsai-week-7--data-sculpture-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/27/2025 22:33:13",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "This project is called “Graffiti City.” I used data of graffiti in Manhattan and built it into a sculpture. For the final model, I plan to add many stickers and hand-draw some elements, making it look more like a true “Graffiti City.",
+    "credit": "I asked ChatGPT for help, and I also asked Professor Shih for help",
+    "uploadedFiles": "/student-files/flora-fang-week-8--object-oriented-1.png, /student-files/flora-fang-week-8--object-oriented-2.png",
+    "linkToWork": "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu",
+    "certification": "",
+    "weeklyResponse": "This week i learned how to export the model as an STL file , and decided how to make it physically. But I'm still working on how to make the terrain into an irregular shape to look like the outline of Manhattan.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1tV-CBiVuLaUxM5ThiN5_BGai0hqo1oJ4",
+        "fileId": "1tV-CBiVuLaUxM5ThiN5_BGai0hqo1oJ4",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1tV-CBiVuLaUxM5ThiN5_BGai0hqo1oJ4&sz=w800",
+        "embed": "https://drive.google.com/file/d/1tV-CBiVuLaUxM5ThiN5_BGai0hqo1oJ4/preview",
+        "local": "/student-files/flora-fang-week-8--object-oriented-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=10kMsgBlwxS9itWhfcTtnSSbLPZscKyUg",
+        "fileId": "10kMsgBlwxS9itWhfcTtnSSbLPZscKyUg",
+        "thumbnail": "https://drive.google.com/thumbnail?id=10kMsgBlwxS9itWhfcTtnSSbLPZscKyUg&sz=w800",
+        "embed": "https://drive.google.com/file/d/10kMsgBlwxS9itWhfcTtnSSbLPZscKyUg/preview",
+        "local": "/student-files/flora-fang-week-8--object-oriented-2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/28/2025 3:04:53",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "I tried to incorporate the classical I❤️NY logo into my project and turn it into I❤️NY ANIMAL. I used coding to translate the \"Urban Park Ranger Animal Condition Response\" data into a series of circles, each circle represents one kind of animal, and the size of the circle is based on the reporting number.\n\nThen I used the footprints of different animals to symbolize the species and took the downloaded circles as a reference for scaling them. ",
+    "credit": "1. ChatGPT helped to create circles based on the reported number\n2. map() https://p5js.org/reference/p5/map/\n3. Birds That Leave Their Mark \n4. American Dipper Tracks and Sign https://www.bear-tracker.com/",
+    "uploadedFiles": "/student-files/bella-tsai-week-8--object-oriented-1.png, /student-files/bella-tsai-week-8--object-oriented-2.png, /student-files/bella-tsai-week-8--object-oriented-3.png, /student-files/bella-tsai-week-8--object-oriented-4.png",
+    "linkToWork": "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4",
+    "certification": "",
+    "weeklyResponse": "I learned to use coding to create a visual structure for further design. However, I still need to improve my work. Perhaps I should include other boroughs as well, and how to correctly label the species is also something I need to continue working on.\nThe only difficulty I'm currently facing is that I cannot successfully download the SVG file from p5.js, even though I follow every step to do it.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1QgS2ia_fGn4tu6UNatfAB3IPuFIgn9FP",
+        "fileId": "1QgS2ia_fGn4tu6UNatfAB3IPuFIgn9FP",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1QgS2ia_fGn4tu6UNatfAB3IPuFIgn9FP&sz=w800",
+        "embed": "https://drive.google.com/file/d/1QgS2ia_fGn4tu6UNatfAB3IPuFIgn9FP/preview",
+        "local": "/student-files/bella-tsai-week-8--object-oriented-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1yV_cIBYo-yByHj89NLKzK24vpQZ3oLSt",
+        "fileId": "1yV_cIBYo-yByHj89NLKzK24vpQZ3oLSt",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1yV_cIBYo-yByHj89NLKzK24vpQZ3oLSt&sz=w800",
+        "embed": "https://drive.google.com/file/d/1yV_cIBYo-yByHj89NLKzK24vpQZ3oLSt/preview",
+        "local": "/student-files/bella-tsai-week-8--object-oriented-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1ChC2UrpDCbzxnUFPWN4iqE8YpR6lDG_8",
+        "fileId": "1ChC2UrpDCbzxnUFPWN4iqE8YpR6lDG_8",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1ChC2UrpDCbzxnUFPWN4iqE8YpR6lDG_8&sz=w800",
+        "embed": "https://drive.google.com/file/d/1ChC2UrpDCbzxnUFPWN4iqE8YpR6lDG_8/preview",
+        "local": "/student-files/bella-tsai-week-8--object-oriented-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1hGnYtyHb25lIiLPX361Mf2Te5irr3YqN",
+        "fileId": "1hGnYtyHb25lIiLPX361Mf2Te5irr3YqN",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1hGnYtyHb25lIiLPX361Mf2Te5irr3YqN&sz=w800",
+        "embed": "https://drive.google.com/file/d/1hGnYtyHb25lIiLPX361Mf2Te5irr3YqN/preview",
+        "local": "/student-files/bella-tsai-week-8--object-oriented-4.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/28/2025 12:06:27",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "An interactive map visualizing UFO sighting cases reported worldwide. By geographically visualizing scattered UFO sighting data, it enables users to identify patterns and distributions at a glance. The project was developed in two thematic versions—crop circle and antenna—to explore diverse visual representations. Users can navigate the map to explore each sighting location and view detailed information, with interactive features such as zoom and pan providing an intuitive data exploration experience.",
+    "credit": "AI agents, tutorials",
+    "uploadedFiles": "/student-files/lin-kim-week-8--object-oriented-1.mov, /student-files/lin-kim-week-8--object-oriented-2.png, /student-files/lin-kim-week-8--object-oriented-3.png",
+    "linkToWork": "https://chaelinnnnn.github.io/ufo-map/",
+    "certification": "",
+    "weeklyResponse": "I learned how to implement custom map visualization using the Canvas API. By building map rendering, zoom/pan interactions, and marker displays from scratch with pure JavaScript and Canvas 2D Context without relying on external map libraries, I gained a deeper understanding of low-level graphics processing and coordinate transformation logic. Additionally, I applied optimization techniques to efficiently render large-scale location data, which gave me firsthand experience with the importance of performance management.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1z406J8EroxNivACU3pPqhkSc6n2V2J-H",
+        "fileId": "1z406J8EroxNivACU3pPqhkSc6n2V2J-H",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1z406J8EroxNivACU3pPqhkSc6n2V2J-H&sz=w800",
+        "embed": "https://drive.google.com/file/d/1z406J8EroxNivACU3pPqhkSc6n2V2J-H/preview",
+        "local": "/student-files/lin-kim-week-8--object-oriented-1.mov"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1OeSTtx3uJ-iZ836T8QniywqaNXv8c8dC",
+        "fileId": "1OeSTtx3uJ-iZ836T8QniywqaNXv8c8dC",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1OeSTtx3uJ-iZ836T8QniywqaNXv8c8dC&sz=w800",
+        "embed": "https://drive.google.com/file/d/1OeSTtx3uJ-iZ836T8QniywqaNXv8c8dC/preview",
+        "local": "/student-files/lin-kim-week-8--object-oriented-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1WOLRwoQStjNNMACXbaojWl8cO9QFp9rc",
+        "fileId": "1WOLRwoQStjNNMACXbaojWl8cO9QFp9rc",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WOLRwoQStjNNMACXbaojWl8cO9QFp9rc&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WOLRwoQStjNNMACXbaojWl8cO9QFp9rc/preview",
+        "local": "/student-files/lin-kim-week-8--object-oriented-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/28/2025 15:24:43",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "This week, I created individual models for all 22 storms, divided them into four groups based on their characteristics, and arranged them in chronological order. I also selected the materials for 3D printing. I might add some printed items such as cards or posters this week to introduce each hurricane.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/yiling-yang-week-8--object-oriented-1.png, /student-files/yiling-yang-week-8--object-oriented-2.png, /student-files/yiling-yang-week-8--object-oriented-3.png",
+    "linkToWork": "https://editor.p5js.org/YilingYang/sketches/y76HYSpgs",
+    "certification": "",
+    "weeklyResponse": "I learned that I can use multiple design tools together to create a complete work, instead of relying only on p5.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1--osP0qLC7zcYE4LtqJhfA4Hwd7sdAGF",
+        "fileId": "1--osP0qLC7zcYE4LtqJhfA4Hwd7sdAGF",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1--osP0qLC7zcYE4LtqJhfA4Hwd7sdAGF&sz=w800",
+        "embed": "https://drive.google.com/file/d/1--osP0qLC7zcYE4LtqJhfA4Hwd7sdAGF/preview",
+        "local": "/student-files/yiling-yang-week-8--object-oriented-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1x21o4vMYccTag05qg5X0xSeky_Cjqzmm",
+        "fileId": "1x21o4vMYccTag05qg5X0xSeky_Cjqzmm",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1x21o4vMYccTag05qg5X0xSeky_Cjqzmm&sz=w800",
+        "embed": "https://drive.google.com/file/d/1x21o4vMYccTag05qg5X0xSeky_Cjqzmm/preview",
+        "local": "/student-files/yiling-yang-week-8--object-oriented-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1izwT7SQOf6qxGp0aqI_2cpLovZNPPyeJ",
+        "fileId": "1izwT7SQOf6qxGp0aqI_2cpLovZNPPyeJ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1izwT7SQOf6qxGp0aqI_2cpLovZNPPyeJ&sz=w800",
+        "embed": "https://drive.google.com/file/d/1izwT7SQOf6qxGp0aqI_2cpLovZNPPyeJ/preview",
+        "local": "/student-files/yiling-yang-week-8--object-oriented-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/28/2025 15:26:05",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "The colorful circles show that gently float up and down, each representing how many people in the U.S. are allergic to different foods.",
+    "credit": "Tutor, Class examples and references, AI ",
+    "uploadedFiles": "/student-files/binjia-li-week-8--object-oriented-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/LSSk1qAQX",
+    "certification": "",
+    "weeklyResponse": "I learned how to visualize real-world data in p5.js by using colors, animation, and size to show information in a creative way. \nFor example, \nMap data to visuals: Used map() to turn numbers into circle sizes.\nAdd color & motion: Applied a color palette and sin() animation for smooth movement.\nOrganize code: Used setup() once and draw() to loop animation.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1JEnSm2vYFAHOhMdwG-Yy0yzDUTHmqgtG",
+        "fileId": "1JEnSm2vYFAHOhMdwG-Yy0yzDUTHmqgtG",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1JEnSm2vYFAHOhMdwG-Yy0yzDUTHmqgtG&sz=w800",
+        "embed": "https://drive.google.com/file/d/1JEnSm2vYFAHOhMdwG-Yy0yzDUTHmqgtG/preview",
+        "local": "/student-files/binjia-li-week-8--object-oriented-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/28/2025 15:42:50",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "projectDescription": "This project visualizes data about food allergies in the United States using p5.js. Each bar represents a specific food, and its height shows how many millions of people are allergic to it based on studies from 2018–2024. Different colors help distinguish each food type, and the chart automatically saves as an image after it’s drawn. The project demonstrates how data can be transformed into an engaging visual story through code, color, and design.",
+    "credit": "Tutor, class examples, AI, readings",
+    "uploadedFiles": "/student-files/binjia-li-week-6--data---mapping-data-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/KHCnAetO9",
+    "certification": "",
+    "weeklyResponse": "This week, I learned how to visualize data using p5.js — turning numbers into colorful shapes and animations. I practiced using the map() function, color palettes, and simple motion to make information easy to see and understand.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1UC1hp7gHKElQMGc1QHF1eMkaiJpOVthv",
+        "fileId": "1UC1hp7gHKElQMGc1QHF1eMkaiJpOVthv",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1UC1hp7gHKElQMGc1QHF1eMkaiJpOVthv&sz=w800",
+        "embed": "https://drive.google.com/file/d/1UC1hp7gHKElQMGc1QHF1eMkaiJpOVthv/preview",
+        "local": "/student-files/binjia-li-week-6--data---mapping-data-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/28/2025 15:59:19",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "The tree data has been visualized, where their arrangement corresponds to their trunk diameters. The leaf patterns represent the quantity of each condition status, where vertical lines indicate Good, horizontal lines indicate Fair, and diagonal lines indicate Bad.",
+    "credit": "chatgpt",
+    "uploadedFiles": "/student-files/zoe-liu-week-8--object-oriented-1.png",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/6QkiUHW9j",
+    "certification": "",
+    "weeklyResponse": "At first, I actually wanted the leaf colors to be determined by the number of trees in each condition. I thought this would make every tree look a bit different when visualized. But in the end, I gave up on that idea, because most of the time the number of Good trees is the highest, then Fair, and Bad is usually the smallest. So the leaf colors ended up being in the same order for almost every tree.\n\nI'm not completely sure if this is always true, but it does seem to match the data. Still, if possible, I would like to add a bit of randomness to the leaf part based on the data.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=11_2-1QnC4aUcyxQIC3KQrWH_xYoy55JJ",
+        "fileId": "11_2-1QnC4aUcyxQIC3KQrWH_xYoy55JJ",
+        "thumbnail": "https://drive.google.com/thumbnail?id=11_2-1QnC4aUcyxQIC3KQrWH_xYoy55JJ&sz=w800",
+        "embed": "https://drive.google.com/file/d/11_2-1QnC4aUcyxQIC3KQrWH_xYoy55JJ/preview",
+        "local": "/student-files/zoe-liu-week-8--object-oriented-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "10/28/2025 16:02:20",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 8: Object Oriented",
+    "projectDescription": "This project maps NYC complaint data to show how daily issues shape urban life. Each point represents a resident report on noise, traffic, or safety. Color and shape systems distinguish complaint types, revealing how concerns vary by borough. The visualization turns data into a reflection of community experiences. ",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/kate-chon-week-8--object-oriented-1.png",
+    "linkToWork": "https://editor.p5js.org/kchon2/full/mxEH6Cjzb",
+    "certification": "",
+    "weeklyResponse": "I learned how to transfer my data into Google Sheets and link it so it updates automatically without needing manual edits",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1QUmspi2tsMSNy3tBTNuS0gWU8_TT9oeK",
+        "fileId": "1QUmspi2tsMSNy3tBTNuS0gWU8_TT9oeK",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1QUmspi2tsMSNy3tBTNuS0gWU8_TT9oeK&sz=w800",
+        "embed": "https://drive.google.com/file/d/1QUmspi2tsMSNy3tBTNuS0gWU8_TT9oeK/preview",
+        "local": "/student-files/kate-chon-week-8--object-oriented-1.png"
       }
     ]
   }
