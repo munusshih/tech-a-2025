@@ -9,6 +9,7 @@ longDescription: |
 
   <br/><br/>
   ![Dear Data by Giorgia Lupi and Stefanie Posavec](/weeks/deardata.webp)
+  (Dear Data by Giorgia Lupi and Stefanie Posavec)
   <br/><br/>
 
   - [**Data & Mapping Data**](https://www.figma.com/proto/dka45JHolSCkHSZBrHsp6C/-Tech-A--Week-6?page-id=0%3A1&node-id=6005-52&viewport=280%2C1900%2C0.05&t=IUNI4rZrowfj74G3-1&scaling=contain&content-scaling=fixed)

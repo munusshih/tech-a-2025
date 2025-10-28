@@ -5,6 +5,7 @@ longDescription: |
   This week we'll explore how to use conditionals to create rules that help our code make decisions.
   <br/><br/>
   ![Week 3 Introduction](/weeks/conditional_design.png)
+  (Conditional Design - Tobias Frere-Jones & Jonathan Hoefler)
   <br/><br/>
   By using `if`, `else if`, and `else` statements, we can set up conditions that change how our sketches behave based on different inputs or states. This will allow us to create more dynamic and interactive designs.
 

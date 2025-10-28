@@ -6,6 +6,7 @@ longDescription: |
 
   <br/><br/>
   ![Week 4 Introduction](/weeks/poster.jpeg)
+  (Morisawa 10 Poster, John Maeda)
   <br/><br/>
 
   - [**Custom Functions**](https://www.figma.com/proto/fjjWgSBMxE6OOKA6sVHx4k/-Tech-A--Week-4?page-id=0%3A1&node-id=6005-215&viewport=357%2C2944%2C0.08&t=nS5Ic66HKMuM7sW3-1&scaling=contain&content-scaling=fixed)

@@ -26,6 +26,7 @@ In a group of 2, discuss the following questions:
 - What are some other tools or techniques you would like to explore for creating physical artifacts from code?
 
 ## Sign Up for Next Week
+
 Please sign up for next week's workshop on [Data, Code and Art with Jer Thop here](https://www.eventbrite.com/e/talks-at-the-commons-artist-author-jer-thorp-tickets-1703689283509?aff=oddtdtcreator). We're gonna meet next week 5pm at the Pratt Pfizer Building (630 Flushing Ave, Brooklyn, NY 11206) for our class.
 
 ## Portfolio Setup

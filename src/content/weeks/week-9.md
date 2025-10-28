@@ -7,7 +7,7 @@ longDescription: |
 
   <br/><br/>
   ![https://www.instructables.com/Data-Crystals-3D-Data-Visualizations-from-Open-Dat/](/weeks/crystal.png)
-
+  (Data Crystals - Scott Kildall)
   <br/><br/>
 
 
