@@ -44,6 +44,13 @@ Consider what kinds of inputs best capture participation or environmental change
   This is the continuing process of our [project 3: Community Protocol](https://tech-a.designfuture.space/#module-3:-cybernetics-of-live-input). We will continue to refine and develop this project over the next few weeks. The full description is [here](https://tech-a.designfuture.space/#module-3:-cybernetics-of-live-input).
   <br/><br/>
 
+## Examples
+
+- [023 - Delayed Interaction](https://editor.p5js.org/munusshih/sketches/Zn2RIC3p5)
+- [024 - lerp](https://editor.p5js.org/munusshih/sketches/qTL1TdbgL)
+- [025 - sin()](https://editor.p5js.org/munusshih/sketches/SmzwIX4Xz)
+- [026 - Flocking](https://editor.p5js.org/munusshih/sketches/qGVdKZ39L)
+
 ## Tutorials & Resources
 
 - [Beginner's Guide to Machine Learning in JavaScript with ml5.js](https://www.youtube.com/watch?v=26uABexmOX4&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
