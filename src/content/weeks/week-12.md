@@ -50,6 +50,8 @@ Consider what kinds of inputs best capture participation or environmental change
 - [024 - lerp](https://editor.p5js.org/munusshih/sketches/qTL1TdbgL)
 - [025 - sin()](https://editor.p5js.org/munusshih/sketches/SmzwIX4Xz)
 - [026 - Flocking](https://editor.p5js.org/munusshih/sketches/qGVdKZ39L)
+- [Misc - Touchpoints](https://editor.p5js.org/munusshih/sketches/nBvsV5ui9)
+- [Misc - HandPose](https://editor.p5js.org/munusshih/sketches/734t-oRTC)
 
 ## Tutorials & Resources
 
