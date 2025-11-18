@@ -4,10 +4,10 @@ description: "This week we're diving into algorithmic processes and memory in p5
 longDescription: |
 
   This week we will explore how to create algorithmic processes in p5.js, as well as how to use memory to store and work with OOP to create more complex and dynamic sketches.
-
+  <br/><br/>
   ![Cookie](/weeks/cookie.jpg)
   ([This bug in your PC is a smart cookie](https://archive.org/stream/FinancialTimes1996UKEnglish/Feb%2012%201996%2C%20Financial%20Times%2C%20%2312%2C%20UK%20(en)#page/n29/mode/2up))
-
+  <br/><br/>
   - [**A Community Website**](https://www.figma.com/proto/GyzHm36mnKP0Q4SEbK3PxG/-Tech-A--Week-13?page-id=0%3A1&node-id=24001-25&viewport=16%2C7492%2C0.14&t=V0lnS1jCuP6qEGLV-1&scaling=contain&content-scaling=fixed)
   - [**Memory, Interaction, Storage**](https://www.figma.com/proto/GyzHm36mnKP0Q4SEbK3PxG/-Tech-A--Week-13?page-id=0%3A1&node-id=24001-32&viewport=16%2C7492%2C0.14&t=V0lnS1jCuP6qEGLV-1&scaling=contain&content-scaling=fixed)
   <br/><br/>
