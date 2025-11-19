@@ -35,9 +35,9 @@ Now that you have your initial system capturing participation, the next step is 
 
 - [028 - Memory Class](https://editor.p5js.org/munusshih/sketches/7RrHJRuRe)
 - [029 - OOP + Interaction](https://editor.p5js.org/munusshih/sketches/5cXGUxDtU)
-- [024 - lerp](https://editor.p5js.org/munusshih/sketches/qTL1TdbgL)
 - [030 - GUI + Interaction](https://editor.p5js.org/munusshih/sketches/atJRU43_K)
 - [031 - ML5 + Color](https://editor.p5js.org/munusshih/sketches/3n87qYxB0)
+- [032 - localStorage](https://editor.p5js.org/munusshih/sketches/8y0rloDGE)
 - [033 - OOP + localStorage](https://editor.p5js.org/munusshih/sketches/mvaYSlUNV)
 - [Misc - Space](https://editor.p5js.org/munusshih/sketches/gZCIdTWnn)
 
