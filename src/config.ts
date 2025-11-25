@@ -31,6 +31,27 @@ export const EMAIL = "munus.shih@pratt.edu";
 export const MARQUEE_TEXT = "Reminder to upload all your assignments! • The Workshop recording is up on the big class site! • Don't forget to check out the tutorials and resources • ";
 
 // -----------------------------------------------------------------------------
+// Special Project Weeks
+// -----------------------------------------------------------------------------
+// Configure weeks that showcase special projects instead of regular responses
+export const SPECIAL_PROJECT_WEEKS: Record<number, {
+    projectName: string;
+    description: string;
+    url: string;
+}> = {
+    5: {
+        projectName: "View Project Archive",
+        description: "The students are presenting their Project 1: Flexible Manifesto this week. View all student work on the main class site:",
+        url: "https://tech-a.designfuture.space/work"
+    },
+    11: {
+        projectName: "View Project Archive",
+        description: "The students are presenting their Project 2: Data Sculpture this week. View all student work on the main class site:",
+        url: "https://tech-a.designfuture.space/work"
+    }
+};
+
+// -----------------------------------------------------------------------------
 // Google Sheets Configuration
 // -----------------------------------------------------------------------------
 // Student assignment submissions

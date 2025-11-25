@@ -1,5 +1,5 @@
 ---
-import { studentsByEmail } from "@/config";
+import { studentsByEmail, SPECIAL_PROJECT_WEEKS } from "@/config";
 import { marked } from "marked";
 
 interface Props {
@@ -52,6 +52,9 @@ const responsesWithNames = weekResponses
     };
   })
   .sort((a, b) => a.studentName.localeCompare(b.studentName));
+
+// Check if this week is a special project week
+const specialProject = SPECIAL_PROJECT_WEEKS[week];
 ---
 
 {
@@ -87,6 +90,18 @@ const responsesWithNames = weekResponses
         ))}
       </div>
     </section>
+  ) : specialProject ? (
+    <div class="no-responses p-4">
+      <p class="mb-4">{specialProject.description}</p>
+      <a
+        href={specialProject.url}
+        class="btn-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        View {specialProject.projectName}
+      </a>
+    </div>
   ) : (
     <div class="no-responses p-4">
       <p>No student responses available for this week yet.</p>

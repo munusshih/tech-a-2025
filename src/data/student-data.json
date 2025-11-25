@@ -2264,7 +2264,7 @@
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4",
     "certification": "",
     "weeklyResponse": "I learned to use coding to create a visual structure for further design. However, I still need to improve my work. Perhaps I should include other boroughs as well, and how to correctly label the species is also something I need to continue working on.\nThe only difficulty I'm currently facing is that I cannot successfully download the SVG file from p5.js, even though I follow every step to do it.",
-    "teacherFeedback": "",
+    "teacherFeedback": "I believe there's a problem with p5.svg and the current version doesn't fully support the new p5 2.0 yet. However I believe people are aware of the issue, and have been actively looking for a solution [here](https://github.com/zenozeng/p5.js-svg/issues/279)!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1QgS2ia_fGn4tu6UNatfAB3IPuFIgn9FP",
@@ -2423,7 +2423,7 @@
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/6QkiUHW9j",
     "certification": "",
     "weeklyResponse": "At first, I actually wanted the leaf colors to be determined by the number of trees in each condition. I thought this would make every tree look a bit different when visualized. But in the end, I gave up on that idea, because most of the time the number of Good trees is the highest, then Fair, and Bad is usually the smallest. So the leaf colors ended up being in the same order for almost every tree.\n\nI'm not completely sure if this is always true, but it does seem to match the data. Still, if possible, I would like to add a bit of randomness to the leaf part based on the data.",
-    "teacherFeedback": "",
+    "teacherFeedback": "Reviewing your data, visualizing it, and then designing and refining within constraints is a key part of an effective iterative design process! You are moving in the right direction!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=11_2-1QnC4aUcyxQIC3KQrWH_xYoy55JJ",
@@ -2726,6 +2726,259 @@
         "thumbnail": "https://drive.google.com/thumbnail?id=1QISK6SOOV0uehJQtDhhoN3wtvr0BpLrI&sz=w800",
         "embed": "https://drive.google.com/file/d/1QISK6SOOV0uehJQtDhhoN3wtvr0BpLrI/preview",
         "local": "/student-files/sarena-yadav-week-10--critical-data-viz-5.tmp"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/16/2025 16:17:58",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "So my idea for the last project will be within the glasses community. I want my code to detect each person if they have glasses or not. This code I have linked below can be shown for the open class. To detect people walking around. But an animation, for example use of lerp/ flocking, I can do something with the glasses shape. Or animation of what my code does. Maybe the glasses shape can morph into another glasses shape for randomization and \"smooth\" animation.",
+    "credit": "I used ml5.js. As well as P5.js reference. And chatGPT.",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-12--animation---interaction-1.png, /student-files/nancy-scanlon-week-12--animation---interaction-2.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/Aj_POeCmj",
+    "certification": "",
+    "weeklyResponse": "I got to learn about how live inputs are incorporated in our everyday lives!! I also have more of a question about how the camera can catch on to accessories. Sometimes my code can be fidgety. Because I am working on glasses-- a secondary thing over eyes. ",
+    "teacherFeedback": "Take a photo button can be easily acheived with `save('img.jpg')`!",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1eoDsoyCcDjmXdc5X1jeNTBZ3ImFtuWfX",
+        "fileId": "1eoDsoyCcDjmXdc5X1jeNTBZ3ImFtuWfX",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1eoDsoyCcDjmXdc5X1jeNTBZ3ImFtuWfX&sz=w800",
+        "embed": "https://drive.google.com/file/d/1eoDsoyCcDjmXdc5X1jeNTBZ3ImFtuWfX/preview",
+        "local": "/student-files/nancy-scanlon-week-12--animation---interaction-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1lRrE-M1SlLrUmInTUPyY3rf0a1RkynNI",
+        "fileId": "1lRrE-M1SlLrUmInTUPyY3rf0a1RkynNI",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1lRrE-M1SlLrUmInTUPyY3rf0a1RkynNI&sz=w800",
+        "embed": "https://drive.google.com/file/d/1lRrE-M1SlLrUmInTUPyY3rf0a1RkynNI/preview",
+        "local": "/student-files/nancy-scanlon-week-12--animation---interaction-2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/18/2025 0:37:02",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "When we visit galleries, we sign guestbooks, which creates a community between audiences and artists. I wanted to implement a process where signing on a monitor would display and accumulate those signatures on screen, but I'm experiencing trial and error—the hand is being detected, but the motion isn't being drawn on the monitor.",
+    "credit": "Chat GPT",
+    "uploadedFiles": "/student-files/lina-lee-week-12--animation---interaction-1.png",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/full/rlqrzijRJ",
+    "certification": "",
+    "weeklyResponse": "I wanted to implement a process where signing on a monitor would display and accumulate those signatures on screen, but I'm experiencing trial and error—the hand is being detected, but the motion isn't being drawn on the monitor. ",
+    "teacherFeedback": "The webcam needs to capture your entire hand for the algorithm to locate the fingers. You’ll also need to use something like `localStorage` to store the finger-position data so you can visualize the trails.",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=18F9hdohqswGiIPD-DR6_jBlzXqU1hwPl",
+        "fileId": "18F9hdohqswGiIPD-DR6_jBlzXqU1hwPl",
+        "thumbnail": "https://drive.google.com/thumbnail?id=18F9hdohqswGiIPD-DR6_jBlzXqU1hwPl&sz=w800",
+        "embed": "https://drive.google.com/file/d/18F9hdohqswGiIPD-DR6_jBlzXqU1hwPl/preview",
+        "local": "/student-files/lina-lee-week-12--animation---interaction-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/18/2025 14:35:31",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "<Noise Garden> is an interactive 3D artwork that visualizes how the ecosystem of a small spherical planet reacts to real-time environmental noise (dB).\n\nWhen people talk or play music, the noise level rises, causing the plants to scatter or disappear.\nAs the surroundings become quieter, the vegetation regrows and recovers, illustrating the continuous transformation of the ecosystem based on sound.",
+    "credit": "AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-12--animation---interaction-1.png, /student-files/lin-kim-week-12--animation---interaction-2.png",
+    "linkToWork": "I was unable to complete the WebGL build process due to the project being developed in Unity.",
+    "certification": "",
+    "weeklyResponse": "I wasn’t yet able to create a piece that responds sensitively to noise or environmental changes. So by next week, I hope to develop a version that reacts more immediately and dynamically. Still, working in Unity allowed me to build a real-time, game-like interactive environment, which was a valuable experience. I plan to continue improving and expanding this project.",
+    "teacherFeedback": "I'm kind of curious why you chose to work in unity! Maybe something to discuss when we meet on Tuesday :)",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1tRrcfidF_hnoyh2cWIzXi9oDduAfoBVU",
+        "fileId": "1tRrcfidF_hnoyh2cWIzXi9oDduAfoBVU",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1tRrcfidF_hnoyh2cWIzXi9oDduAfoBVU&sz=w800",
+        "embed": "https://drive.google.com/file/d/1tRrcfidF_hnoyh2cWIzXi9oDduAfoBVU/preview",
+        "local": "/student-files/lin-kim-week-12--animation---interaction-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1idTqg153cFFvOnvrT4Q6g41Gcjp4pfcu",
+        "fileId": "1idTqg153cFFvOnvrT4Q6g41Gcjp4pfcu",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1idTqg153cFFvOnvrT4Q6g41Gcjp4pfcu&sz=w800",
+        "embed": "https://drive.google.com/file/d/1idTqg153cFFvOnvrT4Q6g41Gcjp4pfcu/preview",
+        "local": "/student-files/lin-kim-week-12--animation---interaction-2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/18/2025 15:02:33",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "\"Made a stick figure that follows the movements of the person in front of the camera, added neon effects and some lighting effects, trying to create a nightclub or dance floor atmosphere",
+    "credit": "claude",
+    "uploadedFiles": "/student-files/zoe-liu-week-12--animation---interaction-1.jpg, /student-files/zoe-liu-week-12--animation---interaction-2.jpg, /student-files/zoe-liu-week-12--animation---interaction-3.jpg",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/OEhHJrxzA",
+    "certification": "",
+    "weeklyResponse": "I originally wanted to create something that I thought would look really cool, like a human figure made up of many flowing lines that continuously move and flow. But after many attempts, those lines would only form a huge rectangle around the body part. I think this might be a problem caused by having too few points in the body section. Perhaps if I want to achieve that effect, I would need to import other body models with more points and surfaces.",
+    "teacherFeedback": "Yes, MoveNet (the model for detecting body) usually only has 17 keypoints, however, if you switch to using BlazePose, it will have 33 keypoints! You can read [more about it here](https://docs.ml5js.org/#/reference/bodypose) in ml5's documentation.",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=11EerOs9hct-8F85PWnjlrP7pjDF2RM6B",
+        "fileId": "11EerOs9hct-8F85PWnjlrP7pjDF2RM6B",
+        "thumbnail": "https://drive.google.com/thumbnail?id=11EerOs9hct-8F85PWnjlrP7pjDF2RM6B&sz=w800",
+        "embed": "https://drive.google.com/file/d/11EerOs9hct-8F85PWnjlrP7pjDF2RM6B/preview",
+        "local": "/student-files/zoe-liu-week-12--animation---interaction-1.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1SKpggk6UHAyz5QLYQL2ui0uBSb1I03Dy",
+        "fileId": "1SKpggk6UHAyz5QLYQL2ui0uBSb1I03Dy",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1SKpggk6UHAyz5QLYQL2ui0uBSb1I03Dy&sz=w800",
+        "embed": "https://drive.google.com/file/d/1SKpggk6UHAyz5QLYQL2ui0uBSb1I03Dy/preview",
+        "local": "/student-files/zoe-liu-week-12--animation---interaction-2.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1JbjFR-JRJQPOzhLxX-CQTcQcoz62VgPl",
+        "fileId": "1JbjFR-JRJQPOzhLxX-CQTcQcoz62VgPl",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1JbjFR-JRJQPOzhLxX-CQTcQcoz62VgPl&sz=w800",
+        "embed": "https://drive.google.com/file/d/1JbjFR-JRJQPOzhLxX-CQTcQcoz62VgPl/preview",
+        "local": "/student-files/zoe-liu-week-12--animation---interaction-3.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/18/2025 21:49:37",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "This exercise explores planets and how their size shifts based on your finger movements. It highlights the relationship between touch, scale, and visual feedback. For next week, I plan to try something different by combining music using Strudel to create music and experimenting with my hand interactions to alter the beat and build a unique, playful sound experience. ",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/kate-chon-week-12--animation---interaction-1.png, /student-files/kate-chon-week-12--animation---interaction-2.png",
+    "linkToWork": "https://editor.p5js.org/kchon2/full/qOYlboRb6",
+    "certification": "",
+    "weeklyResponse": "This week I learned how different types of interactions can create completely different experiences, even when starting from a similar idea. I also realized how small changes in input, like finger movement,",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1x8PcCUJXEfMfsIBuMLIb2iWDoFLf06cR",
+        "fileId": "1x8PcCUJXEfMfsIBuMLIb2iWDoFLf06cR",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1x8PcCUJXEfMfsIBuMLIb2iWDoFLf06cR&sz=w800",
+        "embed": "https://drive.google.com/file/d/1x8PcCUJXEfMfsIBuMLIb2iWDoFLf06cR/preview",
+        "local": "/student-files/kate-chon-week-12--animation---interaction-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=126R8Vnp0dpckKBaMo7PHjakb1Urk8Ai6",
+        "fileId": "126R8Vnp0dpckKBaMo7PHjakb1Urk8Ai6",
+        "thumbnail": "https://drive.google.com/thumbnail?id=126R8Vnp0dpckKBaMo7PHjakb1Urk8Ai6&sz=w800",
+        "embed": "https://drive.google.com/file/d/126R8Vnp0dpckKBaMo7PHjakb1Urk8Ai6/preview",
+        "local": "/student-files/kate-chon-week-12--animation---interaction-2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/22/2025 0:20:43",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "To continue with my idea of depicting glasses or no glasses. I wanted to make a system that was interactive by not only the camera but when the audience sees if they do not have any glasses on they can add fun glasses on to their face. With the use of local memory -- it can reset after selecting one of the four options. So you can try another pair on. I was thinking about adding a take a photo button on the bottom of the screen so the audience can share it. If an audience member has glasses, then it won't ask the question. ",
+    "credit": "I used chatGPT with the buttons. As well as getting help with the glasses shape.",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-13--algorithm---storage-1.png, /student-files/nancy-scanlon-week-13--algorithm---storage-2.png, /student-files/nancy-scanlon-week-13--algorithm---storage-3.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/64jaAv-aA",
+    "certification": "",
+    "weeklyResponse": "for prompt order how can i add local memory to that. For example if I want to ask a yes or no question before a selection. Would I just put that first prompt before the second one? I want to add the option to the viewer if they do want the fun glasses or they can choose no. ",
+    "teacherFeedback": "I would probably do if statement inside another if statement, so:\n\n```javascript\nif(hasGlasses){\n  prompt(); \n  if(wantGlasses) {\n    showGlasses();\n  }\n}\n```\n\nLet me know if this makes sense!",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=18uDizsDPzxBKM7WpE6hNDHTuk0YNNHZv",
+        "fileId": "18uDizsDPzxBKM7WpE6hNDHTuk0YNNHZv",
+        "thumbnail": "https://drive.google.com/thumbnail?id=18uDizsDPzxBKM7WpE6hNDHTuk0YNNHZv&sz=w800",
+        "embed": "https://drive.google.com/file/d/18uDizsDPzxBKM7WpE6hNDHTuk0YNNHZv/preview",
+        "local": "/student-files/nancy-scanlon-week-13--algorithm---storage-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=17S9AEyoP2Oq5umsRNA201CN2QULl7Ti9",
+        "fileId": "17S9AEyoP2Oq5umsRNA201CN2QULl7Ti9",
+        "thumbnail": "https://drive.google.com/thumbnail?id=17S9AEyoP2Oq5umsRNA201CN2QULl7Ti9&sz=w800",
+        "embed": "https://drive.google.com/file/d/17S9AEyoP2Oq5umsRNA201CN2QULl7Ti9/preview",
+        "local": "/student-files/nancy-scanlon-week-13--algorithm---storage-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=10LokNmH1ja3NkswbMWP548gk5kDu11HF",
+        "fileId": "10LokNmH1ja3NkswbMWP548gk5kDu11HF",
+        "thumbnail": "https://drive.google.com/thumbnail?id=10LokNmH1ja3NkswbMWP548gk5kDu11HF&sz=w800",
+        "embed": "https://drive.google.com/file/d/10LokNmH1ja3NkswbMWP548gk5kDu11HF/preview",
+        "local": "/student-files/nancy-scanlon-week-13--algorithm---storage-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/23/2025 0:08:25",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "I wanted to create a digital guestbook like the ones you see in galleries. Using ml5.js handpose, the system tracks people’s hand movements. When visitors gesture as if signing in the air, the camera detects the motion and leaves their signature on the screen. The time of the signature is also recorded at the bottom, allowing everyone to see the signatures and timestamps of previous visitors. In this way, all guests share a single virtual sketchbook.",
+    "credit": "Chat GPT",
+    "uploadedFiles": "/student-files/lina-lee-week-13--algorithm---storage-1.mp4",
+    "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/rlqrzijRJ",
+    "certification": "",
+    "weeklyResponse": "I learned how to attach the local storage into my code.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1V7A63WoIbn8WDNsNpH5MODaYm9nud5lm",
+        "fileId": "1V7A63WoIbn8WDNsNpH5MODaYm9nud5lm",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1V7A63WoIbn8WDNsNpH5MODaYm9nud5lm&sz=w800",
+        "embed": "https://drive.google.com/file/d/1V7A63WoIbn8WDNsNpH5MODaYm9nud5lm/preview",
+        "local": "/student-files/lina-lee-week-13--algorithm---storage-1.mp4"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/23/2025 19:19:01",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "I created an interactive fish-feeding game for the park.\nClicking the mouse feeds the fish, and they swim toward the food.\nIf you hold down the mouse, the whole school gathers together.\nPressing W shoots glowing food, and any fish that eat it will start to glow.\nWhen you press Shift + Return at the same time, the fish dance along a few preset paths.\nPressing B releases bubbles that make all the fish float to the surface.\nI might use some sensors so people can participate in the feeding interaction physically.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/yiling-yang-week-12--animation---interaction-1.png, /student-files/yiling-yang-week-12--animation---interaction-2.png, /student-files/yiling-yang-week-12--animation---interaction-3.png, /student-files/yiling-yang-week-12--animation---interaction-4.png, /student-files/yiling-yang-week-12--animation---interaction-5.png",
+    "linkToWork": "https://editor.p5js.org/YilingYang/sketches/LZ5mQqm7j",
+    "certification": "",
+    "weeklyResponse": "This week I learned how to create some simple interactive projects and conducted many related experiments. I found it really interesting.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1hwjqIc8wRpxlz314kGklTDoFwhmLyi7A",
+        "fileId": "1hwjqIc8wRpxlz314kGklTDoFwhmLyi7A",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1hwjqIc8wRpxlz314kGklTDoFwhmLyi7A&sz=w800",
+        "embed": "https://drive.google.com/file/d/1hwjqIc8wRpxlz314kGklTDoFwhmLyi7A/preview",
+        "local": "/student-files/yiling-yang-week-12--animation---interaction-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=15pi-57syrFhNY_qt7prCzzvJvK_Jv1nL",
+        "fileId": "15pi-57syrFhNY_qt7prCzzvJvK_Jv1nL",
+        "thumbnail": "https://drive.google.com/thumbnail?id=15pi-57syrFhNY_qt7prCzzvJvK_Jv1nL&sz=w800",
+        "embed": "https://drive.google.com/file/d/15pi-57syrFhNY_qt7prCzzvJvK_Jv1nL/preview",
+        "local": "/student-files/yiling-yang-week-12--animation---interaction-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1iFS9T9ZPOWgIPm9_FVOh6nhU9qoZgx9v",
+        "fileId": "1iFS9T9ZPOWgIPm9_FVOh6nhU9qoZgx9v",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1iFS9T9ZPOWgIPm9_FVOh6nhU9qoZgx9v&sz=w800",
+        "embed": "https://drive.google.com/file/d/1iFS9T9ZPOWgIPm9_FVOh6nhU9qoZgx9v/preview",
+        "local": "/student-files/yiling-yang-week-12--animation---interaction-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=17JpXkkZT0vTAlnpsJyRzzDDezXm1Er9H",
+        "fileId": "17JpXkkZT0vTAlnpsJyRzzDDezXm1Er9H",
+        "thumbnail": "https://drive.google.com/thumbnail?id=17JpXkkZT0vTAlnpsJyRzzDDezXm1Er9H&sz=w800",
+        "embed": "https://drive.google.com/file/d/17JpXkkZT0vTAlnpsJyRzzDDezXm1Er9H/preview",
+        "local": "/student-files/yiling-yang-week-12--animation---interaction-4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1XICHD0sK2CwvOOeHhrZws1a6Xzs06BhF",
+        "fileId": "1XICHD0sK2CwvOOeHhrZws1a6Xzs06BhF",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1XICHD0sK2CwvOOeHhrZws1a6Xzs06BhF&sz=w800",
+        "embed": "https://drive.google.com/file/d/1XICHD0sK2CwvOOeHhrZws1a6Xzs06BhF/preview",
+        "local": "/student-files/yiling-yang-week-12--animation---interaction-5.png"
       }
     ]
   }
