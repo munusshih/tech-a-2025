@@ -1,7 +1,13 @@
 #!/usr/bin/env node
 
 import { promises as fs } from "fs";
-import { existsSync, mkdirSync, readdirSync, unlinkSync, writeFileSync } from "fs";
+import {
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  unlinkSync,
+  writeFileSync,
+} from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { generateStudentMapping } from "./student-mapping.js";
@@ -14,25 +20,31 @@ const __dirname = path.dirname(__filename);
 // Load configuration from config.ts
 async function loadConfig() {
   try {
-    const configPath = path.resolve(__dirname, '../src/config.ts');
-    const configContent = await fs.readFile(configPath, 'utf-8');
-    
+    const configPath = path.resolve(__dirname, "../src/config.ts");
+    const configContent = await fs.readFile(configPath, "utf-8");
+
     // Extract assignment sheet configuration from config.ts
-    const sheetIdMatch = configContent.match(/export const GOOGLE_SHEET_ID = "([^"]+)"/);
-    const sheetNameMatch = configContent.match(/export const SHEET_NAME = "([^"]+)"/);
-    
+    const sheetIdMatch = configContent.match(
+      /export const GOOGLE_SHEET_ID = "([^"]+)"/,
+    );
+    const sheetNameMatch = configContent.match(
+      /export const SHEET_NAME = "([^"]+)"/,
+    );
+
     if (!sheetIdMatch || !sheetNameMatch) {
-      throw new Error('Could not find GOOGLE_SHEET_ID or SHEET_NAME in config.ts');
+      throw new Error(
+        "Could not find GOOGLE_SHEET_ID or SHEET_NAME in config.ts",
+      );
     }
-    
+
     const SHEET_ID = sheetIdMatch[1];
     const SHEET_NAME = sheetNameMatch[1];
-    
+
     return {
-      API_URL: `https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`
+      API_URL: `https://opensheet.elk.sh/${SHEET_ID}/${SHEET_NAME}`,
     };
   } catch (error) {
-    console.error('Error loading config:', error);
+    console.error("Error loading config:", error);
     throw error;
   }
 }
@@ -41,6 +53,39 @@ async function loadConfig() {
 const OUTPUT_DIR = path.join(__dirname, "../src/data");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "student-data.json");
 const DOWNLOADS_DIR = path.join(__dirname, "../public/student-files");
+
+// -----------------------------------------------------------------------------
+// Utilities: Extract and normalize http/https links from messy text
+// -----------------------------------------------------------------------------
+function extractHttpLinks(raw) {
+  const text = String(raw || "").trim();
+  if (!text) return { links: [], rawText: "" };
+
+  // Quick fix for accidental double protocol
+  const normalized = text.replace(/\b(https?:\/\/)(?=https?:\/\/)/gi, "");
+
+  // Match URLs, avoiding spaces, quotes, brackets, etc.
+  const urlRegex = /https?:\/\/[^\s<>"')]+/gi;
+  const matches = normalized.match(urlRegex) || [];
+
+  // Clean trailing punctuation or mismatched parens
+  const cleaned = matches
+    .map((u) => u.replace(/[).,]*$/, ""))
+    .map((u) => u.replace(/^https?:\/\/(https?:\/\/)/i, "http://")) // collapse protocol duplication
+    .map((u) => u.replace(/^http:\/\/(https?:\/\/)/i, "$1"));
+
+  // Deduplicate while preserving order
+  const seen = new Set();
+  const links = [];
+  for (const u of cleaned) {
+    if (!seen.has(u)) {
+      seen.add(u);
+      links.push(u);
+    }
+  }
+
+  return { links, rawText: text };
+}
 
 // Helper functions for Google Drive file processing
 function extractGoogleDriveFileId(url) {
@@ -195,14 +240,18 @@ async function processStudentFiles(studentData, fetchFn) {
   let downloadedFiles = 0;
   let skippedFiles = 0;
 
-  process.stdout.write(`\n🔍 Processing files for ${studentData.length} entries...\n`);
+  process.stdout.write(
+    `\n🔍 Processing files for ${studentData.length} entries...\n`,
+  );
 
   for (let entryIndex = 0; entryIndex < studentData.length; entryIndex++) {
     const entry = studentData[entryIndex];
-    
+
     if (!entry.uploadedFiles || !entry.uploadedFiles.trim()) continue;
 
-    process.stdout.write(`\n📝 [${entryIndex + 1}/${studentData.length}] ${entry.studentId} - ${entry.assignmentTitle}\n`);
+    process.stdout.write(
+      `\n📝 [${entryIndex + 1}/${studentData.length}] ${entry.studentId} - ${entry.assignmentTitle}\n`,
+    );
 
     // Split multiple URLs (comma-separated)
     const urls = entry.uploadedFiles
@@ -243,14 +292,18 @@ async function processStudentFiles(studentData, fetchFn) {
 
       if (existingFile) {
         // File already exists, use it
-        process.stdout.write(`   ✓ File ${i + 1}/${urls.length}: ${existingFile} (cached)\n`);
+        process.stdout.write(
+          `   ✓ File ${i + 1}/${urls.length}: ${existingFile} (cached)\n`,
+        );
         const localUrl = `/student-files/${existingFile}`;
         localFilePaths.push(localUrl);
         downloaded = true;
         skippedFiles++;
       } else {
         // Try to download with content-based file type detection
-        process.stdout.write(`   ⬇️  Downloading file ${i + 1}/${urls.length}...`);
+        process.stdout.write(
+          `   ⬇️  Downloading file ${i + 1}/${urls.length}...`,
+        );
         const tempFilepath = path.join(DOWNLOADS_DIR, baseFilename + ".tmp");
 
         const downloadResult = await downloadFile(
@@ -302,7 +355,9 @@ async function processStudentFiles(studentData, fetchFn) {
         // Keep thumbnail URL as fallback
         const thumbnailUrl = getGoogleDriveThumbnailUrl(fileId);
         localFilePaths.push(thumbnailUrl);
-        process.stdout.write(`   ⚠️  Using fallback URL for file ${i + 1}/${urls.length}\n`);
+        process.stdout.write(
+          `   ⚠️  Using fallback URL for file ${i + 1}/${urls.length}\n`,
+        );
       }
 
       // Also store processed URLs for flexibility
@@ -332,7 +387,9 @@ async function processStudentFiles(studentData, fetchFn) {
   process.stdout.write(`   Total files found: ${totalFiles}\n`);
   process.stdout.write(`   Downloaded: ${downloadedFiles}\n`);
   process.stdout.write(`   Cached (skipped): ${skippedFiles}\n`);
-  process.stdout.write(`   Failed/Fallback: ${totalFiles - downloadedFiles - skippedFiles}\n\n`);
+  process.stdout.write(
+    `   Failed/Fallback: ${totalFiles - downloadedFiles - skippedFiles}\n\n`,
+  );
 
   return studentData;
 }
@@ -341,7 +398,7 @@ async function fetchStudentData() {
   try {
     // Load configuration from config.ts
     const config = await loadConfig();
-    
+
     console.log("Fetching student data from Google Sheet...");
     console.log(`API URL: ${config.API_URL}`);
 
@@ -383,6 +440,11 @@ async function fetchStudentData() {
         const email = row["Email Address"];
         const studentId = studentEmailToId[email];
 
+        // Parse links from the freeform field
+        const rawLink = row["Link to Online Work (p5 sketch link)"] || "";
+        const { links: parsedLinks, rawText: linkRaw } =
+          extractHttpLinks(rawLink);
+
         return {
           timestamp: row.Timestamp,
           studentEmail: email,
@@ -395,7 +457,10 @@ async function fetchStudentData() {
               "Credit (List out collaborators, tutorials, libraries, references, AI agents used)"
             ] || "",
           uploadedFiles: row["Upload Your Work"] || "",
-          linkToWork: row["Link to Online Work (p5 sketch link)"] || "",
+          // Keep backward compatible single link while adding an array and raw field
+          linkToWork: parsedLinks[0] || linkRaw || "",
+          linkToWorks: parsedLinks.length ? parsedLinks : undefined,
+          linkToWorkRaw: linkRaw,
           certification:
             row[
               "I certify that this submission is my own work and adheres to the course's academic integrity and open"
@@ -423,10 +488,7 @@ async function fetchStudentData() {
     }
 
     // Save the data with updated file paths
-    writeFileSync(
-      OUTPUT_FILE,
-      JSON.stringify(studentDataWithFiles, null, 2),
-    );
+    writeFileSync(OUTPUT_FILE, JSON.stringify(studentDataWithFiles, null, 2));
     console.log(`Saved student data to ${OUTPUT_FILE}`);
 
     // Group by student for summary

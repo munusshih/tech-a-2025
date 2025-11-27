@@ -78,7 +78,31 @@ function getWeekLabel(title) {
   }
 
   {
-    entry.linkToWork && (
+    Array.isArray(entry.linkToWorks) && entry.linkToWorks.length > 0 ? (
+      entry.linkToWorks.length === 1 ? (
+        <a
+          href={entry.linkToWorks[0]}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="!underline underline-offset-2 mb-4 inline-block"
+        >
+          Live Demo
+        </a>
+      ) : (
+        <div class="links-list mb-4">
+          {entry.linkToWorks.map((u: string, i: number) => (
+            <a
+              href={u}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="!underline underline-offset-2 mr-3 inline-block"
+            >
+              Live Demo {i + 1}
+            </a>
+          ))}
+        </div>
+      )
+    ) : entry.linkToWork && /^https?:\/\//i.test(entry.linkToWork) ? (
       <a
         href={entry.linkToWork}
         target="_blank"
@@ -87,7 +111,9 @@ function getWeekLabel(title) {
       >
         Live Demo
       </a>
-    )
+    ) : entry.linkToWorkRaw?.trim() ? (
+      <p class="opacity-75 text-sm mb-4">{`> ${entry.linkToWorkRaw}`}</p>
+    ) : null
   }
 
   <div class="prose prose-invert max-w-none text-sm my-4">

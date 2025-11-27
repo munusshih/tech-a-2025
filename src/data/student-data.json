@@ -8,6 +8,10 @@
     "credit": "P5.js reference page!! More specifically the textWidth() code. As well as beginShape() and endShape() code. Very simple design with quote. Didn't include pictures or anything. ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-1--welcome--1.png, /student-files/nancy-scanlon-week-1--welcome--2.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/full/uiebammlM",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/full/uiebammlM"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/full/uiebammlM",
     "certification": "",
     "weeklyResponse": "That when you are writing code, I see the stacking of code like layers. If you want per-say a shape on top (or foreground) of another shape(more back). You'll have to but the bottom shape first with the fill or stroke, then the top shape with their designated fill or stroke.  This helped when I was doing repeated shapes. ",
     "teacherFeedback": "",
@@ -37,6 +41,10 @@
     "credit": "Youtube: The Coding Train; ChatGPT",
     "uploadedFiles": "/student-files/yiling-yang-week-1--welcome--1.jpg, /student-files/yiling-yang-week-1--welcome--2.jpg",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/xxtsFMQz8",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/xxtsFMQz8"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/xxtsFMQz8",
     "certification": "",
     "weeklyResponse": "This week, I learned how to use p5.js to create visual effects with text, and I also realized that even simple code can express poetic ideas.",
     "teacherFeedback": "",
@@ -66,6 +74,10 @@
     "credit": "I used Claude and chatgpt",
     "uploadedFiles": "/student-files/kate-chon-week-1--welcome--1.png",
     "linkToWork": "https://editor.p5js.org/kchon2/sketches/pFEKNP67T",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/sketches/pFEKNP67T"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/sketches/pFEKNP67T",
     "certification": "",
     "weeklyResponse": "I learned a bit not much since we didn't have enough time",
     "teacherFeedback": "",
@@ -88,6 +100,10 @@
     "credit": "references from P5.js website, claude AI,Chat GPT.",
     "uploadedFiles": "/student-files/flora-fang-week-1--welcome--1.png, /student-files/flora-fang-week-1--welcome--2.png, /student-files/flora-fang-week-1--welcome--3.png, /student-files/flora-fang-week-1--welcome--4.png, /student-files/flora-fang-week-1--welcome--5.pdf",
     "linkToWork": "https://editor.p5js.org/zfang32/full/ndzHTmNMB",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/full/ndzHTmNMB"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/full/ndzHTmNMB",
     "certification": "",
     "weeklyResponse": "I applied the knowledge I learned in class better and, with the help of references and ai agents, also learned some new skills. However, the final result is still a bit different from what I originally wanted, since some of the techniques were quite difficult to understand.",
     "teacherFeedback": "",
@@ -138,6 +154,10 @@
     "credit": "I used Chat GPT for coding, and also used Google to study and verify my quote.",
     "uploadedFiles": "/student-files/lina-lee-week-1--welcome--1.png",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/ixSIz9MKE",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/ixSIz9MKE"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/ixSIz9MKE",
     "certification": "",
     "weeklyResponse": "I really struggled a lot because of coding. It was quite stressful because so many errors occurred with my code. I tried to manage this just by myself, but I can't, so I eventually got some help from Ghat GPT and get rid of the specific design.",
     "teacherFeedback": "And that is okay! :) We all struggle learning something new. You are encouraged to use chatGPT or any AI agent in this class, as long as you credit it and follow our [Open Source Policy.](https://tech-a.designfuture.space/#open-source-policies)",
@@ -160,6 +180,10 @@
     "credit": "Adjust the heart shape code from: https://editor.p5js.org/monicamonin/sketches/hWHc3EuFh \n\nRead bezierVertex() Reference:\nhttps://p5js.org/reference/p5/bezierVertex/",
     "uploadedFiles": "/student-files/bella-tsai-week-1--welcome--1.svg",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/tDs4KFtVH",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/tDs4KFtVH"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/tDs4KFtVH",
     "certification": "",
     "weeklyResponse": "1. Type Style SEMIBOLD does not exist. \n2. There's no color called gradient, and I found that it's quite complicated to make a gradient shape, so in the end, I didn't.\n3. Is there any way that I can move objects together instead of adjusting their X, Y manually?",
     "teacherFeedback": "It does exist! They just need to all be imported, and you need to specify them using [fontWeight](https://beta.p5js.org/reference/p5/textweight/).",
@@ -182,6 +206,10 @@
     "credit": "Ghalia https://editor.p5js.org/Ghalia/sketches/0w48Z27JTf, Elegy by Miguel Rothschild, Mé by Haruka Kojin, Kenji Minamigawa, and Hirofumi Masui, Storm clouds above sea by Westend61 / Johner RF/ Johner Images, Wait For It - Hamilton, Eminem - Mockingbird [Official Music Video]",
     "uploadedFiles": "/student-files/zoe-liu-week-1--welcome--1.zip",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/2fIjCWdoL",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/2fIjCWdoL"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/2fIjCWdoL",
     "certification": "",
     "weeklyResponse": "While working on the assignment, I learned to use several functions in p5.js, such as map() and random(). I realized that the sequence of code execution is a critical aspect of programming, and it’s something I need to spend more time practicing. I also discovered that some functions are restricted to either 2D or 3D contexts, and I hope to explore ways to integrate them so they can work together more effectively.",
     "teacherFeedback": "",
@@ -204,6 +232,10 @@
     "credit": "Tutorials: https://youtu.be/yPWkPOfnGsw?feature=shared\nReference for poster: https://d2w9rnfcy7mm78.cloudfront.net/5156925/original_f0faef6f61ffbf2d55bd5657600a09f5.png?1570042182?bc=0",
     "uploadedFiles": "/student-files/sreya-mahsin-week-1--welcome--1.png",
     "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
+    "linkToWorks": [
+      "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
     "certification": "",
     "weeklyResponse": "The possibilities with p5.js is endless! I was looking at other's works and realized that a lot of motion design that I've tried to do was probably done on p5js and not After Effect. I did run into a few technical problems which I'm sure can be solved but I'm excited to explore.",
     "teacherFeedback": "",
@@ -226,6 +258,10 @@
     "credit": "chatGPT and The Coding Train Tutorial",
     "uploadedFiles": "/student-files/sarena-yadav-week-1--welcome--1.png, /student-files/sarena-yadav-week-1--welcome--2.png",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/jLz8gtkgJ",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/jLz8gtkgJ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/jLz8gtkgJ",
     "certification": "",
     "weeklyResponse": "I always found coding a little scary, but now that I’ve started, I’m actually loving it and can’t wait to try more and learn more. One of the first things I understood is how functions work. For example, the setup() function runs once at the very beginning  it’s where we set up the canvas, styles, and any initial values. After that, the draw() function keeps running in a loop, unless we stop it using noLoop().\nI’m also learning new functions step by step and experimenting with them, which has been really exciting. One thing I struggled with was uploading an image. I realized that it needs to be placed in the “assets” folder, but for some reason, I couldn’t get it to work. That’s something I still want to figure out.\nAnother question I had while exploring loops and patterns was about saving images. If I want to save a specific frame (and not every single one in the loop), I learned that I can use functions like saveCanvas() or saveFrames(), but apply them conditionally,  for example, only when a certain frame number is reached.",
     "teacherFeedback": "This is out of this week's scope, but you should be able ot use [if-else (see week 3)](https://tech-a.munusshih.com/week-3/) to save a specific frame. Like `if(frameCount===3)` per say.",
@@ -255,6 +291,10 @@
     "credit": "tutorials, ChatGPT, help from classmates ",
     "uploadedFiles": "/student-files/binjia-li-week-1--welcome--1.png",
     "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/staUOqTyV",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/staUOqTyV"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/staUOqTyV",
     "certification": "",
     "weeklyResponse": "the coding is so new for me, everything new and takes more time to figure it out and im so glad we can use different sources to learn and ask for help! ",
     "teacherFeedback": "the coding is so new for me, everything new and takes more time to figure it out and im so glad we can use different sources to learn and ask for help! ",
@@ -277,6 +317,10 @@
     "credit": "I looked up tutorials for the gradient and the text rotation for the last line. Sources follow:\n\nhttps://www.youtube.com/watch?v=-MUOweQ6wac\n\nhttps://editor.p5js.org/aferriss/sketches/HyBagyadG\n",
     "uploadedFiles": "/student-files/richard-fu-week-1--welcome--1.svg",
     "linkToWork": "https://editor.p5js.org/ririff/sketches/KQOF24knK",
+    "linkToWorks": [
+      "https://editor.p5js.org/ririff/sketches/KQOF24knK"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ririff/sketches/KQOF24knK",
     "certification": "",
     "weeklyResponse": "Learned to apply the coding logics of p5JS, attempted various references and resources \n\nQuestion being, how to tell which part is in-built p5js languages ",
     "teacherFeedback": "",
@@ -299,6 +343,10 @@
     "credit": "ChatGPT: When I was unsure how to so the top left to bottom right scale I used this tool to help me. As well as check my work for mistakes in GUI.  and P5.JS references: especially for the constraint. ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-2--variable--random--system-1.png, /student-files/nancy-scanlon-week-2--variable--random--system-2.png, /student-files/nancy-scanlon-week-2--variable--random--system-3.png, /student-files/nancy-scanlon-week-2--variable--random--system-4.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/full/uiebammlM",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/full/uiebammlM"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/full/uiebammlM",
     "certification": "",
     "weeklyResponse": "I learned that you need to re-arrange the code if you repeat for example a color picker in GUI. You cannot re-write it again because the variable is already taken. A thing that I learned was the fixed scale. For example I wanted my square to only go so far instead of out, I used a set number so the square wouldn't go out of line. ",
     "teacherFeedback": "",
@@ -342,6 +390,10 @@
     "credit": "Chat GPT",
     "uploadedFiles": "/student-files/lina-lee-week-2--variable--random--system-1.png",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/S_C2fHwV1",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/S_C2fHwV1"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/S_C2fHwV1",
     "certification": "",
     "weeklyResponse": "GUI code makes my design more flexible.",
     "teacherFeedback": "",
@@ -364,6 +416,10 @@
     "credit": "I asked ChatGPT for help,and also went through the references page.",
     "uploadedFiles": "/student-files/flora-fang-week-2--variable--random--system-1.jpg, /student-files/flora-fang-week-2--variable--random--system-2.jpg, /student-files/flora-fang-week-2--variable--random--system-3.jpg, /student-files/flora-fang-week-2--variable--random--system-4.jpg, /student-files/flora-fang-week-2--variable--random--system-5.jpg",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
     "certification": "",
     "weeklyResponse": "I learned how the variations and GUI work, though it’s a bit hard without an AI agent.\nI also found that design gets really interactive and interesting if you add variables—this kind of random change is really hard to make in regular design software.",
     "teacherFeedback": "",
@@ -414,6 +470,10 @@
     "credit": "tutorials, AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-2--variable--random--system-1.png, /student-files/lin-kim-week-2--variable--random--system-2.png, /student-files/lin-kim-week-2--variable--random--system-3.png",
     "linkToWork": "https://editor.p5js.org/present1513/full/9P72CVbRB",
+    "linkToWorks": [
+      "https://editor.p5js.org/present1513/full/9P72CVbRB"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/present1513/full/9P72CVbRB",
     "certification": "",
     "weeklyResponse": "One of the most challenging aspects of creating the code was finding the right balance between the desired visual effect and readability. In the process of shifting from points to lines, the text often became too distorted to read, or on the contrary, appeared overly simple when the transformation was too subtle. I also had to carefully address issues such as the overlap between sliders and text, as well as constraints related to canvas size and line spacing. In particular, adjusting randomness and noise was tricky, since even small changes in values could dramatically alter the overall impression, requiring extensive experimentation and trial and error.",
     "teacherFeedback": "Exactly! And that is the \"iterative process\".",
@@ -450,6 +510,10 @@
     "credit": "My boyfriend + ChatGPT",
     "uploadedFiles": "/student-files/sreya-mahsin-week-2--variable--random--system-1.png",
     "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
+    "linkToWorks": [
+      "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
     "certification": "",
     "weeklyResponse": "how to use the blendMode feature, how to add motion to shapes",
     "teacherFeedback": "",
@@ -472,6 +536,10 @@
     "credit": "claude and chatgpt",
     "uploadedFiles": "/student-files/kate-chon-week-2--variable--random--system-1.jpg",
     "linkToWork": "https://editor.p5js.org/kchon2/sketches/YaCmnPpFS",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/sketches/YaCmnPpFS"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/sketches/YaCmnPpFS",
     "certification": "",
     "weeklyResponse": "I learned about using GUI and how to export my own font into the code. While working on this, I had some difficulties with getting the font to load properly and figuring out how to create randomness in the process. I asked AI for help, but it was still very confusing.",
     "teacherFeedback": "Here is a good article on [how to load and select fonts](https://p5js.org/tutorials/loading-and-selecting-fonts/)!",
@@ -494,6 +562,10 @@
     "credit": "ChatGPT, Claude.ai",
     "uploadedFiles": "/student-files/yiling-yang-week-2--variable--random--system-1.png, /student-files/yiling-yang-week-2--variable--random--system-2.jpg",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
     "certification": "",
     "weeklyResponse": "This week I learned how to use various auxiliary tools to make p5.js projects more quickly and efficiently, and also discovered the fun of making random content.",
     "teacherFeedback": "",
@@ -523,6 +595,10 @@
     "credit": "tutorials for getting more familiar with p5.js:\nhttps://www.youtube.com/watch?v=x1NxkEjfNtI&list=PL0beHPVMklwgMz4Z-mNp4_udo9mjBk7pn\n\nAI:\nasking for adding GUI controller opacity, text leading, and close control bar section\nasking how to group shapes together",
     "uploadedFiles": "/student-files/bella-tsai-week-2--variable--random--system-1.jpg, /student-files/bella-tsai-week-2--variable--random--system-2.png, /student-files/bella-tsai-week-2--variable--random--system-3.png, /student-files/bella-tsai-week-2--variable--random--system-4.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/full/stDx5f5h2",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/full/stDx5f5h2"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/full/stDx5f5h2",
     "certification": "",
     "weeklyResponse": "I learned how to group elements together by using push/pop. I also learned how to break lines in a text and change the opacity of the shape. I didn’t use too complicated code that I don’t understand; I just took some time to review the basic functions and learned how to ask the AI questions. \nWant to know other ways to draw my cloud, since the way I used ellipses overlapping each other can't adjust the opacity of it.\nAnd how to keep creating my element instead of one per refreshing",
     "teacherFeedback": "",
@@ -566,6 +642,10 @@
     "credit": "Chat GPT, The Coding train",
     "uploadedFiles": "/student-files/sarena-yadav-week-2--variable--random--system-1.png",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/Q_aD65eXL",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/Q_aD65eXL"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/Q_aD65eXL",
     "certification": "",
     "weeklyResponse": "Previously, I had questions about how to add an image to the canvas and was initially a bit confused. After learning how to include images, I thought, why not try a video? I explored how to integrate a video background and experimented with a small animation as well. This allowed me to work with variables, transitions, and timing, making the project more dynamic and interactive. I enjoyed experimenting with different effects and seeing how motion and visuals could enhance the concept I wanted to convey.\nDuring the process, I also explored using dat.GUI to create a user interface for controlling parameters like text color, progress, and custom text. While I learned how to manage normal text within the canvas boundaries, I realized I still have questions about ensuring that GUI-controlled text stays within the canvas limits, especially when breaking it into multiple lines or adjusting dynamically based on user input. This has motivated me to explore further techniques for responsive text placement and alignment.",
     "teacherFeedback": "",
@@ -588,6 +668,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/zoe-liu-week-2--variable--random--system-1.png",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/MdQ1oPvgk",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/MdQ1oPvgk"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/MdQ1oPvgk",
     "certification": "",
     "weeklyResponse": "I learned how to use the GUI to make a slider, and I also figured out how to use push() to save random numbers into an array. I practiced using random() with set ranges too, so I could control things like size or brightness better. I think the GUI works well as a customizeble setting even though it operates within the limits defined by the author, it still allows different users to interact with the project in their own way and express different ideas.",
     "teacherFeedback": "",
@@ -610,6 +694,10 @@
     "credit": "ChatGPT,classmates., the coding train, references of p5.js",
     "uploadedFiles": "/student-files/binjia-li-week-2--variable--random--system-1.png",
     "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/k6zF31YVv",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/k6zF31YVv"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/k6zF31YVv",
     "certification": "",
     "weeklyResponse": "I learned how to make particles move into a circle and add rainbow text with a GUI. My question is how to make the circle loop, breaking apart and coming back again.",
     "teacherFeedback": "",
@@ -632,6 +720,10 @@
     "credit": " tutorials, AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-1--welcome--1.png, /student-files/lin-kim-week-1--welcome--2.png",
     "linkToWork": "https://editor.p5js.org/present1513/full/lmFLTUIJw",
+    "linkToWorks": [
+      "https://editor.p5js.org/present1513/full/lmFLTUIJw"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/present1513/full/lmFLTUIJw",
     "certification": "",
     "weeklyResponse": "This week, I learned how to use p5.js to create interactive particle systems and how to map particles to specific shapes, such as text. I also explored how to use off-screen graphics (createGraphics) as a stencil to generate particles only in the text area. Additionally, I practiced implementing forces that make particles respond to the mouse and return to their original positions, which gave me a better understanding of vectors and motion in animations.\n\nQuestions I have:\nI am curious about how to optimize the performance when using a large number of particles, like in this project, and how to make the particle motion smoother while keeping it interactive. I also wonder if there are ways to make the particle system more responsive to different shapes or dynamic text.",
     "teacherFeedback": "Yes! We will talk about optimization in later weeks when we get to interactive system in class. But [this is a great article to start](https://p5js.org/tutorials/how-to-optimize-your-sketches/).",
@@ -661,6 +753,10 @@
     "credit": "Chatgpt",
     "uploadedFiles": "/student-files/richard-fu-week-2--variable--random--system-1.png",
     "linkToWork": "https://editor.p5js.org/ririff/sketches/u-ORs4psj",
+    "linkToWorks": [
+      "https://editor.p5js.org/ririff/sketches/u-ORs4psj"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ririff/sketches/u-ORs4psj",
     "certification": "",
     "weeklyResponse": "GUIGUI",
     "teacherFeedback": "",
@@ -683,6 +779,10 @@
     "credit": "I used chatGPT to help me with my code ideas and how to execute them. Especially for the monotone palette for my if-else constants. Also I used chatGPT to help me change my design to respond to canvas size being changed. So it automatically makes sure the design looks the same on each different looking canvas size. ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-3--rules-and-conditionals-1.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/full/8aRycZJBo",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/full/8aRycZJBo"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/full/8aRycZJBo",
     "certification": "",
     "weeklyResponse": "That you can do almost anything with code. Especially with adding true / false (if-- else) variables. Instead of the computer just reading the code with displaying shapes or text. Constant code adds a dimension to process what the output is going to be. We've been seeing what goes into the code(input), comes out of the code displayed(input). But with the added true/false variables,, we don't get the same design on how we entered it coding. Because the output is depending on to be equal to, less than or equal, more than or equal to be deemed the IF and everything else is categorized in ELSE. ",
     "teacherFeedback": "",
@@ -705,6 +805,10 @@
     "credit": "AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-3--rules-and-conditionals-1.png, /student-files/lin-kim-week-3--rules-and-conditionals-2.png, /student-files/lin-kim-week-3--rules-and-conditionals-3.png, /student-files/lin-kim-week-3--rules-and-conditionals-4.png",
     "linkToWork": "https://editor.p5js.org/present1513/full/axQCyPaBi",
+    "linkToWorks": [
+      "https://editor.p5js.org/present1513/full/axQCyPaBi"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/present1513/full/axQCyPaBi",
     "certification": "",
     "weeklyResponse": "Through this project, I learned that the interaction distance greatly affects particle movement and the overall visual impression. By adjusting the force based on the distance between the mouse and particles, nearby particles scatter strongly while distant ones return slowly to their original positions, creating a natural motion. If the interaction distance is too short, particles barely move, limiting visual dynamics; if too long, the entire system scatters excessively, creating a chaotic effect. Therefore, setting an appropriate distance range is key to maintaining both particle freedom and visual stability.",
     "teacherFeedback": "",
@@ -748,6 +852,10 @@
     "credit": "Claude",
     "uploadedFiles": "/student-files/lina-lee-week-3--rules-and-conditionals-1.png",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/YIDQycuew6",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/YIDQycuew6"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/YIDQycuew6",
     "certification": "",
     "weeklyResponse": "Although understanding the concepts of if and else if was somewhat challenging, I was relieved when the code worked well after reviewing the professor's lecture again with AI assistance. This time, I also experimented with applying new fonts. Going forward, I think I need to consider how to develop this code to make it more visually beautiful.",
     "teacherFeedback": "",
@@ -770,6 +878,10 @@
     "credit": "Chat GPT, The Coding Train, References/Examples on the Website",
     "uploadedFiles": "/student-files/sarena-yadav-week-3--rules-and-conditionals-1.pdf",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/Zmx4g3MVo",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/Zmx4g3MVo"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/Zmx4g3MVo",
     "certification": "",
     "weeklyResponse": "I experimented with randomly placing letters, adding a shear effect to a single letter, and dynamically changing canvas sizes, which made my composition more engaging. One challenge I faced was exporting the canvas as an SVG. Since SVG is vector-based, it doesn’t support images or blend modes like DODGE, which confused me at first. I’m still figuring out how to represent textured elements or gradients in SVG while keeping the interactivity intact.",
     "teacherFeedback": "Yah, [it is a feature](https://github.com/zenozeng/p5.js-svg/issues/129) that is yet to be added for p5.svg!",
@@ -792,6 +904,10 @@
     "credit": "Professor Shih helped me with the wave animation and the for loop() part. And i also asked ChatGPT and Claude AI for help.",
     "uploadedFiles": "/student-files/flora-fang-week-3--rules-and-conditionals-1.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-2.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-3.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-4.jpg, /student-files/flora-fang-week-3--rules-and-conditionals-5.jpg",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
     "certification": "",
     "weeklyResponse": "This week we learned how to add rules and constraints to our code, so that even when changes occur, the code still works more logically. This is something that design software cannot achieve. With just one piece of code, we can build a design system that allows the output to adapt to different dimensions.",
     "teacherFeedback": "",
@@ -841,7 +957,11 @@
     "projectDescription": "This project builds an interactive particle simulation. Circles move independently and shift between four states: matte, stain, glossy, and plasma. Each state depends on velocity, energy, and position within the canvas. Rules control collisions, energy flow, and color changes. Parameter controls, debug modes, and state analysis let you test outcomes. The modular design adapts to studies in particle, physics, social systems, and AI. The project works as both a learning tool for conditional programming and a platform for exploring emergent systems. ",
     "credit": "Claude",
     "uploadedFiles": "/student-files/kate-chon-week-3--rules-and-conditionals-1.jpg",
-    "linkToWork": "https://https://editor.p5js.org/kchon2/sketches/RankCGsM6",
+    "linkToWork": "https://editor.p5js.org/kchon2/sketches/RankCGsM6",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/sketches/RankCGsM6"
+    ],
+    "linkToWorkRaw": "https://https://editor.p5js.org/kchon2/sketches/RankCGsM6",
     "certification": "",
     "weeklyResponse": "This week I learned how conditional shape behavior in interactive systems. Small changes in if and else logic lead to clear differences in outcomes. I also worked with arrays to manage and organize multiple elements at once. Modular design showed me how a system stays flexible for different uses. One question I have is how to keep rules simple while still producing complex results.",
     "teacherFeedback": "",
@@ -864,6 +984,10 @@
     "credit": "Chatgpt",
     "uploadedFiles": "/student-files/zoe-liu-week-3--rules-and-conditionals-1.png",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi",
     "certification": "",
     "weeklyResponse": "Using random() to give objects different sizes makes the overall composition more engaging and less rigid. It also prevents the layout from looking stiff when we try to spread objects across the entire screen but fail to place them in a sufficiently varied way. At the same time, conditions can help us filter the information we need in order to achieve the desired effect.",
     "teacherFeedback": "",
@@ -886,6 +1010,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/yiling-yang-week-3--rules-and-conditionals-1.png, /student-files/yiling-yang-week-3--rules-and-conditionals-2.jpg",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
     "certification": "",
     "weeklyResponse": "This week I learned how to modify the changing speed of random colors in my design and mainly learned how to use if else. I used it to control the breathing effect of the border and the position setting. I found that using it reasonably can make the picture more logical and more interesting.",
     "teacherFeedback": "",
@@ -915,6 +1043,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/sreya-mahsin-week-3--rules-and-conditionals-1.png",
     "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
+    "linkToWorks": [
+      "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
     "certification": "",
     "weeklyResponse": "I learnt how to use conditionals and the random feature together to create a systems that work as one part of a greater whole. I am still figuring out how to play more with typography and creating a coherent visual system.",
     "teacherFeedback": "",
@@ -937,6 +1069,10 @@
     "credit": "Collaborators, tutorials and AI",
     "uploadedFiles": "/student-files/binjia-li-week-3--rules-and-conditionals-1.png",
     "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/Cl7-5RIYd",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/Cl7-5RIYd"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/Cl7-5RIYd",
     "certification": "",
     "weeklyResponse": "This week I shifted from variation to a rule based system. I defined limits for color, scale, and proportion, used arrays and if else conditionals, and let the system decide. Interaction distance shaped particle force. Imperfect outer arcs contrast a complete inner circle. Completeness emerges internally, guiding material and fabrication.",
     "teacherFeedback": "",
@@ -959,6 +1095,10 @@
     "credit": "- Chat GPT: help create the basic of the cloud, keep text on the canvas(still don't know how it manage to do)\n- Librabry:  blendMode, noise\n- Tutorials: \nHow to Graph Perlin Noise with p5.\njshttps://www.youtube.com/watch?v=y7sgcFhk6ZM&t=213s\n\nNoise vs Random in p5.js\nhttps://www.youtube.com/watch?v=YcdldZ1E9gU\n\nParticle Systems with Inheritance - The Nature of Code\nhttps://www.youtube.com/watch?v=44RSr49m6LU",
     "uploadedFiles": "/student-files/bella-tsai-week-3--rules-and-conditionals-1.png, /student-files/bella-tsai-week-3--rules-and-conditionals-2.png, /student-files/bella-tsai-week-3--rules-and-conditionals-3.png, /student-files/bella-tsai-week-3--rules-and-conditionals-4.png, /student-files/bella-tsai-week-3--rules-and-conditionals-5.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/IPjqR5FCf",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/IPjqR5FCf"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/IPjqR5FCf",
     "certification": "",
     "weeklyResponse": "I learned how to use gradient, blending mode and a little about the particle system",
     "teacherFeedback": "",
@@ -1009,6 +1149,10 @@
     "credit": "I used chatGPT to help me with my code. I had some trouble on doing the decreasing color palette. As well as if I wanted to manually modify my shapes to make it look cleaner. ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-4--loops---custom-functions-1.png, /student-files/nancy-scanlon-week-4--loops---custom-functions-2.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/full/m6d93MMEI",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/full/m6d93MMEI"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/full/m6d93MMEI",
     "certification": "",
     "weeklyResponse": "If I wanted to do randomization for my canvas size but only could pick out of five options, would the probability of the computer running it create more duplicates rather than new canvas sizes? I wanted to approach it this way because I want my color palette to decrease when my canvas gets smaller. & darker colors when it gets bigger.  ",
     "teacherFeedback": "You could certainly do `let canvasSizes = []`, and just have 5 options only, while keeping the conditionals for color palettes to still be more of a spectrum, like `background(width/100)` for example.",
@@ -1038,6 +1182,10 @@
     "credit": "Claude",
     "uploadedFiles": "/student-files/lina-lee-week-4--loops---custom-functions-1.png, /student-files/lina-lee-week-4--loops---custom-functions-2.png, /student-files/lina-lee-week-4--loops---custom-functions-3.png, /student-files/lina-lee-week-4--loops---custom-functions-4.mov",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/PwgGvsfOA",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/PwgGvsfOA"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/PwgGvsfOA",
     "certification": "",
     "weeklyResponse": "Finally, I understand this p5.js process a little bit so this assignment was so fun!!! I got a courage and maybe I can do this better next time. ",
     "teacherFeedback": "",
@@ -1081,6 +1229,10 @@
     "credit": "I checked out the bezierPoint() reference\n\nand I used claude for an interactive Bezier curve editor that gives me the control points as I played with the curves.\n\nI also used claude for a saving each frame function ",
     "uploadedFiles": "/student-files/richard-fu-week-3--rules-and-conditionals-1.png, /student-files/richard-fu-week-3--rules-and-conditionals-2.png, /student-files/richard-fu-week-3--rules-and-conditionals-3.png, /student-files/richard-fu-week-3--rules-and-conditionals-4.png, /student-files/richard-fu-week-3--rules-and-conditionals-5.png",
     "linkToWork": "https://editor.p5js.org/ririff/full/5ZIhtrGO2",
+    "linkToWorks": [
+      "https://editor.p5js.org/ririff/full/5ZIhtrGO2"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ririff/full/5ZIhtrGO2",
     "certification": "",
     "weeklyResponse": "Conditionals are fun!",
     "teacherFeedback": "",
@@ -1131,6 +1283,10 @@
     "credit": "Munus one-on-one tutorial\n\np5.js libraries:\nblendMode()\nfilter()\ncreateGraphics()\n\ntutorial:\ncreateGraphics() - p5.js Tutorial\nhttps://www.youtube.com/watch?v=TaluaAD9MKA",
     "uploadedFiles": "/student-files/bella-tsai-week-4--loops---custom-functions-1.png, /student-files/bella-tsai-week-4--loops---custom-functions-2.png, /student-files/bella-tsai-week-4--loops---custom-functions-3.png, /student-files/bella-tsai-week-4--loops---custom-functions-4.png, /student-files/bella-tsai-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/g8PNj8AmM",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/g8PNj8AmM"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/g8PNj8AmM",
     "certification": "",
     "weeklyResponse": "\nI learned to use  (1) conditional (2) loop (3)custom function (4) lerpColor to achieve the effect that I want. With the instructor's help and advice, during the development of the project, I can understand every line of my code and am able to adjust the parameters to reach the outcome.",
     "teacherFeedback": "",
@@ -1181,6 +1337,10 @@
     "credit": "Chat GPT",
     "uploadedFiles": "/student-files/yiling-yang-week-4--loops---custom-functions-1.png, /student-files/yiling-yang-week-4--loops---custom-functions-2.png, /student-files/yiling-yang-week-4--loops---custom-functions-3.png, /student-files/yiling-yang-week-4--loops---custom-functions-4.png, /student-files/yiling-yang-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/SqZG4A13K",
     "certification": "",
     "weeklyResponse": "I learned that changes should not be limited to details, but should be more directly felt, and I made some final adjustments to my project based on the class content.",
     "teacherFeedback": "",
@@ -1231,6 +1391,10 @@
     "credit": "chatgpt",
     "uploadedFiles": "/student-files/kate-chon-week-4--loops---custom-functions-1.jpg",
     "linkToWork": "https://editor.p5js.org/kchon2/sketches/smpSKhcbS",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/sketches/smpSKhcbS"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/sketches/smpSKhcbS",
     "certification": "",
     "weeklyResponse": "What's the best way to decide whether to use for loop or an array with objects when working on an interactive system?",
     "teacherFeedback": "That’s a great question! A loop is handy for quickly making something sequential—for example, circles placed diagonally, each 40 pixels apart. An array of objects is better when you need to track each element individually with its own position or properties.",
@@ -1253,6 +1417,10 @@
     "credit": "I asked ChatGPT for help, and Professor Shih helped me with the for loop part.",
     "uploadedFiles": "/student-files/flora-fang-week-4--loops---custom-functions-1.png, /student-files/flora-fang-week-4--loops---custom-functions-2.png, /student-files/flora-fang-week-4--loops---custom-functions-3.png, /student-files/flora-fang-week-4--loops---custom-functions-4.png, /student-files/flora-fang-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/eLw0dI1QJ",
     "certification": "",
     "weeklyResponse": "This week we learned about the function of for loops, which made our code more interesting. I also used a GUI to add options for adjusting the canvas size and the wave’s length and width, which gave me better control. However, when I tried to save my image, even after setting the pixel density to 100, the file size was still only a few KB, which would look blurry if printed larger. I also tried saving as an SVG, but it didn’t seem to capture my whole image.",
     "teacherFeedback": "So [pixelDensity()](https://p5js.org/reference/p5/pixelDensity/) is a function and not a simple variable. You have to write `pixelDensity(5)` like this in setup in order for it to work!",
@@ -1303,6 +1471,10 @@
     "credit": "chatgpt",
     "uploadedFiles": "/student-files/zoe-liu-week-4--loops---custom-functions-1.png, /student-files/zoe-liu-week-4--loops---custom-functions-2.png, /student-files/zoe-liu-week-4--loops---custom-functions-3.png, /student-files/zoe-liu-week-4--loops---custom-functions-4.png, /student-files/zoe-liu-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/aPlYyEemi",
     "certification": "",
     "weeklyResponse": "Adjusting the image scale to keep it high-definition was very helpful. I can set the canvas size directly, but scaling lets me fine-tune without re-saving. While I didn’t need loops this time, I see how they could help generate more stars in future work.",
     "teacherFeedback": "",
@@ -1353,6 +1525,10 @@
     "credit": "AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-4--loops---custom-functions-1.png, /student-files/lin-kim-week-4--loops---custom-functions-2.png, /student-files/lin-kim-week-4--loops---custom-functions-3.png, /student-files/lin-kim-week-4--loops---custom-functions-4.png, /student-files/lin-kim-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/present1513/full/axQCyPaBi",
+    "linkToWorks": [
+      "https://editor.p5js.org/present1513/full/axQCyPaBi"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/present1513/full/axQCyPaBi",
     "certification": "",
     "weeklyResponse": "Yes",
     "teacherFeedback": "",
@@ -1403,6 +1579,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/sreya-mahsin-week-4--loops---custom-functions-1.png, /student-files/sreya-mahsin-week-4--loops---custom-functions-2.png, /student-files/sreya-mahsin-week-4--loops---custom-functions-3.png, /student-files/sreya-mahsin-week-4--loops---custom-functions-4.png",
     "linkToWork": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
+    "linkToWorks": [
+      "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/smahsin/sketches/1lmZ4eNJR",
     "certification": "",
     "weeklyResponse": "I learned how to use custom functions and conditionals to bring more organization in my code but randomness/chaos in my design. I want to understand how to make my designs more responsive and automate the scaling and lines to fit the canvas properly without having to do the math. ",
     "teacherFeedback": "",
@@ -1446,6 +1626,10 @@
     "credit": "I used Claud for several functions: The rotation of the text relative to the anchor points of the curve drawn / the GUI that synthesizes the hand drawn curve into numerous belzier curve coordinates that maps into the newer canvases with proportional layouts ",
     "uploadedFiles": "/student-files/richard-fu-week-4--loops---custom-functions-1.png, /student-files/richard-fu-week-4--loops---custom-functions-2.png, /student-files/richard-fu-week-4--loops---custom-functions-3.png, /student-files/richard-fu-week-4--loops---custom-functions-4.png, /student-files/richard-fu-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/ririff/sketches/Q9itE9hDS",
+    "linkToWorks": [
+      "https://editor.p5js.org/ririff/sketches/Q9itE9hDS"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ririff/sketches/Q9itE9hDS",
     "certification": "",
     "weeklyResponse": "codes work ",
     "teacherFeedback": "",
@@ -1496,6 +1680,10 @@
     "credit": "Chat GPT, The Coding Train, References on the website and class slides",
     "uploadedFiles": "/student-files/sarena-yadav-week-4--loops---custom-functions-1.png, /student-files/sarena-yadav-week-4--loops---custom-functions-2.png, /student-files/sarena-yadav-week-4--loops---custom-functions-3.png, /student-files/sarena-yadav-week-4--loops---custom-functions-4.png, /student-files/sarena-yadav-week-4--loops---custom-functions-5.png",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/s2UNv5GPF",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/s2UNv5GPF"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/s2UNv5GPF",
     "certification": "",
     "weeklyResponse": "I never thought that randomness could actually make sense. As designers, we usually focus on alignment, order, and precision, but this project showed me something different. Letting go of control and allowing randomness to decide placement, size, and shapes was new for me—and surprisingly fun. Each run of the code created a completely unique outcome, almost like the artwork had its own life. The overlapping letters, the shifting circles, made me realize that randomness can be just as beautiful as carefully planned design. It gave my artwork unpredictability and uniqueness every time.",
     "teacherFeedback": "",
@@ -1546,6 +1734,10 @@
     "credit": "Thanks to chatGPT. I was also looking at wikipedia commons for nyc maps to put behind the GEOJSON, but the images did not work loading. ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-6--data---mapping-data-1.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/full/9ISpqqR74",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/full/9ISpqqR74"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/full/9ISpqqR74",
     "certification": "",
     "weeklyResponse": "I needed more help with the preload for images on top of the JSON-- making sure it was aligned. ",
     "teacherFeedback": "Do you know what kind of image ",
@@ -1568,6 +1760,10 @@
     "credit": "IMSLP (Music Score Sites), Claude, Chat GPT",
     "uploadedFiles": "/student-files/lina-lee-week-6--data---mapping-data-1.png, /student-files/lina-lee-week-6--data---mapping-data-2.mp4",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/mrI9eko5W",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/mrI9eko5W"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/mrI9eko5W",
     "certification": "",
     "weeklyResponse": "I was hoping for more variation in note distribution, but since the instrumentation is fairly balanced, the visual representation looks rather uniform. Perhaps we should try analyzing a different symphony or a chamber music piece.",
     "teacherFeedback": "",
@@ -1597,6 +1793,10 @@
     "credit": "AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-6--data---mapping-data-1.png, /student-files/lin-kim-week-6--data---mapping-data-2.png, /student-files/lin-kim-week-6--data---mapping-data-3.png",
     "linkToWork": "https://editor.p5js.org/present1513/full/KOmodZzHl",
+    "linkToWorks": [
+      "https://editor.p5js.org/present1513/full/KOmodZzHl"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/present1513/full/KOmodZzHl",
     "certification": "",
     "weeklyResponse": "This week, I explored how data can be felt, not just seen, through the process of turning classical music data into an interactive visual experience. It was both a technical and creative challenge, finding balance between data accuracy and emotional expression.\n\nBy connecting Python-based data preprocessing with p5.js visualization, I learned how musical information such as era, frequency, and composition count could be transformed into movement, color, and sound. Through debugging and iterative testing, I realized that each visual parameter—position, size, hue, and motion—carries its own meaning.\n\nThe biggest insight was that emotional data visualization is more about interpretation than coding. I’m still curious about how to make 3D interactions smoother in p5.js and how to design visuals that respond more intuitively to user behavior.",
     "teacherFeedback": "",
@@ -1633,6 +1833,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/flora-fang-week-6--data---mapping-data-1.png, /student-files/flora-fang-week-6--data---mapping-data-2.png",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/Lz-UV3lLa",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/Lz-UV3lLa"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/Lz-UV3lLa",
     "certification": "",
     "weeklyResponse": "I learned how to search for data and visualize it, which I found really interesting. When I tried creating my own visualization using P5, I wanted the most frequently used emojis to appear larger while the less common ones appeared smaller, to create a more intuitive visual effect. But I wasn’t quite sure how to do it now.",
     "teacherFeedback": "We will learn next week how to use `.map()` in javascript to calculate our own attributes like frequency!",
@@ -1662,6 +1866,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/yiling-yang-week-6--data---mapping-data-1.png, /student-files/yiling-yang-week-6--data---mapping-data-2.png, /student-files/yiling-yang-week-6--data---mapping-data-3.png, /student-files/yiling-yang-week-6--data---mapping-data-4.png, /student-files/yiling-yang-week-6--data---mapping-data-5.png",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/PYgBuT-tp",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/PYgBuT-tp"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/PYgBuT-tp",
     "certification": "",
     "weeklyResponse": "If I want to include typhoon trajectories instead of single points, how can I efficiently organize and draw a large amount of data in p5.js?",
     "teacherFeedback": "You use a `for loop()`!",
@@ -1712,6 +1920,10 @@
     "credit": "Chatgpt, https://data.cityofnewyork.us/Environment/1995-Street-Tree-Census/kyad-zm4j/about_data",
     "uploadedFiles": "/student-files/zoe-liu-week-6--data---mapping-data-1.png",
     "linkToWork": "https://editor.p5js.org/munusshih/sketches/W1OdpjKYC",
+    "linkToWorks": [
+      "https://editor.p5js.org/munusshih/sketches/W1OdpjKYC"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/munusshih/sketches/W1OdpjKYC",
     "certification": "",
     "weeklyResponse": "ChatGPT 说：\n\nVisualization is a tricky process. You not only have to decide which columns to show, but also pick and filter the data so the picture looks balanced, instead of letting one weird data point push everything into a corner.",
     "teacherFeedback": "",
@@ -1734,6 +1946,10 @@
     "credit": "Claude",
     "uploadedFiles": "/student-files/kate-chon-week-6--data---mapping-data-1.png, /student-files/kate-chon-week-6--data---mapping-data-2.png, /student-files/kate-chon-week-6--data---mapping-data-3.png",
     "linkToWork": "https://editor.p5js.org/kchon2/sketches/2MPeDYN8s",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/sketches/2MPeDYN8s"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/sketches/2MPeDYN8s",
     "certification": "",
     "weeklyResponse": "I had trouble connecting the data link to my code. I tried saving the dataset on excel as a CSV, but maybe the file was too large, so on p5 it wouldn't load. I reduced the complaints to rows 1-1001 in Excel, but it still wouldn't load. My current code only shows around 100 complaints, some boroughs are missing. I need help figuring out how to properly link the dataset in my code or find another solution to handle the full data. ",
     "teacherFeedback": "I'm not sure why but p5's function `loadTable()` for loading in csv is extremely slow. I recommend converting CSV to JSON and import it in that way instead!",
@@ -1770,6 +1986,10 @@
     "credit": "I referenced the squirrel code shown in class, and Claude helped with the filtering code to eliminate data points incomplete, and it added fancy motions and light. ",
     "uploadedFiles": "/student-files/richard-fu-week-6--data---mapping-data-1.png",
     "linkToWork": "https://editor.p5js.org/ririff/full/GnMGCuKs2",
+    "linkToWorks": [
+      "https://editor.p5js.org/ririff/full/GnMGCuKs2"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ririff/full/GnMGCuKs2",
     "certification": "",
     "weeklyResponse": "Filtering out inaccessible data points is crucial",
     "teacherFeedback": "I tend to think data visualization is 80% processing, and 20% visualization",
@@ -1791,7 +2011,12 @@
     "projectDescription": "I came to the conclusion that I want to use laser cut to make a terrain of nyc. For example the wood-cut terrain models. It would be essentially a map of nyc showcasing which areas have the highest density, middle density and lowest density. I have a specific idea of a heat map in my head to reflect a design in p5.js but it is challenging. I want a custom vector shape to represent an area of high density and so on. If I have the chance I will add lines growing inward to show that it has the highest density,, Lesser lines for the lower density. \n\nI found this good tutorial or p5.js file but it was html. It was because it is a Leaflet. So i'm wondering how I can change that into vector shapes. But I think I did okay to replicate what I work or closer to what I want to achieve. ",
     "credit": "I want to credit the youtube channel Coding train by Daniel Shiffman. Especially this video : Coding Challenge 181: Weighted Voronoi Stippling. I was having trouble getting p5.js to not use shapes but color to reflect a heat map. So Voronoi came up. I dove more into it. The template https://editor.p5js.org/codingtrain/sketches/9ntWWLXqA helped me a lot. As well as https://editor.p5js.org/codingtrain/sketches/opmU_UQqg \n\nI also want to give credit to the coder that did this in p5.js. even though it was html it helped me see the vision I want to go towards. https://editor.p5js.org/Musa/sketches/myGTnBQJ0\n\nAlso I credit chatGPT for helping me combine my ideas with these references ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-7--data-sculpture-1.png, /student-files/nancy-scanlon-week-7--data-sculpture-2.png, /student-files/nancy-scanlon-week-7--data-sculpture-3.png",
-    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/HbWgyBPMz                  or                https://editor.p5js.org/nancyscan/sketches/YqPgl6CVh",
+    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/HbWgyBPMz",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/sketches/HbWgyBPMz",
+      "https://editor.p5js.org/nancyscan/sketches/YqPgl6CVh"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/sketches/HbWgyBPMz                  or                https://editor.p5js.org/nancyscan/sketches/YqPgl6CVh",
     "certification": "",
     "weeklyResponse": "I learned that 3d modeling is challenging, but I am exciting to learn more code that can help me in the future weeks. ",
     "teacherFeedback": "",
@@ -1828,6 +2053,10 @@
     "credit": "Chat GPT, Coding Train, Class Presentation and Refrences",
     "uploadedFiles": "/student-files/sarena-yadav-week-6--data---mapping-data-1.png, /student-files/sarena-yadav-week-6--data---mapping-data-2.png, /student-files/sarena-yadav-week-6--data---mapping-data-3.png, /student-files/sarena-yadav-week-6--data---mapping-data-4.mov",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/MJHBFUAeX",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/MJHBFUAeX"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/MJHBFUAeX",
     "certification": "",
     "weeklyResponse": "While working on this visualization, I realized the importance of choosing data that I could truly understand and relate to. Initially, I considered using an existing dataset, but it felt distant and abstract. By creating a dataset based on my own experiences—places I visited in NYC, the moods I felt, and my recommendations—I was able to engage more deeply with the data. At first, the project was challenging: mapping the x and y axes, deciding circle sizes, colors, and interactions, and ensuring everything displayed cohesively felt overwhelming. However, as the circles took shape and the interactive panels began to work, the visualization came alive, and it was incredibly exciting to see my personal experiences represented visually. I also learned the value of subtle interactions, like flickering circles, to make the visualization dynamic. Overall, this project taught me how to translate personal data into an engaging, meaningful visual story.",
     "teacherFeedback": "",
@@ -1871,6 +2100,10 @@
     "credit": "ChatGPT help create the visualize bar",
     "uploadedFiles": "/student-files/bella-tsai-week-6--data---mapping-data-1.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/yFM4x3OMg",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/yFM4x3OMg"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/yFM4x3OMg",
     "certification": "",
     "weeklyResponse": "It's really tricky to coordinate the map when the data does not include longitude and latitude coordinates. I tried to use an image as a background, GeoJSON, and Mappa.js. And there's still no systematic solution to make the data show on a map. \nData visualization is actually required so much coordinating work, THIS IS SO HARDDD.\n",
     "teacherFeedback": "",
@@ -1893,6 +2126,10 @@
     "credit": "Claude and class tutorials",
     "uploadedFiles": "/student-files/lina-lee-week-7--data-sculpture-1.mov",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/9Rwb44w2_",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/9Rwb44w2_"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/9Rwb44w2_",
     "certification": "",
     "weeklyResponse": "It doesn't work well with the exact instrumental shapes. Also, I need to put those shapes on the music scores to stick into my concept.",
     "teacherFeedback": "",
@@ -1915,6 +2152,10 @@
     "credit": "AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-7--data-sculpture-1.png, /student-files/lin-kim-week-7--data-sculpture-2.png, /student-files/lin-kim-week-7--data-sculpture-3.png, /student-files/lin-kim-week-7--data-sculpture-4.mov",
     "linkToWork": "https://chaelinnnnn.github.io/ufo-sightings/ufo-sightings.html",
+    "linkToWorks": [
+      "https://chaelinnnnn.github.io/ufo-sightings/ufo-sightings.html"
+    ],
+    "linkToWorkRaw": "https://chaelinnnnn.github.io/ufo-sightings/ufo-sightings.html",
     "certification": "",
     "weeklyResponse": "I adjusted the vertical positions of the poles for all 10 states individually over 20 times (-2.5, -1.0, -0.7, etc.). The more challenging part was when I increased the pole length from 9.5 to 12 based on California's scale - I had to proportionally readjust all the other states' positions as well. It took time to understand the relationship between scale and position in 3D space.",
     "teacherFeedback": "The project looks incredibly exciting visually! I’m curious about how the data can be easily read... maybe something to think about when designing a legend to help people understand it.",
@@ -1958,6 +2199,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/flora-fang-week-7--data-sculpture-1.png, /student-files/flora-fang-week-7--data-sculpture-2.png, /student-files/flora-fang-week-7--data-sculpture-3.png",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu",
     "certification": "",
     "weeklyResponse": "I learned how to build a data sculpture this week, and I’m really excited to make my own. It’s a bit challenging since I’ve never used any 3D software before, but with the help of an AI agent, I made a draft of my sculpture and will keep improving it.",
     "teacherFeedback": "",
@@ -1994,6 +2239,10 @@
     "credit": "Chatgpt",
     "uploadedFiles": "/student-files/zoe-liu-week-7--data-sculpture-1.png",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/jXyqaEhOG",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/jXyqaEhOG"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/jXyqaEhOG",
     "certification": "",
     "weeklyResponse": "During the visualization process, we may have to give up certain elements for the sake of project implementation. However, at the same time, we should try our best to preserve every piece of data. I’m still thinking about how to achieve the most effective and intuitive result.",
     "teacherFeedback": "Figuring out how to accurately translate data while selectively editing it to tell a clearer story is always the hardest part!",
@@ -2016,6 +2265,10 @@
     "credit": "Claude",
     "uploadedFiles": "/student-files/kate-chon-week-7--data-sculpture-1.png",
     "linkToWork": "https://editor.p5js.org/kchon2/full/mxEH6Cjzb",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/full/mxEH6Cjzb"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/full/mxEH6Cjzb",
     "certification": "",
     "weeklyResponse": "I learned about converting my file into JSON so I will be able to use my data. I'm wondering how can I make my project stronger whether that is in 3D form or in my code.",
     "teacherFeedback": "",
@@ -2038,6 +2291,10 @@
     "credit": "Chat GPT, The Coding Train, Class Presentation",
     "uploadedFiles": "/student-files/sarena-yadav-week-7--data-sculpture-1.png, /student-files/sarena-yadav-week-7--data-sculpture-2.png, /student-files/sarena-yadav-week-7--data-sculpture-3.png, /student-files/sarena-yadav-week-7--data-sculpture-4.mov",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/fs33bpBHt",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/fs33bpBHt"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/fs33bpBHt",
     "certification": "",
     "weeklyResponse": "This week, I focused on enhancing my data visualization by adding interactive features, mood filters, timeline controls, and atmospheric elements like a gradient and a subtle NYC skyline. I’m still thinking of ideas for the physical presentation I want to experiment with lights, possibly using LEDs, but I’m unsure how to implement them since I don’t have much experience with electronics. I’m also considering using beads or threads to represent the data physically, which could create a tactile, visually engaging version of the visualization. It’s an exciting challenge to translate digital interactivity into a physical form.",
     "teacherFeedback": "Using beads sounds like a very exciting idea! I can't wait to see what you'll make.",
@@ -2081,6 +2338,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/yiling-yang-week-7--data-sculpture-1.png, /student-files/yiling-yang-week-7--data-sculpture-2.png, /student-files/yiling-yang-week-7--data-sculpture-3.png, /student-files/yiling-yang-week-7--data-sculpture-4.png, /student-files/yiling-yang-week-7--data-sculpture-5.png",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/2JHuLdGFc",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/2JHuLdGFc"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/2JHuLdGFc",
     "certification": "",
     "weeklyResponse": "This week, I learned how to import and create 3D models in p5.js.",
     "teacherFeedback": "",
@@ -2131,6 +2392,10 @@
     "credit": "Office hour with professor, Munus and used ChatGPT to colleges some data and information.",
     "uploadedFiles": "/student-files/binjia-li-week-6--data---mapping-data-1.png",
     "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/Bxn23e1xN",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/Bxn23e1xN"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/Bxn23e1xN",
     "certification": "",
     "weeklyResponse": "How to visualize data ",
     "teacherFeedback": "",
@@ -2152,7 +2417,13 @@
     "projectDescription": "So this week, I worked with the professor on how I can simplify my code into something I can adjust easily as well as understand. My initial goal was to show the highest density of water fountains in Manhattan parks but did not know what type of density to correlate it with. We then chose the radius of a fountain to show the density. If I randomly pick a fountain in Manhattan it can show the other nearest fountain. In this weeks assignment I divided my layers into the high. medium. and low density files.",
     "credit": "Chat GPT to help me null the other colors when singling out the density type. As well as professor Munus's 1 on 1 call. ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-9--object-oriented-1.png, /student-files/nancy-scanlon-week-9--object-oriented-2.png, /student-files/nancy-scanlon-week-9--object-oriented-3.png",
-    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/BPKVNwQWd, https://editor.p5js.org/nancyscan/sketches/vSLAMrbp5, https://editor.p5js.org/nancyscan/sketches/V711vSydZ ",
+    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/BPKVNwQWd",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/sketches/BPKVNwQWd",
+      "https://editor.p5js.org/nancyscan/sketches/vSLAMrbp5",
+      "https://editor.p5js.org/nancyscan/sketches/V711vSydZ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/sketches/BPKVNwQWd, https://editor.p5js.org/nancyscan/sketches/vSLAMrbp5, https://editor.p5js.org/nancyscan/sketches/V711vSydZ",
     "certification": "",
     "weeklyResponse": "I learned more about how I can use class as well as grabbing certain information from arrays. Especially in my JSON!!",
     "teacherFeedback": "",
@@ -2189,6 +2460,10 @@
     "credit": "Chat GPT, Claude",
     "uploadedFiles": "/student-files/lina-lee-week-9--object-oriented-1.png",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/GP29rQlj5",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/GP29rQlj5"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/GP29rQlj5",
     "certification": "",
     "weeklyResponse": "It was quite hard to make my narrative in cohesive way.",
     "teacherFeedback": "",
@@ -2211,6 +2486,10 @@
     "credit": "1. Instructor Munus\n\n2. ChatGPT",
     "uploadedFiles": "/student-files/bella-tsai-week-7--data-sculpture-1.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4",
     "certification": "",
     "weeklyResponse": "At the beginning of this project, I struggled a lot with how to use the data—it was very unfamiliar to me, and I found it difficult to look at the data itself and directly imagine the final visualization. With the Instructor's help, I learned how to filter through large amounts of data to simplify and extract the parts I needed. Through this process of simplification, I gradually built up my vision for the visual presentation.",
     "teacherFeedback": "",
@@ -2233,6 +2512,10 @@
     "credit": "I asked ChatGPT for help, and I also asked Professor Shih for help",
     "uploadedFiles": "/student-files/flora-fang-week-9--object-oriented-1.png, /student-files/flora-fang-week-9--object-oriented-2.png",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/qVIaDI_Hu",
     "certification": "",
     "weeklyResponse": "This week i learned how to export the model as an STL file , and decided how to make it physically. But I'm still working on how to make the terrain into an irregular shape to look like the outline of Manhattan.",
     "teacherFeedback": "",
@@ -2262,6 +2545,10 @@
     "credit": "1. ChatGPT helped to create circles based on the reported number\n2. map() https://p5js.org/reference/p5/map/\n3. Birds That Leave Their Mark \n4. American Dipper Tracks and Sign https://www.bear-tracker.com/",
     "uploadedFiles": "/student-files/bella-tsai-week-9--object-oriented-1.png, /student-files/bella-tsai-week-9--object-oriented-2.png, /student-files/bella-tsai-week-9--object-oriented-3.png, /student-files/bella-tsai-week-9--object-oriented-4.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/VB7SwmFT4",
     "certification": "",
     "weeklyResponse": "I learned to use coding to create a visual structure for further design. However, I still need to improve my work. Perhaps I should include other boroughs as well, and how to correctly label the species is also something I need to continue working on.\nThe only difficulty I'm currently facing is that I cannot successfully download the SVG file from p5.js, even though I follow every step to do it.",
     "teacherFeedback": "I believe there's a problem with p5.svg and the current version doesn't fully support the new p5 2.0 yet. However I believe people are aware of the issue, and have been actively looking for a solution [here](https://github.com/zenozeng/p5.js-svg/issues/279)!",
@@ -2305,6 +2592,10 @@
     "credit": "AI agents, tutorials",
     "uploadedFiles": "/student-files/lin-kim-week-9--object-oriented-1.mov, /student-files/lin-kim-week-9--object-oriented-2.png, /student-files/lin-kim-week-9--object-oriented-3.png",
     "linkToWork": "https://chaelinnnnn.github.io/ufo-map/",
+    "linkToWorks": [
+      "https://chaelinnnnn.github.io/ufo-map/"
+    ],
+    "linkToWorkRaw": "https://chaelinnnnn.github.io/ufo-map/",
     "certification": "",
     "weeklyResponse": "I learned how to implement custom map visualization using the Canvas API. By building map rendering, zoom/pan interactions, and marker displays from scratch with pure JavaScript and Canvas 2D Context without relying on external map libraries, I gained a deeper understanding of low-level graphics processing and coordinate transformation logic. Additionally, I applied optimization techniques to efficiently render large-scale location data, which gave me firsthand experience with the importance of performance management.",
     "teacherFeedback": "",
@@ -2341,6 +2632,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/yiling-yang-week-9--object-oriented-1.png, /student-files/yiling-yang-week-9--object-oriented-2.png, /student-files/yiling-yang-week-9--object-oriented-3.png",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/y76HYSpgs",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/y76HYSpgs"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/y76HYSpgs",
     "certification": "",
     "weeklyResponse": "I learned that I can use multiple design tools together to create a complete work, instead of relying only on p5.",
     "teacherFeedback": "",
@@ -2377,6 +2672,10 @@
     "credit": "Tutor, Class examples and references, AI ",
     "uploadedFiles": "/student-files/binjia-li-week-9--object-oriented-1.png",
     "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/LSSk1qAQX",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/LSSk1qAQX"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/LSSk1qAQX",
     "certification": "",
     "weeklyResponse": "I learned how to visualize real-world data in p5.js by using colors, animation, and size to show information in a creative way. \nFor example, \nMap data to visuals: Used map() to turn numbers into circle sizes.\nAdd color & motion: Applied a color palette and sin() animation for smooth movement.\nOrganize code: Used setup() once and draw() to loop animation.",
     "teacherFeedback": "",
@@ -2399,6 +2698,10 @@
     "credit": "Tutor, class examples, AI, readings",
     "uploadedFiles": "/student-files/binjia-li-week-6--data---mapping-data-1.png",
     "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/KHCnAetO9",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/KHCnAetO9"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/KHCnAetO9",
     "certification": "",
     "weeklyResponse": "This week, I learned how to visualize data using p5.js — turning numbers into colorful shapes and animations. I practiced using the map() function, color palettes, and simple motion to make information easy to see and understand.",
     "teacherFeedback": "",
@@ -2421,6 +2724,10 @@
     "credit": "chatgpt",
     "uploadedFiles": "/student-files/zoe-liu-week-9--object-oriented-1.png",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/6QkiUHW9j",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/6QkiUHW9j"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/6QkiUHW9j",
     "certification": "",
     "weeklyResponse": "At first, I actually wanted the leaf colors to be determined by the number of trees in each condition. I thought this would make every tree look a bit different when visualized. But in the end, I gave up on that idea, because most of the time the number of Good trees is the highest, then Fair, and Bad is usually the smallest. So the leaf colors ended up being in the same order for almost every tree.\n\nI'm not completely sure if this is always true, but it does seem to match the data. Still, if possible, I would like to add a bit of randomness to the leaf part based on the data.",
     "teacherFeedback": "Reviewing your data, visualizing it, and then designing and refining within constraints is a key part of an effective iterative design process! You are moving in the right direction!",
@@ -2443,6 +2750,10 @@
     "credit": "Claude",
     "uploadedFiles": "/student-files/kate-chon-week-9--object-oriented-1.png",
     "linkToWork": "https://editor.p5js.org/kchon2/full/mxEH6Cjzb",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/full/mxEH6Cjzb"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/full/mxEH6Cjzb",
     "certification": "",
     "weeklyResponse": "I learned how to transfer my data into Google Sheets and link it so it updates automatically without needing manual edits",
     "teacherFeedback": "",
@@ -2464,7 +2775,12 @@
     "projectDescription": "This project is an interactive web artwork that visualizes UFO sighting data from 10 U.S. states as 3D sculptures inspired by crop circles and alien communication antennas. Using Three.js, antenna structures with heights and complexity proportional to each state's sighting count were created—California (12,024 sightings) stands tallest, and different forms represent sighting types (Light, Circle, Disk). Users can explore each antenna with mouse controls or compare all states side-by-side, experiencing UFO data and phenomena through an artistic lens.\n\nThe interactive map visualizes sighting reports across 10 U.S. states, allowing users to quickly identify patterns and distributions at a glance. Through this project, users can explore the map and access detailed information using intuitive zoom and pan controls.",
     "credit": "AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-10--critical-data-viz-1.png, /student-files/lin-kim-week-10--critical-data-viz-2.png, /student-files/lin-kim-week-10--critical-data-viz-3.png",
-    "linkToWork": "1. https://chaelinnnnn.github.io/ufo-sightings/ 2. https://chaelinnnnn.github.io/ufo-map/",
+    "linkToWork": "https://chaelinnnnn.github.io/ufo-sightings/",
+    "linkToWorks": [
+      "https://chaelinnnnn.github.io/ufo-sightings/",
+      "https://chaelinnnnn.github.io/ufo-map/"
+    ],
+    "linkToWorkRaw": "1. https://chaelinnnnn.github.io/ufo-sightings/ 2. https://chaelinnnnn.github.io/ufo-map/",
     "certification": "",
     "weeklyResponse": "In the future, I plan to create actual 3D sculptures externally and integrate them into the web project. By producing physical versions of the antennas and crop circle-inspired forms, users could experience UFO data both digitally and tangibly, bridging the gap between virtual visualization and real-world interaction. This approach would enhance the immersive quality of the project, allowing audiences to engage with the data as art in a more tactile and spatial way.",
     "teacherFeedback": "",
@@ -2501,6 +2817,10 @@
     "credit": "Claude and ChatGPT",
     "uploadedFiles": "/student-files/kate-chon-week-10--critical-data-viz-1.jpg, /student-files/kate-chon-week-10--critical-data-viz-2.jpg, /student-files/kate-chon-week-10--critical-data-viz-3.jpg, /student-files/kate-chon-week-10--critical-data-viz-4.jpg",
     "linkToWork": "https://editor.p5js.org/kchon2/full/jHlN-Oesk",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/full/jHlN-Oesk"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/full/jHlN-Oesk",
     "certification": "",
     "weeklyResponse": "I learned how to organize my code in a more efficient and fun way.",
     "teacherFeedback": "",
@@ -2544,6 +2864,10 @@
     "credit": "For the Manhattan shape outline part, I asked Prof. Shih for help.",
     "uploadedFiles": "/student-files/flora-fang-week-10--critical-data-viz-1.png, /student-files/flora-fang-week-10--critical-data-viz-2.png",
     "linkToWork": "https://editor.p5js.org/zfang32/sketches/CDJQEP7be",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/CDJQEP7be"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/CDJQEP7be",
     "certification": "",
     "weeklyResponse": "During the office time coding together with the professor, I knew exactly what was going on with my code and how it works, which makes it easier for me to figure out when my code has a problem. But it was quite hard to create the Manhattan-shaped base. We spent a lot of time on this part, especially filling all the gaps after finding the outline cubes, but it finally worked. The logic was to find the first and last cubes in each column and then fill everything in between to make the whole shape complete. It was a new kind of coding logic for me, but I learned a lot from it.",
     "teacherFeedback": "",
@@ -2572,7 +2896,11 @@
     "projectDescription": "This is my previous data that isn't my updated one. But this code showcases how I was planning to create my physical sculpture for the open class. I wanted to make sure that each of the density neighbors has their own p5.js file so I could line up the density on a map. Then with this data I made sure that I could correlate my layer idea to my concept of low-high density. ",
     "credit": "I used a link for my map for my final physical project and the open data source for my JSON. ",
     "uploadedFiles": "/student-files/nancy-scanlon-week-10--critical-data-viz-1.png, /student-files/nancy-scanlon-week-10--critical-data-viz-2.png, /student-files/nancy-scanlon-week-10--critical-data-viz-3.png",
-    "linkToWork": "<iframe src=\"https://editor.p5js.org/nancyscan/full/iEv-XUgfI\"></iframe>",
+    "linkToWork": "https://editor.p5js.org/nancyscan/full/iEv-XUgfI",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/full/iEv-XUgfI"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/full/iEv-XUgfI",
     "certification": "",
     "weeklyResponse": "I learned that even though things may not go by your original plan,, you can still create something that replicates what you want to do. As well as have fun",
     "teacherFeedback": "",
@@ -2609,6 +2937,10 @@
     "credit": "Data:\nhttps://data.cityofnewyork.us/Environment/Urban-Park-Ranger-Animal-Condition-Response/fuhs-xmg2/about_data\n\nFootprint Resource:\nBeartracker’s Animal Tracks Den\nhttps://www.bear-tracker.com/\n\nFreepik Stock\nhttps://www.freepik.com/\n\nAnimalSilhouette\nCornell Lab | All About Birds\nhttps://www.allaboutbirds.org/news/\n\nFreepik Stock\nhttps://www.freepik.com/\n\nAnimalInfo\nNational Geographic Kid- animal section\nhttps://kids.nationalgeographic.com/\n\nNational Geographic - animal section\nhttps://www.nationalgeographic.com/animals\n\nCuriOdyssey -  animal section\nhttps://curiodyssey.org/animals/\n\nCornell Lab | All About Birds\nhttps://www.allaboutbirds.org/news/",
     "uploadedFiles": "/student-files/bella-tsai-week-10--critical-data-viz-1.png, /student-files/bella-tsai-week-10--critical-data-viz-2.png, /student-files/bella-tsai-week-10--critical-data-viz-3.png, /student-files/bella-tsai-week-10--critical-data-viz-4.png, /student-files/bella-tsai-week-10--critical-data-viz-5.png",
     "linkToWork": "https://editor.p5js.org/ytsai13/sketches/fWzSR_vqP",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/fWzSR_vqP"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/fWzSR_vqP",
     "certification": "",
     "weeklyResponse": "This week, I've had a deeper reflection on data visualization. The collection of data itself isn't objective; data can always be chaotic and complex. In my data, the 20th animal was \"unknown birds,\" a line I could easily delete. Many of the animal names after that were also inconsistent. This highlights not only potential problems with the data collection system itself but also the challenges of data visualization methods and scope, and even how our understanding of the data itself is affected. \n\nBecause data visualization is a process of simplification and transformation, the selection and omission of data during this transformation are human choices. The most challenging aspect is how to transform lines of numbers into interpretable, meaningful, objective information while simultaneously presenting a subjective filter through the data.",
     "teacherFeedback": "",
@@ -2659,6 +2991,10 @@
     "credit": "Chat GPT, Coding Train, Class pdf and references from P5.js",
     "uploadedFiles": "/student-files/sarena-yadav-week-9--object-oriented-1.png, /student-files/sarena-yadav-week-9--object-oriented-2.png",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/g5n6SoAZm",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/g5n6SoAZm"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/g5n6SoAZm",
     "certification": "",
     "weeklyResponse": "Through this project, I learned the importance of focus and concept in data collection. Shifting from recording experiences across NYC to exploring the linguistic diversity of India helped me understand how a dataset can tell a story rather than just present information. I discovered the scale of India’s languages 36 major languages in my dataset, part of over 121 recognized languages and 19,500 dialects and how arranging them from most to least spoken highlights cultural and regional diversity. I also learned how to visualize data creatively, transforming numbers into a meaningful, interactive representation that reflects identity, history, and connection.",
     "teacherFeedback": "",
@@ -2688,6 +3024,10 @@
     "credit": "Chat GPT, Coding Train, Class presentation(Figma), p5.js refrences",
     "uploadedFiles": "/student-files/sarena-yadav-week-10--critical-data-viz-1.png, /student-files/sarena-yadav-week-10--critical-data-viz-2.png, /student-files/sarena-yadav-week-10--critical-data-viz-3.png, /student-files/sarena-yadav-week-10--critical-data-viz-4.png, /student-files/sarena-yadav-week-10--critical-data-viz-5.tmp",
     "linkToWork": "https://editor.p5js.org/syadav4/sketches/g5n6SoAZm",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/g5n6SoAZm"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/g5n6SoAZm",
     "certification": "",
     "weeklyResponse": "Working with the Indian Languages dataset taught me how important focus and clarity are in data-driven design. By organizing 36 major languages and their dialects, I learned how patterns emerge when data is cleaned and structured. Using p5.js helped me visualize this complex linguistic information in a clear, interactive way, making it easier to translate into a physical mandala. Seeing the digital circles transform into laser-cut wooden shapes showed me how digital and physical systems can work together. Overall, I learned how visualization, repetition, and material choice can turn abstract data—like India’s many languages into a meaningful, tangible form.",
     "teacherFeedback": "",
@@ -2738,6 +3078,10 @@
     "credit": "I used ml5.js. As well as P5.js reference. And chatGPT.",
     "uploadedFiles": "/student-files/nancy-scanlon-week-12--animation---interaction-1.png, /student-files/nancy-scanlon-week-12--animation---interaction-2.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/sketches/Aj_POeCmj",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/sketches/Aj_POeCmj"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/sketches/Aj_POeCmj",
     "certification": "",
     "weeklyResponse": "I got to learn about how live inputs are incorporated in our everyday lives!! I also have more of a question about how the camera can catch on to accessories. Sometimes my code can be fidgety. Because I am working on glasses-- a secondary thing over eyes. ",
     "teacherFeedback": "Take a photo button can be easily acheived with `save('img.jpg')`!",
@@ -2767,6 +3111,10 @@
     "credit": "Chat GPT",
     "uploadedFiles": "/student-files/lina-lee-week-12--animation---interaction-1.png",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/full/rlqrzijRJ",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/full/rlqrzijRJ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/full/rlqrzijRJ",
     "certification": "",
     "weeklyResponse": "I wanted to implement a process where signing on a monitor would display and accumulate those signatures on screen, but I'm experiencing trial and error—the hand is being detected, but the motion isn't being drawn on the monitor. ",
     "teacherFeedback": "The webcam needs to capture your entire hand for the algorithm to locate the fingers. You’ll also need to use something like `localStorage` to store the finger-position data so you can visualize the trails.",
@@ -2789,6 +3137,7 @@
     "credit": "AI agents",
     "uploadedFiles": "/student-files/lin-kim-week-12--animation---interaction-1.png, /student-files/lin-kim-week-12--animation---interaction-2.png",
     "linkToWork": "I was unable to complete the WebGL build process due to the project being developed in Unity.",
+    "linkToWorkRaw": "I was unable to complete the WebGL build process due to the project being developed in Unity.",
     "certification": "",
     "weeklyResponse": "I wasn’t yet able to create a piece that responds sensitively to noise or environmental changes. So by next week, I hope to develop a version that reacts more immediately and dynamically. Still, working in Unity allowed me to build a real-time, game-like interactive environment, which was a valuable experience. I plan to continue improving and expanding this project.",
     "teacherFeedback": "I'm kind of curious why you chose to work in unity! Maybe something to discuss when we meet on Tuesday :)",
@@ -2818,6 +3167,10 @@
     "credit": "claude",
     "uploadedFiles": "/student-files/zoe-liu-week-12--animation---interaction-1.jpg, /student-files/zoe-liu-week-12--animation---interaction-2.jpg, /student-files/zoe-liu-week-12--animation---interaction-3.jpg",
     "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/OEhHJrxzA",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/OEhHJrxzA"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/OEhHJrxzA",
     "certification": "",
     "weeklyResponse": "I originally wanted to create something that I thought would look really cool, like a human figure made up of many flowing lines that continuously move and flow. But after many attempts, those lines would only form a huge rectangle around the body part. I think this might be a problem caused by having too few points in the body section. Perhaps if I want to achieve that effect, I would need to import other body models with more points and surfaces.",
     "teacherFeedback": "Yes, MoveNet (the model for detecting body) usually only has 17 keypoints, however, if you switch to using BlazePose, it will have 33 keypoints! You can read [more about it here](https://docs.ml5js.org/#/reference/bodypose) in ml5's documentation.",
@@ -2854,6 +3207,10 @@
     "credit": "Claude",
     "uploadedFiles": "/student-files/kate-chon-week-12--animation---interaction-1.png, /student-files/kate-chon-week-12--animation---interaction-2.png",
     "linkToWork": "https://editor.p5js.org/kchon2/full/qOYlboRb6",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/full/qOYlboRb6"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/full/qOYlboRb6",
     "certification": "",
     "weeklyResponse": "This week I learned how different types of interactions can create completely different experiences, even when starting from a similar idea. I also realized how small changes in input, like finger movement,",
     "teacherFeedback": "",
@@ -2883,6 +3240,10 @@
     "credit": "I used chatGPT with the buttons. As well as getting help with the glasses shape.",
     "uploadedFiles": "/student-files/nancy-scanlon-week-13--algorithm---storage-1.png, /student-files/nancy-scanlon-week-13--algorithm---storage-2.png, /student-files/nancy-scanlon-week-13--algorithm---storage-3.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/sketches/64jaAv-aA",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/sketches/64jaAv-aA"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/sketches/64jaAv-aA",
     "certification": "",
     "weeklyResponse": "for prompt order how can i add local memory to that. For example if I want to ask a yes or no question before a selection. Would I just put that first prompt before the second one? I want to add the option to the viewer if they do want the fun glasses or they can choose no. ",
     "teacherFeedback": "I would probably do if statement inside another if statement, so:\n\n```javascript\nif(hasGlasses){\n  prompt(); \n  if(wantGlasses) {\n    showGlasses();\n  }\n}\n```\n\nLet me know if this makes sense!",
@@ -2919,6 +3280,10 @@
     "credit": "Chat GPT",
     "uploadedFiles": "/student-files/lina-lee-week-13--algorithm---storage-1.mp4",
     "linkToWork": "https://editor.p5js.org/Adelinalbit/sketches/rlqrzijRJ",
+    "linkToWorks": [
+      "https://editor.p5js.org/Adelinalbit/sketches/rlqrzijRJ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/Adelinalbit/sketches/rlqrzijRJ",
     "certification": "",
     "weeklyResponse": "I learned how to attach the local storage into my code.",
     "teacherFeedback": "",
@@ -2941,6 +3306,10 @@
     "credit": "ChatGPT",
     "uploadedFiles": "/student-files/yiling-yang-week-12--animation---interaction-1.png, /student-files/yiling-yang-week-12--animation---interaction-2.png, /student-files/yiling-yang-week-12--animation---interaction-3.png, /student-files/yiling-yang-week-12--animation---interaction-4.png, /student-files/yiling-yang-week-12--animation---interaction-5.png",
     "linkToWork": "https://editor.p5js.org/YilingYang/sketches/LZ5mQqm7j",
+    "linkToWorks": [
+      "https://editor.p5js.org/YilingYang/sketches/LZ5mQqm7j"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/YilingYang/sketches/LZ5mQqm7j",
     "certification": "",
     "weeklyResponse": "This week I learned how to create some simple interactive projects and conducted many related experiments. I found it really interesting.",
     "teacherFeedback": "",
@@ -2979,6 +3348,123 @@
         "thumbnail": "https://drive.google.com/thumbnail?id=1XICHD0sK2CwvOOeHhrZws1a6Xzs06BhF&sz=w800",
         "embed": "https://drive.google.com/file/d/1XICHD0sK2CwvOOeHhrZws1a6Xzs06BhF/preview",
         "local": "/student-files/yiling-yang-week-12--animation---interaction-5.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/24/2025 14:30:22",
+    "studentEmail": "syadav4@pratt.edu",
+    "studentId": "sarena-yadav",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "My project engages the community of design students within the studio environment an active space where color, material, texture, and pattern constantly circulate. Using a live camera feed, the installation captures the surrounding visual field and extracts six dominant colors, generating a color palette that reflects whatever is currently present in front of the camera. With a simple gesture stepping into frame and pressing a key participants can transform everyday objects, clothing, books, fabric samples, or artworks into a real-time digital palette. The installation turns the studio itself into a living source of visual material.\nAs the project evolves, it will not only extract color, but also reinterpret it. Once a palette is captured, the system will generate an abstract composition derived from the six selected colors. These compositions may take the form of geometric structures, shifting patterns, or layered textures, visually expressing the chromatic identity of what was detected. Eventually, the system will attempt to capture and translate patterns from the video feed as well, connecting color and texture into a unified abstract visual outcome. In this way, reality becomes palette, and palette becomes artwork.\nParticipants are invited to engage repeatedly, experimenting with objects and materials to influence the emotional and visual tone of the generated results. Over hours and days, these interactions accumulate into a shared archive of palettes and abstract visuals a collective reflection of the studio’s shifting atmosphere. Beyond aesthetic exploration, the system provides a practical tool by allowing students to extract colors, study hex values, and document palettes for use in future design work.",
+    "credit": "Chat Gpt, p5.js references, class presentation and ml5.js",
+    "uploadedFiles": "/student-files/sarena-yadav-week-12--animation---interaction-1.png, /student-files/sarena-yadav-week-12--animation---interaction-2.png, /student-files/sarena-yadav-week-12--animation---interaction-3.png",
+    "linkToWork": "https://editor.p5js.org/syadav4/sketches/dzydG_QmO",
+    "linkToWorks": [
+      "https://editor.p5js.org/syadav4/sketches/dzydG_QmO"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/syadav4/sketches/dzydG_QmO",
+    "certification": "",
+    "weeklyResponse": "Through developing this project, I learned how dynamic and unpredictable the environment becomes once it becomes the input itself. I discovered how an interactive system can both respond to a space and also shape how people behave within it. Experimenting with real-time color extraction taught me how sensitive cameras are to lighting, proximity, and movement, and how these variables constantly shift the palette. I also began examining the difference between capturing colors versus capturing actual surface qualities, leading me to question what information can be abstracted without being altered. While colors can be distilled into simplified palettes, textures behave differently they contain direction, depth, and complexity that resist reduction. This led me to understand that abstracting texture is not just a technical challenge, but a conceptual one: it raises questions about accuracy versus interpretation, compression versus essence. I am now considering whether textures should be preserved exactly as they appear or translated into symbolic representations. This reflection helped me understand that abstraction is not only about removing information, but about deciding what information matters, and how transformation can become its own kind of truth.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=13Ujz-f7BXIwl7XW7w0aJP7zYMt8_tAcq",
+        "fileId": "13Ujz-f7BXIwl7XW7w0aJP7zYMt8_tAcq",
+        "thumbnail": "https://drive.google.com/thumbnail?id=13Ujz-f7BXIwl7XW7w0aJP7zYMt8_tAcq&sz=w800",
+        "embed": "https://drive.google.com/file/d/13Ujz-f7BXIwl7XW7w0aJP7zYMt8_tAcq/preview",
+        "local": "/student-files/sarena-yadav-week-12--animation---interaction-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1BmE8lWGLVwudMa0azLXQCli0Rs7Mj1v-",
+        "fileId": "1BmE8lWGLVwudMa0azLXQCli0Rs7Mj1v-",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1BmE8lWGLVwudMa0azLXQCli0Rs7Mj1v-&sz=w800",
+        "embed": "https://drive.google.com/file/d/1BmE8lWGLVwudMa0azLXQCli0Rs7Mj1v-/preview",
+        "local": "/student-files/sarena-yadav-week-12--animation---interaction-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1UlEvaSVA5tIee0EiVxG-5wJF_RHwEJ1n",
+        "fileId": "1UlEvaSVA5tIee0EiVxG-5wJF_RHwEJ1n",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1UlEvaSVA5tIee0EiVxG-5wJF_RHwEJ1n&sz=w800",
+        "embed": "https://drive.google.com/file/d/1UlEvaSVA5tIee0EiVxG-5wJF_RHwEJ1n/preview",
+        "local": "/student-files/sarena-yadav-week-12--animation---interaction-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/25/2025 15:50:42",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "<Blooming Sphere> is an interactive 3D artwork in which a small spherical ecosystem responds in real time to the movements of the viewer’s hand. When the viewer waves their hand, new flowers bloom across the surface of the planet, creating ever-expanding landscapes of color and form. Through this continuous transformation, the work visualizes how simple gestures can reshape an entire ecosystem. In the midst of the repetitive routines of urban life, <Blooming Sphere> offers a moment of calm—inviting viewers to pause, breathe, and find comfort in the gentle emergence of new nature sparked by their own movements.",
+    "credit": "AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-13--algorithm---storage-1.png, /student-files/lin-kim-week-13--algorithm---storage-2.png, /student-files/lin-kim-week-13--algorithm---storage-3.mov",
+    "linkToWork": "Since it’s built in Unity, there’s no direct link available.",
+    "linkToWorkRaw": "Since it’s built in Unity, there’s no direct link available.",
+    "certification": "",
+    "weeklyResponse": "I worked to refine the system so it could respond more precisely to the user’s gestures.\nThis involved adjusting the interaction logic to capture subtle movements with greater accuracy.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1WMXBR_0E7k4LhUJ0zXMKRNZdkWwBolWj",
+        "fileId": "1WMXBR_0E7k4LhUJ0zXMKRNZdkWwBolWj",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WMXBR_0E7k4LhUJ0zXMKRNZdkWwBolWj&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WMXBR_0E7k4LhUJ0zXMKRNZdkWwBolWj/preview",
+        "local": "/student-files/lin-kim-week-13--algorithm---storage-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=17xl-OZHQhCUPg4gDmjB6J3BRc8TD28oI",
+        "fileId": "17xl-OZHQhCUPg4gDmjB6J3BRc8TD28oI",
+        "thumbnail": "https://drive.google.com/thumbnail?id=17xl-OZHQhCUPg4gDmjB6J3BRc8TD28oI&sz=w800",
+        "embed": "https://drive.google.com/file/d/17xl-OZHQhCUPg4gDmjB6J3BRc8TD28oI/preview",
+        "local": "/student-files/lin-kim-week-13--algorithm---storage-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1Ebp-Lw2_FOMC7RPF7J0H4NlKVwV6Qb6u",
+        "fileId": "1Ebp-Lw2_FOMC7RPF7J0H4NlKVwV6Qb6u",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Ebp-Lw2_FOMC7RPF7J0H4NlKVwV6Qb6u&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Ebp-Lw2_FOMC7RPF7J0H4NlKVwV6Qb6u/preview",
+        "local": "/student-files/lin-kim-week-13--algorithm---storage-3.mov"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/25/2025 20:52:10",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "This update adds a feature that allows up to four people to appear in the frame and be transformed into stick figures. I also added some light effects to the hands, which create trailing effects that follow their movements. In addition, I added diamond shaped decorations around the stick figures and created patterned designs for the background.",
+    "credit": "claude",
+    "uploadedFiles": "/student-files/zoe-liu-week-13--algorithm---storage-1.jpg, /student-files/zoe-liu-week-13--algorithm---storage-2.jpg, /student-files/zoe-liu-week-13--algorithm---storage-3.jpg",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/EMTvIW3Xw",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/EMTvIW3Xw"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/EMTvIW3Xw",
+    "certification": "",
+    "weeklyResponse": "I was debating whether to add some music, and I also wanted the lines in the background to change according to the rhythm of the music or the frequency of people’s movements. Since the background is generated with a separate set of code, I think it will require some adjustments to make this feature stable.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1MBOFVtxrfBP4kXTTRoCG5Ju29pHbWX-e",
+        "fileId": "1MBOFVtxrfBP4kXTTRoCG5Ju29pHbWX-e",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1MBOFVtxrfBP4kXTTRoCG5Ju29pHbWX-e&sz=w800",
+        "embed": "https://drive.google.com/file/d/1MBOFVtxrfBP4kXTTRoCG5Ju29pHbWX-e/preview",
+        "local": "/student-files/zoe-liu-week-13--algorithm---storage-1.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1Gj5v78XidekIoOzfbqWeh7nUJOcjVAsM",
+        "fileId": "1Gj5v78XidekIoOzfbqWeh7nUJOcjVAsM",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1Gj5v78XidekIoOzfbqWeh7nUJOcjVAsM&sz=w800",
+        "embed": "https://drive.google.com/file/d/1Gj5v78XidekIoOzfbqWeh7nUJOcjVAsM/preview",
+        "local": "/student-files/zoe-liu-week-13--algorithm---storage-2.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1UZ_EgkY4227ds_NAiDvE2nyjzo-lWnbg",
+        "fileId": "1UZ_EgkY4227ds_NAiDvE2nyjzo-lWnbg",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1UZ_EgkY4227ds_NAiDvE2nyjzo-lWnbg&sz=w800",
+        "embed": "https://drive.google.com/file/d/1UZ_EgkY4227ds_NAiDvE2nyjzo-lWnbg/preview",
+        "local": "/student-files/zoe-liu-week-13--algorithm---storage-3.jpg"
       }
     ]
   }
