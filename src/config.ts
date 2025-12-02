@@ -28,7 +28,7 @@ export const EMAIL = "munus.shih@pratt.edu";
 // -----------------------------------------------------------------------------
 // Marquee Text
 // -----------------------------------------------------------------------------
-export const MARQUEE_TEXT = "Reminder to upload all your assignments! • The Workshop recording is up on the big class site! • Don't forget to check out the tutorials and resources • ";
+export const MARQUEE_TEXT = "Reminder to upload all your assignments and process! • Enjoy your break • Don't forget to check out the tutorials and resources • ";
 
 // -----------------------------------------------------------------------------
 // Special Project Weeks
