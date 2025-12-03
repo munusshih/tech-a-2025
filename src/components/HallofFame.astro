@@ -8,12 +8,7 @@ interface Props {
 const { excludeStudent } = Astro.props as Props;
 
 // Use the shared student data, already sorted alphabetically
-let students = studentsSorted;
-
-// Filter out the excluded student if specified
-if (excludeStudent) {
-  students = students.filter((student) => student.studentId !== excludeStudent);
-}
+const students = studentsSorted;
 ---
 
 <section class="hall-of-fame">
@@ -22,24 +17,32 @@ if (excludeStudent) {
   </h1>
   <div class="students-grid">
     {
-      students.map((student, index) => (
-        <div class="student-card" key={index}>
-          <h3 class="student-name">
-            {student.studentId ? (
-              <a
-                rel="noopener noreferrer"
-                href={`/students/${student.studentId}/`}
-              >
-                {student.firstName} {student.lastName}
-              </a>
-            ) : (
-              <span>
-                {student.firstName} {student.lastName}
-              </span>
-            )}
-          </h3>
-        </div>
-      ))
+      students.map((student, index) => {
+        const isCurrentStudent = excludeStudent && student.studentId === excludeStudent;
+        
+        return (
+          <div class="student-card" key={index}>
+            <h3 class="student-name">
+              {isCurrentStudent ? (
+                <span class="opacity-30 cursor-default">
+                  {student.firstName} {student.lastName}
+                </span>
+              ) : student.studentId ? (
+                <a
+                  rel="noopener noreferrer"
+                  href={`/students/${student.studentId}/`}
+                >
+                  {student.firstName} {student.lastName}
+                </a>
+              ) : (
+                <span>
+                  {student.firstName} {student.lastName}
+                </span>
+              )}
+            </h3>
+          </div>
+        );
+      })
     }
   </div>
 </section>

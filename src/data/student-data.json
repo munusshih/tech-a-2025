@@ -3070,13 +3070,13 @@
     ]
   },
   {
-    "timestamp": "11/16/2025 16:17:58",
+    "timestamp": "12/2/2025 22:07:41",
     "studentEmail": "nscanl13@pratt.edu",
     "studentId": "nancy-scanlon",
     "assignmentTitle": "Week 12: Animation & Interaction",
     "projectDescription": "So my idea for the last project will be within the glasses community. I want my code to detect each person if they have glasses or not. This code I have linked below can be shown for the open class. To detect people walking around. But an animation, for example use of lerp/ flocking, I can do something with the glasses shape. Or animation of what my code does. Maybe the glasses shape can morph into another glasses shape for randomization and \"smooth\" animation.",
     "credit": "I used ml5.js. As well as P5.js reference. And chatGPT.",
-    "uploadedFiles": "/student-files/nancy-scanlon-week-12--animation---interaction-1.png, /student-files/nancy-scanlon-week-12--animation---interaction-2.png",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-12--animation---interaction-1.png, /student-files/nancy-scanlon-week-12--animation---interaction-2.png, /student-files/nancy-scanlon-week-12--animation---interaction-3.png, /student-files/nancy-scanlon-week-12--animation---interaction-4.png",
     "linkToWork": "https://editor.p5js.org/nancyscan/sketches/Aj_POeCmj",
     "linkToWorks": [
       "https://editor.p5js.org/nancyscan/sketches/Aj_POeCmj"
@@ -3099,6 +3099,20 @@
         "thumbnail": "https://drive.google.com/thumbnail?id=1lRrE-M1SlLrUmInTUPyY3rf0a1RkynNI&sz=w800",
         "embed": "https://drive.google.com/file/d/1lRrE-M1SlLrUmInTUPyY3rf0a1RkynNI/preview",
         "local": "/student-files/nancy-scanlon-week-12--animation---interaction-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1DOFTh_3ar3LnANG_L_2P3j7WH63trJF5",
+        "fileId": "1DOFTh_3ar3LnANG_L_2P3j7WH63trJF5",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1DOFTh_3ar3LnANG_L_2P3j7WH63trJF5&sz=w800",
+        "embed": "https://drive.google.com/file/d/1DOFTh_3ar3LnANG_L_2P3j7WH63trJF5/preview",
+        "local": "/student-files/nancy-scanlon-week-12--animation---interaction-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1-sz1327fUrlVHksDsyMqkLIHxjm_KQ2u",
+        "fileId": "1-sz1327fUrlVHksDsyMqkLIHxjm_KQ2u",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1-sz1327fUrlVHksDsyMqkLIHxjm_KQ2u&sz=w800",
+        "embed": "https://drive.google.com/file/d/1-sz1327fUrlVHksDsyMqkLIHxjm_KQ2u/preview",
+        "local": "/student-files/nancy-scanlon-week-12--animation---interaction-4.png"
       }
     ]
   },
@@ -3465,6 +3479,508 @@
         "thumbnail": "https://drive.google.com/thumbnail?id=1UZ_EgkY4227ds_NAiDvE2nyjzo-lWnbg&sz=w800",
         "embed": "https://drive.google.com/file/d/1UZ_EgkY4227ds_NAiDvE2nyjzo-lWnbg/preview",
         "local": "/student-files/zoe-liu-week-13--algorithm---storage-3.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/28/2025 2:33:03",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "This week I originally wanted to make an image-driven hygrometer, but because the interaction with the environment couldn't have a continuous change in time, I thought of developing the concept of removing objects to design a small game. During a discussion with Munus, I learned about the party function of p5.js. Therefore, for this project, I want to develop it with fire and fire extinguishing as interactive elements. ",
+    "credit": "The Coding Train: Many Particle Systems (Emitters!) - The Nature of Code\nhttps://www.youtube.com/watch?v=wDYD3JVtOys\n\nThe Coding Train: The Nature of Code Series\n\nChat GPT help me debug",
+    "uploadedFiles": "/student-files/bella-tsai-week-13--algorithm---storage-1.png, /student-files/bella-tsai-week-13--algorithm---storage-2.png, /student-files/bella-tsai-week-13--algorithm---storage-3.png",
+    "linkToWork": "https://editor.p5js.org/ytsai13/sketches/Ni96-Sn5N",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/Ni96-Sn5N"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/Ni96-Sn5N",
+    "certification": "",
+    "weeklyResponse": "I tried to review and understand some functions listed below:\n1. CreateVector\n2. Using Class to store object\n3. Make my own function\n4. Using Array and push\n5. Particle System: adjusting initial position, velocity, size(r), color, transparency, lifetime",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1qbXSXsr3K_SWEu_sI8ZvIPrFrnpjyCFG",
+        "fileId": "1qbXSXsr3K_SWEu_sI8ZvIPrFrnpjyCFG",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1qbXSXsr3K_SWEu_sI8ZvIPrFrnpjyCFG&sz=w800",
+        "embed": "https://drive.google.com/file/d/1qbXSXsr3K_SWEu_sI8ZvIPrFrnpjyCFG/preview",
+        "local": "/student-files/bella-tsai-week-13--algorithm---storage-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1eIx9XsTE9_YT12QRFS_pby5Eagi2Uci8",
+        "fileId": "1eIx9XsTE9_YT12QRFS_pby5Eagi2Uci8",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1eIx9XsTE9_YT12QRFS_pby5Eagi2Uci8&sz=w800",
+        "embed": "https://drive.google.com/file/d/1eIx9XsTE9_YT12QRFS_pby5Eagi2Uci8/preview",
+        "local": "/student-files/bella-tsai-week-13--algorithm---storage-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1QQIvm1R19ZoEEHEPqc49C-q2cIZIN0YG",
+        "fileId": "1QQIvm1R19ZoEEHEPqc49C-q2cIZIN0YG",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1QQIvm1R19ZoEEHEPqc49C-q2cIZIN0YG&sz=w800",
+        "embed": "https://drive.google.com/file/d/1QQIvm1R19ZoEEHEPqc49C-q2cIZIN0YG/preview",
+        "local": "/student-files/bella-tsai-week-13--algorithm---storage-3.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/30/2025 18:19:23",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "A cat that changes color to orange, black, or white when you press 1, 2, or 3, and follows the movement of the mouse.\n",
+    "credit": "collaborators, tutorials, friends and AI ",
+    "uploadedFiles": "/student-files/binjia-li-week-12--animation---interaction-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/qRbYw6NW2",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/qRbYw6NW2"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/qRbYw6NW2",
+    "certification": "",
+    "weeklyResponse": "I learned how to combine keyboard interaction with mouse-tracking to create a responsive animated cat.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1ySCMeGCd5F_76WNXH-yBJkdlw6a9sICW",
+        "fileId": "1ySCMeGCd5F_76WNXH-yBJkdlw6a9sICW",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1ySCMeGCd5F_76WNXH-yBJkdlw6a9sICW&sz=w800",
+        "embed": "https://drive.google.com/file/d/1ySCMeGCd5F_76WNXH-yBJkdlw6a9sICW/preview",
+        "local": "/student-files/binjia-li-week-12--animation---interaction-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/30/2025 18:25:24",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "it's a updated of a cat whose color can be changed to orange, black, or white by pressing 1, 2, or 3, and it will follow the yarn ball when moving the mouse.",
+    "credit": "tutorials, friends, AI",
+    "uploadedFiles": "/student-files/binjia-li-week-13--algorithm---storage-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/uHUwtJaA6",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/uHUwtJaA6"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/uHUwtJaA6",
+    "certification": "",
+    "weeklyResponse": "I learned to animate movement using lerp(), Perlin noise, and velocity updates for more natural motion.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1tL7fTNartOqVc_utjneLhSkWevnlx6z0",
+        "fileId": "1tL7fTNartOqVc_utjneLhSkWevnlx6z0",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1tL7fTNartOqVc_utjneLhSkWevnlx6z0&sz=w800",
+        "embed": "https://drive.google.com/file/d/1tL7fTNartOqVc_utjneLhSkWevnlx6z0/preview",
+        "local": "/student-files/binjia-li-week-13--algorithm---storage-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "11/30/2025 18:32:31",
+    "studentEmail": "blix21@pratt.edu",
+    "studentId": "binjia-li",
+    "assignmentTitle": "Week 14: Cyberbnetics and Playtest",
+    "projectDescription": "A final project  of a cat whose color can be changed to orange, black, or white by pressing 1, 2, or 3, and it will follow the yarn ball with moving with the mouse. This project add the background with wall, floor, a TV, a sofa and a rug with different cute colors.\n",
+    "credit": "tutorials, friends and AI",
+    "uploadedFiles": "/student-files/binjia-li-week-14--cyberbnetics-and-playtest-1.png",
+    "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/zr74wsQjQ",
+    "linkToWorks": [
+      "https://editor.p5js.org/binjia.li3/sketches/zr74wsQjQ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/zr74wsQjQ",
+    "certification": "",
+    "weeklyResponse": "I learned how to build an interactive scene where a cat with three movement styles chases a yarn ball that follows the mouse.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1u9zHsoJTZjRxoGkn12GYqiMpACotRQyj",
+        "fileId": "1u9zHsoJTZjRxoGkn12GYqiMpACotRQyj",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1u9zHsoJTZjRxoGkn12GYqiMpACotRQyj&sz=w800",
+        "embed": "https://drive.google.com/file/d/1u9zHsoJTZjRxoGkn12GYqiMpACotRQyj/preview",
+        "local": "/student-files/binjia-li-week-14--cyberbnetics-and-playtest-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/1/2025 0:17:32",
+    "studentEmail": "jlee413@pratt.edu",
+    "studentId": "lina-lee",
+    "assignmentTitle": "Week 14: Cyberbnetics and Playtest",
+    "projectDescription": "I made my own open gallery digital guestbook. People whoever want to participate with my artwork can leave their signatures!",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/lina-lee-week-14--cyberbnetics-and-playtest-1.mp4, /student-files/lina-lee-week-14--cyberbnetics-and-playtest-2.png",
+    "linkToWork": "https://adelina98.github.io/air-signature-gallery/",
+    "linkToWorks": [
+      "https://adelina98.github.io/air-signature-gallery/"
+    ],
+    "linkToWorkRaw": "https://adelina98.github.io/air-signature-gallery/",
+    "certification": "",
+    "weeklyResponse": "I learned how to create a new website.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1efiMKramgFP8y2h3ipIZT9HjtDUuKDxE",
+        "fileId": "1efiMKramgFP8y2h3ipIZT9HjtDUuKDxE",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1efiMKramgFP8y2h3ipIZT9HjtDUuKDxE&sz=w800",
+        "embed": "https://drive.google.com/file/d/1efiMKramgFP8y2h3ipIZT9HjtDUuKDxE/preview",
+        "local": "/student-files/lina-lee-week-14--cyberbnetics-and-playtest-1.mp4"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1fmJe5TtpnKjKrgNiUPTfao3bgSM32Iwx",
+        "fileId": "1fmJe5TtpnKjKrgNiUPTfao3bgSM32Iwx",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1fmJe5TtpnKjKrgNiUPTfao3bgSM32Iwx&sz=w800",
+        "embed": "https://drive.google.com/file/d/1fmJe5TtpnKjKrgNiUPTfao3bgSM32Iwx/preview",
+        "local": "/student-files/lina-lee-week-14--cyberbnetics-and-playtest-2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/1/2025 21:31:43",
+    "studentEmail": "ytsai13@pratt.edu",
+    "studentId": "bella-tsai",
+    "assignmentTitle": "Week 14: Cyberbnetics and Playtest",
+    "projectDescription": "According to a study on \"Varieties of Democracy\" (V-DEM) by the University of Gothenburg, Sweden, Taiwan ranks first among 179 countries surveyed in terms of the severity of foreign disinformation attacks.\n\nAs a Taiwanese, I deeply feel the harm that fake news inflicts on our democracy, yet we often fail to grasp the urgency of the situation. I want to use this interactive game of starting and extinguishing an unbalanced fire to visualize the endless war between the spread of disinformation and fact-checking. I hope that this visual game experience will serve as a small reminder that we must be more vigilant about online information, especially in this era of AI-generated information. We should view misinformation as a danger to our society.",
+    "credit": "Background Code:\nhttps://openprocessing.org/sketch/2138789\n\nEmoji:\nhttps://emojipedia.org/\n\nKeyPress function:\nhttps://www.youtube.com/watch?v=oT_afFsLxlY&t=523s\nhttps://p5js.org/reference/p5/keyPressed/\nhttps://www.youtube.com/watch?v=MA_aFQV9vss\n\nChatGPT",
+    "uploadedFiles": "/student-files/bella-tsai-week-14--cyberbnetics-and-playtest-1.png, /student-files/bella-tsai-week-14--cyberbnetics-and-playtest-2.png, /student-files/bella-tsai-week-14--cyberbnetics-and-playtest-3.png, /student-files/bella-tsai-week-14--cyberbnetics-and-playtest-4.png, /student-files/bella-tsai-week-14--cyberbnetics-and-playtest-5.png",
+    "linkToWork": "https://editor.p5js.org/ytsai13/sketches/S8ASrlmOl",
+    "linkToWorks": [
+      "https://editor.p5js.org/ytsai13/sketches/S8ASrlmOl"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/S8ASrlmOl",
+    "certification": "",
+    "weeklyResponse": "Through the design of this little game, I started by exploring how to create the effect of fire using particles. I used class to store objects and then put one object into another class (particles—fire—fire jet). Each layer had its own executive purpose. I discovered that deciding which function to place and execute requires a lot of experience and trial and error. For example, there are many details to consider in order to create small fires that spread. The fire extinguisher also uses a (particles-foam-foam spray) structure, but they have totally different executive purpose and function. \n\nAdditionally, there's keyboard movement function, such as a simple operation involving many intricate design details (release, hold, simultaneous presses, etc.).\n\nThis project felt like a summary and review of the course throughout the semester. From variables, loops, maps, custom functions, floor, arrays, push, mousePressed, keyPressed, vectorCreate, and velocity, I used them all in this project. I used AI to assist me with some complicated parts, but by reading each piece that it helps generate, I'm proud that I can understand over 90% of the code and adjust the values to achieve the desired effect. The process made me get more familiar with computational languages. \n\nRealizing that even a seemingly simple interactive game is full of design details. This project gave me a deeper understanding of the world created by programming languages, and also deepened my admiration and respect for them.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1yzRObffCfrl86H1Q3DKCqklNmLHocItt",
+        "fileId": "1yzRObffCfrl86H1Q3DKCqklNmLHocItt",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1yzRObffCfrl86H1Q3DKCqklNmLHocItt&sz=w800",
+        "embed": "https://drive.google.com/file/d/1yzRObffCfrl86H1Q3DKCqklNmLHocItt/preview",
+        "local": "/student-files/bella-tsai-week-14--cyberbnetics-and-playtest-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1LEpCJIC-7SXpewDenuZDFt2OXgGadzPI",
+        "fileId": "1LEpCJIC-7SXpewDenuZDFt2OXgGadzPI",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1LEpCJIC-7SXpewDenuZDFt2OXgGadzPI&sz=w800",
+        "embed": "https://drive.google.com/file/d/1LEpCJIC-7SXpewDenuZDFt2OXgGadzPI/preview",
+        "local": "/student-files/bella-tsai-week-14--cyberbnetics-and-playtest-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1WWQdXb1MkJVP3ojJq-C-n4_SLNPe7Qwg",
+        "fileId": "1WWQdXb1MkJVP3ojJq-C-n4_SLNPe7Qwg",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1WWQdXb1MkJVP3ojJq-C-n4_SLNPe7Qwg&sz=w800",
+        "embed": "https://drive.google.com/file/d/1WWQdXb1MkJVP3ojJq-C-n4_SLNPe7Qwg/preview",
+        "local": "/student-files/bella-tsai-week-14--cyberbnetics-and-playtest-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1ewemGBLCZ8yE41MSY5AKNoCzquobJ7_w",
+        "fileId": "1ewemGBLCZ8yE41MSY5AKNoCzquobJ7_w",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1ewemGBLCZ8yE41MSY5AKNoCzquobJ7_w&sz=w800",
+        "embed": "https://drive.google.com/file/d/1ewemGBLCZ8yE41MSY5AKNoCzquobJ7_w/preview",
+        "local": "/student-files/bella-tsai-week-14--cyberbnetics-and-playtest-4.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1D_AyX8tQNWh_dRQ_v5Ny1t-0YnHs2T3J",
+        "fileId": "1D_AyX8tQNWh_dRQ_v5Ny1t-0YnHs2T3J",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1D_AyX8tQNWh_dRQ_v5Ny1t-0YnHs2T3J&sz=w800",
+        "embed": "https://drive.google.com/file/d/1D_AyX8tQNWh_dRQ_v5Ny1t-0YnHs2T3J/preview",
+        "local": "/student-files/bella-tsai-week-14--cyberbnetics-and-playtest-5.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/1/2025 22:36:09",
+    "studentEmail": "yyang82@pratt.edu",
+    "studentId": "yiling-yang",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "Building on last week’s work, I added gesture-based feeding to the fish system, and I also introduced memory. When the user consistently participates in the feeding activity, the plants grow taller, the scene becomes brighter, and the fish move faster. Conversely, if the user stops participating, the plants stop growing, the scene becomes dimmer, and the fish slow down. Pressing keys 1–4 triggers different performances by the fish. Pressing N switches between day and night mode. Pressing B generates bubbles. Pressing W launches glowing food. Pressing P toggles party mode.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/yiling-yang-week-13--algorithm---storage-1.png, /student-files/yiling-yang-week-13--algorithm---storage-2.png, /student-files/yiling-yang-week-13--algorithm---storage-3.png, /student-files/yiling-yang-week-13--algorithm---storage-4.png",
+    "linkToWork": "https://editor.p5js.org/yyang82/sketches/1muXsi150",
+    "linkToWorks": [
+      "https://editor.p5js.org/yyang82/sketches/1muXsi150"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/yyang82/sketches/1muXsi150",
+    "certification": "",
+    "weeklyResponse": "This week, I learned how to add gesture control and a memory mechanism to an interactive system, allowing the work to generate persistent changes based on user participation. I realized that interaction is not only about immediate feedback, it can also shape the long-term behavior of the environment and the creatures through accumulated actions.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1T1WlWmYkBn5pMqh3pGO-9ms5tN1Q1Vdc",
+        "fileId": "1T1WlWmYkBn5pMqh3pGO-9ms5tN1Q1Vdc",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1T1WlWmYkBn5pMqh3pGO-9ms5tN1Q1Vdc&sz=w800",
+        "embed": "https://drive.google.com/file/d/1T1WlWmYkBn5pMqh3pGO-9ms5tN1Q1Vdc/preview",
+        "local": "/student-files/yiling-yang-week-13--algorithm---storage-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=10N6TdlGUZcvuZfbCkQ4-EdXJrA2WegeM",
+        "fileId": "10N6TdlGUZcvuZfbCkQ4-EdXJrA2WegeM",
+        "thumbnail": "https://drive.google.com/thumbnail?id=10N6TdlGUZcvuZfbCkQ4-EdXJrA2WegeM&sz=w800",
+        "embed": "https://drive.google.com/file/d/10N6TdlGUZcvuZfbCkQ4-EdXJrA2WegeM/preview",
+        "local": "/student-files/yiling-yang-week-13--algorithm---storage-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1q5wg5gA1wMWo2mN9BuJCDzTliCRgRw7J",
+        "fileId": "1q5wg5gA1wMWo2mN9BuJCDzTliCRgRw7J",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1q5wg5gA1wMWo2mN9BuJCDzTliCRgRw7J&sz=w800",
+        "embed": "https://drive.google.com/file/d/1q5wg5gA1wMWo2mN9BuJCDzTliCRgRw7J/preview",
+        "local": "/student-files/yiling-yang-week-13--algorithm---storage-3.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1eqmCCzTb_boOx3KCLY6hLIM4OCXwLfyo",
+        "fileId": "1eqmCCzTb_boOx3KCLY6hLIM4OCXwLfyo",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1eqmCCzTb_boOx3KCLY6hLIM4OCXwLfyo&sz=w800",
+        "embed": "https://drive.google.com/file/d/1eqmCCzTb_boOx3KCLY6hLIM4OCXwLfyo/preview",
+        "local": "/student-files/yiling-yang-week-13--algorithm---storage-4.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 4:06:28",
+    "studentEmail": "yliu124@pratt.edu",
+    "studentId": "zoe-liu",
+    "assignmentTitle": "Week 14: Cyberbnetics and Playtest",
+    "projectDescription": "In this version of Disco Dancing Floor, I added music and animated background contour lines that pulse with the audio rhythm. I also increased the number of floating diamonds orbiting around the participants’ bodies.",
+    "credit": "music by Nesterouk, ChatGPT",
+    "uploadedFiles": "/student-files/zoe-liu-week-14--cyberbnetics-and-playtest-1.jpg, /student-files/zoe-liu-week-14--cyberbnetics-and-playtest-2.jpg, /student-files/zoe-liu-week-14--cyberbnetics-and-playtest-3.jpg",
+    "linkToWork": "https://editor.p5js.org/selfcheck12138/sketches/EMTvIW3Xw",
+    "linkToWorks": [
+      "https://editor.p5js.org/selfcheck12138/sketches/EMTvIW3Xw"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/EMTvIW3Xw",
+    "certification": "",
+    "weeklyResponse": "For performance reasons, some aspects of the project had to be compromised. I initially intended to make the background contours more detailed, but frequent re-rendering caused significant performance issues. As a result, the movement of the figures and lighting effects became less fluid. To fix this, I simplified the contour system to improve responsiveness and maintain a smoother interactive experience.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1J4pLCmldw0fliofp4-Weciv37SYcQ_zF",
+        "fileId": "1J4pLCmldw0fliofp4-Weciv37SYcQ_zF",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1J4pLCmldw0fliofp4-Weciv37SYcQ_zF&sz=w800",
+        "embed": "https://drive.google.com/file/d/1J4pLCmldw0fliofp4-Weciv37SYcQ_zF/preview",
+        "local": "/student-files/zoe-liu-week-14--cyberbnetics-and-playtest-1.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1nqkEpx-0ZdywuW3Ysj7Q5GIEg7wuquXw",
+        "fileId": "1nqkEpx-0ZdywuW3Ysj7Q5GIEg7wuquXw",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1nqkEpx-0ZdywuW3Ysj7Q5GIEg7wuquXw&sz=w800",
+        "embed": "https://drive.google.com/file/d/1nqkEpx-0ZdywuW3Ysj7Q5GIEg7wuquXw/preview",
+        "local": "/student-files/zoe-liu-week-14--cyberbnetics-and-playtest-2.jpg"
+      },
+      {
+        "original": "https://drive.google.com/open?id=15k637wEzQdJem5vTuGRtA3yQ70iHK5OT",
+        "fileId": "15k637wEzQdJem5vTuGRtA3yQ70iHK5OT",
+        "thumbnail": "https://drive.google.com/thumbnail?id=15k637wEzQdJem5vTuGRtA3yQ70iHK5OT&sz=w800",
+        "embed": "https://drive.google.com/file/d/15k637wEzQdJem5vTuGRtA3yQ70iHK5OT/preview",
+        "local": "/student-files/zoe-liu-week-14--cyberbnetics-and-playtest-3.jpg"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 13:41:11",
+    "studentEmail": "jfux34@pratt.edu",
+    "studentId": "richard-fu",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "I wanted to create an interactive game that reflects on the watching, gazing, and staring in the space of a zoo. A staring competition where the participant (zoogoer) would reflect on the power and intention behind their simple watching that defines the activities. In which only the eyes remain the measurement of the gaze, and the face could be shifting from different species (ideally i wanted it to be a structural morph, which only the eyes kept, but my own drawing might do the demo) . ",
+    "credit": "https://arxiv.org/pdf/1907.06724\nhttps://thecodingtrain.com/tracks/ml5js-beginners-guide/ml5/facemesh\n\nI also used Claude to work through some structural logics, especially with the use of facemesh library vertices and the mapping of my drawn texture along with the live video input of the distance between eye coordinates.\n",
+    "uploadedFiles": "/student-files/richard-fu-week-13--algorithm---storage-1.png, /student-files/richard-fu-week-13--algorithm---storage-2.png",
+    "linkToWork": "https://editor.p5js.org/ririff/full/u4NY4gVoR",
+    "linkToWorks": [
+      "https://editor.p5js.org/ririff/full/u4NY4gVoR"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ririff/full/u4NY4gVoR",
+    "certification": "",
+    "weeklyResponse": "I should try using local storage to add community result to this interaction",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1U41ewQZS5QbIM6qh9gy7cZxjUGHSoM4N",
+        "fileId": "1U41ewQZS5QbIM6qh9gy7cZxjUGHSoM4N",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1U41ewQZS5QbIM6qh9gy7cZxjUGHSoM4N&sz=w800",
+        "embed": "https://drive.google.com/file/d/1U41ewQZS5QbIM6qh9gy7cZxjUGHSoM4N/preview",
+        "local": "/student-files/richard-fu-week-13--algorithm---storage-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1heM_bf0xQPXr-YMqNe6OrktDZCtq0Nhx",
+        "fileId": "1heM_bf0xQPXr-YMqNe6OrktDZCtq0Nhx",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1heM_bf0xQPXr-YMqNe6OrktDZCtq0Nhx&sz=w800",
+        "embed": "https://drive.google.com/file/d/1heM_bf0xQPXr-YMqNe6OrktDZCtq0Nhx/preview",
+        "local": "/student-files/richard-fu-week-13--algorithm---storage-2.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 13:51:38",
+    "studentEmail": "jfux34@pratt.edu",
+    "studentId": "richard-fu",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "This week I was initializing and trying out some thoughts on what I could make. And because of how I was working on a project about zoo in the visual language class, I was inspired to maybe bring in the interactive tech approach into my thoughts on the zoo. I mainly tried to watch some facemesh tutorials and tried some drawing on the coordinate maps. ",
+    "credit": "https://arxiv.org/pdf/1907.06724\nhttps://thecodingtrain.com/tracks/ml5js-beginners-guide/ml5/facemesh\nhttps://www.youtube.com/watch?v=HrE6c24HqRU\n",
+    "uploadedFiles": "/student-files/richard-fu-week-12--animation---interaction-1.png",
+    "linkToWork": "https://editor.p5js.org/ririff/sketches/KxB5GrDnn",
+    "linkToWorks": [
+      "https://editor.p5js.org/ririff/sketches/KxB5GrDnn"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/ririff/sketches/KxB5GrDnn",
+    "certification": "",
+    "weeklyResponse": "There are 468 points in the facemesh topology. Relatively complex data analyses can actually go through with the amount of point there are to work with.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1H_Rg7S2SxvQUEjRCjLCSKx2SiiWGnKBR",
+        "fileId": "1H_Rg7S2SxvQUEjRCjLCSKx2SiiWGnKBR",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1H_Rg7S2SxvQUEjRCjLCSKx2SiiWGnKBR&sz=w800",
+        "embed": "https://drive.google.com/file/d/1H_Rg7S2SxvQUEjRCjLCSKx2SiiWGnKBR/preview",
+        "local": "/student-files/richard-fu-week-12--animation---interaction-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 15:25:57",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 12: Animation & Interaction",
+    "projectDescription": "I’m planning to make a Christmas dream ejector. Users can type their wishes using the keyboard, and the letters will fly into the box. When the user presses the Enter key, their wishes will launch into the 'sky’",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/flora-fang-week-12--animation---interaction-1.png",
+    "linkToWork": "https://editor.p5js.org/zfang32/sketches/lmAvOu3Sf",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/lmAvOu3Sf"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/lmAvOu3Sf",
+    "certification": "",
+    "weeklyResponse": "I learned how to create interactive effects using p5.js, which was really fun.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1eHaU-f_3p2uEubDne1qzmPLBOGTx5Rgc",
+        "fileId": "1eHaU-f_3p2uEubDne1qzmPLBOGTx5Rgc",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1eHaU-f_3p2uEubDne1qzmPLBOGTx5Rgc&sz=w800",
+        "embed": "https://drive.google.com/file/d/1eHaU-f_3p2uEubDne1qzmPLBOGTx5Rgc/preview",
+        "local": "/student-files/flora-fang-week-12--animation---interaction-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 15:33:06",
+    "studentEmail": "zfang32@pratt.edu",
+    "studentId": "flora-fang",
+    "assignmentTitle": "Week 13: Algorithm & Storage",
+    "projectDescription": "This project is a time-based Christmas wish launcher.\nYou can type any wish you have for Christmas using the keyboard, and the letters you type will “fly” onto the monitor of the launcher. When you press the Enter button, your wish will be launched into the sky in a random shape.",
+    "credit": "ChatGPT",
+    "uploadedFiles": "/student-files/flora-fang-week-13--algorithm---storage-1.mp4",
+    "linkToWork": "https://editor.p5js.org/zfang32/sketches/lmAvOu3Sf",
+    "linkToWorks": [
+      "https://editor.p5js.org/zfang32/sketches/lmAvOu3Sf"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/zfang32/sketches/lmAvOu3Sf",
+    "certification": "",
+    "weeklyResponse": "I learned how to make interactive effects with p5",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1OMzsmFhOKv3ty3CQ1Tt4nYQRTvSCGtbg",
+        "fileId": "1OMzsmFhOKv3ty3CQ1Tt4nYQRTvSCGtbg",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1OMzsmFhOKv3ty3CQ1Tt4nYQRTvSCGtbg&sz=w800",
+        "embed": "https://drive.google.com/file/d/1OMzsmFhOKv3ty3CQ1Tt4nYQRTvSCGtbg/preview",
+        "local": "/student-files/flora-fang-week-13--algorithm---storage-1.mp4"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 15:53:13",
+    "studentEmail": "ckim109@pratt.edu",
+    "studentId": "lin-kim",
+    "assignmentTitle": "Week 14: Cyberbnetics and Playtest",
+    "projectDescription": "Office Oasis is a web-based healing space designed to help you pause and breathe in the midst of a busy office environment. Using Mediapipe and Unity WebGL, it detects subtle gestures and nods, allowing a small planet to respond gently to your movements. Even at your desk, you can shape your own living, breathing world—helping you clear your mind, ease stress, and enjoy a personalized digital oasis.",
+    "credit": "AI agents",
+    "uploadedFiles": "/student-files/lin-kim-week-14--cyberbnetics-and-playtest-1.png, /student-files/lin-kim-week-14--cyberbnetics-and-playtest-2.mov",
+    "linkToWork": "https://chaelin-kim.itch.io/office-oasis",
+    "linkToWorks": [
+      "https://chaelin-kim.itch.io/office-oasis"
+    ],
+    "linkToWorkRaw": "https://chaelin-kim.itch.io/office-oasis",
+    "certification": "",
+    "weeklyResponse": "Through this project, I gained a deep understanding of the Unity WebGL build structure, the limitations of the browser environment, and the entire process of implementing Mediapipe-based motion recognition logic directly on the web. In particular, the most challenging part was resolving seemingly minor details—such as the file structure required by WebGL, differences between local and deployment environments, camera permission issues, CDN script version conflicts, and path errors introduced during compression—that could completely break the application.\n\nHowever, by pushing through countless errors, black screens, 404s, and rendering failures, I developed a much clearer grasp of the overall web deployment workflow, debugging strategies, and the practical skills needed to create a fully functional interactive web experience.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1wK27MeW6C7ypkS3s0D_ougSjaiok0MK_",
+        "fileId": "1wK27MeW6C7ypkS3s0D_ougSjaiok0MK_",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1wK27MeW6C7ypkS3s0D_ougSjaiok0MK_&sz=w800",
+        "embed": "https://drive.google.com/file/d/1wK27MeW6C7ypkS3s0D_ougSjaiok0MK_/preview",
+        "local": "/student-files/lin-kim-week-14--cyberbnetics-and-playtest-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1yBEz0leVFx1IFOTRGBgf5ShJVo5u1E9R",
+        "fileId": "1yBEz0leVFx1IFOTRGBgf5ShJVo5u1E9R",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1yBEz0leVFx1IFOTRGBgf5ShJVo5u1E9R&sz=w800",
+        "embed": "https://drive.google.com/file/d/1yBEz0leVFx1IFOTRGBgf5ShJVo5u1E9R/preview",
+        "local": "/student-files/lin-kim-week-14--cyberbnetics-and-playtest-2.mov"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 16:49:45",
+    "studentEmail": "kchon351@pratt.edu",
+    "studentId": "kate-chon",
+    "assignmentTitle": "Week 14: Cyberbnetics and Playtest",
+    "projectDescription": "Space Playground is an interactive environment where users manipulate planets through simple gestures. Each planet changes size and movement in real time, turning physics into a playful, reactive system.\nThe project explores how small interactions can create dynamic, unexpected behaviors. Alien-like audio elements bring a strange, otherworldly tone to the experience, making the universe feel alive and unfamiliar.\n",
+    "credit": "Claude",
+    "uploadedFiles": "/student-files/kate-chon-week-14--cyberbnetics-and-playtest-1.png",
+    "linkToWork": "https://editor.p5js.org/kchon2/full/BhGRIRUWN",
+    "linkToWorks": [
+      "https://editor.p5js.org/kchon2/full/BhGRIRUWN"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/kchon2/full/BhGRIRUWN",
+    "certification": "",
+    "weeklyResponse": "\nThis week, I learned how small interactions can shape the behavior of a system. I explored how changes in scale, motion, and audio can make an environment feel more alive and responsive. I also realized that designing interaction is less about perfect control and more about creating space for curiosity and unexpected outcomes.\n",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1BkHaM3lFS4lTG1SyQ1LVzNBKJGOqu7lu",
+        "fileId": "1BkHaM3lFS4lTG1SyQ1LVzNBKJGOqu7lu",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1BkHaM3lFS4lTG1SyQ1LVzNBKJGOqu7lu&sz=w800",
+        "embed": "https://drive.google.com/file/d/1BkHaM3lFS4lTG1SyQ1LVzNBKJGOqu7lu/preview",
+        "local": "/student-files/kate-chon-week-14--cyberbnetics-and-playtest-1.png"
+      }
+    ]
+  },
+  {
+    "timestamp": "12/2/2025 22:01:41",
+    "studentEmail": "nscanl13@pratt.edu",
+    "studentId": "nancy-scanlon",
+    "assignmentTitle": "Week 14: Cyberbnetics and Playtest",
+    "projectDescription": "So as I got the system down (sort of) with detection of glasses or not. I wanted to incorporate the if/ else statements that included people with glasses. Before the prompts were towards people without glasses to be interactive so why not add to the fun for people with glasses. In this weeks assignment I changed the UI interface and had prompts to the glasses detected area. There are more things I want to do like have more realistic glasses options as well as simplifying it more. ",
+    "credit": "I used ChatGPT. As well as the m15.js face mesh. ",
+    "uploadedFiles": "/student-files/nancy-scanlon-week-14--cyberbnetics-and-playtest-1.png, /student-files/nancy-scanlon-week-14--cyberbnetics-and-playtest-2.png, /student-files/nancy-scanlon-week-14--cyberbnetics-and-playtest-3.png",
+    "linkToWork": "https://editor.p5js.org/nancyscan/sketches/STIKLebHQ",
+    "linkToWorks": [
+      "https://editor.p5js.org/nancyscan/sketches/STIKLebHQ"
+    ],
+    "linkToWorkRaw": "https://editor.p5js.org/nancyscan/sketches/STIKLebHQ",
+    "certification": "",
+    "weeklyResponse": "I have questions with preload and adding pngs to be glasses into my code.",
+    "teacherFeedback": "",
+    "processedFiles": [
+      {
+        "original": "https://drive.google.com/open?id=1xcd8N2pROWcrBYL0ZPQ9XbPxiukf7YiR",
+        "fileId": "1xcd8N2pROWcrBYL0ZPQ9XbPxiukf7YiR",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1xcd8N2pROWcrBYL0ZPQ9XbPxiukf7YiR&sz=w800",
+        "embed": "https://drive.google.com/file/d/1xcd8N2pROWcrBYL0ZPQ9XbPxiukf7YiR/preview",
+        "local": "/student-files/nancy-scanlon-week-14--cyberbnetics-and-playtest-1.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1EirVHdsTmf8rwlkcbjYC-I8vtJR8L9kv",
+        "fileId": "1EirVHdsTmf8rwlkcbjYC-I8vtJR8L9kv",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1EirVHdsTmf8rwlkcbjYC-I8vtJR8L9kv&sz=w800",
+        "embed": "https://drive.google.com/file/d/1EirVHdsTmf8rwlkcbjYC-I8vtJR8L9kv/preview",
+        "local": "/student-files/nancy-scanlon-week-14--cyberbnetics-and-playtest-2.png"
+      },
+      {
+        "original": "https://drive.google.com/open?id=1PtwSENfSQfd-74L5grvFWZ301Oca6MDD",
+        "fileId": "1PtwSENfSQfd-74L5grvFWZ301Oca6MDD",
+        "thumbnail": "https://drive.google.com/thumbnail?id=1PtwSENfSQfd-74L5grvFWZ301Oca6MDD&sz=w800",
+        "embed": "https://drive.google.com/file/d/1PtwSENfSQfd-74L5grvFWZ301Oca6MDD/preview",
+        "local": "/student-files/nancy-scanlon-week-14--cyberbnetics-and-playtest-3.png"
       }
     ]
   }
