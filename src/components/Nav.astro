@@ -45,6 +45,8 @@ const processedPosts = await Promise.all(
                   return <h1 class="smaller-h1">From Fixed to Variable</h1>;
                 case 6:
                   return <h1 class="smaller-h1">Data As Material</h1>;
+                case 11:
+                  return <h1 class="smaller-h1">Cybernetics of Live Input</h1>;
                 default:
                   return null;
               }
@@ -59,11 +61,21 @@ const processedPosts = await Promise.all(
                   <p class="description" set:html={post.processedDescription} />
                 )}
               </li>
+            ) : // If a page explicitly opts out via `page: false` in frontmatter,
+            // render the week as plain text (not a clickable link) in the nav.
+            post.data.page === false ? (
+              <li class="no-link">
+                <h2 class="title">
+                  Week {post.data.week}: {post.data.title}
+                  {post.data.week === latestWeek && " ✨"}
+                </h2>
+                {post.processedDescription && isIndex && (
+                  <p class="description" set:html={post.processedDescription} />
+                )}
+              </li>
             ) : (
-              // If a page explicitly opts out via `page: false` in frontmatter,
-              // render the week as plain text (not a clickable link) in the nav.
-              post.data.page === false ? (
-                <li class="no-link">
+              <a href={`/${post.id}/`}>
+                <li>
                   <h2 class="title">
                     Week {post.data.week}: {post.data.title}
                     {post.data.week === latestWeek && " ✨"}
@@ -75,22 +87,7 @@ const processedPosts = await Promise.all(
                     />
                   )}
                 </li>
-              ) : (
-                <a href={`/${post.id}/`}>
-                  <li>
-                    <h2 class="title">
-                      Week {post.data.week}: {post.data.title}
-                      {post.data.week === latestWeek && " ✨"}
-                    </h2>
-                    {post.processedDescription && isIndex && (
-                      <p
-                        class="description"
-                        set:html={post.processedDescription}
-                      />
-                    )}
-                  </li>
-                </a>
-              )
+              </a>
             )}
           </div>
         </>

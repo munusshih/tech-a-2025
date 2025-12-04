@@ -2693,10 +2693,10 @@
     "timestamp": "10/28/2025 15:42:50",
     "studentEmail": "blix21@pratt.edu",
     "studentId": "binjia-li",
-    "assignmentTitle": "Week 6: Data & Mapping Data",
+    "assignmentTitle": "Week 7: Data & Mapping Data",
     "projectDescription": "This project visualizes data about food allergies in the United States using p5.js. Each bar represents a specific food, and its height shows how many millions of people are allergic to it based on studies from 2018–2024. Different colors help distinguish each food type, and the chart automatically saves as an image after it’s drawn. The project demonstrates how data can be transformed into an engaging visual story through code, color, and design.",
     "credit": "Tutor, class examples, AI, readings",
-    "uploadedFiles": "/student-files/binjia-li-week-6--data---mapping-data-1.png",
+    "uploadedFiles": "/student-files/binjia-li-week-7--data---mapping-data-1.png",
     "linkToWork": "https://editor.p5js.org/binjia.li3/sketches/KHCnAetO9",
     "linkToWorks": [
       "https://editor.p5js.org/binjia.li3/sketches/KHCnAetO9"
@@ -2711,7 +2711,7 @@
         "fileId": "1UC1hp7gHKElQMGc1QHF1eMkaiJpOVthv",
         "thumbnail": "https://drive.google.com/thumbnail?id=1UC1hp7gHKElQMGc1QHF1eMkaiJpOVthv&sz=w800",
         "embed": "https://drive.google.com/file/d/1UC1hp7gHKElQMGc1QHF1eMkaiJpOVthv/preview",
-        "local": "/student-files/binjia-li-week-6--data---mapping-data-1.png"
+        "local": "/student-files/binjia-li-week-7--data---mapping-data-1.png"
       }
     ]
   },
@@ -3497,7 +3497,7 @@
     "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/Ni96-Sn5N",
     "certification": "",
     "weeklyResponse": "I tried to review and understand some functions listed below:\n1. CreateVector\n2. Using Class to store object\n3. Make my own function\n4. Using Array and push\n5. Particle System: adjusting initial position, velocity, size(r), color, transparency, lifetime",
-    "teacherFeedback": "",
+    "teacherFeedback": "Vector is something I wish we had time to get into but we just sadly run out of time! For anyone interested, I highly recommend reading them here from [Nature of Code](https://natureofcode.com/vectors/) ",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1qbXSXsr3K_SWEu_sI8ZvIPrFrnpjyCFG",
@@ -3563,7 +3563,7 @@
     "linkToWorkRaw": "https://editor.p5js.org/binjia.li3/sketches/uHUwtJaA6",
     "certification": "",
     "weeklyResponse": "I learned to animate movement using lerp(), Perlin noise, and velocity updates for more natural motion.",
-    "teacherFeedback": "",
+    "teacherFeedback": "Perlin noise and velocity are great! They are very solid polishing moves to animation in code!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1tL7fTNartOqVc_utjneLhSkWevnlx6z0",
@@ -3648,7 +3648,7 @@
     "linkToWorkRaw": "https://editor.p5js.org/ytsai13/sketches/S8ASrlmOl",
     "certification": "",
     "weeklyResponse": "Through the design of this little game, I started by exploring how to create the effect of fire using particles. I used class to store objects and then put one object into another class (particles—fire—fire jet). Each layer had its own executive purpose. I discovered that deciding which function to place and execute requires a lot of experience and trial and error. For example, there are many details to consider in order to create small fires that spread. The fire extinguisher also uses a (particles-foam-foam spray) structure, but they have totally different executive purpose and function. \n\nAdditionally, there's keyboard movement function, such as a simple operation involving many intricate design details (release, hold, simultaneous presses, etc.).\n\nThis project felt like a summary and review of the course throughout the semester. From variables, loops, maps, custom functions, floor, arrays, push, mousePressed, keyPressed, vectorCreate, and velocity, I used them all in this project. I used AI to assist me with some complicated parts, but by reading each piece that it helps generate, I'm proud that I can understand over 90% of the code and adjust the values to achieve the desired effect. The process made me get more familiar with computational languages. \n\nRealizing that even a seemingly simple interactive game is full of design details. This project gave me a deeper understanding of the world created by programming languages, and also deepened my admiration and respect for them.",
-    "teacherFeedback": "",
+    "teacherFeedback": "I'm so happy to hear that. I don't make games myself, but I find them illuminating because they embody so much of the computational thinking involved in creating rules and designing interactions!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1yzRObffCfrl86H1Q3DKCqklNmLHocItt",
@@ -3749,7 +3749,7 @@
     "linkToWorkRaw": "https://editor.p5js.org/selfcheck12138/sketches/EMTvIW3Xw",
     "certification": "",
     "weeklyResponse": "For performance reasons, some aspects of the project had to be compromised. I initially intended to make the background contours more detailed, but frequent re-rendering caused significant performance issues. As a result, the movement of the figures and lighting effects became less fluid. To fix this, I simplified the contour system to improve responsiveness and maintain a smoother interactive experience.",
-    "teacherFeedback": "",
+    "teacherFeedback": "Designing with compromises is something designers do all the time. It is always a dance within limitations.",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1J4pLCmldw0fliofp4-Weciv37SYcQ_zF",
@@ -3900,7 +3900,7 @@
     "linkToWorkRaw": "https://chaelin-kim.itch.io/office-oasis",
     "certification": "",
     "weeklyResponse": "Through this project, I gained a deep understanding of the Unity WebGL build structure, the limitations of the browser environment, and the entire process of implementing Mediapipe-based motion recognition logic directly on the web. In particular, the most challenging part was resolving seemingly minor details—such as the file structure required by WebGL, differences between local and deployment environments, camera permission issues, CDN script version conflicts, and path errors introduced during compression—that could completely break the application.\n\nHowever, by pushing through countless errors, black screens, 404s, and rendering failures, I developed a much clearer grasp of the overall web deployment workflow, debugging strategies, and the practical skills needed to create a fully functional interactive web experience.",
-    "teacherFeedback": "",
+    "teacherFeedback": "I am so impressed. Wrestling with digital infrastructure can be frustrating, but I’m glad you were able to work through it. It would be really interesting if you could share some of the prompts the AI returned and document what you learned in more detail.",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1wK27MeW6C7ypkS3s0D_ougSjaiok0MK_",
@@ -3959,7 +3959,7 @@
     "linkToWorkRaw": "https://editor.p5js.org/nancyscan/sketches/STIKLebHQ",
     "certification": "",
     "weeklyResponse": "I have questions with preload and adding pngs to be glasses into my code.",
-    "teacherFeedback": "",
+    "teacherFeedback": "Let's discuss in Office Hours then!",
     "processedFiles": [
       {
         "original": "https://drive.google.com/open?id=1xcd8N2pROWcrBYL0ZPQ9XbPxiukf7YiR",
