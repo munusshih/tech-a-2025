@@ -66,6 +66,9 @@ const fileType = getFileType(src);
     fileType === "video" && (
       <video
         controls
+        autoplay
+        muted
+        loop
         class="w-full h-auto rounded border border-white/20"
         style=""
         preload="metadata"
